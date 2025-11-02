@@ -1,0 +1,4347 @@
+اود منك انشاء برومبت احترافي و مميز لاتشاء شخصية لعبة ميترو فينيا احترافي اود من تكون الشخصية مميزة ترتدي قناع ابيض يخطي كامل الوجه و به فتحتين للعينين و تظهر العينين بلون الابيض و قبعة سوداء تغطي كامل الوجه ما عدا القناع مع لبس مميز بلون الاسود و به شناتل تتحرك عند الحركة ايضآ للبس اشياء مميز فيه بلون الابيض ليدل على لون القناع اللذي يرتديه الشخصية.
+
+بلغة الانجليزي تأكد من الوصف بتفصيل.
+
+
+حاضر — فيما يلي برومبت احترافي ومفصّل باللغة الإنجليزية لصنع شخصية لعبة مترويدفينيا مميزة حسب الوصف الذي أعطيتني. أدرجت نسخة قصيرة للنسخ السريعة، نسخة متوسطة، ونسخة طويلة جداً لتقديم تفاصيل فنية كاملة (مناسبة لمولدات صور متقدمة أو لفنان مفاهيمي).
+
+Prompt — English
+
+Short (one-liner)
+
+A mysterious Metroidvania hero wearing a full white mask with two eye-slits revealing glowing white eyes, a black wide hat that hides the head, a sleek black outfit with striking white accents that mirror the mask, multiple leather satchels that swing physically with movement — dynamic three-quarter action pose, moody gothic atmosphere, high-detail character concept.
+
+Medium (compact paragraph)
+
+Design a distinctive Metroidvania protagonist: a tall, lithe figure wearing a seamless full white mask that covers the entire face with two narrow eye openings showing luminous white eyes (no pupils). A black wide-brim hat and high-collared cloak/coat cover the head and neck, leaving only the white mask visible. The outfit is primarily matte black — layered leather and cloth — with crisp white trims, straps and ornamental markings echoing the mask's tone. Several leather satchels and pouches hang from a harness and belt; they must be animated/physically simulated to swing naturally when the character moves. Emphasize eerie, cinematic lighting, textured materials, and a dynamic mid-stride pose suitable for a game sprite or cinematic key art.
+
+Full (detailed, production-ready prompt)
+
+Create a high-fidelity Metroidvania character concept with the following specifications:
+
+Character concept:
+
+Full white face mask: seamless, slightly matte porcelain/ceramic finish, full-coverage across the face with exactly two horizontal/narrow eye slits. The eyes visible through the slits are pure luminous white (no visible pupils), emitting a faint ambient glow. Mask edges are clean, with subtle micro-scratches and tiny worn spots to suggest use.
+
+Headwear: a black wide-brim hat or deep black cap that casts shadow over the top of the mask and covers the head completely except for the mask area. The hat should feel practical and slightly weathered — no flamboyant ornamentation, just silhouette-focused.
+
+Outfit and silhouette: primarily matte black layered clothing — a fitted bodysuit or leather jerkin under a long, cut asymmetrical coat or cloak with high collar. Silhouette should be streamlined for platforming readability but visually interesting in silhouette (distinct hat, coat tails, satchels).
+
+White accents: purposeful white details that visually tie to the mask — piping along seams, thin diagonal stripes on the shoulders, a white emblem or strap on the chest, and small white stitching on boots and gauntlets. Use white sparingly but deliberately so the mask reads as the focal color theme.
+
+Satchels & accessories: multiple leather satchels/pouches (various sizes) attached to a utility belt and shoulder harness. Pouches should be physically plausible — buckles, straps, small loops — and explicitly described to be physics-driven: they swing, bump, and react to movement. Add small hanging white cloth ribbons or tags to visually emphasize movement.
+
+Materials & textures: mix of worn leather, heavy cloth, and subtle metal hardware. No shiny chrome; prefer brushed metal for buckles. Mask texture slightly different from body — smooth, contrasting with fabric grain.
+
+Eyes & expression: eyes appear as featureless white light in the slits, with a soft corona. No mouth or facial expression; mood is conveyed through posture and lighting.
+
+Motion cues: illustrate or render mid-stride or preparing-to-leap pose with coat tails and satchels visibly trailing; include motion blur on dangling items to indicate momentum. For idle pose, show satchels gently swinging and cloak settling.
+
+Color palette: black (primary), off-white/porcelain (mask), pure white accents, muted greys and very dark desaturated blues for depth. Avoid bright saturated colors.
+
+Lighting & atmosphere: moody, directional rim light to separate silhouette from background; slight backlight to make white mask pop. Add subtle ambient fog/particles to convey old ruins / gothic caverns typical of Metroidvania settings.
+
+Composition & framing: three-quarter full-body view for character sheet; include a close-up of the mask/eyes, and a small inset showing the harness/satchel layout and a turnaround (front/side/back) if possible.
+
+Art style & keywords: Metroidvania, dark gothic, cinematic concept art, high-detail, character sheet, stylized realism — suitable for game concept, sprite reference, and 3D model bake. Render at high resolution with clear texture separations and layered files for cloth, leather, mask, and accessories.
+
+Optional narrative hook (for flavor): “A silent wanderer marked by a porcelain face and a traveling harness of secrets — their white mask is both identity and omen.”
+
+
+Suggested output artifacts:
+
+Full-color concept render (3/4 view) + close-up mask render.
+
+Character turnaround (front/side/back) and harness detail plate.
+
+Short animation reference: 3-frame mid-stride loop showing satchel swing and coat motion.
+
+
+
+---
+
+If you want, I can convert the long prompt into:
+
+1. A prompt optimized for a specific image generator (e.g., Midjourney / Stable Diffusion) with weights/negative prompts and aspect ratio, or
+
+
+2. A concise text for an animator/rigger describing cloth rigging and satchel physics.
+
+
+
+Which of those would you like next?
+
+الان اود منك انشاء العالم لهذا القصة و اجعل العالم مظلم و به العديد من المناطق و الاماكن من مدن و قارات و مناطق مختلفة و بالوان مختلفة و اشكلال مختلفة ايضآ باستايل 2D
+
+ايضآ لا تنساء انشاء اكثر من 5 بروميتات لانشاء بعض المناطق من العالم لارى كيف يجب ان يكون بلغة الانجليزي
+
+
+جميل — سأعطيك عالمًا مظلمًا ومتماسكًا لقصة «قناع النور» بلغة عربية موجزة ثم سلسلة من 7 برومبتات باللغة الإنجليزية (أكثر من 5 كما طلبت) جاهزة لاستخدام مولد صور أو لإعطاء مرجع لفنان مفاهيمي. كل برومبت مصمّم لأسلوب 2D، مع توجيهات للألوان، الطبقات، والحركة (حتى تظهر الشنط والقطع المتدلية تتأرجح).
+
+وصف العالم (عربي — مُختصر ومؤثّر)
+
+اسم العالم: إريغرا — Erygra
+
+إريغرا قارة محطمة من ممالك متصدّعة، عالمٌ ثانٍ بين الخراب والذكرى. النقد المركزي فيه: الذاكرة تُحفظ وتُباع وتُدمر — لذلك كل منطقة تحمل نوعًا من الذكريات الملتّهبة أو المسروقة. العالم مصمم للاسلوب 2D جانبي/مترو-فيدنيا: طبقات بارالاكسية، ظلال عميقة، وأشكال واضحة للقراءة على مسافات صغيرة (مهم للمنصات والقتال).
+
+المناطق الرئيسة (نظرة سريعة):
+
+1. Ashen Sprawl — السهل الرمادي: مدينة أطلال متراصة، مبانٍ مائلة، شوارع مغطاة بالرماد والدخان. ألوان: رمادي داكن، أصفر متعفن، لمسات بيضاء قاحلة.
+
+
+2. Veiled Archives — الأرشيف المظلل: متاهة مكتبية تحت الأرض، أرفف عملاقة من الدفاتر المعدنية، مصابيح عائمة. ألوان: بوصلات براكنيّة، أكحلون قاتم، لمعات معدنية.
+
+
+3. Hollowed Archipelago — الأرخبيل المجوف: جزر معلقة ومتصلة بجسور خشبية وحبال، رياح مستمرة تحرك الأقمشة والشنط. ألوان: أزرق رمادي، أخضر زيتوني مُطفأ، خطوط بيضاء مُنبّهة.
+
+
+4. Glassfjord Cliffs — منحدرات الزجاج: جرف أسطواني من بلورات مماثلة للزجاج المتشقّق، سطوح منزلقة، منصات رأسية. ألوان: أزرق شاحب، بياض مائل للأزرق، رمادي معدني.
+
+
+5. Sunken Clockworks — آليات الغمر: مدينة ميكانيكية نصف غارقة، ترسـان تدور ببطء، مياه سوداء تعكس ظلال. ألوان: برونز متعفن، أخضر نحاسي، أسود لامع.
+
+
+6. Blackroot Moorlands — موائد الجذور السوداء: غابة مُعوجّة بجذور حية وغيوم رمادية كثيفة، حيوانات تُسرق أصواتها. ألوان: بني أسود، لمسات بيضاء باهتة.
+
+
+7. Luminous Chasm — الشق المضيء: شبكة كهوف بيولوجية مضيئة حيث تتوهّج الذكريات كرؤوس صغيرة تطفو. ألوان: ألوان فسفورية باهتة (أخضر-أزرق-بَياض).
+
+
+
+عناصر لعب مرتبطة بالعالم:
+
+كل منطقة تمنح «مقتطف ذاكرة» يمكن أن يعيد شيئًا للاعب لكنه يزيد من ثمن النسيان لبطلنا.
+
+تصميم مستويات 2D مع طبقات واجهة (foreground)، وسطية (midground) وخلفية (background) لتطبيق حركة الشنط وذرات الضوء.
+
+قواعد قراءة الظل: مظهر البطل يجب أن يكون واضحًا على أي خلفية — استخدم شريط أبيض/قناع كعنصر بصرية ثابت.
+
+
+
+---
+
+Prompts — English (7 region prompts, 2D, production-ready)
+
+> Note: each prompt is written for a 2D concept-art / game-background generator. Specify aspect ratio when using generator (recommended: 16:9 for wide levels, 3:4 or 9:16 for vertical/cliff sections). Emphasize parallax-ready layers, silhouette readability, and animated accessories (satchels/cloth) that react to wind/motion.
+
+
+
+
+---
+
+1) Ashen Sprawl — Ruined Cityscape (2D hand-painted, parallax layers)
+
+Prompt:
+
+Ashen Sprawl — a dense ruined metropolis in side-scrolling 2D, hand-painted style, parallax-ready layers: foreground rubble and hanging banners, midground tilted tenement facades with broken windows and dangling cables, background skyline of collapsed towers under a choking grey sky. Color palette: dark slate greys, ashen browns, sickly yellow highlights, sparse pure-white accents to echo the hero's mask. Add drifting ash particles and small plumes of smoke. Include motion cues: cloth banners and leather satchels visibly swinging in wind; small animated lantern glows. Silhouette-first composition, cinematic three-quarter side view, high texture detail on leather and stone, moody dramatic rim light to separate player silhouette. 2D game-ready, parallax layers labeled (fg, mg, bg).
+
+
+---
+
+2) Veiled Archives — Underground Library (2D illustrated, atmospheric)
+
+Prompt:
+
+Veiled Archives — a cavernous underground archive, 2D illustrated concept for Metroidvania, towering shelves of metal-bound ledgers, floating archivist lamps, narrow bridges between stacks. Palette: desaturated indigo, ash-grey, brushed metal highlights, subtle white glows near important books. Visual details: spinning vault doors, scattered loose pages, hanging pulley systems. Emphasize depth with layered shelves and foggy mid-distance occlusion. Include interactive objects: ledger nodes, memory-orbs emitting faint white light. Soft directional light from above shafts creates dramatic vertical beams. Parallax-ready with clear collisions for player.
+
+
+---
+
+3) Hollowed Archipelago — Windborne Islands (2D parallax with motion)
+
+Prompt:
+
+Hollowed Archipelago — suspended rocky isles connected by rickety rope bridges, constant wind animating banners and leather satchels. 2D painterly style, strong foreground silhouettes of ropes and planks, middle ground islands with twisted architecture, distant background of floating continental masses. Palette: muted teal, dark slate, off-white accents on ropes and straps. Motion emphasis: swinging satchels, flapping ribbons, dust motes; physics-animated elements should trail the player. Include safe landing platforms, wind currents visualized with streaks of white. Camera angle: side-scroller, slightly tilted to emphasize verticality.
+
+
+---
+
+4) Glassfjord Cliffs — Crystal Verticality (2D vertical level)
+
+Prompt:
+
+Glassfjord Cliffs — towering crystalline cliffs forming a vertical 2D gauntlet, polished glass surfaces, fractured walkways and narrow ledges. Style: stylized 2D with semi-realistic textures, parallax layers for distant shards. Colors: icy blue-white, steel grey, faint warm backlight behind cracks. Gameplay cues: slippery surfaces, reflection shards that show ghosted memories, swinging satchels tangling briefly on protruding crystal spines. Add glints and refracted light, with strong rim-light separating player silhouette. Include breakdown for foreground collision tiles and background scenic shards.
+
+
+---
+
+5) Sunken Clockworks — Flooded Mechanica (2D steampunk ruins)
+
+Prompt:
+
+Sunken Clockworks — half-submerged mechanical city in 2D, gears and pistons turning slowly beneath black water, platforms of corroded brass and rope. Visual style: gritty hand-painted steampunk, parallax layers of rotating gears, dripping pipes, and broken valves. Palette: oxidized bronze, deep sea-green, black reflections, small white highlights echoing the mask. Motion: slow rotating cogs, splashes when platforms sink, dangling satchels hitting metal with a metallic clink animation. Add interactive puzzles: valve wheels, timed gear sequences. Composition optimized for platforming readability.
+
+
+---
+
+6) Blackroot Moorlands — Twisted Root Forest (2D eerie biome)
+
+Prompt:
+
+Blackroot Moorlands — dark marsh of living roots and coiled vines, thick fog hugging the ground, alien root tendrils forming natural platforms. 2D painterly-dark style with organic silhouettes and negative-space paths. Colors: near-black browns, deep umber, hints of ghostly white on root tips and small ribbons. Add ambient animations: roots twitch when player walks, satchel straps brushing against vines, distant howls. Include hazardous zones (quicksand-like bogs) and safe ledges. Lighting: low-key, directional streaks cutting through fog for dramatic mood.
+
+
+---
+
+7) Luminous Chasm — Bioluminescent Caves (2D moodscape)
+
+Prompt:
+
+Luminous Chasm — subterranean caverns lined with bioluminescent flora and floating memory-globes, 2D stylized fantasy art with layered glow passes. Colors: soft cyan, pale green, washed white highlights. Visual features: stalactites dripping luminous spores, slow-floating orbs that reveal memory fragments, soft fog that separates depth. Motion: orbs pulse in rhythm, cloth and satchels catch subtle light and cast soft shadows. Include close-up midground elements for platforming (glowing vines as jump surfaces) and background depth for parallax. Composition: calm yet eerie, perfect for exploration segments.
+
+
+---
+
+خلاصة سريعة:
+
+لديك وصف عام للعالم (مظلم، متنوع، 2D ready) + 7 برومبتات إنجليزية جاهزة للفنان أو لمولد الصور.
+
+إذا تريد، أُحوّل أي برومبت لنسخة مخصّصة لـ Midjourney / Stable Diffusion (مع negative prompts, aspect ratios, sampler & CFG suggestions) أو أصنع tile set و palette لكل منطقة (مفيد لتطوير اللعبة).
+
+
+أي واحد تريد أبدأ بتحويله أولًا؟
+
+
+
+الان لترجع الى الشخصية الرئيسيه مجددآ ما هي تجاربة و خبراته و ما هاراته و قدراته و مهاراته و ايضآ ما انواع الاشخاص الموجودة  في هذا العالم و ما هي تصرفاتهم و هل من اي اصدقاء للشخصية الرئيسيه او اعدا او اخوى او اهل او حبيبة ام ماذا ام هو فاقد الزاكره
+
+تعمق في التفاصيل لكل هذا و كذالك للشخصيات اللتي له دو موثر في القصة
+
+
+تجارب البطل وخبراته — «قناع النور» (تفصيل معمّق)
+
+الوضع العام: البطل فقد معظم ذاكرته الشخصية كجزء من ثمن إعادة أسماء المدينة؛ إذ إن العالم تذكّر الآخرين ولكنّه نُسي. لذلك حياته الآن مزيج من مهارات مكتسبة قبل النسيان، وتقنيات تعلّمها من البقاء، ووميضات عاطفية غير مفهومة تظهر كذكريات مجزأة عند استرجاع «مقتطفات» من الشنط.
+
+تجارب محورية شكلت شخصيته
+
+حارس السجلات: سنوات كناقل للأسرار والأسماء؛ تعلم التعامل مع الملفات، تشفير وفك رموز الحبر المعدني، ومعرفة أماكن خزائن الأرشيف وسير عمل النظام البيروقراطي.
+
+شهادة الحريق: رؤية الحريق واحتراق أمّه أمامه كانت نقطة التحول — من هنا نشأت رغبته في محاسبة النظام وعدم السماح بسرقة الذاكرة.
+
+فرار الليل: الهروب عبر الأزقّة والتشرد في الأنقاض علّمه التنقّل الخفي، كيف يلتصق بالظلال ويستفيد من عدم اليقين.
+
+التقاطع مع السواحل الميكانيكية والغابات: الرحلات التي قادته عبر الأرخبيل والمنحدرات والمناطق الميكانيكة منحت خبرة في التعامل مع آليات قديمة، القفز الرأسي وتسقّط المنصات.
+
+
+الحالة النفسية المكتسبة
+
+صمت متصلّب: يستجيب عالمياً أقل، يتصرّف ببرود أحياناً—لكن داخلياً الأحمال العاطفية (صوت الشنط، رائحة الرماد) توقظ انهيارات قصيرة.
+
+الهوية المبعثرة: لا يعرف اسمه ولا وجود شهادة على وجوده خارج نفوسه (عدا الشنط والأشياء التي يحملها)، ما يجعله يكوّن صداقات بطيئة ويخاف من الارتباط.
+
+دافع انتقامي/خلاصي مزدوج: يريد محاسبة الذين اختاروا التضحية، لكنه أيضاً يقايض ذاكرته كي ينقذ آخرين — تذبذب أخلاقي يظهر في اختيارات اللاعبين.
+
+
+
+---
+
+مهاراته وقدراته (تفصيل تقني وصفي — مناسبة للعبة)
+
+> أدرجت قدرات يمكن تحويلها إلى شجرة تطوير، مع تكلفة/مقابل قصصي — كل قدرة متوازنة مع ثمن في العلاقة مع الذاكرة.
+
+
+
+أساسيات الحركة (Traversal)
+
+Ledge-grab & Climb: مسك الحواف والزحف لأعلى؛ مهارة مكتسبة من هروب الأزقّة.
+
+Rope-swing / Harness Swing: استخدام حزامه وحبال الشنط للتأرجح عبر الفجوات (يُظهر الشنط تتأرجح طبقاً للحركة).
+
+Wall-jump / Burst Leap: قفز جداري مزدوج مع دفعة قصيرة من ضوء القناع (يستهلك "شرارة ذاكرة" صغيرة).
+
+
+قتال ومهارات دفاعية
+
+Precision Strike (ضربة محكمة): هجمات سريعة ومحدودة الطاقة؛ تعتمد على توقيت اللاعب.
+
+Parry & Reversal: صدّ هجوم وتفجير نبضة ضوء قصيرة تُربك الأعداء القريبين.
+
+Satchel Throw: رمي شنطة كقنبلة غازية/مادية (تختلف محتويات الشنط: حبر كهربائي، قنابل صوتية، أوراق متوهجة).
+
+Mask Shard (قدرة خاصة): تكسر جزء من القناع مُحدثة شعاعًا أو ومضة تطهّر/تستخلص الذاكرة من هدف؛ استخدام نادر لأن القناع هش.
+
+
+قدرات «الذاكرة» السحرية/الميستيك
+
+Echo Recall (استدعاء الصدى): استدعاء نسخة ظلية قصيرة من شخصية ماضية (صدى) لتنفيذ هجوم/ضغط زمني؛ الصدى مبني من «مقتطف ذاكرة» يتم استهلاكه.
+
+Memory Pulse (نبضة الذاكرة): تطلق موجة تُعيد مؤقتًا جزءًا من ذاكرة منطقة أو NPC (تفتح حوار/تغير سلوك)، لكن كل استخدام يقوّي النسيان عن البطل (ميكانيك سردي).
+
+Borrowed Names (استعارة الأسماء): يستخدم أسماء محفوظة في الشنط لمنح نفسه مهارات مؤقتة (مثلاً اسم محارب يمنحه قوة هجوم)، مع فقدان احتمالي لجزء من هويته.
+
+
+مهارات جانبية/خدمية
+
+Locksmith & Ciphering: فتح خزائن الأرشيف وحل رموز الورق المعدني.
+
+Patchwork / Satchel Tinker: تعديل الشنط لإضافة خصائص (سعة، نوع قنبلة).
+
+Sense of Echoes: كشف مقاطع ذاكرة مرئية كشرارات في البيئة (مفيدة للاستكشاف).
+
+
+نقاط ضعف وقيود مصممة للدراما
+
+قناع هش: قدرات القناع محدودة؛ إصابة للقناع تقلل كفاءة قدرات الذاكرة.
+
+تكلفة ذاكرة: كل عملية قوية جداً لها ثمن: زيادة النسيان (آثار سردية: NPCs ينسون البطل بشكل أعمق).
+
+تائه عاطفياً: محفزات عاطفية قد تُشغّله بلا تحكم وتجعله عرضة لهجمات الأعداء أو توقفه مؤقتًا (flashback stun).
+
+
+
+---
+
+أنواع الناس والفرق في العالم — سلوكياتهم ودوافعهم
+
+1. المحفوظون / Archivists
+
+من هم: موظفو الأرشيف والمكتبات المعدنية.
+
+سلوك: تكريم النظام، بسط قواعد الذاكرة، تحفظ وتقنين الأسرار.
+
+تفاعل مع البطل: عداء رسمي (يرونه خائنًا أو مهرّباً للذاكرة)، بعضهم يمكن إقناعه أو خداعه إن أمكن الوصول لأدلة واضحة.
+
+
+2. الوسطاء الذاكرية — Memory Brokers
+
+من هم: تجّار يبيعون ويشترون مقتطفات الذاكرة.
+
+سلوك: عمليون، مستعدون للخيانة إن الربح كبير. يمتلكون خبرات في تخزين الذكريات.
+
+تفاعل: يمكن مقايضتهم، استدراجهم، أو سرقتهم. بعضهم يقدم مهمات مؤقتة لاسترداد ذكريات ثمينة.
+
+
+3. الأسماء — Name-Mongers
+
+من هم: عصابات أو جماعات صغيرة تسرق الهويات لتعزيز عضويتهم.
+
+سلوك: عدواني، يبيعون أو يستبدلون أسماء لخلق هويات بديلة.
+
+تفاعل: مواجهات قتالية، بعض القادة يمكن التفاهم معهم لغايات مشتركة.
+
+
+4. المتروكُون/Remnants (بقايا الذاكرة)
+
+من هم: أشخاص أو كائنات نُزعت منهم الذاكرة جزئياً؛ بعضهم أشباح/أوهام.
+
+سلوك: متقلب—قد يساعدون حين يتذكّرون شيئًا، أو يهاجمون استفزازًا إذا شهدوا استرجاع ذاكرة مريرة.
+
+تفاعل: عناصر سردية قوية — بعضهم قادر على تذكّر البطل لأنهم خارج النظام الذي نَسَاه.
+
+
+5. العمّال الميكانيكيون / Gearwrights
+
+من هم: صانعي الأدوات في Sunken Clockworks.
+
+سلوك: منطقيون، يقايضون العمل مقابل الموارد.
+
+تفاعل: يمكنهم ترميم أو تعديل أدوات البطل (مثل تعزيز شَنطه أو إصلاح القناع).
+
+
+6. الشمّاس/كهنة الرماد (Ash-Priests)
+
+من هم: طائفة عبادة تنظر للذاكرة كطاقة مقدسة.
+
+سلوك: يؤمنون بالتضحية و«تنقية» الذاكرة، غالباً مرتبطون بالمجلس.
+
+تفاعل: خصوم أيديولوجيون؛ لديهم تأثير على السرد الرئيسي.
+
+
+7. الأطفال الهائمون / Children of Echo
+
+من هم: أطفال يبيعون أو يتاجرون بضحكاتهم وذكريات طفولتهم.
+
+سلوك: ماكرون، متقلبون، بعضهم برئ.
+
+تفاعل: مصادر معلومات، أدلة جانبية ومهام إنسانية.
+
+
+
+---
+
+الشخصيات المؤثرة في قصة البطل — ملفات مفصّلة (6 شخصيات رئيسية)
+
+> كل ملف يتضمن: الاسم، الموقع/المنطقة، العلاقة بالبطل، الشخصية والسلوك، دور قصصي/ميكانيكي.
+
+
+
+
+---
+
+1) The Archivist — أركوفال (Archival Regent)
+
+الموقع: قلب Veiled Archives.
+
+العلاقة: الخصم الرئيسي؛ كان جزءًا من مجلس القرار الذي اشترى التضاحات. كان أخيراً الطرف الذي قدّم له «الخيار» بإعادة الأسماء.
+
+الشخصية: بارد، بيروقراطي، يؤمن بأن النظام يجب أن يحفظ «الاستقرار» عبر التضحية. لا يراه لاعبًا كشرير أبدي—بل كمن يدافع عن رؤية عنيفة.
+
+دور سردي/ميكانيكي: زعيم مهمات أساسية؛ يضع اختبارات للذاكرة، يمكن أن يتحول إلى معركة فاصلة. لديه خادمون آليّون وحراس ذهنيون.
+
+
+
+---
+
+2) Lady Soren / Councilor Soren — سورِن
+
+الموقع: Ashen Sprawl، مجلس المدينة.
+
+العلاقة: صوت القرار البرلماني. لم يكن بالضرورة الشرير العنيف، لكنه موقِع الأوامر.
+
+الشخصية: ذكية، متلاعبة، ترى السياسات كأرقام وصلاحيات.
+
+دور: مصدر المعلومات السياسية؛ يوفّر أحياناً مهمات «الذرائع» ويمنح اللاعب خيارات أخلاقية (إنقاذ حي/إنقاذ مجموعة أسماء).
+
+
+
+---
+
+3) Edda (the Paper-Mender) — إيدّا
+
+الموقع: حارة صغيرة في Ashen Sprawl، لاحقًا في Veiled Archives كعالِجة للوثائق.
+
+العلاقة: كانت الطفلة التي مزقت ورقتها في الليلة التي هرب فيها البطل (ذُكرت في القصة السابقة). البطل أنقذها دون أن يتذكر. بعد مرور الزمن، أصبح لها دور معلمي/مصلح للوثائق.
+
+الشخصية: حنونة، لكنها متحرّرة من الخوف؛ تحمل مرارة طفولية لكنها تعمل من أجل إصلاح ما تبقى.
+
+دور: مرشد جانبي؛ إن احتفظ اللاعب بأحد مقتطفات ذاكرتها في الشنط، يمكنها أن تعيد لمحات عن البطل (وبذلك تساعده على استعادة قطعة من هويته). تقدم مهمات إنسانية تطلب إنقاذ أطفال أو استرداد كتب.
+
+
+
+---
+
+4) Gideon “The Ferryman” — جيديون
+
+الموقع: Sunken Clockworks / قنوات الترس.
+
+العلاقة: داعم غير مباشر؛ كان مرافقًا قصير المدى للبطل أثناء فراره — رجل صغير أنقذه ذات مرة أو ساعده على العبور.
+
+الشخصية: مليء بالسخرية، يعرف طرق الغمر الميكانيكية، لا يحب النظام.
+
+دور: يزوّد البطل بوسائل فنية (قطع غيار/طرق للمرور)، يعطي تلميحات ميكانيكية، قد يقود لقتال زعيم ميكانيكي. لا ينسى البطل بسهولة لأنّه يحتفظ بقارورة ماء عليها نقش صغير من البطل — قطعة يمكن أن تُستخدم لكسر النسيان عبر «تذكير موضوعي».
+
+
+
+---
+
+5) Maera / The Night-Stitcher — مايرا
+
+الموقع: Blackroot Moorlands.
+
+العلاقة: حبيبة متوقعة/شخصية درامية — قبل النسيان كان هناك رابط عاطفي غير مكتمل بينهما (ظل، رسائل، أو مقتطف في شنطة). بعد النسيان، هي إنسانة مُمزقة: تتذكّر إحساسًا بوجوده ولكن لا تستطيع وضع الاسم.
+
+الشخصية: صارمة لكن حنينة، تُصلح الناس كالملابس—تجبر جروحهم على التئام.
+
+دور: منحنى عاطفي قوي — إن استعاد اللاعب ذكريات معيّنة، قد تعترف به أو ترفضه؛ يمكن أن تعطي مهمة حساسة تتطلب التضحية أيضاً (اختيار أخلاقي).
+
+
+
+---
+
+6) Rook (Gang Leader) — روك
+
+الموقع: Hollowed Archipelago / Docks.
+
+العلاقة: خصم/شريك بالظِل؛ يعامل البطل كمورد ذاكرة محتمل أو كتهديد.
+
+الشخصية: عملى، لا يثق في الأسماء، يستغل القِيم.
+
+دور: يقدم مهام سرقة، يبيع أدوات نادرة أو يخون إن لم تُوفَر شروطه. مع نهاية متغيرة: يمكن أن يصبح حليفًا مؤقتًا ضد مجلس الأرشيف إذا كانت مصلحته متوافقة.
+
+
+
+---
+
+كيف يتغير تفاعل العالم مع البطل عبر تقدمه؟
+
+قبل استرجاع الذكريات: NPCs يتصرّفون كأيِّ شخص غريب؛ قد يساعدونه أو يهاجموه بناءً على مصالحهم.
+
+بعد استخدام Memory Pulse أو استعادة مقتطف: بعض NPCs تستعيد شرودًا محددًا تجاه البطل—إما امتنان (إيدّا، جيديون) أو غضب/خوف (الأرشيفيون، الشمّاس).
+
+عندما تزداد نسيان البطل: العالم «يجمد» اسمه أكثر؛ لافتات وأقارب لا يتذكرونه؛ قد تختفي بعض الخيارات الحوارية — ميكانيك سردي يخلق ثمنًا لأفعال اللاعب.
+
+
+
+---
+
+علاقات اجتماعية وما إذا كان لديه أهل/أصدقاء/حبّ/أعداء
+
+أهل: الأم محروقة — لا توجد أسر مباشرة متبقية. لا أخوة واضحة في السرد الأساسي لكن يمكن خلق أخ في فصيلة الحفظ (قابل للتطوير).
+
+أصدقاء حقيقيون: قليلون؛ أمثلة: إيدّا (شبه صديقة/أخت روحية)، جيديون (رفيق طريق)، بعض المتمردين/المهربين الذين يعرفون قيمة ما يفعل.
+
+أعداء: المجلس والشمّاس والأرشيفيون؛ كذلك جماعات تجار الذاكرة وبعض العصابات.
+
+حبيبة ممكنة: مايرا تمهّد لمسار رومانسي درامي يعتمد على استرجاع الذكريات وإثبات الذات — ليست حاضرة كقصة حب واضحة الآن، لكنها متاحة كقوس سردي قوي.
+
+هل هو فاقد الذاكرة؟ نعم — لكنه يحمل دلائل مادية لأصالته (أغراض، نقش، أحيانًا بصمات شخصية على أوراق)، وبعض الناس لا ينسون بالكامل (Remnants, Gearwrights، المهرّبون)، ما يمنحه نِقَاط تواصل.
+
+
+
+---
+
+اقتراحات سردية وميكانيكية تبني على العلاقات
+
+1. مهمة «اللقب المؤقّت»: يجد اللاعب في أحد المستودعات خاتماً أو شهادة تشير إلى اسمه القديم — يعطيها جيديون بمقابل. النتيجة: فتح حوار خاص مع إيدّا أو مايرا.
+
+
+2. إعادة تذكير NPCs عبر الأدلة: إعطاء قطعة من الشنط أو ورقة تحتوي على ذكرى لواحد من NPCs يعيد لهم الشرود؛ بعضهم يصبح حليفاً أو يوفّر معلومات حيوية.
+
+
+3. تمارين التضحية/مقايضة: الربط بين تطوير القدرات وارتفاع نسب النسيان — اختيارات مكثفة تضع اللاعب أمام خيار «إنقاذ آخرين مقابل فقدان شيء من نفسه».
+
+
+4. حوار متغير ديناميكيًا: إذا نُسي البطل أو تذكّر، تتغير بعض الخيارات الحوارية والمهام الجانبية — يعكس العزلة المتصاعدة أو التحالفات المتجددة.
+
+
+
+
+---
+
+خاتمة موجزة (لمصمّم اللعبة أو الروائي)
+
+البطل هو شخصية عاطفية ومعقّدة: عملي وهادئ، لكن داخله بحر من الألم والتحفّظ.
+
+علاقاته مشتّتة: القليل من الحلفاء الحقيقيين، أعداء أيدولوجيون، وفرص لروايات جانبية قوية مع شخصيات مثل مايرا وإيدّا.
+
+ميكانيكياً، يمكن تحويل فكرة «الذاكرة كعملة» إلى نظام لعب جذاب يربط التقدّم بقرار أخلاقي دائم — وهذا يمنح كل اختيار ثقلًا سرديًا ويزيد ارتباط اللاعب بالشخصية.
+
+
+إذا حاب، أكتب لك الآن:
+
+شجرة ترقية قدرات البطل مع تكاليف ذاكرة لكل مستوى، أو
+
+حوارات نموذجية قصيرة مع كل شخصية رئيسية (3 خيارات حوارية وتأثيراتها)، أو
+
+تصميم لقاء رئيسي/مباراة ضد أحد خصوم المجلس مع مراحل متغيرة تعتمد على ذكريات اللاعب.
+
+
+اجل اود تطبيق جميع الخيارات و تطويره ايضآ و تعذيذه لتكون اكثر ثلث وليست مملة ايضآ لا تقم بتركيز على البطل فقط و تنساء الزعمال و الاعداد العشوائيآ اللتي تقابلهم في جميع انحاء العالم كل عالم له زعمائه و اعداد الاشوائيآ باشكال و اساليب مختلفة و مميزات و تحديات و الغاز و مهمات متنوعة و مهمات جانبية مميز و ساحرة و جوائز مرضية.
+
+
+
+جميل — سأنفّذ لك كلّ المطلوب الآن: نظام لعب متكامل، أعداء وزعماء لكل منطقة، لقاءات عشوائية وغارات، ألغاز، مهام جانبية ساحرة، نظام ترقيات/تكلفة الذاكرة، ومقترحات توازن وتقدم حتى لا يصبح اللعب مملًّا. كل شيء جاهز للاستخدام كمستند تصميم (GDD) أو مرجع لمطورين وفنانين ومصمّمي مستوى.
+
+ملخّص سريع للنظام المركزي
+
+العملة الروائية/الميكانيكية: Memory Fragments (MF) — تُستعمل لترقية قدرات البطل، لكن كل عملية قوية تزيد من Forgetfulness Meter (FM)، الذي يُقلِّل من ظهور تذكّر العالم للبطل (خيارات سردية).
+
+توازن: ترقية القوة = مكافآت قابلة للعب الآن + عقاب سردي لاحق؛ اختيارات اللاعب واضحة ومضبوطة.
+
+هدف التصميم: مستويات متغيرة، مواجهات متنوعة، زعماء كبار لكل منطقة، أحداث عشوائية تربك اللاعب وتقدّم فرصًا ومخاطرًا.
+
+
+
+---
+
+شجرة القدرات (قابلة للتطبيق فوراً)
+
+نستخدم ثلاث عملات: XP (قدرات عامة)، MF (ذاكرة — نقاط لإطلاق قدرات الذاكرة)، وFM (مقياس النسيان الذي يتراكم ويؤثر سرديًا).
+
+1. Core (Traversal & Combat) — لا تستهلك MF
+
+Ledge Grab (Tier1) — XP 100
+
+Rope Swing (Tier1) — XP 150
+
+Wall Jump (Tier2) — XP 300
+
+Precision Strike (Tier1) — XP 150
+
+Parry (Tier2) — XP 300
+
+
+
+2. Memory-Infused (تستخدم MF — لها ثمن)
+
+Memory Pulse (Small) — MF 1 — FM +1
+
+Echo Recall (Summon small) — MF 2 — FM +2
+
+Mask Shard (Single blast) — MF 3 — FM +4
+
+Borrowed Names (Temporary buff) — MF 2 per use — FM +1 per use
+
+
+
+3. Utility / Upgrades
+
+Satchel Tinker (سعة/نوع القنابل) — XP + resources
+
+Mask Reinforcement (يقلل هشاشة) — XP+MF mix (MF صغير) — يقلل FM الناتج بنسبة 25%
+
+
+
+
+اقتراح تدرج: درجات أعلى من Memory-Infused تُفتح فقط بعد مهام قصة كبرى (لتقييد الاستخدام العشوائي).
+
+
+---
+
+نظام FM (نسيان)
+
+الشرح: كلما تراكم FM فوق حدود (مثلاً >10) يبدأ العالم بحذف خيارات تفاعلية (NPC يحذف حوار، لافتات تختفي).
+
+التعافي: استرداد MF نادر (أو مهام خاصة تُعيد جزءًا من FM). هذا يخلق سلوك اختيار متوازن.
+
+
+
+---
+
+تصميم الأعداء: قواعد عامة
+
+كل منطقة: 3 أنواع أعداء عادية + 2 أعداء متوسطة (elite) + miniboss + boss.
+
+التنوع: كل مجموعة تستخدم عناصر الحركة والبيئة. (مثلاً Hollowed Archipelago يركّز على الريح والمنصات المتحركة؛ Glassfjord يركّز على الانزلاق والانعكاسات).
+
+صرامة التصويب: هجماتهم لها تليغراف واضح (صوت/وميض/خط أرضي) — يعطي اللاعب وقت رد فعل.
+
+
+
+---
+
+جداول المِنطقة: أعداء/زعماء/ألغاز/مهام
+
+(لكل منطقة سأعرض: أعداء نموذجية — 3 + elite + miniboss + boss + لغز + مهمة جانبية مميزة + مكافآت مضمونة)
+
+1) Ashen Sprawl
+
+أعداء:
+
+Scrab Scavengers — سرعات متوسطة، يسرقون قطع صغيرة من MF من الأرض عند الهزيمة (يورث موارد).
+
+Ashwardens — جنود دروع مرنة، يصدّون هجماتك ويحتاجون للـParry.
+
+Rag-Children — يتسللون، يزرعون فخاخ صوتية.
+
+
+Elite: Council Enforcer — يحمل منعطفات ضوئية، يقطع مسارات.
+
+Miniboss: The Pyre Harrow — يتحرّك بين أعمدة نار، يجب انطفاؤها بآليات.
+
+Boss: Lady Soren’s Sentinel — طوران: دفعية وتبدلًا للفساد — تتطلب تحرير نقاط الحماية عبر سحب قوائم الحماية حول الساحة.
+
+لغز مميّز: إعادة ترتيب لافتات الشوارع الرمادية لفتح مدخل سرّي (logic puzzle).
+
+مهمة جانبية: «أرشيف الأطفال» — إنقاذ وضمّ ذكريات للأطفال مقابل MF وتخفيض FM مؤقت.
+
+مكافآت: Satchel blueprint, Mask shard fragment, XP.
+
+
+2) Veiled Archives
+
+أعداء:
+
+Page-Scrapers — يرمون صفائح، يتكاثرون عند إغلاق أرفف.
+
+Vault Sentinels — ميكانيكيون يحرسون الممرات.
+
+Echo Shades — ظلال صغيرة تتغذى على الذكريات.
+
+
+Elite: Ledger Warden — يخلق قراءات خاطئة للبيئة (mirage).
+
+Miniboss: The Indexer — يختبئ بين الرفوف ويغير ترتيب الممرات.
+
+Boss: Archival Regent (أركوفال) — يستخدم "قواعد" الزمان: يعيد ترتيب الساحة ويغلق ممرات؛ تحتاج لكسر ثلاثة مفاتيح سردية مع ألغاز فك الشيفرة.
+
+لغز مميّز: فكّ رمز حبر معدني عبر تتبع أنماط على الرفوف (sequence puzzle).
+
+مهمة جانبية: «قافلة الذاكرات المسروقة» — مطاردة تجارية عبر الممرات.
+
+مكافآت: Ability: Echo Recall (upgrade), rare ledger that reduces FM cost.
+
+
+3) Hollowed Archipelago
+
+أعداء:
+
+Rope-Croakers — يقطعون الحبال، يهاجمون من الخلف.
+
+Drift-Knights — منحدرون يستخدمون رياح الارتداد.
+
+Bargain Pirates — يهاجمون لنهب الشنط.
+
+
+Elite: Sky-Scavenger (يحلق، يسرق قنابل).
+
+Miniboss: Bridgemaster — يدمر جسورًا ويخلق منصات جديدة.
+
+Boss: Rook (أو قائد الأرخبيل) — قتال متعدد مراحل يعتمد على تغيير الجسر، قتال أثناء تقلب الطقس.
+
+لغز مميّز: استعمال تيارات الريح لتوجيه شحنة مضيئة عبر قنوات.
+
+مهمة جانبية: «سباق المرسى» — تحدي زمني بمكافأة Satchel upgrade.
+
+
+4) Glassfjord Cliffs
+
+أعداء:
+
+Shardlings — تقطع حركاتها بسرعة على الأسطح الزلقة.
+
+Reflectors — تعكس هجماتك جزئياً.
+
+Glass Hounds — تقفز وتسبب انزلاق.
+
+
+Elite: Mirror Sentinel — تنعكس ضرباته في موجة.
+
+Miniboss: Crystalline Warden — يكسر أجزاء من الحائط لخلق مسارات.
+
+Boss: The Fractured Colossus — يحتاج لكسر بلورات عرضية لتجنب هجماته، وتوجيه شعاع القناع لانعكاساته.
+
+لغز مميّز: توجيه شعاع ضوئي عبر قطع بلورية لفتح ممر.
+
+مهمة جانبية: «تجميع الأجزاء المنعكسة» — تجميع شظايا لفتح بورتريه قديم.
+
+مكافآت: Mirror-fragment artifact (يمكن استخدامها لخفض FM مؤقتًا).
+
+
+5) Sunken Clockworks
+
+أعداء:
+
+Gearfolk — أعداء دورية تتحرّك على تروس.
+
+Flood Wraiths — تظهر من الماء، تتحرّك بحرية.
+
+Valve Spiders — تغلق ممرات.
+
+
+Elite: Brass Juggernaut — مدرّع بحركة بطيئة لكن قوية.
+
+Miniboss: Ferryman’s Shade — اختبار توقيت وتركيز.
+
+Boss: Gideon’s Remnant (masked machine) — سلسلة من صمامات يجب تنشيطها بالأزمنة الصحيحة؛ تشمل معارك بحرية قصيرة.
+
+لغز مميّز: مزامنة تروس لتعديل منسوب المياه.
+
+مهمة جانبية: «قصة قارورة» — إحضار العناصر لفك نقوش تذكّر جيديون.
+
+مكافآت: Mechanical Satchel upgrade, Valve key (يفتح مناطق).
+
+
+6) Blackroot Moorlands
+
+أعداء:
+
+Rootcrawlers — يتسلّقون الجذور ويهاجمون من الأسفل.
+
+Bog-Sirens — تشوش على الذاكرة (temporary MF drain).
+
+Hollow Herders — يستخدمون الحياة النباتية كسلاح.
+
+
+Elite: Night-Stitcher’s Echo — هجمة سريعة ومشتّتة.
+
+Miniboss: Root-Titan — يسدل جذوعًا تحاصر اللاعبين.
+
+Boss: Maera’s Trial (emotional boss) — قتال يتضمن قرارات حوارية مؤثرة (إنقاذ مقابل قوة).
+
+لغز مميّز: حياكة طرق عبر جذور متحركة (pattern puzzle).
+
+مهمة جانبية: «صلح الجروح» — جمع نباتات لشفاء أهل القرية؛ مكافأة عاطفية (حوار مع مايرا).
+
+مكافآت: Healing talismans, reduced FM when aiding villagers.
+
+
+7) Luminous Chasm
+
+أعداء:
+
+Glow Wisp — تطير وتطفيء أنوارًا قصيرة.
+
+Memory Leeches — تمتص MF من البيئة.
+
+Cave Stalkers — تختبئ وتهاجم.
+
+
+Elite: Biolume Sentinel — يطفئ الأنوار محليًا.
+
+Miniboss: Echo Maw — يبتلع ذكريات مؤقتاً (تحتاج لإطلاق Mask Shard لإخراجه).
+
+Boss: The Luminar Host — يحتاج لتزامن نبضات ضوء مع الكهوف لإضاءة ساحة القتال وكشف نقاط الضعف.
+
+لغز مميّز: إعادة نبضات الضوء وفق تتابع لتفتح بوابة.
+
+مهمة جانبية: «جمع الأرواح الطافية» — تطهير كهوف لإرجاع ألحان قديمة.
+
+مكافآت: Biolum talisman (improves memory detection), rare MF caches.
+
+
+
+---
+
+أحداث عشوائية وعالمية (Random Encounters / World Events)
+
+Memory Storm — عاصفة تضاعف MF على الأرض لكنها تزيد FM بسرعة (مخاطرة/مكسب).
+
+Echo Caravan — قافلة تجارية تبيع طفرات MF أو تبيع معلومات بمقابل.
+
+Remnant Uprising — موجة من Remnants تهجم على مدينة صغيرة؛ إن ساعدت تكافأ بنقاط FM استرداد.
+
+Name Auction — حدث دوري حيث تُباع أسماء نادرة؛ يمكن أن تدخل مزايدة أو تقاطع بالسرقة.
+
+Wandering Gearwright — حرفي متنقّل يبيع ترقيات نادرة أو يطلب أجزاء.
+
+Lost Child Echo — حدث عابر—إن أنقذت الطفل تكافأ بذاكرة شخصية (قصصية).
+
+
+كل حدث لديه احتمال الظهور، يمكن للإحصاءات العالمية (مثل FM العالي في المنطقة) زيادة احتمالات ظهور أحداث معينة.
+
+
+---
+
+ألغاز وأنماط تصميم (قابلة لإعادة الاستخدام)
+
+Sequence nodes: تسلسل أزرار/كتب/بلورات يتطلب حفظ نمط مرئي/سمعي.
+
+Light-reflection: توجيه شعاع عبر مرايا/بلورات لفتح بوابات.
+
+Rhythm puzzles: نبضات صوتية—مصممة لإظهار تزامن مع Mask Pulse.
+
+Environmental manipulation: تغيير مستوى المياه أو تدوير تروس لفتح طرق.
+
+Memory reconstruction: جمع شظايا ذاكرة وإعادة ترتيبها في صفحة لفتح حوار/منطقة.
+
+
+
+---
+
+مكافآت وتصاميم غنائم
+
+Common: XP, basic resources.
+
+Rare: Satchel blueprint, Mask shard fragment, MF caches.
+
+Epic: Unique ability upgrades, story-fragment ledger (يحكي جزءاً من ماضي البطل).
+
+Legendary: Permanent FM reduction item (نادر)، أو خاتم اسم (يعيد اسمًا للقطاع، يقلل FM كوني).
+
+
+
+---
+
+نصائح توازنية وتوجيهات تصميمية
+
+1. تدرج صعوبة منطقي — مناطق مبكرة: تحفّظ على قدرات MF القوية.
+
+
+2. تنويع اللقاءات — مزيج أعداء عاديون + بيئة + mini-event = لقاء واحد؛ يخلق تنوعًا كل مرة.
+
+
+3. جعل الألغاز مشوقة لكن قصيرة — لا تبالغ في الطمطلة، حلّ سريع لكن يحتاج لذكاء.
+
+
+4. ربط عواطف اللاعب بالجوائز — المكافآت التي تروّج للسرد (رسائل/أسماء) تجعل التضحية مؤلمة ومجزية.
+
+
+5. مكافآت المرح — إضافة cosmetics (قناع مكسّر بصيغ مختلفة) لا ترتبط بـFM لتشجيع الاستكشاف دون ثمن.
+
+
+
+
+---
+
+قالب تصميم زعيم (use immediately)
+
+اسم
+
+المكان
+
+مراحل (2–3) مع وصف كل مرحلة
+
+هجمات مميزة (تليغراف، نافذة تراجع)
+
+نقاط الضعف (متى تُهاجم)
+
+اللغز/التفاعل المطلوب للفوز
+
+مكافأة (MF/Artifact/Upgrade)
+
+تأثير FM (كم يزيد؟)
+
+
+استخدم القالب لكل زعيم لتوحيد التصميم بسرعة.
+
+
+---
+
+أتممت لك نظامًا متكاملًا وجاهزًا للتطبيق — خرائط المناطق مفصّلة، أعداء وزعماء، ألغاز ومهمات جانبية، نظام ترقية مع ثمن سردي، وأحداث عشوائية تمنع الملل.
+إذا أحببت، أستطيع الآن فورًا أن:
+
+1. أخرج شجرة القدرات بصيغة جدول تفصيلي (XP/MF/FM بالأرقام لكل مستوى)، أو
+
+
+2. أقدّم 7 ملفات وصفية للزعماء بصيغة القالب أعلاه (واحد لكل منطقة)، أو
+
+
+3. أصنع جدولاً عشوائياً للأحداث (loot table & spawn chances).
+
+
+
+اختر واحدًا وأعطِني "اذهب" — سأنتج المخرجات الدقيقة على الفور هنا.
+
+
+
+
+الان
+عالم اللعبة ايضآ جميع المدن السبع مترابط اي يمكنني الذهاب الى اي مدينة او اذا ذهب باتجاهه يمكنني الوصول اليها ايضآ توجد وسائل  نقل مختلفة  في اماكن مختلفة تكلف عملات لفتحها او اتمام بعض المهام لفتحه و الحصول على صلاحيات استعماله يجب ان تكون خريطة كل مدينة واسع و مليى بل تجارب و التحديات و المغامرات و الاشياء المختلفة و ايضآ تحتاج الى شرئه خريطة كل مدينة في لتتعرف عليه و الى اين يجب ان تذهب فيه تجد المكان اللذي يبيع الخريطة في مكان ماء في داخل المدينة اللتي تود شراء خريطتها ايضآ قد تجد بعض التحار المتجوليآ يبيعون عناصر مميز و احيانآ تجد عندهم الخريطة عند اشتراى الخريطه لا تكون كاملة بل به بعض الاماكن فقط عليك اكتشاف باقي الاماكن و ستظهر في الخريطه و يتم تحديث الخريطة باستمرار طالمات تستمر في الاستكشاف و البحث قد تجد عناصر مميز مخبة او اختام او اسلحة او تتعرف على اشهاص جدد و تطوير افكار الشخصية و تعليمه مهارات جديد و تطوير المهارات المكتسبة و اشياء كثيرة اكمل انت الباقي و اجعله مفصل و مميز.
+
+
+
+رائع — سأكمل كلّ التفاصيل وأحوّل فكرتك إلى نظام لعبة متكامل ومُلهم لعالم إريغرا: خرائط مدنٍ ضخمة قابلة للشراء والاكتشاف، وسائل نقل قابلة للفتح، تجّار متجوّلون، عناصر مخبأة، أختام، وسبل لتطوير البطل — كل ذلك مع آليات لعب مقنعة تمنع الملل وتشدّ اللاعب للاستكشاف. أقدّم لك وصفًا تفصيليًا قابلًا للتطبيق مباشرةً كمستند تصميم (GDD) أو مرجع للفنان والمبرمج.
+
+1 — رؤية عامة ونمط اللعب
+
+كل مدينة/منطقة من السبع عبارة عن خريطة واسعة متصلة بشبكة العالم. اللاعب يستطيع الانتقال بين المدن سيرًا أو باستعمال وسائل نقل متاحة تدريجيًا.
+
+الخرائط تُشترى من بائعين محدّدين (عادة قرب الماء داخل المدينة) أو تُلقى كغنيمة لدى تجّار متجوّلين. الشراء يفتح خريطة جزئية — تبقى المناطق غير مكتشفة مظلّمة حتى يستكشفها اللاعب في الميدان.
+
+العالم يزن التجربة: شراء الخريطة يسرّع التوجّه لكن الاكتشاف يمنح مكافآت (أسرار، موارد، مهارات). التوازن يشجّع المزج بين الشراء والاستكشاف.
+
+
+2 — بنية الخريطة ونظام الكشف (Fog of War)
+
+كل خريطة تُقسَّم إلى طبقات (Region Tiles): الحيّ المركزي، الضواحي، الموانئ، الكهوف، الأبراج، مناطق سرية.
+
+افتراضيات:
+
+عند شراء الخريطة تظهر المواقع الكبرى (هياكل، بوابات نقل، بائع الخرائط، دكاكين رئيسية)، لكن "شبكة النقاط الصغيرة" (مسارات سرية، مدافن، غرف جانبية، أختام) تُظلَم.
+
+الكشف يتم بطريقتين: خطوة-بخطوة من خلال المشي داخل حدود Tile أو عبر استخدام عنصر/قدرة كشف (مثل Biolume talisman أو Memory Pulse في مستويات أعلى).
+
+الخريطة يتم تحديثها دائمًا وتُحفظ محليًا. أي إضافة/فتح طريق يُحدّث الخريطة فورًا.
+
+إمكانية وضع ملاحظات يدوية (pin, note) من اللاعب على الخريطة.
+
+
+
+3 — أين تُباع الخرائط؟ (Map Vendors)
+
+قاعدة تصميم: كل مدينة لها متجر خرائط رسمي واحد على الأقل، عادة في موقع ماء (ميناء صغير، بركة وسطية، قناة) — هذا يخلق نقطة لقاء ومعلم خرائطي.
+
+أمثلة أسماء ومتاجر (قابلة للتخصيص من قبلك):
+
+Ashen Sprawl → Port of Ash — بائع الخرائط: “Marrek the Chartkeeper” (يقع بجانب منصة العبّارات).
+
+Veiled Archives → Vault Wharf — بائعة الخرائط: “Lysa of Ledgers” (قريبة من البوابة المائية المؤدية إلى أدراج الأرشيف).
+
+Hollowed Archipelago → Harbor Ledger — تاجر خرائط متأرجح على قارب.
+
+الخريطة تُباع بالعملة المحلية (قرش/توكن) وتختلف تكلفة الخريطة بحسب حجم وتعقيد المنطقة (مثلاً: المدن الكبيرة أغلى).
+
+
+
+4 — طريقة الشراء: خريطة جزئية + تحسينات
+
+عند الشراء تحصل على:
+
+1. Overlay A — Main Landmarks: يظهر الموانئ، البوابات، محلات الخرائط، نقاط رئيسية (مجاناً).
+
+
+2. Overlay B — Routes & Danger (مدفوع أو كمهمة): يبيّن مناطق الخطر العامة (الظلال، مناطق Boss) ويكشف بعض الممرات.
+
+
+3. Map Fragments: يمكنك شراء حزم خريطة جزئية (map shards) تملأ أجزاء محددة، أو العثور على shards مخبأة لاستكمال الخريطة بالكامل.
+
+
+
+نظام الأسعار والمكافآت:
+
+خريطة رئيسية = سعر أساسي.
+
+ترقية الخريطة (تفاصيل أكثر) = عملة أو إنجاز مهمّة (مثلاً، إعادة تركيب لافتة باستعادتها من ثلاث مواقع).
+
+بعض الخريطات النادرة تباع فقط لتاجر متجوّل ويحصل عليها عشوائياً (rotating inventory).
+
+
+
+5 — التجار المتجولون (Roaming Merchants)
+
+أنواعهم:
+
+Map Peddler: يحمل قطع خرائط/shards، مواقع غنيمة مؤقتة، أدوات كشف. يظهر في أماكن عشوائية بحسب جدول زمن اللعبة.
+
+Curio Trader: يبيع شذرات تاريخية، أدوات لتخفيض FM مؤقتًا، أدوات تجميلية.
+
+Gearwright Nomad: يبيع ترقيات للشنط/قفل/قِطع ميكانيكية.
+
+
+آلية الظهور:
+
+احتمال الظهور مرتبط بالإحصاءات العالمية والمنطقة (مثلاً أثناء Memory Storm تزداد فرص ظهور Map Peddler).
+
+عندما يظهر التاجر، يعطي عروض خاصة (discount) إن أنجزت مهام جانبية لصالحه أو إن كانت لديك سمعة في المنطقة.
+
+
+المزايا: وجود هؤلاء يخلق دفعات مفاجئة من الاستكشاف ويكسر الروتين.
+
+
+6 — وسائل النقل وأنواعها وطرق فتحها
+
+كل وسيلة نقل تمنح أسلوبًا مختلفًا ومناطق وصول فريدًا؛ فتحها يتم عبر شراء ترخيص، إكمال مهمة أساسية، أو دفع مبلغ لمالك الوسيلة (تاجر/مرفأ).
+
+أمثلة وأنواع:
+
+1. River Ferries (القوارب المحلية) — رخيصة وتربط أحياء الموانئ داخل المدينة وموانئ المدن المتجاورة. فتح: شراء تذكرة موسمية أو إتمام خدمة للمرشد البحري. تكلفة: منخفضة.
+
+
+2. Gondola Lifts / Rope-Gondolas (الحبال المعلقة) — تربط المنحدرات والجزُر المرتفعة (مثل Hollowed Archipelago وGlassfjord). فتح: إصلاح محطة gondola (مهمة)، أو دفع لصاحبها. تعطي وصولًا عموديًا سريعًا.
+
+
+3. Clockwork Ferries (آليات تتطلب تروساً) — في Sunken Clockworks؛ تتطلب مفاتيح تروس أو دفع بصناعة معينة. تُفتح عبر حل لغز ميكانيكي.
+
+
+4. Sky-Drift Barges / Small Airships — ربط بين مدن بعيدة؛ مكلفة وتستلزم ترخيصًا وشرطًا (حماية الرحلة من قراصنة الجو). فتح: شراء ترخيص جزئي ثم إكمال مهمة حماية الرحلة. جيد للسفر بين القارات أو للتخطي عبر Biome صعب.
+
+
+5. Secret Root-Tunnels — مرور مخفي عبر Blackroot Moorlands: تفتح بوجود خريطَة مُحدَّثة أو عنصر سياحي (Root Key).
+
+
+
+نظام التكاليف والاشتراكات:
+
+تذكرة بسيطة = دفع عند الاستخدام.
+
+تصريح/ترخيص سنوي = دفع لمرة واحدة يفتح استخدام غير محدود أو بتخفيض كبير.
+
+بعض وسائل النقل تتطلب موارد (مثلاً زيت للآلة) بدلاً من العملة؛ هذا يشجّع جمع الموارد بدل صرف النقود فقط.
+
+
+
+7 — آليات اللعب المرتبطة بالخرائط (Gameplay Systems)
+
+Map Discovery Rewards:
+
+فتح Tile جديد يكافئ اللاعب بموارد محلية (crafting parts)، فرصة العثور على MF صغيرة، أو شظايا خريطة.
+
+مناطق مخفية (Secret Vault) تحتاج لمفتاح خاص — يظهر على الخريطة كـ “؟” بعد التفاعل مع NPC أو حل لغز.
+
+
+Trade & Economy:
+
+أسعار الخرائط عند التجار المتجولين تكون متغيرة؛ سمعة اللاعب أو تواجده في منطقة معينة يمكن أن ينقل أسعارًا أفضل.
+
+بعض التجار يقبلون تبادلًا (items + عملة) بدل المال.
+
+
+Dynamic Map Updates:
+
+أي تغيير بيئي أو حدث عالمي (مثل Remnant Uprising) يحدث تحديثًا على الخريطة (مناطق جديدة تظهر/تُغلق).
+
+الخرائط التي اشتريتها تُحدّث تلقائياً لتُظهر تغييرات كبرى، لكن تفاصيل دقيقة (غرف سرية) تُبقى للاكتشاف الشخصي.
+
+
+
+8 — أختام، خرائط مكسورة، ومقتطفات الخريطة (Map Fragments & Seals)
+
+Map Fragments (Shards):
+
+تُلقى في صناديق مخفية أو كبُعثرة بعد قتال Mini-boss أو تُباع من متاجر خاصة. جمع عدد محدد من الشِظايا يكمل Overlay جزئية أو يفتح "خريطة كنز" جديدة.
+
+
+Seals (أختام):
+
+أختام تحرس بوّابات أو خزائن — لها إشارة على الخريطة لكنها مقفلة. لفتحها: حل لغز محلي، إيجاد مفتاح ميكانيكي، أو إنجاز مهمة للشخصية المؤثرة في المنطقة. فتح ختم يمنح موارد نادرة أو MF كبيرة.
+
+
+كيف تظهر الشظايا على الخريطة؟
+
+شظايا تظهر كأيقونة صغيرة في Tile بعد ظهور مؤشر "heat" (بحث) — اللاعب يقترب ويجد الشظية عبر تحدٍ مصغر (platforming/mini-puzzle).
+
+
+
+9 — مهام جانبية مرتبطة بالخرائط (Side-quest types)
+
+Treasure Reconstruction: جمع 5 Shards لإعادة بناء خريطة كنز تؤدي لمقهى مهجور فيه Artifact.
+
+Merchant Favors: إصلاح قارب التاجر المتجوّل ليمنحك خصمًا على الخرائط المستقبلية.
+
+Cartographer Contracts: إحضار عيّنة من منطقة نائية لمخطط خرائط مقابل فتح Overlay B مجانًا.
+
+Memory Restoration: إرجاع قطعة من ذاكرة NPC (مخزنة كـ item) يمنحك Reveal لموقعٍ ذا صلة بماضي البطل.
+
+Escort & Protection: حماية وسيلة نقل من هجوم قراصنة أثناء رحلة بين مدينتين — يفتح المسار الجوي لو نجحت.
+
+
+10 — التفاعل مع نظام الذاكرة (MF / FM) عند استعمال الخرائط
+
+تأثيرات سردية دقيقة:
+
+عند شراء خريطة أو فتح بوابة كبرى عبر استخدام قدرة ذاكرة، قد يزداد FM قليلاً (تمثيل لصرف جزء من ذاكرة البطل لإعادة تشكيل الخريطة). هذا يمنع الاستخدام المفرط ويجعل كل قرار ذا معنى.
+
+بديل: تعيين تدرج حيث الخرائط العادية لا تكلف MF، لكن الخرائط النادرة جداً أو الكشف الفوري لمواقع القصصية الكبرى تتطلب MF — هذا يوازن بين توفّر المعلومات وحجم التضحية.
+
+
+
+11 — ضبط التوازن وتهيئة الإحساس بالمكافأة
+
+توزيع الموارد: إعطاء اللاعب موارد كافية لاستكشاف 1–2 مناطق يوميًا دون الحاجة للشراء، لكن الخرائط المدفوعة تُسرِّع التقدّم لمن يفضّل اللعب السلس.
+
+حوافز الاكتشاف: كل Tile مُكتشف يجب أن يشعر بأنه إنجاز: صوت مميز، تأثير بصري، ومكافأة صغيرة (XP أو موارد). هذا يحث اللاعب على الفحص التفصيلي بدل الاعتماد على الشراء فقط.
+
+مستويات التحدي: التأكد أن بعض الأسرار تتطلب مهارات متقدمة أو أدوات (قفزات عالية، مقاومة للانزلاق، أو قفل تروس) لتجنّب تدمير التدفق السردي.
+
+
+12 — نظام واجهة المستخدم (Map UI) — اقتراح تصميمي
+
+شاشة الخريطة الكاملة:
+
+عرض عام للعالم مع رموز المدن السبعة، خطوط النقل الرئيسية، وسجل الأحداث.
+
+عند اختيار مدينة: تظهر نافذة تفاصيل تعرض Overlays المتاحة (A/B)، سعر الشراء، مواقع بائع الخرائط (pin).
+
+
+داخل اللعبة (minimap):
+
+أصغر، يظهر Tile الحالي ومسافة حتى أقرب نقطة مهمة. يكشف Tile تدريجيًا.
+
+
+الأزرار والملاحظات:
+
+"Buy Map Overlay" (مع السعر)
+
+"Track Objective" — لوضع مسار على الخريطة.
+
+"Place Pin / Add Note" — تسمح للاعب بالتخطيط.
+
+
+مؤشرات ديناميكية:
+
+مؤشرات لظهور التجّار المتجوّلين أو أحداث عالمية قريبة (Memory Storm nearby).
+
+
+
+13 — أمثلة سيناريوهات لعب سريعة (playable loops)
+
+1. اللاعب يدخل Ashen Sprawl → لا يملك الخريطة → يتجول قليلاً حتى يجد Map Vendor بجانب البركة → يشتري Overlay A (يرى الميناء، بوابات) → يتتبع إشارة لمدفنة سرية → يكتشف Shard → يعود إلى تاجر متجول لبيع الشظية/الحصول على تلميح → يشتري Rope-Gondola ليصل لمنصة أعلى → مواجهة Mini-boss → يحصل على Satchel Blueprint.
+
+
+2. حدث عشوائي: Remnant Uprising في Veiled Archives → تظهر Caravan Map Peddler يبيع shard خاص → اللاعب يسرق أو يشتري → فتح بوابة سرية في Glassfjord.
+
+
+
+14 — اقتراحات تنفيذية للمبرمجين (ملاحظات تقنية)
+
+Data model:
+
+MapTile object: { id, discovered: bool, overlays: [A,B..], secrets: [shardIDs], events: [] }
+
+TransportNode object: { id, connectedNodes[], cost, unlockedBy, isActive }
+
+MerchantSpawnSchedule: probabilistic table keyed by region and game-time.
+
+
+Map reveal algorithm: flood-fill from player position within tile radius; visibility blocked by colliders (مثل أبواب مغلقة).
+
+Persistence: كل Tile و TransportNode و MerchantSpawn يجب حفظه في ملف الحفظ (save) لتفادي فقد التقدّم.
+
+Balancing hooks: يكفي أن تُعرّف قيمة FM لكل إجراء (buy map overlay, use memory pulse to reveal) وتعرض للاعب أثرها قبل الإجراء.
+
+
+15 — أفكار متقدمة لجلب مزيد من العمق
+
+خريطة قابلة للتعديل (Player-made maps): اللاعب يستطيع رسم ملاحظات يدوية وبيعها لتجار آخرين أو مشاركتها في مجتمع اللعبة (إذا أردت وضع نظام تعاوني).
+
+خرائط زمنية: بعض الخرائط تظهر فقط خلال حدث معين (ليلة ضبابية)، تمنح مواقع نادرة.
+
+التلاعب بسعر الخريطة: اعتمادًا على سمعة اللاعب، أحداثه (إنقاذ/نهب) ستؤثر على سعر البائعين وتوافر التجّار.
+
+
+
+---
+
+إذا أحببت، أقدّم الآن أيًا من التالي فورًا (نفّذ "اذهب" مع اختيار واحد):
+
+1. قائمة مفصّلة بمواقع بائع الخرائط لكل مدينة (إحداثيات تقريبية ونقاط POI).
+
+
+2. جداول أسعار مفصّلة (Map Overlay A/B, transport unlocks, merchant items).
+
+
+3. قالب برمجي مبسّط (pseudo-code) لخوارزمية كشف الخريطة والـMerchant spawn.
+
+
+4. سيناريوّ لعب طويل (قصة رحلة بين المدن مع نقاط قرار تؤثر على FM) — مفيد كسرد لعبة/حملة.
+
+
+
+أخبرني أي واحد تريد الآن و أبدأ تنفيذه فورًا.
+
+
+
+اجل قم بتنفذ جميع المقترحات
+
+
+
+رائع — سأنفّذ جميع المقترحات دفعة واحدة وبشكل عملي وقابل للاستخدام مباشرة:
+
+1. خرائط بائعي الخرائط ونقاط الاهتمام لكل مدينة، 2) جداول أسعار مفصّلة (خرائط، وسائل نقل، عناصر تاجر متجوّل)، 3) خوارزميات/pseudo-code لكشف الخريطة وظهور التجّار، 4) سيناريو رحلة طويل (قصة لعب) مع نقاط قرار تؤثّر على FM ونتائجها. كل شيء بالعربية وبقيم مقترحة قابلة للتعديل لاحقًا.
+
+
+
+1 — مواقع بائعي الخرائط ونقاط الاهتمام (POI) لكل مدينة
+
+(إحداثيات تقريبية بنظام شبكة داخل الخريطة: X:Y — تسهل تحويلها إلى إحداثيات اللعبة لاحقًا)
+
+1) Ashen Sprawl
+
+Map Vendor: Marrek the Chartkeeper — موقع: Port of Ash (12:34) — قرب منصة العبّارات ومجسم الشعلة المحترقة.
+
+POI محليّة: Central Plaza (10:30)، Ember Market (11:32)، Pyre Gate (14:36)، Children’s Shelter (9:28).
+
+مكان التذكرة/ترخيص للنقل: Ferry Dockmaster (13:35).
+
+
+2) Veiled Archives
+
+Map Vendor: Lysa of Ledgers — Vault Wharf (22:08) — مصرف مائي خلف الأرشيف.
+
+POI: Grand Stacks (20:10)، Indexer Gate (23:12)، Secret Catalog Vault (21:09).
+
+ترخيص نقل: Archivist Valve Station (24:07).
+
+
+3) Hollowed Archipelago
+
+Map Vendor: Harbor Ledger (mobile booth on a tethered boat) — Harbor Reach (5:45).
+
+POI: Rope-Bridge Overlook (6:48)، Sky Dock (4:43)، Drift Bazaar (6:46).
+
+ترخيص نقل: Gondola Repairman (3:50).
+
+
+4) Glassfjord Cliffs
+
+Map Vendor: Shardcart Seller — Frozen Basin Pool (39:12) (مِنطقة ماء مجمّد/نافورة صغيرة).
+
+POI: Crystal Ledge (37:10)، Reflective Spire (41:09)، Broken Mirror Grotto (40:13).
+
+ترخيص نقل: Lift Keeper (38:11).
+
+
+5) Sunken Clockworks
+
+Map Vendor: Cogscribe — Canal Platform (55:22) — بالقرب من بوابة التروس.
+
+POI: Great Gear (53:20)، Flood Valve (56:23)، Ferryman’s Dock (54:24).
+
+ترخيص نقل: Clockwork Ferryman (57:21).
+
+
+6) Blackroot Moorlands
+
+Map Vendor: Root-Map Hermit — Bog Pool (68:34) — بقرب بركة متجمدة الجذور.
+
+POI: Night-Stitcher Camp (66:33)، Root Gate (69:35)، Hollow Tree (67:32).
+
+ترخيص نقل: Tunnel Key Vendor (65:36).
+
+
+7) Luminous Chasm
+
+Map Vendor: Biolume Cartographer — Glow Pond (81:15).
+
+POI: Pulse Cavern (83:16)، Orb Grove (80:14)، Echo Vault (82:13).
+
+ترخيص نقل: Light-Guide (82:17).
+
+
+> ملاحظة: كل بائع خريطة يتواجد عادة على جانب الماء داخل المدينة (ميناء، بركة، قناة). التجار المتجولون قد يبيعون shards أو خرائط كاملة نادرة في أي مكان — احتمالات الظهور موزّعة (انظر الجدول في القسم 3).
+
+
+
+
+---
+
+2 — جداول أسعار وموازنة (قيمة افتراضية قابلة للتعديل)
+
+> العملة الرئيسية: Coins. بعض الخدمات/آليات تحتاج موارد خاصة (Gears, Oil) أو MF (Memory Fragments).
+مقادير MF وFM: MF = عملة ذاكرة قابلة للاكتساب؛ FM = مقياس النسيان (تراكمي سلبي).
+
+
+
+أ) خرائط (Map Overlays)
+
+العنصر	محتوى	سعر أولي (Coins)	متطلبات إضافية
+
+Map — Overlay A (Main Landmarks)	بوابات، بائعي الخرائط، موانئ	100 Coins	متاح فورًا
+Map — Overlay B (Routes & Danger)	ممرات أساسية، مخاطر عامة	300 Coins أو مهمة Unlock	خيار شراء أو إتمام مهمة
+Map — Full City Unlock	كشف كل الـTiles (بما فيها أسرار)	1500 Coins أو 5 Map Shards	ينصح للاعبين المتمرسين
+Map Shard (قطعة)	يكمل جزء من الخريطة	75 Coins أو كنز صغير	تَسقط أو تُباع
+
+
+ب) وسائل النقل (فتح/ترخيص)
+
+وسيلة	تكلفة فتح أولية	استهلاك/رسوم أثناء الاستخدام
+
+River Ferry (مدينة داخلية)	50 Coins (تذكرة موسمية 250 Coins)	5 Coins/رحلة (أو مجاني مع إشتراك)
+Rope-Gondola	إصلاح محطّة: 200 Coins + 3 Gears	مجاني بعد الفتح
+Clockwork Ferry	Key Gear x1 + 300 Coins	يتطلب Oil 1 وحدة كل 3 رحلات
+Sky Barge (Airship)	License: 1000 Coins + Escort Quest	50 Coins/رحلة أو رسوم حماية
+Root Tunnel (Secret)	Root Key (مهمة) أو 400 Coins	مجاني بعد الفتح
+
+
+ج) متاجر متجوّلة — أسعار عيّنة
+
+صنف	سعر (Coins)	ملاحظات
+
+Map Shard (random)	100	احتمالية بيع 1–2 shards
+MF Cache (small)	1 MF = 120 Coins	يختلف السعر حسب الندرة
+Biolume Talisman (كشف)	250 Coins	يكشف Tile لفترة قصيرة
+FM Reducer Potion	300 Coins + 1 MF	يقلل FM بمقدار 2 (نادر)
+Satchel Upgrade Blueprint	350 Coins + 2 Gears	يتطلب Crafting لاحقاً
+
+
+د) قيمة MF وFM (نماذج)
+
+استخراج MF من بيئة: Chest صغير ≈ 0.5–1 MF ; Chest نادر ≈ 3–5 MF.
+
+تكلفة قدرات الذاكرة:
+
+Memory Pulse (Small) = 1 MF → يزيد FM +1
+
+Echo Recall (Small summon) = 2 MF → FM +2
+
+Mask Shard (Major) = 3 MF → FM +4
+
+
+عوائد FM: مستوى FM > 10 يبدأ بنسيان خيارات حوارية؛ FM = 0–3: طبيعي، 4–7: NPCs أقل تفاعلاً جزئياً، 8–12: مؤثر بشكل كبير، >12: مخاطر سردية كفقدان مهمات جانبية.
+
+وسائل تقليل FM: FM Reducer Potion (نادر)، بعض مهام القصة تمنح -2 FM.
+
+
+
+---
+
+3 — pseudo-code وأساليب التنفيذ (خوارزميات)
+
+> سأعطيك كودًا وصفياً (pseudo) قابل للتحويل لأي محرك (Unity/Godot/Unreal) مع هياكل بيانات مقترحة.
+
+
+
+A) بنية بيانات أساسية (Data models)
+
+MapTile {
+  id: string
+  regionID: string
+  discovered: bool
+  secrets: list<SecretID>
+  neighbors: list<MapTileID>
+  isBlocked: bool // مغلق بسبب حدث أو ختم
+  overlayFlags: set // e.g., {A, B}
+}
+
+TransportNode {
+  id: string
+  connectedNodes: list<TransportNodeID>
+  unlocked: bool
+  unlockCost: {coins:int, gears:int, taskID:optional}
+}
+
+MerchantSpawnEntry {
+  merchantID: string
+  regionID: string
+  baseProbability: float // 0..1
+  conditions: list // e.g., "MemoryStorm", "playerReputation>5"
+  lastSeenTime: datetime
+}
+
+B) كشف الخريطة — Flood-fill visibility (pseudo)
+
+function RevealMapFromPlayer(playerPosition, revealRadiusTiles):
+  startTile = GetTileAtPosition(playerPosition)
+  queue = new Queue()
+  visited = set()
+  queue.enqueue(startTile)
+  visited.add(startTile)
+
+  while queue not empty:
+    tile = queue.dequeue()
+    distance = TileDistance(startTile, tile)
+    if distance <= revealRadiusTiles and not tile.isBlocked:
+      tile.discovered = true
+      UpdateUI_ShowTile(tile)
+      // reward player for first time discovery
+      if tile.firstTimeDiscovery:
+        GiveDiscoveryReward(tile)
+    // enqueue neighbors if line-of-sight not blocked
+    for neighbor in tile.neighbors:
+      if neighbor not in visited:
+        if LineOfSightClear(tile, neighbor):
+          queue.enqueue(neighbor)
+          visited.add(neighbor)
+
+LineOfSightClear يحقق الاصطدامات (closed doors, sealed vaults).
+
+يمكن إضافة قدرات خاصة (e.g., Biolume talisman) لزيادة revealRadiusTiles مؤقتًا دون إنفاق MF.
+
+
+C) Merchant spawn scheduler (probabilistic)
+
+function MerchantSpawnTick(gameTime):
+  for entry in MerchantSpawnTable:
+    // compute probability modifiers
+    prob = entry.baseProbability
+    if GlobalEvent == "MemoryStorm": prob *= 1.5
+    if Player.reputation[entry.regionID] > 5: prob *= 1.2
+    // reduce chance if merchant spawned recently
+    timeSinceLast = Now() - entry.lastSeenTime
+    cooldownFactor = max(0.1, 1 - timeSinceLast / entry.respawnCooldown)
+    prob *= cooldownFactor
+
+    if RandomFloat(0,1) < prob:
+      SpawnMerchant(entry.merchantID, entry.regionID)
+      entry.lastSeenTime = Now()
+
+SpawnMerchant يحدد موقع عشوائي داخل المنطقة (باستثناء مناطق محظورة) ويُعلِم اللاعب عبر إشعار محلي أو أيقونة على الخريطة المصغّرة إن كانت قريبة.
+
+
+D) فتح وسيلة نقل (unlock)
+
+function TryUnlockTransportNode(nodeID, player):
+  node = GetTransportNode(nodeID)
+  if node.unlocked: return true
+  if player.coins >= node.unlockCost.coins and player.gears >= node.unlockCost.gears:
+    Deduct(player, node.unlockCost)
+    node.unlocked = true
+    SaveNodeState(node)
+    NotifyPlayer("Transport unlocked")
+    return true
+  if node.unlockCost.taskID != null:
+    if player.CompletedTask(node.unlockCost.taskID):
+      node.unlocked = true
+      SaveNodeState(node)
+      return true
+  return false
+
+E) حفظ/Load hooks
+
+كل MapTile.discovered, TransportNode.unlocked, MerchantSpawnEntry.lastSeenTime يجب حفظها في ملف الـsave. استخدم incremental save عند التبديلات الكبيرة (فتح خرائط، قفل/فتح وسائل نقل).
+
+
+
+---
+
+4 — سيناريو رحلة طويل (Campaign) — تسلسل قابل للّعب مع نقاط قرار تؤثّر على FM
+
+> هذا سيناريو تفصيلي من البداية إلى منتصف اللعبة (قابل للتوسيع لبقية العالم). أضع نقاط قرار واضحة ونتائج متوقعة (ميكانيكية وسردية).
+
+
+
+البداية — يتلقى اللاعب الخريطة الجزئية لـAshen Sprawl
+
+1. المشهد الافتتاحي: البطل يصل إلى Ashen Sprawl، لا يحمل خريطة. يجد Marrek عند Port of Ash (12:34).
+
+خيار A: شراء Overlay A (100 Coins).
+
+خيار B: لا يشتري ويبدأ بالاستكشاف بنفسه.
+
+
+
+
+نتائج فورية:
+
+A (شراء): يحصل على الطرق الرئيسية ويصل بسرعة إلى مهمة بداية (ما يسرع التقدّم)، أقل فرص للعثور على Shards مخفية (لأن اللاعب يتجنب الاستكشاف). لا تأثير FM.
+
+B (استكشاف): يجد Shard عشوائي (1 shard = تقدم مجاني نحو تكملة الخريطة) ومكافآت موارد، لكنه يحتاج وقتًا أطول. احتمال لقاء حدث عشوائي (Remnant Uprising) أعلى أثناء التجوّل.
+
+
+المهمة الرئيسية الأولى — إنقاذ Shelter (يؤثر على FM)
+
+2. مهمة: إنقاذ Children’s Shelter (9:28) — عليك إما تحرير الحواجز عبر Memory Pulse (تكلفة 1 MF, يزيد FM +1) أو إخماد الحريق يدوياً عبر حل ميكانيكي.
+
+خيار 1: استخدام Memory Pulse (سهل، سريع) → +1 FM.
+
+خيار 2: حل لغز ميكانيكي وإخماد الحريق → يحصل على معدات (Gear x2) و0 FM.
+
+
+
+
+ملاحظات توازن: إذا استخدمت Memory Pulse كثيرًا في المراحل الأولى، FM يتراكم ويؤثر على تفاعلات لاحقة.
+
+اكتشاف Triggers — ظهور Merchant وحدث عشوائي
+
+3. أثناء التجوال (إن لم تشترِ الخريطة)، يظهر Map Peddler عشوائياً (احتمال 25%). يبيع Map Shard نادر مقابل 100 Coins. إذا أنقذت Shelter بالطريقة الميكانيكية، يقل السعر 20% (سمعة +1 في المنطقة).
+
+
+
+أول لقاء مع زعيم الحي — Miniboss (Pyre Harrow)
+
+4. Miniboss: Pyre Harrow عند Pyre Gate — يتطلب تدمير 3 أعمدة نار. يمكن استخدام Ring of Masks (artifact نادر) لإطفاء عمود واحد على الفور (يتطلب 2 MF، FM +2).
+
+خيار: دفع MF لتسريع القتال (سريع لكن مكلف سردياً).
+
+بديل: حل منصات ونقل صمامات المياه — يتطلب مهارة Rope-Swing وGears.
+
+
+
+
+نتيجة متصاعدة: إن استُخدمت MF هنا، ستزيد FM وبالتالي قد تجعل NPCs أو بائع الخرائط في المناطق التالية أقل ودّاً (رفع الأسعار أو حذف حوار خاص).
+
+قرار سفر بين المدن — استخدام وسيلة نقل
+
+5. بعد Pyre Gate، تظهر إمكانية فتح Rope-Gondola إلى Hollowed Archipelago (إصلاح: 200 Coins + 3 Gears أو إتمام مهمة إصلاح محطة).
+
+إن دفعت المال: تصل سريعاً إلى Archipelago وتفوت محتوى استكشاف جانبٍ مذهل → خفض وقت اللعب.
+
+إن اختبرت المهمة: تحصل على Gear وSatchel Blueprint كمكافأة و0 FM، وسمعة أعلى مع سكان Archipelago.
+
+
+
+
+لقاء عاطفي — Maera (Blackroot) لاحقًا
+
+6. في Blackroot Moorlands تواجه مهمة عاطفية مع Maera — لإنقاذها تحتاج إما استخدام Mask Shard (3 MF، FM +4) لتفكيك Root-Titan مؤقتًا أو حل سلسلة من المهام الجانبية (جمع نباتات، شفاؤها) بدون MF لكن تتطلب وقتًا.
+
+إن استخدمت Mask Shard: تنقذها فورًا لكن FM يرتفع بدرجة كبيرة، ما قد يفقدك حوارًا مستقبلًا (مثل اعتراف مايرا أو اعتراف إيدّا).
+
+إن أنجزت الطريق الطويل: تحصل على رابط عاطفي قوي — مايرا تتذكرك لاحقًا وتمنح قدرة تقيّل FM جزئياً (نقطة سردية فريدة).
+
+
+
+
+ذروة منتصف السيناريو — قرار كبير مرتبط بالمدينة (Veiled Archives)
+
+7. تصل Veiled Archives وتواجه Archival Regent (أركوفال) في تحدٍ قصصي: يعطيك عرضاً — تعيد أسماء ضاحية بأكملها عبر Mask Shard (3 MF) أو تحرّر جزءًا من الـIndex عبر حل ثلاث رموز (وقت + موارد).
+
+إعادة الأسماء فوراً: يهدئ حالة الضاحية، تحصل على MF مكافأة (كمكافأة قصصية) لكن FM يرتفع → العالم ينسىك أكثر (بعض الشخصيات تصبح غير متاحة للمحادثات في المستقبل).
+
+الحل اليدوي: يحافظ على FM منخفض ويكشف سرًا قويًا (مفتاح نقل مميز) في المستقبل.
+
+
+
+
+
+---
+
+نهج التوازن والنتيجة النهائية
+
+المسار القصير/الماهر: استخدام MF كثيراً لتجاوز التحديات → يصل اللاعب إلى قدرات سريعة لكنه يدفع ثمنًا سرديًا (نسيان، فقدان حوارات، اختفاء مهمات جانبية). يعطي تجربة لعب أسرع ومكثفة.
+
+المسار الاستكشافي/الصبور: الاعتماد على الأدوات، الحفر والاستكشاف، حل الألغاز للحصول على موارد بديلة وShards → تقدّم أبطأ لكن مع روابط سردية أقوى ومكافآت قصصية أعمق.
+
+الهدف التصميمي: كلا المسارين ممتعان وموازناتهم تجعل كل اختيار ذا وزن ومغزى.
+
+
+
+---
+
+ملاحق تنفيذية سريعة (Templates & Hooks للـDev Team)
+
+A) سجل الأحداث العالمية (Event table sample)
+
+Event: Memory Storm
+ChanceBase: 0.02 per hour
+Effects: Increase MapPeddler spawn *1.5, MF caches appear more, FM gain from MF uses +10% temporarily
+Duration: 30 mins game-time
+Cooldown: 2 hours game-time
+
+B) Loot table عيّنة (Map Shard drop)
+
+Chest common: 5% shard chance
+
+Elite enemy: 10% shard chance
+
+Miniboss: guaranteed 1 shard + 15% chance ل shard نادر
+
+
+C) UI Suggestion: Map purchase confirmation
+
+قبل الشراء تظهر نافذة:
+
+اسم الخريطة — السعر — ماذا تكشف — هل تريد الشراء؟
+
+إن كانت خريطة قصصية تتطلب MF يظهر تنبيه: "هذا الكشف سيتطلب X MF وسيزيد FM بـY — استمر؟"
+
+
+
+
+---
+
+خاتمة سريعة وعملية
+
+أنجزت لك الآن:
+
+جميع مواقع بائعي الخرائط والنقاط المهمة لكل مدينة (7 مدن).
+
+جداول أسعار مفصّلة لخرائط، وسائل نقل، وتجّار متجولين، مع قيم MF/FM تجريبية.
+
+pseudo-code كامل لكشف الخريطة، ظهور التجار، وفتح النقل، مع هياكل بيانات قابلة للتطبيق.
+
+سيناريو رحلة طويل مع اختيارات مؤثرة وقيم توازن مرفقة، وأمثلة لأحداث عالمية.
+
+
+لو تود الآن أُحوّل ما سبق إلى أي من الصيغ التالية فورًا (اختر واحد):
+
+1. ملف GDD مُنسّق (Markdown طويل أو PDF) جاهز للتسليم للمطورين.
+
+
+2. جدول Excel/CSV للـMapTiles وTransportNodes (مناسب للـLevel Designer).
+
+
+3. شجرة قدرات مع قيم XP/MF/FM بالأرقام لكل مستوى (قابلة للاستيراد).
+
+
+
+قل لي رقم الخيار وأقوم بتحويل المحتوى فورًا داخل هذه المحادثة — سأضع الملف أو الجدول هنا.
+
+
+
+
+ايضآ لا اود ان يكون هناك اي مراحل في اللعبة بل عالم مفتوح يمكنك التنقل فيه بحرية كاملة و اماكن للشيك بوينت و عناصر آخر
+
+
+
+
+رائع — أسلمت الفكرة. سأحوّل كل ما سبق ليتناسب تمامًا مع عالمٍ مفتوح بالكامل (no stages): تنقّل حرّ، نقاط تفتيش/ملاجئ (checkpoints & shrines)، نظام حفظ سلس، أحداث ديناميكية، توازن مواجهات متدرّج، وواجهات خريطة ومواصلات تعمل داخل العالم المفتوح بدون تقسيم لمراحل. أدرجت هنا كل التفاصيل التنفيذية، قواعد اللعب، اقتراحات توازن، ونصوص وصفية / pseudo-code جاهزة للمطوِّرين.
+
+نظرة عامة سريعة
+
+العالم "إريغرا" يصبح فضاءً مفتوحًا متصلًا جانبياً (2D side-scrolling but open): يمكن المشي أو استخدام وسائل النقل للوصول لأي مدينة في أي وقت بشرط فتح نقاط النقل أو استيفاء متطلبات.
+
+لا مستويات فصلية — المناطق السبعة متجاورة عبر مسارات منطقية (جسور، قنوات، أثير). التقدّم لا يُجبر اللاعب على مسار واحد؛ يُعطى تحفيز عبر المخاطر، المكافآت، ومتطلبات المهارات/الأدوات.
+
+نقاط الحفظ/الراحة هي أيضًا عناصر لعب: تُمكّن الحفظ، تعمل كمراكز fast-travel، وتربط ميكانيكيات الذاكرة (FM/MF).
+
+
+مبادئ تصميم العالم المفتوح (أهمّ النقاط)
+
+1. ارتباط منطقي بين المناطق: كل مدينة لها 2–4 مداخل رئيسية متصلة بجيرانها — الجسور في Archipelago، القنوات في Clockworks… هكذا يشعر العالم ككيان واحد.
+
+
+2. عدم إغلاق المحتوى نهائيًا: يُسمح بالذهاب لأي مكانٍ مبكرًا لكن بعض المناطق تتطلب قدرات (rope-swing, wall-jump, mask shard effect) أو أدوات (keys/gear) للوصول الكامل.
+
+
+3. مكافآت الاستكشاف أكبر من الشراء: شراء الخريطة يسرِّع التوجيه، لكن الاستكشاف يمنح Shards، موارد نادرة، وحوارات/مهمات فريدة.
+
+
+4. موازنة الاختيارات: استخدام قدرات الذاكرة (MF) يبقي مفيدًا لكن مع ثمن سردي (FM) — هذا يخلق قرارات حقيقية في عالم مفتوح.
+
+
+
+نقاط التفتيش / الملاجئ — Design & Mechanics
+
+نسميها: Sanctuaries (Shrines / Safe Havens) — تلعب دور checkpoint، save point، وmechanic hub.
+
+وظائف Sanctuary
+
+حفظ/تحميل التقدّم (auto + manual save).
+
+استشفاء كامل (HP, Stamina).
+
+إعادة تعبئة أدوات محدودة (مثلاً 1 satchel throw).
+
+Fast Travel Node: عند تفعيلها تصبح نقطة سفر سريعة.
+
+FM Interaction:
+
+Ritual Cleanse — يتيح للاعب أمراًين: دفع عملات/موارد (أو MF صغير) لتقليل FM بمقدار محدد، أو التبادل: تضحية MF لاستعادة قدرة ذاكرة مؤقتة.
+
+أو بديل آمن: أداء "خدمة" (مهمة صغيرة/جمع موارد) كبديل لتقليل FM — يمنع استغلال المال وحده.
+
+
+متجر محدود / تبادل محلي (بائع متجول يظهر أحياناً).
+
+
+تصميم بصري وموقع
+
+كل Sanctuary موضوع في نقاط استراتيجية: مداخل المدن، مفترقات طرق، بعد معارك زعماء، داخل مناطق سرية.
+
+مظهر: عمود ضوئي أبيض شاحب أو تمثال صغير يحمل تموجات من ضوء القناع — يجعلها قابلة للتمييز في المسافة.
+
+مسافات مقترحة (توجيه عملي): في كل مدينة كبيرة 6–10 Sanctuaries موزعة؛ في المدن المتوسطة 3–5؛ في البقع الصغيرة 1–2. (أرقام قابلة للتعديل حسب حجم الخريطة.)
+
+
+مثال توزيع مقترح للسبع مدن (أرقام)
+
+Ashen Sprawl — 8 Sanctuaries
+
+Veiled Archives — 6
+
+Hollowed Archipelago — 7
+
+Glassfjord Cliffs — 6
+
+Sunken Clockworks — 5
+
+Blackroot Moorlands — 6
+
+Luminous Chasm — 4
+(المجموع التقريبي يكمل عالمًا قابلًا للمشي دون إشباع زائد.)
+
+
+قواعد التوازن للنقاط
+
+Fast travel بين Sanctuaries مفتوح بعد تفعيل النقطة الأولى في كل مدينة.
+
+تكلفة الاستخدام: تذكرة Coins صغيرة لكل رحلة أو اشتراك (Season Pass) تحصل عليه بعد أداء مهمة قصة. بديل: استخدام MF كخيار فوري مكلف (يؤثر على FM).
+
+Respawn behavior: عند الموت يُعاد اللاعب إلى آخر Sanctuary مفعل؛ يفقد جزءًا بسيطًا من الموارد (مثلاً: 5–10% من Coins أو بعض الـAmmo)، لكن لا يفقد شجرة القدرات — هذا يحفز التفكير من دون معاقبة زائدة.
+
+
+السفر السلس (Fast Travel & Transport Hubs)
+
+Node Types:
+
+Local Ferry: يربط نقاط داخل نفس المدينة أو ميناءين متقاربين.
+
+Regional Lift/ Gondola: يربط مناطق عالية/منخفضة داخل نطاق بيوم ما.
+
+Inter-city Airship/Clockwork Ferry: ربط بين مدن أبعد — تُفتح بمهمات حماية أو تراخيص.
+
+
+فتح العقد:
+
+تفعيل Sanctuary يعرض خيار "Register Node" لتجعله متاحًا في القائمة العالمية.
+
+بعض الطرق تتطلب إصلاح محطات (مهام) أو موارد (Gears, Oil) لعملها دائمة.
+
+
+UI/UX:
+
+عند فتح قائمة السفر السريع تبيّن الخريطة عالمية مع رموز Sanctuaries، خطوط نقل متاحة، وتكلفة الرحلة اليسرى.
+
+تظهر خيارات للـ"نقل فوري مقابل MF" مع تحذير FM إن اخترت ذلك.
+
+
+
+عالم مفتوح — نظام الأعداء والتحديات الديناميكي
+
+Spawn Zones وScaling:
+
+كل Tile أو Cluster يملك Enemy Tier مُعرَّف (Tier 1..5). عندما يكتسب اللاعب قدرات أساسية، تتدرّج مناطق Tier أعلى تلقائياً أو عند تفعيل Trigger (مثلاً فتح بوابة أو قتل miniboss).
+
+بديل: نظام Dynamic Scaling مع soft-caps — لا تجعل الأعداء يرتفعون بلا حدود؛ بدلًا من ذلك، مناطق بعيدة تفترض استعدادًا أعلى.
+
+
+World Bosses (no stage gates):
+
+Bosses موزعون كـWorld Bosses مرتبطين بمناطق (مثلاً Rook في Archipelago, Archival Regent في Archives). يمكن مواجهتهم متى شاء اللاعب، لكن بعضهم باتقان ساحة/تفكيك آليات.
+
+Boss respawn: بعد هزيمة، تبقى منطقة محمية/مغلقه لفترة ثم يُعاد Boss بشروط (إما حدث عادي أو إعادة تنشيط من قبل NPC). هذا يمنع الاستغلال المتكرر للمكافآت الكبيرة.
+
+
+Encounter Variety:
+
+Random Encounters: patrols، ambushes، caravan raids.
+
+Environmental Hazards: high-wind zones، slippy glass، floods.
+
+Puzzles in-world: أجزاء متفرقة تتطلب تحريك كتل، توجيه شعاع، تزامن نبضات.
+
+
+
+خريطة العالم المفتوح (Fog of War adapt)
+
+عند شراء/تفعيل Map Overlay تظهر landmarks وخطوط انتقال رئيسية. الكشف الحقيقي يتم عبر السير أو استخدام أدوات كشف (Biolume talisman — مؤقّت).
+
+Auto-update: كل اكتشاف Tile يحدث لحظيًا. يمكن للاعب أن يضع pins، يكتب ملاحظات.
+
+Shared map concept (اختياري): إذا أردت لاحقًا، يمكن للاعب تبادل مخططات جزئية مع NPCs أو في مجتمع عبر ملفات مشاركة (out of scope الآن).
+
+
+أحداث عالمية ودورية (Open-world events)
+
+Memory Storms, Caravan Auctions, Remnant Uprisings — تحدث في مناطق عشوائية أو بناءً على حالة FM العالمية.
+
+الأحداث تُعلَن عبر رموز على الخريطة وإنذارات محلية من NPCs (مثلاً: "Marrek warns of a Caravan at Dawn").
+
+بعض الأحداث تكون world-tier (تُمثل تحدي جماعي إن أردنا وضع نظام جيل/leaderboards لاحقًا).
+
+
+الحفظ/الاسترداد وواجهة المستخدم (save & QoL)
+
+Auto-save عند تفعيل Sanctuary، إتمام مهمّة رئيسية، أو إنزال / صعود عبر وسيلة نقل.
+
+Manual Save متاح في Sanctuaries.
+
+Quick Travel Menu: قائمة منظّمة حسب المسافة / التكلفة / unlocked nodes.
+
+HUD: مصغر للخريطة يُظهر أقرب Sanctuary، مؤشر FM الحالي، وعدد MF.
+
+Notifications: “FM threshold approaching” — يظهر عند FM=8 وما فوق تحذيراً مؤثرًا.
+
+
+التكامل مع نظام FM / MF في العالم المفتوح
+
+Sanctuary Rituals: طريقة رئيسية لإدارة FM: تقوم بإمكانية تقليل FM مقابل موارد أو تنفيذ مهمة صغيرة. هذا يمنع تكديس FM بدون حل ويجعل الاستكشاف حلًّا لسلوك FM.
+
+الموازنة:
+
+الكشف الفوري لمواقع كبيرة عبر استخدام MF يجب أن يبقى خيارًا نادرًا ومُغريًا، لكن التخفيح مطلوب: يكلف MF ويزيد FM قليلًا — اللاعب يوازن بين راحة الوصول وخطر النسيان.
+
+
+أحداث FM-dependent: بعض NPCs أو مهام تظهر فقط إذا كان FM ضمن نطاق معين — مثلاً شخصية مايرا قد تظهر بصورة أعمق لو FM منخفض.
+
+
+التصميم التقني (streaming & performance hints)
+
+World streaming (2D):
+
+قسم العالم إلى Chunks/Tiles (مثل MapTile سابقاً). فقط الأحجام القريبة من اللاعب تُحمّل في الذاكرة.
+
+Background parallax layers تُحمّل منخفضة الدقة عندما تكون بعيدة.
+
+Collision data وAI SpawnZones تُحمّل بشكل lazy-loading: spawn triggers تُفعل عندما يدخل اللاعب منطقة تراكب.
+
+
+Memory & Entities:
+
+استخدم Object Pooling للأعداء والأحداث المتكررة.
+
+حفظ states للـChunks (discovered, bossesKilled, merchantLastSeen) في نظام الحفظ لتفادي إعادة التهيئة بعد التحميل.
+
+
+شبكة النقل: تعقب TransportNodes كمخطط graph؛ Fast Travel pathfinding على هذا الرسم البياني وليس على العالم كله.
+
+
+Pseudo-code — activation, fast-travel, streaming (مباشر للاستخدام)
+
+# Activate Sanctuary
+function ActivateSanctuary(sanctuaryID, player):
+  s = GetSanctuary(sanctuaryID)
+  if s.activated: return
+  s.activated = true
+  SaveState(s)
+  player.lastSanctuary = s.id
+  GivePlayer("SanctuaryBonus") # e.g., small XP, hint
+  RegisterFastTravelNode(s.nodeID)
+  ShowUI("SanctuaryActivated")
+
+# Fast Travel
+function FastTravelTo(targetNodeID, player):
+  if not player.CanFastTravel(): return "No travel available"
+  cost = ComputeTravelCost(player.currentNode, targetNodeID)
+  if player.coins >= cost.coins and player.MF >= cost.MF:
+    Deduct(player, cost)
+    TeleportPlayer(player, targetNodeID.position)
+    AutoSave()
+    return "Travelled"
+  else:
+    return "Insufficient resources"
+
+# Streaming Load on Player Move
+function OnPlayerMove(newPosition):
+  currentChunk = GetChunk(newPosition)
+  foreach chunk in ChunksInRadius(currentChunk, preLoadRadius):
+    if not chunk.loaded:
+      LoadChunk(chunk)
+  foreach chunk in LoadedChunks():
+    if Distance(chunk, currentChunk) > unloadRadius:
+      UnloadChunk(chunk)
+
+أمثلة عملية حول توزيع النقاط ولقطة لعب (flow)
+
+عندما يدخل اللاعب Ashen Sprawl من الجسر الغربي، يرى أول Sanctuary على الطرف ويستطيع التسجيل. بعد ذلك يقرر: شراء خريطة جزئية من Marrek أو البحث عن Shard مجاور. أثناء التجوال قد يظهر Map Peddler، أو حدث Remnant Uprising، أو يقابَل بحراسة من Ashwardens. كل قرار له نتائج (MF gain/expense, FM increase, resources).
+
+
+اقتراحات توازن نهائية وقياسات قابلة للضبط
+
+عدد Sanctuaries والعثور على Shards: موصى به 6–8 Sanctuaries للمدينة الكبيرة، shard drop rate متوسط 5–10% للأعداء العاديين، 20–30% للـelite، guaranteed miniboss.
+
+FM thresholds: 0–3 safe, 4–7 mild, 8–11 strong, 12+ critical (يمكن ضبط حسب التجربة).
+
+Fast travel cost: 10–50 Coins حسب المسافة أو تذكرة/اشتراك. استخدام MF للـfast travel: 1–3 MF (يضيف FM +1..+3).
+
+
+خاتمة ونقاط تنفيذ لاحقة
+
+أصبحت الآن كل الأنظمة مُهيأة لعالم مفتوح حقيقي:
+
+تنقّل حر وسلس، نقاط تفتيش وظيفية، توازن MF / FM ضمن العالم، أحداث عشوائية، تسلسل سفر/استكشاف غير خطي، وتحميل تقني عملي لـ2D open world.
+
+إذا رغبت أقدّم فورًا أحد العناصر التالية (اختر واحد أو أكثر):
+
+1. ملف GDD مُحدّث كاملاً يتضمن هذه الإضافات (Markdown/PDF).
+
+
+2. قائمة تفصيلية لمواقع Sanctuaries بالإحداثيات (مستند CSV جاهز لمصمّم المستوى).
+
+
+3. قائمة Spawn tables & loot tables مفصّلة لكل منطقة مع نسب مئوية.
+
+
+4. نموذج UI للـFast Travel/Map (تصميم شاشات + نصوص واجهات).
+
+
+
+
+قل لي أي رقم تريد هُنـا الآن — سأولّد الملف/الجدول فورًا داخل المحادثة.
+
+
+
+
+اجل قم بتنفيذ جميع المقترحات و لا تنساء ان اللعبة هي لعبة هاتف متجاوبة و اوف لاين و لكين يمكنك فتح اللعبة بانترنت و انشاء حساب لحفظ التقدم و يمكنك مواصلت اللعب عادي و عند فتح اللعبة بل انترنت يتم حفظ التقدم تلقائي اذا ربط حساب في اللعبة
+
+
+
+
+تنفيذ شامل ونهائي — عالم إريغرا (GDD مفصّل + جداول + خوارزميات + واجهة + متطلبات موبايل + نظام حفظ أونلاين/أوفلاين)
+
+ممتاز — طبقت كل المقترحات ودمجتها في وثيقة تنفيذية جاهزة للتسليم: تصميم لعبة 2D مترويدفينيا بعالم مفتوح تمامًا، نظام ذاكرة (MF/FМ)، خرائط قابلة للشراء والاكتشاف، وسائل نقل، نقاط حِفظ (Sanctuaries)، تجّار متجولون، أحداث عشوائية، جداول غنائم/ظهور، واجهة موبايل متجاوبة، ونظام حفظ/مزامنة عند الاتصال بالإنترنت. المحتوى باللغة العربية ومقسم عمليًا لفرق التصميم، البرمجة، والفن.
+
+
+---
+
+1 — ملخّص أعلى مستوى (compact)
+
+نوع اللعبة: 2D side-scrolling Metroidvania — عالم مفتوح متصل (no stages).
+
+عناصر مركزية: Memory Fragments (MF) كعملة قدرات، Forgetfulness Meter (FM) كثمن سردي، Map Shards وMap Overlays للبيع والاكتشاف، Sanctuaries كنقاط حفظ وFast Travel، وسائل نقل قابلة للفتح، تجّار متجولون، أحداث عالمية.
+
+أجهزة مستهدفة: هواتف أندرويد / iOS — Offline-first مع خيار إنشاء حساب وحفظ تلقائي عند الاتصال.
+
+
+
+---
+
+2 — وثيقة التصميم (GDD) — النقاط الرئيسة
+
+2.1 حلقة اللعب الأساسية (Gameplay loop)
+
+1. استكشاف العالم → كشف Tile على الخريطة → مكافآت (resources, XP, Shards, MF)
+
+
+2. مواجهة أعداء → جمع موارد / Shards → تطوير القدرات (XP, MF)
+
+
+3. استخدام Sanctuaries للحفظ/الاستشفاء/تقليل FM أو كـFast Travel node
+
+
+4. اتخاذ قرارات ذات ثمن: استهلاك MF لسهولة/قوة فورية مقابل زيادة FM (تأثير سردي طويل الأمد)
+
+
+5. فتح وسائل نقل وNodes لزيادة حرية الحركة والوصول إلى مناطق جديدة
+
+
+
+2.2 نظام الذاكرة
+
+MF (Memory Fragments): تُكتسب من صناديق، أعداء نادرين، مهام، أو تُشترى من تجار. تُستخدم لتشغيل قدرات الذاكرة (Memory Pulse, Mask Shard, Borrowed Names) أو لفتح كشف خريطة قصصي نادر.
+
+FM (Forgetfulness Meter): مقياس تراكمي يؤثر على التفاعلات والسرد (NPCs ينسون البطل، الاختيارات تختفي). كل استخدام قوي للذاكرة يزيد FM. توجد طرق لتقليله (Sanctuary Ritual, مهام، مشروبات نادرة).
+
+
+2.3 عالم مفتوح
+
+الخريطة متصلة: سبع مدن/مناطق مربوطة عبر جسور، قنوات، نطاقات جوية.
+
+لا مراحل مقفلة: يمكنك الذهاب لأي مدينة لكن الوصول الكامل يتطلب قدرات/أدوات.
+
+خرائط تُشترى جزئياً — الاكتشاف يكشف باقي الأماكن ويمنح مكافآت.
+
+
+2.4 نقاط الحفظ — Sanctuaries
+
+استخدام: Save, Fast Travel registration, Heal, Ritual Cleanse (FM manage), merchant occasional.
+
+توزيع مقترح: Ashen Sprawl 8, Veiled Archives 6, Hollowed Archipelago 7, Glassfjord 6, Sunken Clockworks 5, Blackroot Moorlands 6, Luminous Chasm 4.
+
+
+2.5 وسائل النقل
+
+أنواع: River Ferries, Rope-Gondolas, Clockwork Ferries, Sky Barges, Root Tunnels.
+
+فتحها: دفع Coins / جمع Gears / إتمام مهمة. بعضها يحتاج تراخيص أو مرافقات (escort quests).
+
+
+2.6 الاقتصاد (عملات وموازنات)
+
+عملة أساسية: Coins. موارد: Gears, Oil، قطع نادرة. MF كعملة ذاكرة.
+
+أسعار مبدئية مفصّلة في الجداول أدناه.
+
+
+2.7 الأعداء والزعماء
+
+لكل منطقة: 3 أعداء عاديون + 2 elites + miniboss + zone boss (world boss).
+
+كل زعيم له آليات تعتمد على بيئة المنطقة، أحجية متعلقة بها، ومكافآت MF/Artifacts.
+
+
+2.8 أحداث عشوائية (World Events)
+
+Memory Storm, Remnant Uprising, Name Auction, Caravan Spawns, Merchant Nomads. تحدث ديناميكياً حسب الوقت/FM/سلوك اللاعب.
+
+
+
+---
+
+3 — جداول ومواصفات عملية
+
+3.1 جدول بائعي الخرائط (vendors) — ذكرناه سابقًا (مختصر)
+
+(تم إدراجه سابقًا — موجود في وثيقة كاملة عند الطلب)
+
+3.2 قائمة Sanctuaries — CSV-style
+
+(عينة نهائية قابلة للاستيراد: City,SanctuaryID,Name,X,Y,Role,FastTravelNode)
+
+Ashen Sprawl,SAN-A-01,Central Lantern,10,30,Entry/Heal,FT-A-01
+Ashen Sprawl,SAN-A-02,Port Beacon,12,34,Vendor/Heal,FT-A-02
+Ashen Sprawl,SAN-A-03,Ember Gate Shrine,14,36,Checkpoint,FT-A-03
+Ashen Sprawl,SAN-A-04,Children's Refuge,9,28,QuestHub,FT-A-04
+Ashen Sprawl,SAN-A-05,Old Market Nook,11,32,MerchantSpawn,FT-A-05
+Ashen Sprawl,SAN-A-06,Smokewell Rest,8,31,Heal/MinorShop,FT-A-06
+Ashen Sprawl,SAN-A-07,Rubble Turn,13,29,Checkpoint,FT-A-07
+Ashen Sprawl,SAN-A-08,Pyre Outlook,15,35,Boss Registration,FT-A-08
+
+Veiled Archives,SAN-V-01,Wharf Lamp,22,08,Vendor/Heal,FT-V-01
+Veiled Archives,SAN-V-02,Grand Stacks,20,10,PuzzleHub,FT-V-02
+Veiled Archives,SAN-V-03,Indexer Gate Shrine,23,12,Checkpoint,FT-V-03
+Veiled Archives,SAN-V-04,Secret Catalogue,21,09,QuestHub,FT-V-04
+Veiled Archives,SAN-V-05,Lower Vault,19,11,Heal,FT-V-05
+Veiled Archives,SAN-V-06,Archivist Watch,24,07,FastTransportUnlock,FT-V-06
+
+Hollowed Archipelago,SAN-H-01,Harbor Reach,5,45,Vendor/Heal,FT-H-01
+Hollowed Archipelago,SAN-H-02,Rope Overlook,6,48,Checkpoint,FT-H-02
+Hollowed Archipelago,SAN-H-03,Sky Dock Shrine,4,43,TransportUnlock,FT-H-03
+Hollowed Archipelago,SAN-H-04,Drift Bazaar,6,46,TradeHub,FT-H-04
+Hollowed Archipelago,SAN-H-05,Crow's Rest,5,47,Heal,FT-H-05
+Hollowed Archipelago,SAN-H-06,Cliffside Anchor,7,49,Checkpoint,FT-H-06
+Hollowed Archipelago,SAN-H-07,Bridgekeeper,3,50,Boss Registration,FT-H-07
+
+Glassfjord Cliffs,SAN-GF-01,Frozen Basin Pool,39,12,Vendor/Heal,FT-GF-01
+Glassfjord Cliffs,SAN-GF-02,Crystal Ledge,37,10,Checkpoint,FT-GF-02
+Glassfjord Cliffs,SAN-GF-03,Reflective Spire,41,09,PuzzleHub,FT-GF-03
+Glassfjord Cliffs,SAN-GF-04,Broken Grotto,40,13,Heal,FT-GF-04
+Glassfjord Cliffs,SAN-GF-05,Shardwatch,38,11,TransportUnlock,FT-GF-05
+Glassfjord Cliffs,SAN-GF-06,Glass Beacon,42,08,Boss Registration,FT-GF-06
+
+Sunken Clockworks,SAN-SC-01,Canal Platform,55,22,Vendor/Heal,FT-SC-01
+Sunken Clockworks,SAN-SC-02,Great Gear,53,20,PuzzleHub,FT-SC-02
+Sunken Clockworks,SAN-SC-03,Flood Valve,56,23,Checkpoint,FT-SC-03
+Sunken Clockworks,SAN-SC-04,Ferryman Dock,54,24,TransportUnlock,FT-SC-04
+Sunken Clockworks,SAN-SC-05,Clockwork Hollow,52,21,Heal,FT-SC-05
+
+Blackroot Moorlands,SAN-BR-01,Bog Pool,68,34,Vendor/Heal,FT-BR-01
+Blackroot Moorlands,SAN-BR-02,Night-Stitcher Camp,66,33,QuestHub,FT-BR-02
+Blackroot Moorlands,SAN-BR-03,Root Gate,69,35,Checkpoint,FT-BR-03
+Blackroot Moorlands,SAN-BR-04,Hollow Tree Rest,67,32,Heal,FT-BR-04
+Blackroot Moorlands,SAN-BR-05,Weaver's Hollow,65,36,TradeHub,FT-BR-05
+Blackroot Moorlands,SAN-BR-06,Marsh Beacon,70,33,Boss Registration,FT-BR-06
+
+Luminous Chasm,SAN-LC-01,Glow Pond,81,15,Vendor/Heal,FT-LC-01
+Luminous Chasm,SAN-LC-02,Pulse Cavern,83,16,Checkpoint,FT-LC-02
+Luminous Chasm,SAN-LC-03,Orb Grove,80,14,QuestHub,FT-LC-03
+Luminous Chasm,SAN-LC-04,Echo Vault,82,13,Boss Registration,FT-LC-04
+
+> هذه القائمة جاهزة للاستيراد كـCSV؛ إن رغبت أصدّرها عبر ملفٍ قابل للتحميل هنا فورًا.
+
+
+
+3.3 Spawn & Loot tables (مئوية) — per region (نماذج قابلة للتعديل)
+
+Ashen Sprawl (example)
+
+Enemies:
+
+Scrab Scavengers: spawnWeight 40% — drops: Coins 60%, Common Gear 20%, 5% Map Shard, 1% small MF (0.5–1 MF)
+
+Ashwardens: spawnWeight 30% — drops: Armor Scrap 50%, 10% Map Shard, 2% MF
+
+Rag-Children: spawnWeight 30% — drops: Trinket 40%, Faint Ledger 15%, 8% Map Shard
+
+
+Elite spawn chance per encounter cluster: 12%
+
+Miniboss guaranteed shard: 1 shard + 15% rare MF cache
+
+World boss reward: 2–4 MF + unique Artifact
+
+
+Veiled Archives
+
+Page-Scrapers: 45% — 10% Map Shard, 1% MF
+
+Vault Sentinels: 30% — 5% Map Shard, 2% MF
+
+Echo Shades: 25% — 15% chance for ledger (story fragment), 3% MF
+
+
+(مبدأ عام: enemy common drops = مواد/coins؛ elites/minibosses = shard/gear/rare MF؛ bosses = MF + artifact)
+
+Hollowed Archipelago
+
+Rope-Croakers: 40% — 6% shard, 1% MF
+
+Drift-Knights: 35% — 10% rare gear, 3% MF
+
+Bargain Pirates: 25% — 10% shards, 2% MF
+
+
+Glassfjord Cliffs
+
+Shardlings: 50% — 8% shard, 0.5% MF
+
+Reflectors: 30% — mirror fragment 12%, 2% MF
+
+Glass Hounds: 20% — 6% shard, 1% MF
+
+
+Sunken Clockworks
+
+Gearfolk: 45% — Gears 60%, 6% shard, 3% MF
+
+Flood Wraiths: 30% — 5% shard, 5% MF
+
+Valve Spiders: 25% — 8% shard, 1% MF
+
+
+Blackroot Moorlands
+
+Rootcrawlers: 50% — Organic Parts 40%, 6% shard, 2% MF
+
+Bog-Sirens: 30% — Siphon component 10%, 5% MF (they may drain player's MF temporarily)
+
+Hollow Herders: 20% — 8% shard, 3% MF
+
+
+Luminous Chasm
+
+Glow Wisps: 50% — Biolume Shard 12%, 1% MF
+
+Memory Leeches: 30% — 5% MF (they can be farmed for MF riskily)
+
+Cave Stalkers: 20% — 8% shard, 2% MF
+
+
+> جدول Loot/Spawn قابل للتخصيص عبر ملفات JSON/CSV لفريق الـDesign.
+
+
+
+3.4 Transport & Item Price Tables (نماذج)
+
+Transport unlocks
+
+Transport	Unlock Cost	Runtime Cost	Unlock Method
+
+River Ferry (local)	50 Coins / Season Pass 250	5 Coins/ride	Buy or initial quest
+Rope-Gondola	200 Coins + 3 Gears	free after unlock	Repair station quest
+Clockwork Ferry	300 Coins + Key Gear x1	Oil 1 per 3 rides	Mechanic puzzle unlock
+Sky Barge	1000 Coins + Escort Quest	50 Coins/ride	License quest
+Root Tunnel	400 Coins or Root Key	free after unlock	Key from quest or buy
+
+
+Merchant Nomad items (sample)
+
+Item	Price (Coins)	Note
+
+Map Shard (random)	100	small chance of rare shard
+Small MF Cache	120 Coins per 1 MF	variable
+Biolume Talisman	250	temporary reveal radius
+FM Reducer Potion	300 + 1 MF	reduces FM by 2
+Satchel Blueprint	350 + 2 Gears	requires crafting
+
+
+
+---
+
+4 — خوارزميات ومزامنة الحفظ (pseudo-code + قواعد المزامنة أونلاين/أوفلاين)
+
+4.1 حفظ محلي (Offline-first)
+
+Save data structure (local file / sqlite): playerState, discoveredTiles[], sanctuariesActivated[], transportUnlocked[], inventory, MF, FM, quests, lastPlayTimestamp.
+
+Autosave triggers: activate Sanctuary, complete quest, fast-travel, close app (onPause).
+
+Format: نسخه مضغوطة JSON مشفّرة (AES) في storage المخصص للتطبيق.
+
+
+4.2 حساب أونلاين وAuto-Sync (عند الاتصال)
+
+مبدأ عام: اللاعب يلعب أوفلاين بشكل طبيعي. عند وجود اتصال وإنشاء/ربط حساب، يقوم التطبيق بمزامنة التقدم تلقائيًا. المزامنة تتم فورًا (synchronous UX) عند أول اتصال بعد اللعب — التطبيق لا ينتظر عمل خلفي لاحقًا؛ يرسل/يتلقى بيانات أثناء الجلسة.
+
+سلوك المزامنة — قواعد
+
+1. عند الربط بالمستخدم: client -> server يرسل localSaveMeta = { lastModified, progressHash, playTime }.
+
+
+2. الخادم يقارن timestamps / hashes:
+
+حالة A (serverOlder): إذا كان save على الخادم أقدم من المحلي → الخادم يُحدث بسجل المحلي (server overwrite).
+
+حالة B (serverNewer): إذا كان الخادم أحدث → يُطلب من العميل إما:
+
+Merge auto: دمج بيانات لاحقة (مثلاً: خريطة مُكتشفة محلياً + خريطة على الخادم تكميلية) — يتم دمج الحقول غير المتضاربة تلقائياً (discoveredTiles ∪, inventory union with cap).
+
+Conflict UI: إذا تضاربت الحقول الحرجة (مثلاً: تم ربط حساب في جهاز آخر وأنجز مهمات لا تزال غائبة محليًا) — يظهر للاعب نافذة اختيار: Keep Local / Use Cloud / Merge مع ملخص للفرق.
+
+
+حالة C (equal): لا حاجة للتحديث.
+
+
+
+3. سياسة التعارض (recommended default):
+
+Non-critical sets → union (maps, tiles, collectibles).
+
+Counters/resources → choose max or sum with caps (e.g., Coins: max(local, server) أو sum bounded by walletCap).
+
+Quest progress → keep the most advanced state (state precedence).
+
+FM (sensitive) → server keeps higher value warning (to avoid exploit of lowering FM عبر جهاز ثانوي). عند تعارض في FM، يُعرض تحذير ويُعطى اللاعب خيار قبول أعلى FM أو استرداد عبر ServerMergeRule (serverHigherWins).
+
+
+
+4. Security & Privacy
+
+Authentication: OAuth-style or email+password, token JWT.
+
+Saves مشفّرة على السيرفر، TLS بين العميل والسيرفر.
+
+Rate-limits للمزامنة لتجنّب هجمات/استغلال.
+
+
+
+
+pseudo-code: Sync on connect
+
+function OnConnectAndLogin(localSave):
+  serverSaveMeta = RequestServerSaveMeta(user)
+  if serverSaveMeta == null:
+    UploadFullSave(localSave)
+    return "uploaded"
+  if localSave.lastModified > serverSaveMeta.lastModified:
+    // local newer
+    MergeResult = MergeSaves(localSave, serverSave)
+    UploadFullSave(MergeResult.mergedSave)
+    return "merged_local_newer"
+  else if localSave.lastModified < serverSaveMeta.lastModified:
+    // server newer
+    if CanAutoMerge(localSave, serverSave):
+      merged = AutoMerge(localSave, serverSave)
+      ApplyMergedSaveLocally(merged)
+      return "merged_server_newer"
+    else:
+      ShowConflictUI(localSave, serverSave)
+      // user's choice drives next step
+  else:
+    return "already_synced"
+
+> ملاحظة عملية: المزامنة تحصل فوراً عند الربط، ويتم إعطاء اللاعب ملاحظة صغيرة: “لعبةك محفوظة على السحابة” أو “يوجد تعارض — اضغط للمراجعة”.
+
+
+
+4.3 Conflict UI (تصميم مبسط)
+
+شاشة تعرض ملخصًا: ‏(Local vs Cloud): Last play date, MF, FM, main quest progress, unique collectibles count. أزرار: Use Local / Use Cloud / Merge (automatic preview). توضح كل زر النتيجة المتوقعة (هل ستفقد تقدم؟ هل سيزيد FM؟).
+
+
+
+---
+
+5 — واجهة المستخدم (UI) — موبايل متجاوب (Wireframes نصية)
+
+> مبادئ: لمس + سحب + tap. لا تعقيد، زر واحد مهم في الأسفل (context-sensitive).
+
+
+
+5.1 HUD أثناء اللعب (عناصر مهمة)
+
+Top-left: Mini-map (دائرة صغيرة، تظهر أقرب Sanctuary ونقطة الهدف). Tap → full map.
+
+Top-right: MF count (رمز) وFM bar (شريط أحمر شفاف مع تحذير عند حدود). Tap على MF يفتح Quick Use menu.
+
+Bottom-left: Virtual stick (قابل للتحويل إلى D-pad في الإعدادات).
+
+Bottom-right: Action buttons (Light Attack, Heavy/Parry, Jump, Satchel Throw) — قابلة لإعادة التعيين الحجم/الشفافية.
+
+Center-bottom: Context action (Interact / Activate Sanctuary / Climb) يظهر تلقائياً.
+
+Notifications: Banner أعلى الشاشة (Event spawn, sync status).
+
+
+5.2 شاشة الخريطة الكاملة (Map UI)
+
+Left: World map overview (pan/zoom).
+
+Center: Selected city zoom (tile grid) — يُظهر Layers toggle: Overlay A / Overlay B / Secrets.
+
+Right: Info panel: vendor location, sanctuary list (tap to fast-travel), cost to buy overlay, merchant currently online (if any).
+
+Bottom: Buttons: Buy Overlay A / Buy Overlay B / Place Pin / Toggle Fast-Travel.
+
+
+5.3 Fast Travel dialog
+
+Shows: From → To, Cost breakdown (Coins / MF / special requirement), ETA (instant), Confirm / Cancel.
+
+If FM cost present: red warning text with “FM +X” and link to explain FM consequences.
+
+
+5.4 Sanctuary screen (on activation)
+
+Options: Save / Register Fast Travel Node / Ritual Cleanse (costs) / Shop (if vendor present) / Toggle Auto-Heal on Fast-Travel.
+
+Ritual Cleanse shows options: pay Coins / gather items / perform mini-quest → each reduces FM differently.
+
+
+5.5 Conflict Sync UI
+
+Modal with 3 columns: Local / Server / Result. Buttons: Keep Local / Keep Cloud / Merge. Short summary of changes and confirmations.
+
+
+
+---
+
+6 — متطلبات فنية لمطوّر الموبايل (performance & implementation notes)
+
+6.1 تقنيات مقترحة
+
+Engine: Unity (2D kit) أو Godot 4 — كلاهما مناسب لهواتف مع دعم streaming وtilemaps.
+
+Data storage offline: SQLite أو JSON المحمي محليًا.
+
+Network: REST API + WebSockets (اختياري) للمزامنة اللحظية/events.
+
+Asset pipeline: تجميع sprites في atlases، استخدام Texture Compression (ASTC for high-end, ETC2 fallback).
+
+
+6.2 Performance tips
+
+Target 60 FPS (درجات متوسطة) أو 30 FPS لهواتف قديمة.
+
+استخدم chunk streaming: تحميل tile chunks ± 2–3 chunks حول اللاعب.
+
+Object pooling للأعداء، مؤثرات الجسيمات (limit per area).
+
+Batch draw calls قدر الإمكان؛ استخدم one-pass shaders بسيطة للضوء rim.
+
+Physics: استخدم 2D colliders مبسطة، تجنّب كائنات فيزيائية كثيرة بنفس الوقت.
+
+
+6.3 Storage & save sizes
+
+Keep save small: discoveredTiles bitmask أو compressed lists.
+
+Cache assets: lazy-load backgrounds عالية الدقة خارج الشاشة.
+
+
+6.4 Touch controls tuning
+
+Virtual stick قابل للتخصيص (sensitivity, deadzone).
+
+Buttons قابلة لإعادة تعيين المواضع/حجم للهواتف الصغيرة.
+
+دعم Bluetooth controllers (اختياري).
+
+
+
+---
+
+7 — قائمة تنفيذ (To-do) لفريق التطوير — عملي ومرتّب
+
+فني/برمجي
+
+1. إنشاء Data models (MapTile, Sanctuary, TransportNode, MerchantSchedule).
+
+
+2. تطبيق Flood-fill reveal algorithm + UI map update.
+
+
+3. Implement sanctuaries: save, ritual, fast-travel registration.
+
+
+4. Offline save + Sync module (server API + client merge logic).
+
+
+5. Spawn system & loot tables (config-driven via JSON).
+
+
+6. Transport unlock flow.
+
+
+7. Enemy AI base + elites + bosses.
+
+
+8. FM/MF usage hooks + UI feedback.
+
+
+9. Mobile controls & HUD.
+
+
+10. Performance: chunk streaming, pooling.
+
+
+
+فني/تصميم
+
+1. Create 7 Tilemaps (each region) with parallax layers separated.
+
+
+2. Art: Sanctuary assets, mask-glow FX, satchel motion spritesheets, particle presets for Memory Storm.
+
+
+3. Animations: satchel swing separate layer, tail/cloak physics simulation (simple bone-based or sprite frame).
+
+
+4. UI assets: map icons, fast-travel UI, sync modal.
+
+
+
+اختبار / QA
+
+1. Test offline → online sync flows with conflicting saves (3 scenarios).
+
+
+2. Stress-test Memory Storm events & merchant spawn frequency.
+
+
+3. Performance profiling on low-end devices.
+
+
+
+
+---
+
+8 — أمثلة سيناريوهات استعمال متقدمة (use-cases واقعية)
+
+لاعب يلعب أوفلاين 2 ساعات، يعود لإنشاء حساب → عند الربط تُعرض شاشة “مزامنة” وتُرفع الحفظ المحلي للسحابة مع ملخص التغييرات.
+
+لاعب يستخدم MF لكشف بوابة كبيرة → يظهر تحذير FM ثم بعد الاستخدام يحصل على اختصار كبير لكنه يفقد بعض خيارات الحوار لاحقًا.
+
+خلال Memory Storm يظهر Map Peddler في Ashen Sprawl — اللاعب يختار مداهمته أو شرائه.
+
+
+
+---
+
+9 — مخرجات فورية أقدّمها الآن (اختر أيًا أو كلّها أخرجها فورًا هنا)
+
+1. تصدير CSV كامل لملف Sanctuaries أعلاه (مرفق كملف للتحميل).
+
+
+2. تصدير JSON للـSpawn & Loot tables (جاهز للمهندس).
+
+
+3. ملف GDD بصيغة Markdown أو PDF مهيأ للتسليم.
+
+
+4. نماذج UI (صور wireframe) — أقدّر رسمها هنا كنص/SVG أو توليد ملف PNG إن أردت.
+
+
+
+أخبرني أي رقم/أرقام تريدني أُخرِجها الآن كمرفقات هنا — سأضع الملفات جاهزة للتحميل داخل المحادثة فورًا.
+
+
+---
+
+إذا تريد أيضًا، أستطيع فورًا:
+
+توليد ملف CSV للـSanctuaries (بصيغة قابلة للتحميل)،
+
+أو ملف Markdown GDD كامل (نص طويل مُنسَّق) يمكنك نسخه أو تنزيله.
+
+
+قل لي: أي الصيغ تريد الآن؟ (CSV, JSON, Markdown, PDF, PNG wireframes) — سأُصدِرها مباشرة في الرد التالي.
+
+
+
+قبل ذالك لا يمكنك التحدث عن انميشن الحركة و طريقة الضربات و انواع الاسلحة و اشكاله و تطويرات و ملابس الشخصيات و الوانه و الوان المدن و المناطق المميز فيها و انواع الاعاد و اشكالمه و طريقة هجومه و اسلحتهم و انواعه  و كل ما الى ذالك
+
+
+
+جميل — سأغطي كلّ ما طلبته بدقّة وتفصيل عملي قابل للتطبيق فورًا: حركات وأنيميشنات اللعب، أنماط الضرب والهجمات، أنواع الأسلحة وتطويراتها، ملابس/مظاهر الشخصية والألوان، ألوان ومزاج كل منطقة، أنواع الأعداء وسلوكياتهم وهجماتهم، واعتبارات فنية/تقنية للهواتف. كل قسم منظّم بحيث يمكن تسليمه مباشرة لفريق الأنيميشن، فنان الشخصيات، ومصمّم القتال.
+
+1 — مبادئ عامّة لأنيميشن الحركة (Mobile-friendly)
+
+استهداف الفريمات: تصميم الرسوم بحيث تعمل بسلاسة على الأجهزة المتوسطة → الرسوم الرئيسية عند 30 fps (يمكن استخدام 60fps على أجهزة قوية).
+
+أنواع أنيميشن: Idle, Walk, Run, Sprint, Jump (up/peak/fall/land), Ledge-grab, Climb, Dash, Crouch/Slide, Roll/Dodge، LightAttack, HeavyAttack, ChargedAttack, AerialAttack, Parry, Stagger, Death، SpecialAbilities (MaskPulse, Echo召回).
+
+طول الأنيميشن (اقتراح مرجعي عند 30fps):
+
+Idle breathing subtle loop: 30–60 frames (1–2s)
+
+Walk cycle: 12–16 frames (0.4–0.53s)
+
+Run cycle: 10–12 frames (0.33–0.4s)
+
+Jump up: 8–10 frames؛ fall loop: 6–8 frames؛ land: 6–10 frames (تأثير ارتداد صغير).
+
+Light Attack: 8–12 frames (fast) — hit frame at 4–6. Recovery 6–10 frames.
+
+Heavy Attack: 18–30 frames — hit window 8–14; recovery 12–18.
+
+Dash roll: 12–16 frames — i-frames (invul) at frames 3–6.
+
+Parry: wind-up 6 frames, active window 4 frames, recovery 8–12.
+
+Mask Shard (special): 40–80 frames مع VFX كبير وكاميرا تأثير.
+
+
+مصطلحات مهمة للأنيميشن: hit frame (الإطار الذي يُحتسب الضربة)، active frames (إطارات تصطدم فيها الضربة)، recovery frames (لا يستطيع اللاعب الفعل خلالها)، i-frames (invulnerability frames).
+
+فصل الطبقات: استخدم layered sprites أو bone rig بحيث تكون الشنط، ذيل المعطف، والشرائط مُنفصلة وتخضع لمحاكاة بسيطة (follow-through) بدل رِسم كل إطار يدوياً.
+
+
+2 — حركة القتال وميكانيكا الضربات (Combat moveset)
+
+2.1 هجمات أساسية
+
+Light Attack (L): سريعة، سلسة لـ combos؛ DPS متوسط، يستخدم في الكومبو.
+
+مثال: 3-hit chain: L1 (8f) -> L2 (10f) -> L3 (12f).
+
+
+Heavy Attack (H): ضربة قوية قابلة للشحن (hold): شحن 0.6s → ضربة متفجرة تخلُق دفع/knockback.
+
+Charged Heavy: شحن كامل (1.4s) → موجة ضوء أمامية (AOE small) — يستهلك طاقة أقل من MF لكن يمكن ربطه بتعديل Mask Shard for extra effect.
+
+Aerial Attack: هجوم أثناء السقوط — يربط معWall-jump لإجراءات متسلسلة.
+
+Parry / Reversal: تحتاج توقيتًا دقيقًا — نجاح Parry يفتح نافذة لإجراء Counter (قتل سريع أو stun). Parry window ~ 4 frames. Reward: stun 1s وفتح ضربات حرجة.
+
+Dodge / Roll: إطارات i-frame قصيرة (0.1–0.2s) تمنح مرونة موقوتة لكن لا تولد هجومًا.
+
+
+2.2 مهارات خاصة (Memory-infused)
+
+Memory Pulse: نبضة قصيرة حول البطل تعيد ترتيب الذكريات وتدفع أعداء محددين للخلف. Animation: 40–60 frames مع شعاع موجي أبيض باهت.
+
+Echo Recall: يستدعي نسخة ظلية تنفّذ هجمة واحدة ثم تتبدد. Animation: استحضار 20–30f، نشاط الصدى 10–20f، تلاشي 10f.
+
+Mask Shard: انفجار قوي بصريًا — تدمير بلوك/كسر حاجز. يستغرق أنيميشن طويل ويجب أن يرافقه اهتزاز كاميرا وإضاءة قوية.
+
+
+2.3 إطار التوازن للضربات (ضد أعداء)
+
+Light Attack: damage = Base * 1x; cooldown/recovery منخفض.
+
+Heavy Attack: damage = Base * 2.0–2.5x; stuns certain enemies if hits in weak spot.
+
+Charged attacks تخرّب دروع Reflectors/Reflective enemies إذا تم توجيه الشعاع عبر البلورات.
+
+Parry success يمنح Critical Window (2s) لهجوم قوي يعرّض زعماء لضرر أكبر أو يكسر دروعهم.
+
+
+3 — أنواع الأسلحة وخصائصها (Design + Visuals + Upgrades)
+
+نراعي طابع العالم (مزيج مظلم، steampunk، عضوي). الأسلحة يجب أن تتناسب مع أسلوب Metroidvania: قابلة للتبديل، محسوسة، وكل منها له مكانه.
+
+3.1 فئات أسلحة رئيسية
+
+1. Daggers / Knives (Light Weapons)
+
+أسلوب: سريعة، combos، عالية الهجمة الأولى، منخفضة knockback.
+
+شكل مرئي: سكين منحني أسود مع لمسة معدنية بيضاء على الحافة، نصل مطلي بالـporcelain-white motifs.
+
+تطوير: زيادة سرعة الهجوم، القدرة على تنفيذ backstab (extra damage). المواد: Leather, Metal Scraps, Small MF shard (optional).
+
+
+
+2. Short Sword / Saber (Medium)
+
+أسلوب: توازن بين السرعة والقوة؛ جيدة للparry combos.
+
+شكل: سيف ذو شفرة شبه معقوفة مع شريط أبيض على الحافة يلمع عند استخدام قدرات الذاكرة.
+
+تطوير: Critical chance, reduce heavy attack recovery, add light damage-over-time (rune).
+
+
+
+3. Greatsword / Heavy Blade (Heavy)
+
+أسلوب: بطيئة ولكنها قوية مع زرع ضربات تفجيرية وكسر الدروع.
+
+شكل: شفرة كبيرة ثخينة بلون أسود مطفي مع خطوط بيضاء تشبه شقوق القناع.
+
+تطوير: زيادة knockback، smash modifiers لفتح مسارات بيئية (كسر صخور).
+
+
+
+4. Polearms / Glaive (Reach)
+
+أسلوب: مدى أطول، مناسب لإدارة الحشود ومنصات التحكم.
+
+شكل: عمود طويل أسود مع نهايات معدنية مُشطبة وشرائط بيضاء.
+
+تطوير: Sweeping combos وstagger effect.
+
+
+
+5. Ranged — Throwing Satchels / Bombs (Utility + Damage)
+
+أسلوب: قذف/تفجير — متعدد الاستخدامات (قنابل صوتية، حبر كهربائي, شرارة ذاكرة).
+
+شكل: حقيبة جلدية سوداء مع رموز بيضاء تشير إلى محتواها.
+
+تطوير: تغيير القنبلة (stun, burn, chain-explosion), زيادة انفجار النطاق، تقليل الاسترجاع.
+
+
+
+6. Gadgets — Clockwork Pistol / Harpoon (Steampunk)
+
+أسلوب: ضربات بعيدة، مع cooldown، ممتازة لإتاحة استراتيجيات خاصة (سحب الأعداء، تعطيل آليات).
+
+شكل: جهاز نحاسي قديم مع لمعة بيضاء عند الشحن.
+
+تطوير: تقليل تبريد، رمي خطوط ربط، اختراق الدروع.
+
+
+
+
+3.2 نظام التطوير (Upgrade Paths)
+
+كل سلاح له 4 Tier (I–IV). الترقية تتطلّب: XP + Materials (Gears, Leather, Biolume Shards) + أحياناً MF صغير للمزايا الذاكرية العالية (اختياري).
+
+أمثلة أرقام (قابلة للتعديل):
+
+Tier II: XP 500, 5 Gears, 2 Leather
+
+Tier III: XP 1500, 12 Gears, 5 Leather, 1 Biolume
+
+Tier IV: XP 4000, 25 Gears, 12 Leather, 2 Biolume, 1 MF (optional)
+
+
+Perk slots: بعد Tier III تستطيع إضافة 1–2 Perk (life steal small, extra throw, reduced FM cost on Memory Pulse when using this weapon).
+
+
+3.3 أسلحة فريدة (Artifacts)
+
+أسلحة قصة (Legendary) تأتي مع قدرات فريدة (مثلاً: Blade of Names — يكسب MF صغير مع كل هجمة على أعداء يحملون أسماء). فتحها يتم عبر زعماء أو مهام قصة. لا تُباع.
+
+
+4 — ملابس وتهيئات الشخصية (Outfits & Visual Progression)
+
+4.1 المظهر الأساسي (Base Outfit)
+
+وصف: بدلة سوداء مطفيّة، معطف طويل متوسط الطول، قناع أبيض بلاستيكي/بورسلين يغطي كامل الوجه بشقّي عينين أبيضتين، قبعة سوداء واسعة. شعر/رأس مخفي تحت القبعة. شنط جلديّة متعددة معلّقة. لمسات بيضاء على الحواف ورباطات بيضاء صغيرة.
+
+طبقات للفنان: Base body sprite, cloak layer, satchel layers (left/right/front), hat, mask glow layer (shader).
+
+
+4.2 Variants / Skins (قابلة للفتح أو الشراء تجميليًا)
+
+1. Stealth Weave — قناع مطفي مع حواف رمادية، معطف رقيق يسمح بالتحرك أسرع (+5% movement).
+
+
+2. Archivist's Coat — زخارف بيضاء أكثر، جيوب إضافية (visual only or satchel capacity +1).
+
+
+3. Ritual Vestments — أبيض-أسود متوازن، لامع أكثر، يُعطي تلميحًا للقصة (قابل للفتح عبر مهمة Maera).
+
+
+4. Armored Harness — درع جلدي على الكتفين والصدر، يقلل damage taken من الهجمات الثقيلة بنسبة صغيرة.
+
+
+5. Remnant Rag — مظهر تالف، شرائط مضيئة متوهجة — يأتي مع أثر سردي (NPC reaction different).
+
+
+
+4.3 تعديلات تجميلية (Cosmetic)
+
+تغيير لون الخيوط البيضاء إلى لون آخر (جيرسن: off-white, pale blue) — لا يؤثر على اللعب إلا إذا رغبت.
+
+إضافات قابلة للتركيب: شارات على المعطف، ملصقات، رموز صغيرة من المدائن المُنقذة.
+
+
+5 — ألوان المدن والبيومات (Color Palettes — HEX)
+
+(كل منطقة: 4–6 ألوان رئيسية للبيئة، للاستخدام في حِزم الخلفيات، واجهات، عناصر إرشادية)
+
+Ashen Sprawl — السهل الرمادي
+
+Dark Slate: #2B2F33
+
+Ash Brown: #6E6457
+
+Sickly Yellow (highlights): #C9A84F
+
+Pale White Accents: #F6F6F6
+
+Smoke Gray (fog): #8A8888
+
+
+Veiled Archives — الأرشيف المظلل
+
+Deep Indigo: #24314A
+
+Brushed Metal Gray: #6C7B86
+
+Ledger Beige: #CFC7B8
+
+White Memory Glow: #EAF6FF
+
+
+Hollowed Archipelago — الأرخبيل المعلّق
+
+Muted Teal: #4B6B6D
+
+Dark Slate: #2D3B3C
+
+Off-White Ropes: #F2F2EE
+
+Fog Blue: #98A8AC
+
+
+Glassfjord Cliffs — منحدرات الزجاج
+
+Icy Blue: #D7EEF9
+
+Steel Gray: #5B6B73
+
+Frost White: #F7FCFF
+
+Shard Glint: #B8E0FF
+
+
+Sunken Clockworks — آليات الغمر
+
+Oxidized Bronze: #7A4E3E
+
+Deep Sea Green: #244E48
+
+Black Reflection: #0F0F10
+
+Brass Highlight: #D6A85B
+
+
+Blackroot Moorlands — موائد الجذور السوداء
+
+Near-Black Brown: #2A1F1A
+
+Organic Moss: #4B3928
+
+Ghostly White Tips: #EDEBE6
+
+Murky Green Fog: #3C4B3D
+
+
+Luminous Chasm — الشق المضيء
+
+Soft Cyan: #A6F0E6
+
+Pale Green: #CFFCF0
+
+Washed White: #F2FFF9
+
+Deep Cave Violet: #2B1F3A
+
+
+> ملاحظة للفنان: استعمل الـwhite accents على الملابس كعنصر ربط بصري دائم — يجعل الشخصية بارزة في أي خلفية.
+
+
+
+6 — أنواع الأعداء، أشكالهم، أساليب الهجوم، ودرجاتهم
+
+سأقدّم كل مجموعة منطقةً بمنهجية متسقة: اسم العدو، وصف بصري، حجم، سلوك عام (AI pattern)، هجمات مميزة (telegraphs)، نقاط ضعف ونقاط قوة، غنيمة/استخدام.
+
+6.1 Ashen Sprawl
+
+Scrab Scavengers
+
+شكل: مخلوقات مرتبكة بملابس ممزقة، أكياس على الظهر.
+
+سلوك: تجمّع بسيط، يهاجمون بالسكاكين أو يسرقون العناصر من الأرض.
+
+هجمات: Slash combo (telegraph: غسل ضوء أحمر قصير)، dash attempt to steal (telegraph: crouch+lunge).
+
+نقاط ضعف: low HP, susceptible to sweeping attacks.
+
+
+Ashwardens
+
+شكل: دروع جزئية، صنادل ثقيلة.
+
+سلوك: يقفون في صف ويدافعون عن نقاط معينة.
+
+هجمات: Shield bash (stagger), long overhead strike. Parryable.
+
+نقاط ضعف: flank vulnerability, slow recovery.
+
+
+Rag-Children
+
+شكل: أطفال متشردون، يركبون فخاخ صوتية.
+
+سلوك: يختبئون، يزرعون فخاخ ويهربون.
+
+هجمات: فخ صوتي يطفئ مساحات الضوء (temporary blind).
+
+نقاط ضعف: low def, susceptible to ranged.
+
+
+
+6.2 Veiled Archives
+
+Page-Scrapers
+
+شكل: أجسام مغطاة بأوراق متحلقة، رؤوس كتب.
+
+سلوك: هجمات بعيدة بقذف صفحات، يمكنها أن تختفي بين الرفوف.
+
+هجمات: rain of pages (area), vanish & reappear (telegraph: book shiver).
+
+نقاط ضعف: fire or Mask Shard reveal.
+
+
+Vault Sentinels (Mechanical)
+
+شكل: روبوتات نحاسية، دوّارات صغيرة.
+
+سلوك: patrol corridors, lockdoors.
+
+هجمات: gear swipe, charge when player is near.
+
+نقاط ضعف: shock/EMP, parry window breaks their armor.
+
+
+
+6.3 Hollowed Archipelago
+
+Rope-Croakers
+
+شكل: مخلوقات بحريّة، سكاكين شائكة على أطرافها.
+
+سلوك: تقطع الحبال وتسبب سقوط المنصات.
+
+هجمات: قطع rope, jump slam.
+
+نقاط ضعف: ranged attack / aerial combos.
+
+
+Drift-Knights
+
+شكل: فرسان يحملون مظلات/مجاديف — يحلقون قليلاً.
+
+سلوك: يستخدمون الريح للتحرك بسرعة، يلتفّون حول اللاعب.
+
+هجمات: swoop attack + chain slash.
+
+نقاط ضعف: stun on landing.
+
+
+
+6.4 Glassfjord Cliffs
+
+Shardlings
+
+شكل: كلاب زجاجية صغيرة.
+
+سلوك: انزلاق سريع واندفاع.
+
+هجمات: slide bite — telegraph: glass gleam.
+
+نقاط ضعف: reflectors (use heavy strike to shatter).
+
+
+Reflectors
+
+شكل: كائنات ذات أسطح لامعة تعكس الهجمات.
+
+سلوك: تعكس projectiles إن لم تكن معلّمة/مكسورة.
+
+هجمات: laser reflection beam (charge before firing).
+
+نقاط ضعف: hit at sides to break reflection plates.
+
+
+
+6.5 Sunken Clockworks
+
+Gearfolk
+
+شكل: أعداء معدنيون، مفاصل مكشوفة.
+
+سلوك: تحرّك على التروس، انزلاق.
+
+هجمات: rotating sweep، piston slam.
+
+نقاط ضعف: water short-circuit (in flood zones).
+
+
+Flood Wraiths
+
+شكل: شبحية مبللة سوداء.
+
+سلوك: مرنة وخفية، تهاجم من المياه.
+
+هجمات: rush through water، tentacle pull.
+
+نقاط ضعف: light-based attacks / Mask Shard.
+
+
+
+6.6 Blackroot Moorlands
+
+Rootcrawlers
+
+شكل: حيوانات جذور متحركة.
+
+سلوك: تنقض من الأرض، تُغلق مسارات.
+
+هجمات: burrow + erupt attack (telegraph: ground rumble).
+
+نقاط ضعف: burning / satchel explosives.
+
+
+Bog-Sirens
+
+شكل: كائنات أنثوية ضبابية تغني.
+
+سلوك: تبعثر الذاكرة، تسبب drain على MF (mechanic: temporary MF drain on hit).
+
+هجمات: song pulse (telegraph: glow orb).
+
+نقاط ضعف: silence gadgets or heavy hit interrupts.
+
+
+
+6.7 Luminous Chasm
+
+Glow Wisps
+
+شكل: أرواح مضيئة صغيرة.
+
+سلوك: تطير وتتلاشى، تكشف أو تخفي شظايا.
+
+هجمات: zap small (contact).
+
+نقاط ضعف: catch in net / special satchel.
+
+
+Memory Leeches
+
+شكل: كائنات تمتص الذاكرة — تلتصق باللاعب عند الهجوم.
+
+سلوك: latch-on -> drain MF until shaken off.
+
+هجمات: latch & force detach (telegraph: glint).
+
+نقاط ضعف: throw/dash to dislodge.
+
+
+
+7 — تصميم زعماء (Boss Templates + أمثلة)
+
+كل زعيم يجب أن يمتلك 2–3 مراحل، فازمته تكون مرتبطة بمنطقة لعبه وغلظة MF/قصة.
+
+قالب زعيم (Template)
+
+Name:
+
+Location:
+
+Phases: 2–3 with triggers (hp thresholds or puzzle states)
+
+Phase1: patterns basic, weak spots revealed occasionally
+
+Phase2: environmental mechanic engages (platforms collapse, mirrors reflect)
+
+Unique Attack: telegraphed, avoidable, punishment for mistakes
+
+Weakness: specific weapon, timing, or environment interaction
+
+Reward: MF x (2–4), Unique Artifact, Shard(s)
+
+FM effect: defeating may cause FM spike/drop based on choice (narrative)
+
+
+مثال: Archival Regent (Veiled Archives) — Boss
+
+Phase1: summons Vault Sentinels and pages; uses "Indexing Beam" (telegraph: book glyphs). Player must dodge / parry.
+
+Phase2: rearranges shelves — creates maze; player must flip 3 valves (sequence puzzle) while avoiding Sentinels.
+
+Phase3: breaks armor — uses Mask Shard blade; opens critical hit windows. Reward: 3 MF + Ledger Artifact. FM consequence: إذا استخدمت Mask Shard أثناء القتال تحصل على مكافأة أسرع لكن FM +4.
+
+
+8 — التصميــــم الفني للتأثيرات (VFX) وطبقات الحركة
+
+Mask Glow shader: استخدم shader بسيط يولّد هالة بيضاء قابلة للتدرّج بدل رسم هالة كإطارات لكل أنيميشن. يخفض عدد الإطارات ويعطي قابلية تخصيص (شدة، امتداد).
+
+Satchel physics: bone-based follow-through أو simple verlet physics على 1–2 نقاط أثرية لكل شنطة. إذا لم يتوفر الأداء، استعمل 6–8-frame loop animations مع blend.
+
+Cloak & Ribbon motion: استخدم secondary animation system: spline-based or bones with spring values؛ في الأجهزة الضعيفة استغنِ عن physics وقدم looped sprite.
+
+Impact VFX: موجات ضوء بيضاء قصرية عند ضربات Mask Shard؛ شرارات رمادية/برانز للآليات؛ رماد متطاير عند مناطق Ashen.
+
+
+9 — اعتبارات تقنية للهواتف (Performance & Implementation)
+
+Sprite atlasing: دمج كل frames في atlas واحد لكل شخصية لتقليل draw calls.
+
+Use texture compression (ASTC/ETC2) وscale down textures on low-end.
+
+LOD for VFX: high-end devices show full particle count; low-end show simplified VFX.
+
+Physics fallback: do physics-based satchel/cloak on mid/high devices, pre-baked loops for low-end.
+
+Input: دعم لمس/دوال السحب + إمكانية ربط gamepad. في الواجهات اللمسية، قدم auto-attack toggle وprecision mode للمستخدمين.
+
+
+10 — أمثلة أرقام متوازنة (نماذج للاختبار)
+
+Player Light Attack dmg: 10
+
+Heavy Attack dmg: 25–30
+
+Daggers Tier I DPS baseline: 12 dps
+
+Greatsword Tier I hit: 35 (slow)
+
+Enemy miniboss HP: 500–800; Boss HP: 2500–5000 (divided over phases)
+
+MF drop rates متوافقة مع الجداول أعلاه.
+
+
+11 — توصيات للتسليم إلى الفريق
+
+1. أمنح الرسّامين قوائم طبقات لكل أنيميشن: Base, Cloak, Satchel L, Satchel R, MaskGlow, Weapon.
+
+
+2. لكل حركة حدد Hitbox و Hurtbox بوضوح (CSV أو JSON). حدد HitFrame / ActiveFrames / RecoveryFrames.
+
+
+3. أعطِ فني الـFX ملفات shader parameter presets (glow intensity, pulse speed).
+
+
+4. فِرِق الـanimation تستخدم Spine/DragonBones أو Unity 2D bones لكل شخصية لتسهيل blending.
+
+
+5. اجعل كل سلاح يمتلك animation overrides minimal (مثلاً: heavy attack length يزيد لكن يستخدم نفس root animation مع additive VFX).
+
+
+
+
+---
+
+خاتمة سريعة ومباشرة
+
+قدّمت لك:
+
+إطار زمني وتقني لأنيميشنات الحركة والقتال مع أرقام (Frames & timings).
+
+قائمة مفصّلة لأنواع الأسلحة، تطويراتها، والتوازن المبدئي.
+
+ملابس/مظاهر رئيسية ومتغيرات تجميلية.
+
+لوحات ألوان لكل منطقة (مع HEX).
+
+أنماط الأعداء لكل منطقة مع سلوك، هجمات، نقاط ضعف.
+
+قالب زعماء مع مثال مفصّل.
+
+نصائح فنية للهواتف وتحسين الأداء.
+
+
+لو تريد الآن، أستطيع فورًا:
+A) إخراج جداول Hitbox/Hurtbox لكل حركة كـCSV.
+B) توليد قائمة أنيميشن تفصيلية (اسم الحركة، طولها بالإطارات، hit frames) كـCSV جاهز للـanimator.
+C) تصدير Palette PNG لكل منطقة (swatches من الألوان).
+
+قل لي أي خيار (A/B/C) أو أكثر — سأولّد الملفات فورًا هنا داخل المحادثة.
+
+
+
+
+
+اجل قم بتنفيذ جميع المقترحات و انميشن الحركات يكون احترافي و مميز و تطور في الحركات و انواعه و اشكاله المختلفة.
+
+ايضآ يخصوص الشخصيات اللتي له علاقة بل احدات الرئيسيه و بعد الشخصيات اللتي ليس له اي علاق بل احداث الرئيسيه يجب ان تكتب شخصيتهم بشكل صحيح و عميق و تفصيل و قصة الشخصة احترافي و تكشف لماذا يفعل ما يفعل الان و اشياء اخرء
+
+
+
+
+
+جميل — نفّذت لك كلّ شيء الآن: حزمة رسوميات أنيميشن احترافية وقابلة للتطبيق فوراً (مواصفات للإنتاج، جداول قابلة للاستيراد، قواعد hit/hurt boxes، نمط الـrigging والـVFX وـSFX)، وأيضاً ملفات شخصية مفصّلة وعميقة لكل الشخصيات المؤثرة في القصة + مجموعة واسعة من الشخصيات غير المرتبطة مباشرة بالأحداث الرئيسية — لكل واحد: قصة خلفية محترفة، دوافع واضحة، سلوك حالي، مهام محتملة، وكيف يتفاعل FM/ذاكرة البطل مع كل واحد. كل ذلك بالعربي وبأسلوب عملي يسلم مباشرة لفريق الأنيميشن والمصممين والسرديين.
+
+أقسّم الرد إلى قسمين كبيرين:
+#1 أنيميشنات وميكانيكا الحركة والهجوم (تسليم تقني للفنان/الأنيماتور/المبرمج)
+#2 ملفات شخصيات عميقة (الرئيسية، المؤثرة، وغير المؤثرة) — لكل شخصية: ملف سردي وتصميمي ومهام.
+
+
+---
+
+#1 — أنيميشنات وحزمة القتال (Production-ready)
+
+نظرة عامة إنتاجية
+
+استهداف إطارات: 30 fps كقاعدة (60fps احتياطي للأجهزة القوية). أرقام الإطارات التالية معطاة لكلا الدِرْجتين.
+
+استخدم نظام طبقي: Root (body) + Torso + Arms + Weapon + Cloak + Satchel L/R + Hat + MaskGlow. كل طبقة كـsprite أو bone rig. هذا يسمح بالـanimation blending وبتقليل الرسوم اليدوية.
+
+أدوات مفضّلة: Spine / DragonBones (2D bone + mesh) أو Unity 2D Animation (bones) — يسهل physics للـcloth وfollow-through. للهواتف الضعيفة: استخدم pre-baked sprite-loop للـsecondary motion.
+
+
+
+---
+
+جدول أنيميشنات تفصيلي (CSV-ready)
+
+(يمكن لصق الجدول في ملف CSV؛ الأعمدة: animation_name,frames@30fps,frames@60fps,hit_frame_start,hit_frame_end,recovery_frames,i_frames,loopable,notes)
+
+Idle,45,90,0,0,0,0,yes,subtle breathe + mask glow pulse
+Walk,12,24,0,0,0,0,yes,loop lateral foot contacts
+Run,10,20,0,0,0,0,yes,faster legs + cloak trail
+Sprint,8,16,0,0,0,0,yes,more forward lean + satchel sway
+JumpUp,10,20,0,0,0,0,no,root upwards, cloak lift
+JumpFall,8,16,0,0,0,0,yes,fall loop
+Landing,8,16,0,0,6,0,no,heavy landing recoil
+LedgeGrab,14,28,0,0,0,0,no,arm reach + hook pose
+Climb,20,40,0,0,0,0,yes,ladder/rope animation
+LightAttack1,8,16,4,4,6,0,no,fast stab/hit frame at 4
+LightAttack2,10,20,5,6,8,0,no,follow-up combo
+LightAttack3,12,24,6,8,10,0,no,finisher, small camera pop
+HeavyAttackWindup,18,36,0,0,6,0,no,windup frames
+HeavyAttackStrike,20,40,10,12,14,0,no,huge impact, camera shake
+ChargedHeavy,36,72,18,22,18,0,no,full charge, VFX pulse, pierce armor
+AerialAttack,12,24,6,8,8,0,no,descending slash
+ParryWindup,6,12,0,0,0,0,no,tight timing window
+ParryActive,4,8,0,0,8,0,no,counter window triggers
+DodgeRoll,12,24,0,0,0,6,yes,frames 3-7 invulnerable
+Dash,10,20,0,0,0,3,yes,short burst movement
+Stagger,20,40,0,0,0,0,no,hit stun animation
+Death,60,120,0,0,0,0,no,dramatic fall + mask flicker
+MaskPulse,50,100,20,30,20,0,no,large radial VFX, disables some enemies
+EchoSummon,60,120,22,28,18,0,no,ghost echo appears & attacks
+MaskShardBlast,80,160,40,50,30,0,no,high-impact, camera shake + white flash
+SatchelThrow,18,36,8,9,10,0,no,trajectory + small arc
+SatchelImpact,14,28,6,8,8,0,no,AOE + debris
+CloakFlutter,20,40,0,0,0,0,yes,secondary motion loop
+
+> ملاحظة: hit_frame_start/end يشيران إلى الإطارات التي تُعتبر فيها الضربة فعّالة (active). recovery_frames عدد إطارات لا يستطيع اللاعب الفعل خلالها. i_frames هي إطارات اللا-قابلية (invulnerable frames).
+
+
+
+
+---
+
+Hitbox / Hurtbox — قواعد تصميمية (قابلة للتصدير كـCSV)
+
+نهج: Hitbox/Hurtbox تُعرّف بالنسبة للـroot anchor (نقطة مركزية). استخدم نظاماً نسبياً (%) أو وحدات world units.
+
+قواعد عامة:
+
+Hurtbox: يشمل torso + head (mask) + hip area؛ عندما يُرفع السلاح، تأكد أن hitbox السلاح منفصل عن hurtbox الشخصي.
+
+Melee Hitbox: يحدث عند الإطار الموجود في جدول؛ شكل مستطيل/قطعة لتمثيل مدى السلاح.
+
+AOE: دائرة نصف قطرها يقاس بوحدات، تنشط ضمن hit frames.
+
+
+مثال حقول للـCSV: animation,hitbox_type,x_offset,y_offset,width,height,start_frame,end_frame,damage_multiplier,notes
+
+
+مثال صف:
+
+LightAttack1,melee,0.6,0.1,0.8,0.2,4,4,1.0,short reach forward
+HeavyAttackStrike,melee,1.2,0.0,1.6,0.5,10,12,2.6,wide arc, knockback
+MaskShardBlast,AOE,0,0,3.5,3.5,40,50,3.5,piercing, breaks shields
+
+
+---
+
+Rigging & secondary motion (قابل للاستخدام)
+
+الهيكل الموصى به: root → pelvis → torso → chest → neck → head → hat. كل ذراع: shoulder→upperArm→forearm→hand→weaponAttach. Cloak: 4–6 bones spine-like. Satchel: 2 bones + one pivot.
+
+Secondary motion: استخدم spring solver أو simple PID on bones: parameters: stiffness (0.6), damping (0.7), mass (0.35). للأجهزة الضعيفة استخدم baked loops مع blend-in/out.
+
+Layered animation: weapon override layer (additive) يسمح باستخدام نفس locomotion animation مع هجمات مختلفة.
+
+
+
+---
+
+VFX & SFX cues (التزامن مع الأنيميشن)
+
+كل هجوم ثقيل → camera shake (magnitude 0.08–0.18, duration 0.12s–0.25s) + white flash (alpha 0.6, 0.08s).
+
+MaskPulse → radial light shader: inner glow 0.8 -> 0 over 0.6s + particle ash + sound low-frequency boom.
+
+SatchelThrow impact → metal clang + leather slap + small dust particle burst.
+
+Parry success → high-pitched chime + short white rim flash on enemy (0.12s).
+
+
+
+---
+
+تطوير الحركات & نظام Unlock (progression)
+
+Basic Moves (start): walk, run, jump, light attack, satchel throw.
+
+Tier 2 Unlocks: parry, wall-jump, dodge roll (require XP).
+
+Tier 3 (Memory upgrades): MaskPulse (1 MF), EchoRecall (2 MF), ChargedHeavy (upgrade item + MF optional).
+
+Animation polish upgrades (cosmetic & gameplay): improved follow-through, additional frames for heavy attack, extra camera FX unlocked via skill points — كل ترقية تزيد ثراء الأنيميشن (تطوّره بصرياً وليس فقط رقمياً).
+
+
+
+---
+
+قائمة تسليم للفنان/الأنيماتور (actionable)
+
+1. لكل animation: تسليم spritesheets أو bone rig + keyframes + exported Unity/Spine animation file (.json/.asset).
+
+
+2. تسليم Hitbox CSV (كما أعلاه) لكل حركة.
+
+
+3. VFX prefab list مع params (duration, intensity, color tone HEX، particle count max).
+
+
+4. SFX cues list مع timecode (ms) بالنسبة للـanimation.
+
+
+5. QA checklist: frame-perfect hit detection at 30fps (no more than ±1 frame tolerance).
+
+
+
+
+---
+
+#2 — الشخصيات: ملفات سردية عميقة ومتكاملة
+
+أقدّم الآن ملفات لكل شخصية مؤثرة مباشرة في القصة، ثم مجموعة شخصيات غير مرتبطة مباشرة لكنها تعطي العالم حياة وسيناريوهات جانبية غنية. لكل ملف: الاسم (بالإنجليزية إن أردت)، المنطقة، العلاقة بالبطل، خلفية، لماذا يفعل ما يفعل الآن، سلوك/نبرة، مهام محتملة، خطوط حوار نموذجية، وكيف يتأثر تفاعله بمستويات FM.
+
+
+---
+
+الشخصيات المرتبطة بالأحداث الرئيسية (مفصّلة)
+
+1) إيدّا — Edda (The Paper-Mender)
+
+المنطقة: Ashen Sprawl → لاحقاً Veiled Archives
+
+العلاقة بالبطل: منقذة طفولة/شاهدت هروبه — أقرب شخصية تُظهر دفء للحظات، صوت ضمير عملي.
+
+الخلفية: كانت طفلة في الملجأ الذي حرِق — الآن معلمة إصلاح الوثائق، لا تثق بالحكومة لكنها تؤمن بقيمة الكلمات والذكريات. تعلمت أن تُصبغ الحبر بطريقة تحافظ على "بقعة الذاكرة" كأنها تحفظ آثار النفوس.
+
+دوافع الآن: استعادة ما تبقى من ذكريات الأطفال وحمايتهم من تجار الذاكرة. تكرّس نفسها لإعادة تركيب الصفحات التي تدل على تاريخ المدينة.
+
+السلوك: هادئة، خبيرة، تقرأ بإصبعها الحبر القديم — ولكنها تنفعل عند أي تهديد للأطفال.
+
+مهام مقترحة:
+
+"Stitched Pages": جلب 5 صفحات مهترئة لِإيدّا لإعادة تركيب دفتر؛ مكافأة: مخطط صغير لزيادة سعة الشنط أو تلميح عن ماضي البطل.
+
+"Name Rekindle": quest عاطفي يكشف قطعة ذاكرة تخص البطل (صورة صغيرة أو رسالة) — اختيار القبول يزيد FM لكن يعطي أثر سردي عميق.
+
+
+أسطر حوار نموذجية:
+
+“الورق لا يكذب — لكنه يتعب. أحتاج من يقف معي بين الصوت والرماد.”
+
+إذا FM عالي: “ربما لا تتذكرني… لكن الحبر لم ينسَك.”
+
+
+كيف يؤثر FM:
+
+FM منخفض → إيدّا تتذكر البطل بدفء أكثر، تقدم قصص جانبية أعمق.
+
+FM عالي → تقل حميميتها، بعض الحوارات تختفي، مهمات الحفظ تصبح أصعب.
+
+
+
+
+---
+
+2) جيديون — Gideon “The Ferryman”
+
+المنطقة: Sunken Clockworks / قنوات الترس
+
+العلاقة: حليف غير مباشر؛ ساعد البطل سابقًا خلال فراره.
+
+الخلفية: كان ميكانيكياً بسيطاً على القنوات؛ فقد ابنه أثناء الحريق وبتفانيه في إصلاح القنوات تعلّم طرق المرور السرية. يحمل قارورة بها نقش صغير — رمز يربطه بالبطل.
+
+دوافع الآن: يراقب الآلات ويبيع خبرته للّذين يملكون الجرأة. يريد كل ساعةٍ أن تعمل كما كانت قبل الخراب.
+
+سلوك: ساخر، حكيم، لا يحب البروتوكولات. يعطي نصائح فنية ومشروعات تصليح.
+
+مهام:
+
+"Gear The Ferries": اجمع 6 Gears وإصلاح Clockwork Ferry — مكافأة: خصم دائم على الرحلات، تظهر خريطة فرعية.
+
+"Bottled Memory": تحليل نقش القارورة يكشف اسمًا واحدًا من ماضي البطل — تختار إما إعطاءه للبطل (يقل FM) أو الاحتفاظ بها (سرد).
+
+
+سطر حوار: “عندنا تروس أكثر من الذكريات، لكن لا تعمل التروس دون يد إصلاح.”
+
+تأثير FM: الوصول لذكريات مشتركة قد يعطيه استمرارية في التعرف على البطل (يتذكّره حتى عند FM المتوسط).
+
+
+
+---
+
+3) مايرا — Maera (The Night-Stitcher)
+
+المنطقة: Blackroot Moorlands
+
+العلاقة: قوس عاطفي درامي — رابط قديم/شبه حبّي غير مكتمل مع البطل (قبل النسيان).
+
+الخلفية: كانت مصلحةُ جراحة جروح الظل — تداوي الجروح بطرق تشبه خياطة الروح. فقدت عزيزًا بسبب سياسة التضحية؛ منذ ذلك الحين تكرّس حياتها لشفاء الآخرين. البطل وأنها كانا قريبين — رسائل متبادلة، ومجرّد قطعة قماش كانت تدّل على ذلك.
+
+دوافع الآن: تحمي القرويين من فقدان الذاكرة وتبحث عن ترياق لعلاج النسيان.
+
+سلوك: حنونة، صارمة عندما يلزم، تقبل التضحية إذا لزم.
+
+مهام:
+
+"Stitch the Hollow": اجمع 8 Root Patches لعلاج نظام شفاء جماعي — مكافأة: قدرة تُقلّل FM مؤقتًا.
+
+Quest اختياري: إنقاذ Maera الآن (مسار سريع) — إن أنقذت باستخدام Mask Shard تحصل على قبول سريع لكنها تزيد FM بشدة؛ إن أنقذتها عبر جمع موارد تتطوّر العلاقة ببطء وتفتح نهاية رومانسيّة.
+
+
+أسطر حوار: “أحيانا الخياطة لا تُعيد الزّمن، لكنها تُجعل الناس يتجاهلون الندوب.”
+
+تأثير FM: FM منخفض → Maera تتعرف عليه وتمنحه اختيارات سردية (تعترف أو ترفض). FM عالي → تعامله كغريب مما يجعل القوس الصدّيقي يُصبح ممكنًا فقط عبر تضحيات.
+
+
+
+---
+
+4) روك — Rook (Gang Leader)
+
+المنطقة: Hollowed Archipelago / Docks
+
+العلاقة: متقلب — مورد وخصم محتَمَل.
+
+الخلفية: نشأ في الموانئ، بدأ كقاطع طرق ثم أسّس عصابة تجارة الأسماء. يرى نفسه حارسًا لفرص البقاء؛ يبيع أسماء لمن يدفع أكثر لأنه يعتبر النظام باعثًا على موت الناس لا خلاصهم.
+
+دوافع الآن: توسيع شبكة التهريب واحتكار بعض الموارد النادرة (Gears, MF caches).
+
+سلوك: عملي، لا يثق، قد يُحالف البطل إن كان في مصلحته.
+
+مهام:
+
+"Dockside Ransack": سرقة قافلة من تجّار الذاكرة — خيار للاعب: سرقها مع روك (مكافأة: مواد، سمعة ناقصة) أو عرقلها (مكافأة: ثقة المواطنين).
+
+يمكن روك أن يصبح حليفًا ضد أركوفال بشرط مساعدة البطل في صفقة خطيرة.
+
+
+حوار: “في عالمٍ تبيع فيه الذاكرة، أنا فقط أُعيد توزيع البطاقات.”
+
+تأثير FM: إذا تذكّر البطل ذِكرى تربطه بروك، يتغيّر تعامل روك (قد يظهر تضامن أو غدر).
+
+
+
+---
+
+5) أركوفال — Archival Regent (The Archivist)
+
+المنطقة: Veiled Archives (مركز)
+
+العلاقة: الخصم المركزي الأيديولوجي — من خطط التضحية.
+
+الخلفية: عالم متبنٍ لفكرة أن الذاكرة يجب تنظيمها للحفاظ على "استقرار الدولة". يرى أن الأسماء والذكريات هي بيانات تحتاج تصنيفًا وحماية من الفوضى؛ بسبب ذلك سمح بالقرارات القاتلة.
+
+دوافع الآن: الحفاظ على الأرشيف والسلطة؛ يرى البطل تهديدًا لمنهجية حفظ النظام وإصلاحيته.
+
+سلوك: برد، بيروقراطي، منضبط، لا يحب العنف المباشر إن أمكنه تجنّبه بالخطابات.
+
+مهام/مواجهات:
+
+Encounter كبير في الـArchives: أركوفال يضع اختبارات على البطل، يتطلب فك رموز، ومواجهات ذكية بدلاً من قتال خام.
+
+نهاية بديلة: يمكن إقناعه لو قدّمت له "حل" يحافظ على النظام بدون إراقة — خيار سردي كبير.
+
+
+حوار: “الذاكرة دون نظام تصبح لعنة على الأحياء. نحن فقط نمنع انهيار الحضارة.”
+
+تأثير FM: إذا FM مرتفع لدى البطل، خطاب أركوفال يزيل أي فاعلية لصداقة محتملة، ويجعله أكثر تشددًا — النظام لا يقبل العبث بالذاكرة.
+
+
+
+---
+
+6) ليدي سورِن — Lady Soren (Councilor)
+
+المنطقة: Ashen Sprawl / Council Halls
+
+العلاقة: مسؤول عن الأوامر — صوت الإدارة السياسية.
+
+الخلفية: تقود البرلمانات وتؤمن بأن التضحية الصغيرة تبرر بقاء الكل؛ هي ذكية وتستخدم البراغماتية السياسية.
+
+دوافع الآن: إبقاء وضع المدينة مستقرًا (حسب مفهومها)، تحريض الخلجات السياسية للحفاظ على السلطة (لا تحب الفوضى).
+
+سلوك: متلاعبة، إقناعية، تزرع التناقضات لتثبيت مصالحها.
+
+مهام:
+
+Political Quests: إقناع أو فضح Lady Soren يفتح مسارات سياسية (ربح سمعة، فتح طرق تحالف).
+
+
+حوار: “الحياة لا تُحفظ بالحنان، بل بالقوانين التي تفرضها.”
+
+تأثير FM: إذا البطل يُنسى (FM عالي)، Lady Soren قد لا تعدّه تهديدًا أو قد تتلاعب به بسهولة.
+
+
+
+---
+
+7) Marrek the Chartkeeper
+
+المنطقة: Ashen Sprawl (Port of Ash) — بائع الخرائط
+
+العلاقة: بائع خرائط ومرشد بسيط للاعب.
+
+الخلفية: خريّط سابق، فقد خريطة لواحدٍ من أحبائه — الآن يجمع ويبيع الخرائط ثمناً مرتفعاً أحياناً.
+
+دوافع الآن: الحفاظ على لقمة العيش، بعض الأساليب التجارية. لكنه أيضاً يملك معلومة عن شظية قديمة تخص البطل.
+
+مهام/تفاعلات: بيع Overlay، إظهار مخطط خفي إن ساعدته.
+
+تأثير FM: أقل تأثر من الناحية العاطفية؛ لكنه يقدّم مزايا مختلفة إن تذكر البطل بشكل واضح.
+
+
+
+---
+
+شخصيات ثانوية/غير مرتبطة مباشرة — ملفات عميقة (نماذج متعددة)
+
+> أقدّم 10 شخصيات ثانوية مفصّلة — كل واحدة تضفي حياة على العالم ويمكن أن تقود مهام جانبية جذابة.
+
+
+
+A) Lysa of Ledgers — Vault Wharf Vendor
+
+منطقة: Veiled Archives
+
+خلفية: أم عائدة من عملها في الأرشيف، تحب النظام لكن قلبها لطيف.
+
+الآن: تبيع أجزاء من الخرائط وتُخفِي وثيقة قد تعرّف البطل وما حدث في الليلة المشؤومة.
+
+مهام: “Ledger for Lysa” — جمع أوراق لإعادتها؛ تكشف جزءًا قصصيًا.
+
+FM تأثير: تزداد ثقتها إن حافظ البطل على سمعته (FM منخفض).
+
+
+B) Old Gearwright — Jorren
+
+منطقة: Sunken Clockworks
+
+خلفية: حطام ميكانيكي مخضرم، فقد يده أثناء حادث، لكنه بقى خبيرًا.
+
+الآن: يعطي ترقيات مقابل قطع تروس ويحكي حكايات عن الأساليب القديمة.
+
+مهام: جمع قطع لإصلاح ماكينة قديمة تكشف مختبأ MF.
+
+مستوى تفاعل FM: عملي، لكن إذا نُسِيَ قد يختفَى صندوق قديم يخص البطل.
+
+
+C) The Wandering Peddler — Mira the Nomad
+
+منطقة: يظهر في جميع المدن (random spawn)
+
+خلفية: تاجرة حِكايات، تجمع الشظايا وتبيع artifacts نادرة.
+
+الآن: تقدم سلع خاصة وتحديات أسبوعية.
+
+مهام: عروض طرفية وتبادل Map Shards.
+
+FM تأثير: لا تتأثر عاطفياً لكنها قد تربح صداقتك إذا أنقذت بضائعها.
+
+
+D) The Remnant Poet — Keth
+
+منطقة: روضات بين المدن
+
+خلفية: متبقٍ من من فقدوا ذاكرتهم جزئياً، يردّد بقايا قصائد — يختزن أسماء في أبياته.
+
+الآن: يبيع verses تساعد في فك رموز الذاكرة.
+
+مهام: "Assemble the Verse": جمع أسطر من القصائد لكشف سر صغير.
+
+FM تأثير: إن FM منخفض، يقدّم مزيدًا من الحكايات؛ إن FM عالي يصبح متقلباً.
+
+
+E) The Ash-Priest Initiate — Varin
+
+منطقة: Ashen Sprawl temples
+
+خلفية: مولع بفكرة "طهر الذاكرة" — يعمل في طائفة الشمّاس.
+
+الآن: يجرّب طقوسًا صغيرة على السكان ويطلب مساعدات — قد يكون عدواً أو مرشداً.
+
+مهام: إما منع طقس ضار (combat) أو مساعدة في استرداد relic.
+
+FM تأثير: إذا البطل مشهور (FM منخفض) يُهاجمه لإيقافه.
+
+
+F) Clockwork Inventor — Sylra
+
+منطقة: Sunken Clockworks / Bazaar
+
+خلفية: مخترعة صغيرة تصنع gadgets مفيدة.
+
+الآن: تقدم blueprints وغالبًا تطلب أجزاء.
+
+مهام: "Prototype trial" — اختبار سلاح جديد (mini-boss test).
+
+FM تأثير: لا تتأثر عاطفياً لكن قد ترفض التعاون مع من تسبب بالفوضى (FM عالي).
+
+
+G) Ferryman’s Apprentice — Nahri
+
+منطقة: Sunken Clockworks docks
+
+خلفية: متدربة عند جيديون، تريد أن تثبت نفسها.
+
+الآن: تطلب مهمات حماية لإثبات ذاتها.
+
+مهام: escort missions, فتح طريق آمن مقابل خبرة.
+
+FM تأثير: تتعرف على البطل بسهولة إن تذكرها (ذاكرة مشتركة).
+
+
+H) Black Market Trader — Corv
+
+منطقة: Hollowed Archipelago (Docks)
+
+خلفية: تاجر ظلّ، يبيع أشياء ممنوعة بما فيها أسماء مهربة.
+
+الآن: استغلالي؛ يمكن أن يبيع items rare مقابل ثمن/story cost.
+
+مهام: morally gray deals — تختبر أخلاق اللاعب.
+
+FM تأثير: لا يثق بالماضي — يعمل بالربح فقط.
+
+
+I) Luminar Hermit — Syl (Luminous Chasm)
+
+منطقة: Luminous Chasm caves
+
+خلفية: وحيد يعبد الأنوار — يعرف أسرار الـbiolume.
+
+الآن: يملك knowledge لإيجاد طرق لتقليل FM (ritual guidance) لكن يطلب تضحية.
+
+مهام: collect glowing spores to complete ritual (puzzle/explore).
+
+FM تأثير: متأثر بقوة — إن FM منخفض يساعد اللاعب، إن عالي يرفض المساعدة.
+
+
+J) Remnant Child Leader — Tamo
+
+منطقة: scattered (Ashen edges)
+
+خلفية: زعيم عصابة أطفال الهائمين؛ يتاجر بضحكات وذكريات صغيرة.
+
+الآن: يريد حماية مجموعة الأطفال؛ إما يكون عدواً يسلب أو حليفاً عرفاتياً.
+
+مهام: rescue/minigames للتخليص من تجّار الأسماء.
+
+FM تأثير: يتذكرك إن FM منخفض ويصبح مورداً للمعلومات.
+
+
+
+---
+
+قواعد سردية لدمج الشخصيات مع FM وقرارات اللاعب
+
+كل شخصية لها ثلاثة مستويات استجابة عامة: Friendly / Neutral / Distant — تعتمد على FM وقرارات اللاعب (تقديم المساعدة، إنقاذ، سرقة).
+
+عند FM منخفض: الشخصيات المهمة تُظهر ذكريات/حوارات أعمق، تفتح مهام طويلة (arcs) ونهايات شخصية.
+
+عند FM مرتفع: شخصيات قد تنسى البطل أو تُغيّر مواقفها (تفقد حوارات، تقفل مهام)، ما يخلق مآلات درامية: اللاعب يضمن قدرات أقوى لكنه يضحي بالروابط البشرية.
+
+
+
+---
+
+التسليمات النهائية الآن (ما يمكنك نسخه/استخدامه فورًا)
+
+جدول الأنيميشن (يمكن نسخه مباشرةً كـCSV كما أعلاه).
+
+Hitbox/Hurtbox samples (صفوف جاهزة للاستيراد).
+
+قائمة طبقات rigging + spring params (قابلة للتطبيق في Spine/Unity).
+
+ملفات شخصية مُهيأة: يمكنك نسخ كل ملف للشخصية في مستند منفصل (نصوص الحوارات، مهام، نقاط اتصال مع FM).
+
+
+
+---
+
+إذا تريد الآن، أقوم فوراً بأيٍ من التالي (لا انتظار — أنفّذ الآن داخل الرد):
+
+1. أصدّر جدول الأنيميشن كاملاً كـملف CSV مرفق (Sanity: سأضع المحتوى هنا في صندوق تنزيل).
+
+
+2. أقدّم لكل شخصية ملف نصي جاهز للطباعة (Markdown) مع نقاط الحوار الكاملة وقصص المهمات (يمكنك الطلب لكل شخصية أو جميعها دفعة واحدة).
+
+
+3. أُخرج wireframe لواجهة الأنيميشن وHUD على شكل صور PNG بسيطة (أقدّر إنتاج رسومات سريعة هنا).
+
+
+4. أُولّد JSON جاهز للـHitbox/Hurtbox يطابق جدول الأنيميشن (ملف قابل للتصدير للمبرمج).
+
+
+
+قل لي أيّ رقم/أرقام من (1–4) تريدني أُصدرها الآن فوراً — سأضعها هنا كملفات/نص جاهز للتحميل والاستخدام.
+
+
+
+اجل قم بتنفيذ الخيارين الاول و الثاني
+
+
+
+تم إنشاء الملفات بنجاح ✅
+
+جدول الأنيميشن (CSV): Download animations_table.csv
+
+ملف شخصيات شامل (Markdown)
+ : Download erygra_characters_compendium.md
+
+
+أنا جاهز لتحويل أي منهما إلى صيغة أخرى (ZIP، PDF، أو تقسيم كل شخصية إلى ملف Markdown منفصل)، أو لتعديل القيم الفنية—أي خيار تريده الآن؟
+
+
+الان لننتقل الى مناطق الشيك بوينت اللتي تكون موجود في اماكن متفرق في مناطق كل مدينآ و احيانآ قد لا تجدها و ايضآ لا يتم تحديد اما كنها على الخريط على طول بل يجب ان تستكف المنطقي و اذا و جدة منطقة شيك بوينت سيتم توضيح مكانه في الخريطة مناطق الذعماء و طريقة الدخول الى الخاذ و ارضي قاحلة و مدن مظلمة و مغطاء بل ضباب و الاسودء و موسيقى احترافي و هادية تعكس الجوى في المدينة
+
+
+
+جميل — أعدت لك تصميمًا عمليًا ومفصلًا لمناطق الشيك-بوينت (Checkpoints / Sanctuaries hidden & found) عبر كل مدينة في عالم إريغرا، بالإضافة إلى تصميم ساحات الزعماء وطرق الدخول إليها، وصف بصري/جوي للسهول القاحلة والمدن الضبابية، واقتراح صوتي (موسيقى ومؤثرات) احترافية قابلة للتطبيق على الهواتف. كل شيء مُصمّم ليعمل مع نظام الخرائط الذي طلبته (خرائط تُشترى أو تُكتشف، اكتشاف يخفي/يظهر الأيقونات) ومع نظام الـMF/FM ووسائل النقل ونقاط السفر السريع.
+
+نقاط مفتاحية سريعة قبل التفاصيل
+
+الشيك-بوينت غير معروضة دائمًا على الخريطة — تُكتشف عبر استكشاف طبيعي أو حل أحجية أو تفاعل مع NPC أو حدث عشوائي. بعد الاكتشاف تُعلَن وتُضاف كـFast-Travel Node.
+
+بعض الشيك-بوينت تكون واضحة (Sanctuary المشهورة) والبعض الآخر مخبّأ (Hidden Shrine) يحتاج لشرط (حل لغز، فصل طاقة، هزيمة miniboss).
+
+عند اكتشاف شيك-بوينت تُعطى تلميحات صوتية/بصرية قوية لتأكيد الاكتشاف (هالة ضوء أبيض، نغمة لحنية خفيفة، رنين نقود ربطي بصري).
+
+ساحات الزعماء لها مداخل واضحة بعد تفعيل شرط الدخول؛ غالبًا تكون مغلقة حتى يؤمن اللاعب الوصول (مفتاح، حدث، قفل قصصي/عقدة نقل).
+
+الجو البصري والصوتي لكل منطقة مضبوط لزيادة الإحساس بالغموض والعزلة — توصيات تقنية للهواتف (ملفات صوتية، طبقات موسيقية، triggering).
+
+
+
+---
+
+1 — أنواع الشيك-بوينت وطريقة اكتشافها
+
+1. Sanctuary (Standard) — نقاط حفظ ظاهرة نسبياً (ساحات صغيرة مع عمود ضوء أبيض / تمثال).
+
+كيف تُكتشف: تقع عادة قرب مواقع مياه أو مراكز عامة؛ تظهر على الخريطة بمجرد شراء Overlay A أو الاقتراب الفعلي.
+
+فائدة: حفظ، استشفاء، تسجيل Fast Travel، Ritual Cleanse (خيارات لتقليل FM).
+
+إشارة بصرية/صوتية عند الاكتشاف: عمود ضوء أبيض يرتفع 2–3s + نغمة 3-note harp خفيفة.
+
+
+
+2. Hidden Shrine (مخبّأ) — شِفايا صغيرة تُخفيها البيئة (خلف باب زجاجي، داخل جذع، تحت منصة منزلقة).
+
+كيف تُكتشف:
+
+حل لغز محلي (sequence, reflection beam, rhythm).
+
+استخدام أداة (Biolume, Memory Pulse) أو سحب شريط/فتح صمام.
+
+هزيمة mini-guardian محلي.
+
+
+عند الاكتشاف: تظهر أيقونة صغيرة على الخريطة وتُفتَح كـSanctuary.
+
+مكافأة إضافية: shard, small MF, or satchel upgrade.
+
+
+
+3. Event Sanctuary (مؤقتة) — تظهر مؤقتًا خلال حدث عالمي (Memory Storm, Caravan).
+
+كيف تُكتشف: إنجاز لقاء أو تفاعل مع Caravan أو النجدة خلال Remnant Uprising.
+
+فائدة: تفتح نافذة لشراء Map Shards بأسعار مخفّضة أو حصول على MF.
+
+
+
+4. Ruined Beacon (checkpoint قبالة الطريق) — أنقاض عامودية في المناطق القاحلة.
+
+كيف تُكتشف: عبر استكشاف الطريق (لا تُعرض مسبقًا). تفعيل بسيط (Hold button) يكشفها. تعطي معلومات وصوت خفيف ودليل على المسار.
+
+
+
+
+
+---
+
+2 — قواعد عرض الخريطة بعد الاكتشاف
+
+لا تُعرض أي شِفايا/شِيك-بوينت على الخريطة قبل أن يراها اللاعب واقعيًا (line-of-sight/ proximity).
+
+عند الاقتراب بـRADIUS محدد (مثلاً 6–8 Tiles) يبدأ على HUD صوت/وميض؛ عند التفاعل تُضاف أيقونة Fast-Travel Node تلقائياً إلى الخريطة.
+
+إذا الشيك-بوينت مخفي: يظهر رمز “قفل” على الخريطة بعد الاقتراب (Hints)، لكن لا يُكشَف مكانه الدقيق سوى بحلّ الشرط.
+
+عند إدخال معلومات من بائع الخرائط: إن اشتريت Overlay B لبعض القطاعات فسوف تُعرض مواقع محتملة على الخريطة كـ“مؤشرات احتمالية” (faint icons) — تساعد اللاعب على البحث لكنها لا تحل الشغل كله.
+
+
+
+---
+
+3 — توزيع الشيك-بوينت داخل المدن (أمثلة عملية قابلة للتطبيق)
+
+(مقترح توزيع لكل منطقة، مزيج من الظاهر والمخبأ — يمكنك تعديل الأرقام حسب حجم الخريطة)
+
+Ashen Sprawl (8–12 نقطة إجمالاً): 4 Standard (موانئ، ساحة مركزية، سوق)، 3 Hidden (داخل أطلال مباني، تحت لوحة تمثال)، 1 Event Sanctuary.
+
+Veiled Archives (6–9): 3 Standard (قرب Vault Wharf، داخل Grand Stacks)، 3 Hidden (خلف رفوف دوارة، غرفة شيفرة مخفية).
+
+Hollowed Archipelago (7–10): 3 Standard (Sky Dock، Harbor Reach)، 4 Hidden (تحت جسور، داخل قوارب معلّقة).
+
+Glassfjord Cliffs (6–8): 2 Standard، 4 Hidden (داخل شقوق البلورات يُخفيها الانعكاس).
+
+Sunken Clockworks (5–7): 3 Standard (قرب Ferryman Dock)، 2 Hidden (داخل غرف ميكانيكية محاطة بالماء).
+
+Blackroot Moorlands (6–9): 3 Standard، 3–6 Hidden (داخل جذور، على منصات تطفو فوق المستنقع).
+
+Luminous Chasm (4–6): 2 Standard، 2–4 Hidden (خلال كهوف بيولوجية مضيئة).
+
+
+> ملاحظة: Hidden Shrines ينبغي أن تشعر بالاختباء الطبيعي — لا تضعها في أماكنٍ مبالغ فيها أو لا يمكن الوصول إليها إلا بعد قدرات عالية (غير مرغوب للموازنة الأولية).
+
+
+
+
+---
+
+4 — آليات الاكتشاف العملية (Concrete mechanics developers can implement)
+
+1. Proximity Ping: عندما يقترب اللاعب من Tile ما تومض الشاشة بلون خفيف أو تسمع همهمة (0–2s).
+
+
+2. Environmental Clues:
+
+رماديّ/رماد ينساب حول عينات الأرض (Ashen)؛
+
+أوراق ترفرف بلون أبيض خافت تشير لممرات (Archives);
+
+شرائط على الحبال تتحرك بشكل غير طبيعي تشير إلى منصة مخفية (Archipelago).
+
+
+
+3. Interactive Objects: Pull-levers, rotate-mirrors, align-light beams (Glassfjord), sync sequence (Luminous Chasm).
+
+
+4. Use-item Detection: استخدام Biolume / Memory Pulse لعمل reveal temporary overlay (5–10s) يكشف مخابئ قريبة. هذا يستهلك موارد محدودة أو MF صغير كما تحدد.
+
+
+5. NPC Hints: تجار متجولون أو شخصيات يقدمون أقوالًا (مثلاً: “سمعت عن ضوء تحت الرصيف”) تعطي Pin تقريبية.
+
+
+6. Search Meter / Tool: زر “Search” يقف اللاعب في مكانه ويتحقق في دائرة صغيرة؛ له احتمال العثور على Hidden Shrine إذا كان ضمن Radius (مفيدة للاعبين الذين يحبون تجربة).
+
+
+
+
+---
+
+5 — سِمات بصرية للشيك-بوينت (Visual language)
+
+الرموز: تمثال صغير لوجه أبيض باهت/عمود ضوء رفيع/حلقات رمزية بيضاء على الأرض. هذه الرموز يجب أن تبرز في كل لوح لوني للمنطقة (contrast rule).
+
+التأثير عند التفعيل: إرتفاع هالة ضوء أبيض + ذرات رماد/فتات مع صوت harplike chord (بين 300–600 ms).
+
+Material/Shader: Mask Glow shader (soft additive) + subtle bloom عند الهواتف القوية. لتوفير الأداء: إعداد الجودة المنخفض يعوّض Bloom بسبتكِثر sprite بسيط متحرك.
+
+
+
+---
+
+6 — ساحات الزعماء: تصميم الدخول والمناطق والآليات
+
+لكل ساحة زعيم (Boss Arena) يجب تحديد: مدخل (Entrance trigger)، شروط الدخول، شكل الحلبة، ديناميكا بيئية، رؤوس لمراحل القتال، وكيف يؤثر FM/MF على النهاية.
+
+قواعد عامة لساحات الزعماء
+
+مدخل مقفول (Gated Entrance): يحتاج فتحه إلى شرط واحد أو أكثر: مفتاح (quest key), هزيمة miniboss, استخدام Mask Shard, أو حدث زمني (Memory Storm).
+
+تلميحات على الخريطة: قبل فتح الشرط لا تظهر الأيقونة كـFast-Travel؛ بعد تحقيق الشرط تُظهِر الخريطة مكان الساحة ويُرسل إشعار صوتي.
+
+حجم الحلبة: أكبر من منطقة اللعب الاعتياديه بـ1.5–2× لاحتواء مراحل الحركة والتناوب.
+
+بيئة تفاعلية: عناصر تتغير أثناء القتال (بلورات تنعكس، تروس تدور، منصات تسقط)، وتؤثر في مراحل القتال.
+
+مراحل متعددة: على الأقل مرحلتان؛ كل مرحلة تطرح mechanic جديد أو يزيد السرعة/شراسة.
+
+مغزى سردي: هزيمة الزعيم عادة تسيطر على منطقة (تخفيف حدث Remnant، تفعيل Sanctuary مخفي، تحرير خريطة فرعية).
+
+
+مثال عملي: Archival Regent Arena
+
+Entrance: صندوق ثلاثي القفل في Grand Stacks — فتح كل قفل عبر solving three shelf-sequence puzzles (puzzle keys من مناطق مختلفة).
+
+Arena layout: منصة مركزية محاطة بأرفف دوارة (traversable). أثناء Phase2 الأرفف تتبدل تصنع متاهة.
+
+Mechanics: Regent يطلق “Index Beam” (telegraph glyphs on floor)؛ اللاعب يطفئه عبر توجيه شعاع ضوء عكسياً (reflection puzzle) أو استخدام MaskPulse.
+
+Phase triggers: HP 70% → spawns Vault Sentinels؛ HP 40% → rearrange shelves & page storms.
+
+Reward: 3 MF + Ledger Artifact، فتح Hidden Sanctuary في الغرفة الخلفية.
+
+Entry gating: حل 3 مكتبات رمزية OR دفع 2 MF كخيار بديل (قوي لكن يزيد FM).
+
+
+مثال عملي: Rook (Archipelago) Arena
+
+Entrance: تفعيل Bridgekeeper (mini-boss) أو دفع Gold/perform theft side-mission.
+
+Arena: سلسلة من متاجر متنقلة وجسر يتبدل؛ الرياح تُغيّر اتجاه الحركة (player traction mechanic).
+
+Mechanics: Rook يستخدم قوارب صغيرة تستدعي ضباط؛ يجب تدمير نقاط القيادة على الجسر لشلّ قدرته على استدعاء الدعم.
+
+Reward: MF + unique satchel blueprint.
+
+
+
+---
+
+7 — أرضي قاحلة ومدن ضبابية — تصميم بصري وميكانيكي
+
+A — البِلاَد القاحلة (Barren Expanse)
+
+مظهر: سلاسل من ركام وأسفار مكشوفة، شجر ميت/عظام آليات، سماء مغبرة، ألوان: رمادي/بني (راجع Palette Ashen).
+
+آليات لعب: رياح قوية تؤثر على القفز (wind push), رمل متحرك (quicksand-like zones), موجات Remnant (small ambushes).
+
+الشعور: عزلة كبيرة، نُدرة موارد (لكن مكافآت أعلى في الأسرار).
+
+تلميحات بصرية: رياح تحمل أوراقًا مع رموز بيضاء — هذه الأوراق تشير إلى Shrines مخفية.
+
+موسيقى: pad منخفض، نغمات ترنيمة معدنية متقطعة، 40–60 BPM, reverb واسع.
+
+
+B — المدن المظلمة الضبابية (Fogbound Cities)
+
+مظهر: مبانٍ مغطاة بضباب كثيف، أضواء شاحبة، لافتات متوهجة. الألوان: داكنة مع لمسات بيضاء متلاشية.
+
+آليات لعب: انخفاض الرؤية (minimap reliance), أعداء يختبئون في الضباب، أحداث Remnant أكثر تواتراً.
+
+تلميحات بصرية: مصابيح صغيرة توجّه اللاعبين نحو المسارات — لكن بعضها مخادع (false trails).
+
+موسيقى: رِتْم بطيء (50–70 BPM)، مفاتيح داكنة في الـminor، أصوات وترية منخفضة، خلفية صوتية من خطوات بعيدة ومسامع نجيلة.
+
+
+
+---
+
+8 — تصميم الموسيقى والمؤثرات الصوتية (Audio Design — practical & technical)
+
+A — مبادئ عامة للموسيقى
+
+Layered adaptive music: استخدم عدة طبقات (ambient pad, rhythm, motif lead, tension layer, combat percussion). تفعيل/زيادة كل طبقة بحسب الحالة (explore → +ambient; combat → +tension +percussion).
+
+Leitmotif للبطل: قصاصة موحية قصيرة (2–4 نغمات) بالبيانو أو الـflute الرقّية تمثل القناع. تُدخل خفيفًا في كل منطقة لتذكير سردي.
+
+FM-driven music variation: كلما ارتفع FM، تقطع طبقة الـ“human warmth” تدريجياً (أوتارجية وharp) ويزداد حضور الـdrones الصناعية — يعطي شعور النسيان.
+
+
+B — اقتراحات أنتيمات لكل منطقة (موسيقى وتوجيه)
+
+Ashen Sprawl: instruments: low cello drone, distant brass fragments, soft percussive metallic taps. Tempo: 55–65 BPM. Texture: dusty reverb.
+
+Veiled Archives: instruments: celesta/harp, soft choir vowel pads, clock-tick percussion. Tempo: 50–60 BPM. Atmosphere: echoey, intellectual.
+
+Hollowed Archipelago: instruments: airy pads, wind synths, wooden flutes, light marimba. Tempo: 70–80 BPM when wind active. Add sail/rope creak SFX.
+
+Glassfjord Cliffs: instruments: glass marimba, high-pitched arpeggiated synths, choral whispers. Tempo: slow 60 BPM, with shimmering reverb.
+
+Sunken Clockworks: instruments: mechanical rhythm (mallets on metal, low brass), rhythmic gears (percussive loops), occasional watery echoes. Tempo 80 BPM for motion.
+
+Blackroot Moorlands: instruments: deep bass strings, distant single-note woodwinds, organic percussion, insect ambiences. Tempo: 50–58 BPM.
+
+Luminous Chasm: instruments: soft synth pads, bell-like plucks, choir pads, soft pulsing bass. Tempo: 45–55 BPM, slow pulsing.
+
+
+C — Boss themes & stingers
+
+Each boss: unique motif + rising tension layer. Start with ambient -> introduce percussive loop at phase 2 -> add lead motif + dissonant choir at phase 3.
+
+Boss defeat: short cathartic chord progression (resolution). If the player used MF to win quickly, play a subtle dissonant undertone to hint the cost (narrative cue).
+
+
+D — SFX / Implementation technicals (mobile)
+
+Formats: music loops: OGG (Vorbis) for good compression; SFX: WAV (short) or OGG. Provide 3 quality presets (High/Medium/Low).
+
+Audio middleware: FMOD or Wwise recommended for adaptive layering and memory-efficient streaming. If not available use Unity Audio Mixer with trimmed loops and ducking.
+
+Loop points: ensure seamless looped sections (loop region markers).
+
+Memory budgets: Target background music < 1.5–2 MB per loop (medium quality OGG ~ 128 kbps) for mobile; SFX pools total < ~6–10 MB depending device targets.
+
+Dynamic mixing rules: Fade-in/out layers crossfade 250–500 ms; duck ambient under voice/dialog (duck amount -10 dB).
+
+Triggers: Combat start triggers add percussion and increase low-pass cutoff to make music harsher; Sanctuary activation triggers a small harmonic uplift (major chord).
+
+
+
+---
+
+9 — إشارات بصرية وصوتية عند الاكتشاف/التنبيه
+
+Discovery ping: short harp arpeggio + soft chime; UI toast: “Sanctuary Discovered — Fast Travel Available”.
+
+Hidden hint: subtle environmental audio cue: distant chime or whispered syllable (tie to leitmotif) — players الذين ينتبهون يسمعون هذا قبل رصد الموقع.
+
+Boss reveal: عند فتح بوابة الزعيم، اجعل شاشة قصيرة (2–3s) مع rising sting وoverlay نصي “Boss Gate Unlocked”.
+
+
+
+---
+
+10 — تهيئة للاعب/تطوير وQA
+
+تجارب لعب للاختبار:
+
+اختبار 1: عدم إظهار Shrine على الخريطة قبل الاكتشاف؛ اللاعب يجب أن يعتمد على البيئة/hints للوصول.
+
+اختبار 2: استخدام Biolume لتكشف Hidden Shrines مؤقتًا (5s) — يتأكد من توازن resource cost.
+
+اختبار 3: دخول الزعيم عبر دفع MF → عَرَض تأثير FM على الحوار التالي مباشرة.
+
+
+قياسات الأداء: اجعل particle density للضباب متغيرًا حسب DeviceQuality setting؛ لِتَفادي انخفاض FPS في low-end، استعمل sprite fog layers بدل particles.
+
+
+
+---
+
+خاتمة تنفيذية سريعة (ماذا تفعل الآن)
+
+أدرجت لك نظامًا كاملاً لشيك-بوينت مخفية ومرئية، آليات اكتشاف عملية، قواعد وصفية وسمعية لكل منطقة، تصميم ساحات زعماء وطرق الدخول، وإرشادات صوتية تقنية جاهزة للتطبيق على محرك لعبة للموبايل.
+
+لو تريد، أقدّم الآن فورًا (أياً كان طلبك):
+
+1. ملف CSV يضم قائمة Checkpoint candidates (إحداثيات مقترحة + type: Standard/Hidden/Event) لكل مدينة.
+
+
+2. سكربت بلغة pseudo-code لاكتشاف Hidden Shrine (proximity + search meter + use-item reveal).
+
+
+3. حزمة small audio cues (names + laydown parameters) قابلة للتسليم كقائمة للملحن/مطور الصوت.
+
+
+
+
+أخبرني أي رقم (1–3) تريدني أن أنشئها الآن وسأضعها مباشرة هنا.
+
+
+
+
+اجل قم بتنفيذ جميع المقترحات
+
+
+تم تنفيذ جميع المقترحات ✅
+
+ملفات مُتاحة للتحميل الآن:
+
+قوائم الشيك-بوينت (CSV): Download checkpoints_candidates.csv
+
+ملف pseudo-code + قوائم المؤثرات الصوتية (Markdown): Download checkpoint_detection_and_audio_cues.md
+
+
+هل تريد أن أحول أي ملف إلى PDF أو أجزّئ قائمة الشيك-بوينت حسب حجم الخريطة (مثلاً: إكسل لكل مدينة) أو أُنشئ ملف صوتي نموذجي قصير (stinger) كمثال؟
+
+
+
+
+الان اود شرح تفصيلي لكل مدينة و شكله و احوائه و انواع المناطق الموجودة فيه و خريطته و تداريسه و كل ما يخص كل مدينة على حدة اجعل المدينة مقعدة و تحتاج الى تركيز و فهم و تطور مع اللاعب و اسلوبه مع احواى ساهر و مظلمة و اصوات موسيقية مميز لكل منطقة في المدينة
+
+
+
+
+دليل مفصّل لكل مدينة في عالم إريغرا
+
+(وصف بصري، بنية الخريطة، أنواع المناطق والبيئات، معالم، الأعداء، الأحجيات، آليات التقدّم، الجو الموسيقي والمؤثرات — كل مدينة مصمّمة لتتطور مع اللاعب وتطلب تركيزًا وفهمًا.)
+
+
+---
+
+1 — Ashen Sprawl — المدينة الرمادية المشتعلة
+
+لمحة عامة: مركز حضري متداعٍ مغطّى بمساحات من الرماد والدخان؛ شوارع ضيقة، أسواق طينية وميناء صاخب. الإحساس: قسوة مدينة تساوم على الأمن مقابل الذكريات.
+
+تقسيم المناطق (Districts):
+
+Port & Docks (منطقة الموانئ): أرصفة، قوارب متصدعة، باعة خرائط متجولون.
+
+Central Plaza (السوق المركزي): منصات، مطاحن رمادية، عناصر جانبية ومهمات مدنية.
+
+Ember Gate / Pyre Quarter: أبنية مشتعلة وأعمدة نار متقلبة — موقع miniboss.
+
+Back-alleys & Shelters: ممرات ضيقة، ملاجئ الأطفال، مخابئ تجار الأسماء.
+
+Factory Ruins (مصنع قديم): منصات، تروس مدهونة، خزائن مخفية.
+
+
+خريطة وتضاريس: هيكل شبكي معتدل + مناطق عمودية حول المصانع (مطلوب Rope Swing / Wall Jump للوصول لبعض السطوح). POI موزعة قرب الماء لكن بعض الـHidden Shrines تحت الأنقاض.
+معالم مهمة: Port Beacon (Sanctuary)، Marrek’s Stall، Children’s Refuge (قصة إيدا)، Pyre Outlook (boss gate).
+
+أعداء شائعون وسلوكهم: Scrab Scavengers (يكثفون الهجمات في مجموعات)، Ashwardens (دروع ودفاع)، Rag-Children (فخاخ صوتية).
+ألغاز وEncounter types:
+
+Gas valves puzzle: توجيه تدفقات بخارية لإطفاء أعمدة النار.
+
+Market rotation: تدوير أرفف السوق لكشف مدخل مخفي.
+تقدّم/فتح مناطق: Repair a ferry or fix a crane (مهارات جلب Gears)، أو إتقان Parry/Wall-jump لفتح طرق.
+الجوْ والموسيقى: درون تشيلي منخفض، طبقات نحاسية رتيبة، إيقاعات طقطقة معدنية متقطعة؛ نبرة حادة تعكس حرارة المدينة. استخدم أدوات: cello low-drones + metallic taps + distant brass.
+نصائح Level Designer: اجعل طرق الاختباء متعددة — اللاعب الذي يستكشف يجد Shards وطرق بديلة للقتال. امنح السوق نقاط ارتفاع تُستخدم كمنصات للقفز.
+
+
+
+---
+
+2 — Veiled Archives — أرشيف الذاكرات المحجّب
+
+لمحة عامة: متاهة من الرفوف العملاقة وأنفاق القراءة؛ فحص التاريخ، حراسة المعرفة، وغرف سرية مغلّفة بصوت الأوراق. الإحساس: صمت ثقيل مع تلميحات رقميّة.
+
+تقسيم المناطق:
+
+Wharf / Loading Quays (الواجهة المائية للأرشيف).
+
+Grand Stacks (الرفوف العملاقة): متاهة رأسية أفقية.
+
+Indexer Halls: آليات فهرسة، منصات دوّارة.
+
+Vaults & Secret Catalogues: خزائن مغلقة وراء شيفرات.
+
+
+خريطة وتضاريس: عمودية جداً، رفوف متحركة تُغيّر المسارات؛ يتطلب استخدام EchoRecall وMaskPulse لكشف مخفية.
+معالم مهمة: Vault Wharf (Map Vendor Lysa)، Indexer Gate (Hidden Shrine)، Archival Regent Arena.
+
+أعداء وسلوك: Page-Scrapers (قذف صفحات)، Vault Sentinels (آليات دورية)، Echo Shades (تتضاعف عندما تُستخدم القدرات).
+ألغاز:
+
+Sequence shelf puzzle: ترتيب أحرف/رموز لفتح ممر.
+
+Holographic ledger: تتبع نمط لإعادة تشغيل محرك الفهرسة.
+تقدّم/فتح مناطق: حل اختبارات أركوفال أو جمع 3 مفاتيح لفك قفل الـIndexer. قدرات فك الشيفرات والتحكم بالآلات تفتح الأقسام العليا.
+الجوْ والموسيقى: celesta/harp + clock-tick percs + soft choir. موسيقاها عقلانية، مؤثرة ذكرياً.
+نصائح Level Designer: استعمل الرفوف كـ«مكعبات تركيبيّة» — تدوير الـstacks يخلق حكايات متغيرة ويجعل المتاهات قابلة لإعادة اللعب.
+
+
+
+---
+
+3 — Hollowed Archipelago — الأرخبيل المعلّق
+
+لمحة عامة: سلسلة جزر معلّقة وجسور حبال، محلات على متن قوارب معلقة ورياح دائمة. الإحساس: خفة حركة، مخاطرة مرتفعة، لقمة تجارة سوداء.
+
+تقسيم المناطق:
+
+Harbor Reach & Drift Bazaar.
+
+Sky Docks / Gondola Stations (نقاط رأسيّة).
+
+Rope-Bridge Overlooks & Cliff Faces.
+
+Hidden Coves & Shipwrecks تحت القنوات.
+
+
+خريطة وتضاريس: أعلى عنصر عمودي وعملي — Gondolas تربط قمم ومنصّات متقلّبة. الرياح تؤثر على القفزات (wind currents).
+معالم مهمة: Bridgekeeper Shrine (miniboss)، Rook’s Dock (gang hub).
+أعداء وسلوك: Rope-Croakers (يقطعون الحبال)، Drift-Knights (swoop attacks)، Bargain Pirates (steal satchels).
+ألغاز/encounters:
+
+Wind-current routing: استعمال تيارات الهواء لتوجيه صدى ضوئي عبر قنوات.
+
+Timed gondola repairs: إصلاح محطة بغونديولا لفتح طرق.
+تقدّم: فتح Gondola أو إصلاح Bridgekeeper يفتح طرق جديدة، ومكافآت traversal (vertical upgrades).
+الجوْ والموسيقى: رياح synths + wooden flute motifs + creaks؛ tempo أعلى في مناطق الريح.
+نصائح LD: اعمل مسارات بديلة — لاعب حركة جيد يكافأ بطرق أسرع وكنوز مخفية.
+
+
+
+---
+
+4 — Glassfjord Cliffs — منحدرات الزجاج المتلألئة
+
+لمحة عامة: منحدرات مغطّاة بالشظايا البلورية، أسطح زلقة، انعكاسات ستيغماتية. الإحساس: جمال هشّ وخطر على اللمسات.
+
+تقسيم المناطق:
+
+Frozen Basin / Reflective Spire.
+
+Broken Mirror Grotto (كهوف بلورية).
+
+Crystalline Outcrops (مسارات رفيعة وبيوت شظايا).
+
+
+خريطة وتضاريس: دور عمودي + مسارات انزلاق؛ الكثير من الانعاكسات تمنح أحجية بصريّة (reflectors).
+معالم مهمة: Glass Beacon (event), Fractured Colossus arena.
+أعداء وسلوك: Shardlings (sliding bursts), Reflectors (تعكس الرمايات)، Glass Hounds.
+ألغاز: توجيه شعاع عبر مرايا/بلورات لفتح ممر، تزامن نبضات الضوء.
+تقدّم: قدرات دقيقة (Charged Heavy with reflection) تخترق بعض الحواجز.
+الجوْ والموسيقى: شيمّر غنائي (glass marimba) + شفق مع قِطع رفيعة؛ ريفرب واضح يبرز هشاشة البيئات.
+نصائح LD: استخدم الانعكاسات كوسيلة تضليل — الأدلة يجب أن تكون منطقية (shadow vs reflection) حتى لا يضل اللاعب بلا سبب.
+
+
+---
+
+5 — Sunken Clockworks — تروس الغمر والأقنية
+
+لمحة عامة: منظومة آليات غارقة وجسور تعمل بتروس، مستواها متغير بالمياه؛ إحساس بالنبض الميكانيكي.
+
+تقسيم المناطق:
+
+Canal Platforms & Ferryman Docks.
+
+Great Gear Halls (تروس ضخمة).
+
+Flooded Chambers (مناطق تتأثر بالمياه).
+
+
+خريطة وتضاريس: مزيج من أفق أفقي وطبقات مغمورة؛ رفع/خفض منسوب المياه يغير الوصول.
+معالم مهمة: Ferryman Dock (Gideon)، Clockwork Hollow (miniboss).
+أعداء وسلوك: Gearfolk (دوران على التروس)، Flood Wraiths (من الماء)، Valve Spiders (تعرقل المسارات).
+ألغاز: مزامنة تروس لرفع المياه، تشغيل صمامات بترتيب معين لفتح بوّابات.
+تقدّم: أدوات ميكانيكية (Gears/Keys) وMastering timing تسمح بعبور المناطق الغارقة.
+الجوْ والموسيقى: إيقاعات ميكانيكية (mallet on metal) + حلقات مائية؛ tempo متوسط متكرر يُشعر بالساعة.
+نصائح LD: اجعل تغير المياه واضحًا بصريًا (مؤشرات حقيقية) وامنح اللاعب أدوات لفهم الوتيرة قبل أن يكلفه الموت.
+
+
+---
+
+6 — Blackroot Moorlands — مستنقعات الجذور السوداء
+
+لمحة عامة: مستنقعات مظلمة وجذور عملاقة، نباتات متحركة وممرات عائمة؛ إحساس عضوي وكئيب.
+
+تقسيم المناطق:
+
+Bog Pool & Weaver’s Hollow.
+
+Night-Stitcher Camp (Maera’s hub).
+
+Root Gate & Hollow Tree platforms.
+
+
+خريطة وتضاريس: الكثير من مسارات عائمة ومنصّات متحركة؛ بعض المناطق تتطلب مهارات زحف ووضع مقاومة للتسمم/غرق.
+معالم مهمة: Night-Stitcher Camp، Root Gate (Hidden Shrine).
+أعداء وسلوك: Rootcrawlers (burrow + erupt), Bog-Sirens (drain MF), Hollow Herders (يجمعون أتباع).
+ألغاز: حياكة طرق عبر جذور متحركة (pattern puzzle)، تجميع أعشاب لطقوس مايرا.
+تقدّم: أدوات شفاء/حماية من سموم المستنقع + مهارة traversal عبر الجذور.
+الجوْ والموسيقى: نغمات وترية عميقة + أصوات حشرات/تموجات؛ صوت الطبيعة المظلم — استخدام bass strings + organic percussion.
+نصائح LD: اجعل مناطق الـBog بمناطق آمنة صغيرة (islands) للاختبار؛ لا تجعل اللاعب يضيع بمناطق شبه متشابهة بلا دلائل.
+
+
+---
+
+7 — Luminous Chasm — الشق المضيء
+
+لمحة عامة: كهوف حيوية مضيئة، أوارٌ حيوية من الكائنات الصغيرة، نبضات ضوئية متزامنة؛ إحساس غامض وحنون.
+
+تقسيم المناطق:
+
+Glow Pond & Orb Grove.
+
+Pulse Caverns (تتطلب تزامن نبضات).
+
+Echo Vault (boss adjacent).
+
+
+خريطة وتضاريس: كهوف آمنة نسبيًا لكنها تتطلب تزامن وإيقاع؛ مستويات أفقية مع فجوات ملونة.
+معالم مهمة: Biolume Cartographer (vendor)، Pulse Cavern shrine.
+أعداء وسلوك: Glow Wisps (تحرك طائر)، Memory Leeches (تلتصق)، Cave Stalkers (كمائن).
+ألغاز: Rhythm puzzles (نبضات ضوء)، إعادة نبضات لتفتح بوابات.
+تقدّم: Biolume talisman وrhythm mastery تفتح أسرار أكبر.
+الجوْ والموسيقى: bell-like plucks + choir pads + pulsing low-synth؛ tempo هادئ مع تباين نبضي.
+نصائح LD: استخدم الإضاءة كدليل — ألوان نبضات تُشير إلى النمط الصحيح، وبيِّن الآثار عند الخطأ بلطف (لا تُعاقب اللاعب كثيرًا).
+
+
+---
+
+كيف تتطوّر المدن مع اللاعب (عمليّاً)
+
+Unlock-based growth: مناطق تُفتح عبر أدوات (Gears, Keys, Transport unlocks) أو قدرات (Wall-jump, MaskPulse).
+
+Narrative growth: NPCs يغيرون حوارهم بناءً على FM، بعض الأسواق تُغلق/تفتح، بعض Vendors يُهاجرون أو يبيعون سلعًا جديدة.
+
+World events: Memory Storms، Caravan spawns، Remnant uprisings تُغير سلوك المناطق مؤقتًا (تنعيم أو تشديد العدو، فتح Shards قليلة).
+
+Audio/Visual evolution: مع تقدم اللاعب تتغير الطبقات الموسيقية (مثلاً: إضافة lead motif عند فتح Sanctuary مركزي؛ حذف طبقة إنسانية عند FM عالٍ).
+
+
+
+---
+
+أخيرا — إرشادات تنفيذية للـGame & Level Designers
+
+1. اجعل كل منطقة تُعلمك قواعدها بسرعة: استخدم مساحة تدريبية صغيرة حيث يتعلم اللاعب ميكانيك Traversal قبل أن يواجه خطرًا كبيرًا.
+
+
+2. التلميحات البيئية يجب أن تكون منطقية: لا تضع Shrines مخفية بلا سبب؛ اجعل خشونة الأرض أو حركة الظلال دليلًا.
+
+
+3. التناغم الصوتي أساسي: layer الموسيقى؛ اجعلها تتغير تلقائيًا وفقاً لنشاط اللاعب.
+
+
+4. توازن المكافآت: استكشاف > سعر الخريطة — العدالة تكافئ من يكتشف.
+
+
+5. استخدم FM كعنصر سردي: تغيّر تفاعل NPCs بشكل منطقي أمام اللاعب بناءً على قراراته، ليشعر بتبعات أفعاله.
+
+
+
+
+---
+
+إذا رغبت، أستطيع الآن فورًا:
+
+توليد خريطة شبكة (graph) لكل مدينة بصيغة JSON لمدرّس المستوى (Tiles, POI, Transport nodes).
+
+إخراج لوحات ألوان PNG لكل مدينة + ملف صوتي نموذجي (مدّتها 30–60s) كمثال للموسيقي.
+قل لي أي خيار تريده الآن.
+
+
+
+
+اجل قم بتنفيذ جميع المقترحات
+
+
+
+تم تنفيذ كل المقترحات وتم إنشاء الملفات المطلوبة ✅
+
+ملفات وموارد تم إنشاؤها الآن (اضغط لتحميل كل ملف):
+
+1. خريطة شبكية للمدن (JSON — تحتوي POI، الـSanctuaries، وTransport Nodes لكل مدينة):
+Download erygra_city_graphs.json
+
+
+2. لوحات الألوان (صور PNG منفصلة لكل مدينة):
+
+Ashen Sprawl palette
+
+Veiled Archives palette
+
+Hollowed Archipelago palette
+
+Glassfjord Cliffs palette
+
+Sunken Clockworks palette
+
+Blackroot Moorlands palette
+
+Luminous Chasm palette
+
+
+
+3. لوحة مجمّعة لجميع الباليتات (PNG):
+Download palettes montage
+
+
+4. نموذج صوتي نموذجي (WAV) — مقطع مُجمّع طوله ~56 ثانية يحتوي على مقاطع قصيرة لكل مدينة (يمكن للمؤلف الموسيقي اعتباره مسودة لتطويرها):
+Download erygra_audio_motif_collage.wav
+
+
+
+
+---
+
+إذا رغبت، أستطيع الآن فورًا:
+
+تفصيل كل مدخل في الـJSON إلى ملف منفصل لكل مدينة (ملف CSV أو JSON لكل مدينة).
+
+تحويل الـWAV إلى OGG أو تقليل الجودة (لحجم أصغر للهاتف).
+
+استخراج كل لوحة ألوان إلى ملف SVG أو ملف Adobe-compatible swatches.
+
+
+أي تفضيل آخر تريدني أطبقه الآن؟
+
+
+
+اجل قم بتنفيذ جميع المقترحات
+
+
+
+أنجزت كلّ المطلوب — نفّذت الثلاث مقترحات معًا وخلّفت لك حزمة ملفات جاهزة للتنزيل والعمل عليها:
+
+ماذا أنشأت الآن
+
+1. ملفات JSON وCSV منفصلة لكل مدينة (POI, Sanctuaries, Transport nodes) — مناسبة لمصمم المستويات أو للاستيراد في أدوات التصميم:
+
+
+
+/mnt/data/per_city/ashen_sprawl.json
+
+/mnt/data/per_city/veiled_archives.json
+
+/mnt/data/per_city/hollowed_archipelago.json
+
+/mnt/data/per_city/glassfjord_cliffs.json
+
+/mnt/data/per_city/sunken_clockworks.json
+
+/mnt/data/per_city/blackroot_moorlands.json
+
+/mnt/data/per_city/luminous_chasm.json
+
+
+وملفات CSV المقابلة (POIs لكل مدينة) بنفس المجلد:
+
+/mnt/data/per_city/<city>_pois.csv
+
+
+2. ملفات SVG للباليتات اللونية لكل مدينة — يمكن فتحها في محررات الرسوم، أو استيراد الألوان إلى برامج التصميم:
+
+
+
+/mnt/data/per_city/svgs/ashen_sprawl_palette.svg
+
+... وملفات مماثلة لكل مدينة (قائمة كاملة أعلاه).
+
+
+3. نسخة صوتية منخفضة الجودة (WAV 16 kHz mono) من المقطع الذي أنشأته سابقًا — أصغر حجماً وأسهل للاختبار على أجهزة منخفضة الموارد:
+
+
+
+/mnt/data/erygra_audio_motif_collage_16k_mono_low.wav
+
+
+
+---
+
+ملاحظات تقنية وقيود
+
+طلبت تحويل WAV إلى OGG؛ بيئة التنفيذ هنا لا تحتوي على محرِّر/مرمّز OGG (مثل ffmpeg أو libraries خارجية) لذلك أنشأت بدلاً منه نسخة منخفضة الجودة (16kHz, mono) بتخفيض طفيف في مستوى الصوت والتنعيم، وهي مناسبة للاختبار على الهواتف مع حجم أصغر. إذا رغبت بتحويلها إلى OGG/MP3 بدقة محددة، أو ضغطها بمعدل بتّ محدد (مثلاً 64 kbps OGG)، يمكنني:
+
+إما أن أوفّر أوامر ffmpeg جاهزة يمكنك تشغيلها محليًا، أو
+
+أقدّم ملفات WAV مضغوطة أكثر عبر المزيد من التعديلات هنا (مثل تقليل العيّنة إلى 8kHz أو قص الطول)، أو
+
+إذا رغبت أن أحاول مجدداً تحويلها داخل البيئة هنا أتحقق إذا أمكن تثبيت محول، لكن العملية قد تتطلب أدوات غير متوفرة أو تأخذ وقتًا أطول.
+
+
+SVGs صالحة للاستخدام في أدوات التصميم. إذا أردت ملفات Adobe swatch (.aco/.ase) سأعطيك إرشادات أو سكربت صغير لتحويل الألوان محليًا، لأن تنسيق ASE ثنائي ومعقد وينتج عادة بواسطة أدوات تصميم أو مكتبات خاصة.
+
+
+
+---
+
+ما أقدمه بعد ذلك (مقترحات تنفيذية — اختَر ما تريد أن أنفّذه فورًا)
+
+أستطيع تنفيذ أي من التالي فورًا داخل هذه الجلسة:
+
+1. إنشاء حزمة ZIP تحتوي كل ملفات كل مدينة منفصلة (JSON + CSV + SVG) وتقديم رابط تنزيل واحد.
+
+
+2. توليد أوامر ffmpeg معدّة لتحويل WAV إلى OGG/MP3 بمعدل بت تحدده، مع شرح خطوة بخطوة لتشغيلها محليًا (سريعة وسهلة).
+
+
+3. تقليل جودة الصوت أكثر (مثلاً تحويل إلى 8 kHz أو تقصير المقطع) لمزيد من التوفير في الحجم — يمكنني عمل ذلك هنا فورًا.
+
+
+4. توليد ملف ACO/ASE-like بصيغة نصية (JSON) يمكن للأدوات مثل Adobe Swatch Exchange توليدها لاحقًا، أو تحضير ملف ASE عبر مكتبة خارجية إذا سمحت بالتحويل.
+
+
+5. تقسيم كل ملف JSON إلى ورقة Excel (XLSX) لكل مدينة (كل ملف في ورقة منفصلة) — جاهز للتنزيل.
+
+
+
+اختر أي من الخيارات أعلاه (أو قل “نفّذ كلّها” لأقوم بكل ما تريد الآن).
+
+
+
+
+
+
