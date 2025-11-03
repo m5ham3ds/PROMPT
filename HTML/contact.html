@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sile'ti</title>
+  
+  <!-- مكتبة الخطوط -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- مكتبة الأيقونات Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- شريط العروض العلوية -->
+  <div class="top-offer-bar">
+    <p>🎉 عرض خاص: خصم 20% على مجموعة الصيف! | استخدم الكود: <strong>SUMMER20</strong></p>
+  </div>
+
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="https://via.placeholder.com/40" alt="Logo">
+        <h1 class="site-name">سلعتي</h1>
+      </div>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html"><i class="fas fa-home"></i> <span class="nav-text">الصفحة الرئيسية</span></a></li>
+          <li class="nav-item"><a href="#"><i class="fas fa-briefcase"></i> <span class="nav-text">خدماتنا</span></a></li>
+          <li class="nav-item"><a href="blog.html"><i class="fas fa-blog"></i> <span class="nav-text">المدونة</span></a></li>
+          <li class="nav-item"><a href="about.html"><i class="fas fa-users"></i> <span class="nav-text">من نحن</span></a></li>
+          <li class="nav-item active"><a href="contact.html"><i class="fas fa-envelope"></i> <span class="nav-text">اتصل بنا</span></a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <div class="icon search-icon" id="searchToggle" title="بحث">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="search-box" id="searchBox">
+          <input type="text" placeholder="ابحث هنا..." />
+        </div>
+        <div class="icon theme-toggle" id="themeToggle" title="تبديل الوضع">
+          <i class="fas fa-moon"></i>
+        </div>
+        <div class="icon lang-toggle" id="langToggle" title="تغيير اللغة">
+          <i class="fas fa-globe"></i>
+        </div>
+        <div class="burger" id="burger" title="القائمة">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- نافذة البحث الشفافة (Overlay) -->
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-overlay-content">
+      <button class="close-search-overlay" id="closeSearchOverlay">&times;</button>
+      <input type="text" placeholder="ابحث عن منتجات، فئات، أو مقالات..." id="overlaySearchInput">
+    </div>
+  </div>
+
+  <!-- المحتوى الرئيسي -->
+  <main class="contact-page">
+    <!-- قسم البطل -->
+    <section class="hero-contact">
+      <div class="container">
+        <h1>لنتحدث</h1>
+        <p>نحن هنا لمساعدتك. أرسل لنا رسالة وسنرد عليك في أقرب وقت ممكن.</p>
+      </div>
+    </section>
+
+    <!-- قسم المحتوى الرئيسي -->
+    <section class="contact-content">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- نموذج التواصل -->
+          <div class="contact-form-wrapper">
+            <h2>أرسل لنا رسالة</h2>
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <input type="text" id="name" name="name" required>
+                <label for="name">الاسم الكامل</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email">البريد الإلكتروني</label>
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" name="subject" required>
+                <label for="subject">الموضوع</label>
+              </div>
+              <div class="form-group">
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <label for="message">رسالتك</label>
+              </div>
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i>
+                إرسال الرسالة
+              </button>
+            </form>
+            <div class="form-message" id="formMessage"></div>
+          </div>
+
+          <!-- معلومات التواصل والخريطة -->
+          <div class="contact-info-wrapper">
+            <div class="contact-info">
+              <h2>معلومات التواصل</h2>
+              <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>العنوان</h4>
+                  <p>المملكة العربية السعودية، الرياض، حي النخيل، شارع الملك فهد</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>الهاتف</h4>
+                  <p dir="ltr">+966 50 000 0000</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>البريد الإلكتروني</h4>
+                  <p>info@mybrand.com</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-clock"></i>
+                <div>
+                  <h4>ساعات العمل</h4>
+                  <p>الأحد - الخميس: 9:00 ص - 6:00 م<br>الجمعة - السبت: مغلق</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- الخريطة -->
+            <div class="map-wrapper">
+              <h2>موقعنا على الخريطة</h2>
+              <div class="map-container">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.6474296298!2d46.67930231498263!3d24.71355128414077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0388d4a3b3b7%3A0x8e8c8b8b8b8b8b8b!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sar!2ssa!4v1635959041234!5m2!1sar!2ssa" 
+                  width="600" 
+                  height="450" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <!-- (انسخ نفس كود الفوتر من index.html هنا) -->
+    <div class="footer-content">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <div class="footer-logo"><h2>Sile'ti<span>.</span></h2><p>نمنح الأفكار حياةً على الإنترنت، ونصنع تجارب رقمية لا تُنسى.</p></div>
+               <div class="footer-contact"><h4>تواصل معنا</h4><a href="mailto:info@mybrand.com"><i class="fas fa-envelope"></i> info@mybrand.com</a><a href="tel:+966500000000"><i class="fas fa-phone"></i> +966 50 000 0000</a><p class="footer-address"><i class="fas fa-map-marker-alt"></i>نيالا السوق الكبير بغرب عمارة السلام</p></div>
+          </div>
+          <div class="footer-column"><h3>روابط سريعة</h3><ul><li><a href="#"><i class="fas fa-angle-left"></i> من نحن</a></li><li><a href="#"><i class="fas fa-angle-left"></i> خدماتنا</a></li><li><a href="#"><i class="fas fa-angle-left"></i> المدونة</a></li><li><a href="#"><i class="fas fa-angle-left"></i> اتصل بنا</a></li></ul></div>
+   
+  <!-- الشريط السفلي -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom-content">
+        <p>&copy; <span id="year"></span> جميع الحقوق محفوظة لـ <strong>Sile'ti</strong>. صُنع بـ ❤️</p>
+        <div class="footer-trust-badges">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/archive/f/f7/20140927173221%21Mada_Logo.svg" alt="Mada">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/SSL_certificate_logo.svg/1200px-SSL_certificate_logo.svg.png" alt="SSL Secure">
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  <!-- زر العودة للأعلى -->
+  <button id="backToTop" title="العودة للأعلى"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- روابط JavaScript -->
+  <script src="script.js"></script>
+  <script src="contact-script.js"></script>
+</body>
+</html>

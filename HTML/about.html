@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sile'ti</title>
+  
+  <!-- مكتبة الخطوط -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- مكتبة الأيقونات Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- شريط العروض العلوية -->
+  <div class="top-offer-bar">
+    <p>🎉 عرض خاص: خصم 20% على مجموعة الصيف! | استخدم الكود: <strong>SUMMER20</strong></p>
+  </div>
+
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="https://via.placeholder.com/40" alt="Logo">
+        <h1 class="site-name">سلعتي</h1>
+      </div>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html"><i class="fas fa-home"></i> <span class="nav-text">الصفحة الرئيسية</span></a></li>
+          <li class="nav-item"><a href="#"><i class="fas fa-briefcase"></i> <span class="nav-text">خدماتنا</span></a></li>
+          <li class="nav-item"><a href="blog.html"><i class="fas fa-blog"></i> <span class="nav-text">المدونة</span></i></li>
+          <li class="nav-item active"><a href="about.html"><i class="fas fa-users"></i> <span class="nav-text">من نحن</span></a></li>
+          <li class="nav-item"><a href="contact.html"><i class="fas fa-envelope"></i> <span class="nav-text">اتصل بنا</span></a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <div class="icon search-icon" id="searchToggle" title="بحث">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="search-box" id="searchBox">
+          <input type="text" placeholder="ابحث هنا..." />
+        </div>
+        <div class="icon theme-toggle" id="themeToggle" title="تبديل الوضع">
+          <i class="fas fa-moon"></i>
+        </div>
+        <div class="icon lang-toggle" id="langToggle" title="تغيير اللغة">
+          <i class="fas fa-globe"></i>
+        </div>
+        <div class="burger" id="burger" title="القائمة">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- نافذة البحث الشفافة (Overlay) -->
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-overlay-content">
+      <button class="close-search-overlay" id="closeSearchOverlay">&times;</button>
+      <input type="text" placeholder="ابحث عن منتجات، فئات، أو مقالات..." id="overlaySearchInput">
+    </div>
+  </div>
+
+  <!-- المحتوى الرئيسي -->
+  <main class="about-page">
+    <!-- قسم البطل -->
+    <section class="hero-about">
+      <div class="container">
+        <h1>نبيع التمييز</h1>
+        <p>فريق من المبدعين الشغوفين بتحويل الرؤى إلى واقع رقمي ملموس ومؤثر.</p>
+      </div>
+    </section>
+
+    <!-- قسم قصتنا -->
+    <section class="our-story">
+      <div class="container">
+        <div class="story-content">
+          <div class="story-text">
+            <h2>قصتنا بدأت بشغف</h2>
+            <p>في عام 2018، انطلقت رحلتنا بفكرة بسيطة: تسخير قوة التصميم والتكنولوجيا لمساعدة العلامات التجارية على النمو والازدهار. نؤمن بأن كل علامة تجارية لها قصة فريدة تستحق أن تُروى بأفضل شكل ممكن.</p>
+            <p>منذ ذلك الحين، عملنا مع dozens of العملاء، من الشركات الناشئة إلى العلامات التجارية الراسخة، لمساعدتهم على تحقيق أهدافهم وبناء حضور قوي في العالم الرقمي. شغفنا هو ما يدفعنا للابتكار وتقديم حلول مخصصة تتجاوز التوقعات.</p>
+          </div>
+          <div class="story-image">
+            <img src="https://picsum.photos/seed/team-meeting/600/500.jpg" alt="فريقنا في اجتماع">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم قيمنا -->
+    <section class="our-values">
+      <div class="container">
+        <h2 class="section-title">قيمنا الأساسية</h2>
+        <div class="values-grid">
+          <div class="value-item">
+            <i class="fas fa-lightbulb"></i>
+            <h3>التميوز</h3>
+            <p>نسعى دائمآ الى ان نكون الافضل في المجال</p>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-handshake"></i>
+            <h3>النزاهة</h3>
+            <p>نبن علاقات قائمة على الثقة والشفافية مع عملائنا وشركائنا.</p>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-users"></i>
+            <h3>العمل الجماعي</h3>
+            <p>نؤمن بقوة التعاون والعمل الجماعي لتحقيق أهداف مشتركة.</p>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-trophy"></i>
+            <h3>الجودة</h3>
+            <p>نلتزم بأعلى معايير الجودة في كل منتجاتنا.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم فريق العمل -->
+    <section class="our-team">
+      <div class="container">
+        <h2 class="section-title">تعرف على فريقنا</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="https://i.pravatar.cc/150?img=69" alt="مجتبى صلاح">
+            <h4>مجتبى صلاح</h4>
+            <p>المؤسس والرئيس التنفيذي</p>
+          </div>
+          <div class="team-member">
+            <img src="https://i.pravatar.cc/150?img=33" alt="محمد صلاح">
+            <h4>محمد صلاح</h4>
+            <p>مدير التصميمات</p>
+          </div>
+          <div class="team-member">
+            <img src="https://i.pravatar.cc/150?img=12" alt="خالد سعيد">
+            <h4>خالد سعيد</h4>
+            <p>عامل</p>
+          </div>
+          <div class="team-member">
+            <img src="https://i.pravatar.cc/150?img=26" alt="نورا حسن">
+            <h4>نورا حسن</h4>
+            <p>عاملة</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم أرقامنا -->
+    <section class="our-stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number" data-target="150">30</span>
+            <p class="stat-label">مشروع مكتمل</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="98">30</span>
+            <p class="stat-label">عميل سعيد</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="12">30</span>
+            <p class="stat-label">جائزة تصميم</p>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="7">10</span>
+            <p class="stat-label">سنوات خبرة</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم الدعوة لاتخاذ إجراء -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>هل لديك منتج في معيآ في ذهنك</h2>
+        <p>تواصل معنا قد نقوم باحضاره المرة القادمة</p>
+        <a href="contact.html" class="cta-button">تواصل معنا</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- الفوتر -->
+  <footer class="footer">
+    <!-- (انسخ نفس كود الفوتر من index.html هنا) -->
+    <div class="footer-content">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <div class="footer-logo"><h2>Sile'ti<span>.</span></h2><p>نمنح الأفكار حياةً على الإنترنت، ونصنع تجارب رقمية لا تُنسى.</p></div>
+            <div class="footer-contact"><h4>تواصل معنا</h4><a href="mailto:info@mybrand.com"><i class="fas fa-envelope"></i> info@mybrand.com</a><a href="tel:+966500000000"><i class="fas fa-phone"></i> +966 50 000 0000</a><p class="footer-address"><i class="fas fa-map-marker-alt"></i>نيالا السوق الكبير بغرب عمارة السلام</p></div>
+          </div>
+          <div class="footer-column"><h3>روابط سريعة</h3><ul><li><a href="#"><i class="fas fa-angle-left"></i> من نحن</a></li><li><a href="#"><i class="fas fa-angle-left"></i> خدماتنا</a></li><li><a href="#"><i class="fas fa-angle-left"></i> المدونة</a></li><li><a href="#"><i class="fas fa-angle-left"></i> اتصل بنا</a></li></ul></div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <p>&copy; <span id="year"></span> جميع الحقوق محفوظة لـ <strong>Sile'ti</strong>. صُنع بـ ❤️</p>
+          <div class="footer-trust-badges"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard"><img src="https://upload.wikimedia.org/wikipedia/commons/archive/f/f7/20140927173221%21Mada_Logo.svg" alt="Mada"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/SSL_certificate_logo.svg/1200px-SSL_certificate_logo.svg.png" alt="SSL Secure"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- زر العودة للأعلى -->
+  <button id="backToTop" title="العودة للأعلى"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- روابط JavaScript -->
+  <script src="script.js"></script>
+  <script src="about-script.js"></script>
+</body>
+</html>
