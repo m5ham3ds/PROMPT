@@ -1,0 +1,2419 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+<b:attr expr:value='data:view.isSingleItem ? "og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#" : "og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"' name='prefix'/>
+
+  <!-- Feed Links -->
+  <b:eval expr='data:blog.feedLinks'/>
+  <!-- Default Meta -->
+  <b:include name='DefaultMeta'/>
+  <!-- Open Graph -->
+  <b:include name='OpenGraph'/>
+  <!-- Twitter Card -->
+  <b:include name='TwitterCard'/>
+  <!-- DNS Prefetch -->
+  <b:include name='DNSPrefetech'/>
+
+  <!-- Required -->
+  <meta content='' property='fb:app_id'/>
+  <meta content='' property='fb:admins'/>
+  <b:if cond='data:view.isSingleItem'>
+  <meta content='' property='article:publisher'/> 
+  <meta content='' property='article:author'/>
+  </b:if>
+  <b:skin><![CDATA[
+  /*
+  =====================================================================================================
+  Template Name: BigMag - Arabic Version
+  Template URI:  https://bigmag-template.blogspot.com
+  Description:   Beautiful, Powerful & Flexible Blogger Template for News, Magazine and Blog websites.
+  Author:        Osama Orabi
+  Author URI:    https://osamaorabi.com
+  Version:       1.0.0
+  =====================================================================================================
+  */
+  /* Variable definitions
+  ===========================
+  <Variable name="keycolor" description="اللون الرئيسي" type="color" default="#08f" value="#0088ff"/>
+  <Variable name="body.background" description="خلفية الموقع" type="background" color="#fff" default="$(color) url(https://blogger.googleusercontent.com/img/a/AVvXsEi5HSopCkdzd6uhORkPI47G4Wfrz-Ta6mvkZQKutqYmAOgjHI66F6FmxEC7f4RiXXBQjSqmZkWjWfWOZRi5nJBWwojyBHmC31Ou8KaXkZi-a-2a5_llllX-OrE4c-lCKvlPS5XNN4O1WLMIoreUs7w8qYEklCjNBZIGxyxKHInMav_6la6XvvMrrQxt=s16000) no-repeat fixed top center" value="$(color) url(https://blogger.googleusercontent.com/img/a/AVvXsEi5HSopCkdzd6uhORkPI47G4Wfrz-Ta6mvkZQKutqYmAOgjHI66F6FmxEC7f4RiXXBQjSqmZkWjWfWOZRi5nJBWwojyBHmC31Ou8KaXkZi-a-2a5_llllX-OrE4c-lCKvlPS5XNN4O1WLMIoreUs7w8qYEklCjNBZIGxyxKHInMav_6la6XvvMrrQxt=s16000) no-repeat fixed top left"/>
+  
+  <Group description="الإعدادات الرئيسية" selector="body">
+  <Variable name="maincolor" description="اللون الرئيسي" type="color"  default="#08f"  value="#0088ff"/>
+  <Variable name="c.h.border.color" description="لون رأس المحتوي (الرئيسية)" type="color"  default="#f74f4f"  value="#f74f4f"/>
+  <Variable name="head.text.color" description="لون رأس الخط في الرئيسية" type="color"  default="#2f2f33"  value="#2f2f33"/>
+  <Variable name="head.post.color" description="لون رأس خط المقالات" type="color"  default="#2e2e2e"  value="#2e2e2e"/>
+  <Variable name="content.post.color" description="لون محتوي المقالات في الرئيسية" type="color"  default="#8e8e95"  value="#8e8e95"/>
+  <Variable name="main.post.color" description="لون محتوى المشاركة في المشاركات" type="color"  default="#2e2e2e"  value="#2e2e2e"/>
+  <Variable name="header.background" description="لون خلفية الهيدر" type="color"  default="#fff"  value="#ffffff"/>
+  <Variable name="header.color" description="لون خط الهيدر" type="color"  default="#000"  value="#000"/>
+  </Group>
+  
+  <Group description="القائمة الرئيسية" selector=".bigmag-navigation">
+  <Variable name="main.menu.one.bg" description="تدرج الخلفية الأول" type="color"  default="#1f2024"  value="#1f2024"/>
+  <Variable name="main.menu.two.bg" description="تدرج الخلفية الثاني" type="color"  default="#1f2024"  value="#1f2024"/>
+  <Variable name="main.menu.text" description="لون الخط" type="color"  default="#fff"  value="#ffffff"/>
+  <Variable name="sub.menu.border" description="لون الحد الأسفل في القائمة الفرعية" type="color"  default="rgba(255,255,255,0.04)"  value="rgba(255,255,255,0.04)"/>
+  <Variable name="m.menu.top.b" description="لون حد القائمة الأعلي" type="color"  default="#fff"  value="#ffffff"/>
+  <Variable name="m.menu.bottom.b" description="لون حد القائمة الأسفل" type="color"  default="#1f2024"  value="#1f2024"/>
+  <Variable name="search.text.color" description="لون خط البحث" type="color"  default="#777"  value="#777"/>
+  <Variable name="search.icon.color" description="لون أيقونة البحث" type="color"  default="#777"  value="#777"/>
+  <Variable name="dark.btncolor" description="خلفية زر الوضع المظلم" type="color"  default="#fff"  value="#fff"/>
+  <Variable name="onecolor.mmenu" description="اللون المتدرج الأول لخلفية قائمة الهاتف" type="color"  default="#5933a2"  value="#5933a2"/>
+  <Variable name="secondcolor.mmenu" description="اللون المتدرج الثاني لخلفية قائمة الهاتف" type="color"  default="#2f88d6"  value="#2f88d6"/>
+</Group>
+
+<Group description="القائمة العليا" selector=".bigmag-top">
+  <Variable name="top.background" description="الخلفية" type="color"  default="#fff"  value="#ffffff"/>
+  <Variable name="top.border.color" description="لون الحدود" type="color"  default="rgba(0,0,0,0.1)"  value="rgba(0,0,0,0.1)"/>
+  <Variable name="top.menu.text.color" description="لون الخط" type="color"  default="#000"  value="#000000"/> 
+  <Variable name="top.social.icon.color" description="لون خط الأيقونات" type="color"  default="#000"  value="#000000"/>
+  </Group>
+
+  <Group description="الحدود الرئيسية" selector="Body">
+    <Variable name="main.border.color" description="لون الحد الرئيسي" type="color"  default="#2f2f33"  value="#2f2f33"/>
+  <Variable name="light.border.color" description="لون الحد الخفيف" type="color"  default="rgba(0,0,0,0.1)"  value="rgba(0,0,0,0.1)"/>
+  <Variable name="second.light.color" description="لون الحد الخفيف الآخر" type="color"  default="#f5f5f5"  value="#f5f5f5"/>
+  </Group>
+
+  <Group description="التذييل" selector="#bigmag-footer">
+  <Variable name="footer.background" description="الخلفية" type="color"  default="#1f2024"  value="#1f2024"/>
+  <Variable name="footer.border" description="الحد أعلي الفوتر" type="color" default="#1f2024"  value="#1f2024"/>
+  <Variable name="footer.text.color" description="لون الخط" type="color"  default="#fff"  value="#ffffff"/>
+  <Variable name="footer.meta.color" description="لون التاريخ والاسم" type="color"  default="#dedede"  value="#dedede"/>
+  <Variable name="footer.content.color" description="لون محتوي النص" type="color"  default="#b5b5b5"  value="#b5b5b5"/>
+  <Variable name="footer.title.border.color" description="لون الحدود الرئيسية" type="color"  default="#fff"  value="#ffffff"/>
+  <Variable name="footer.content.border.color" description="لون حدود المحتوي" type="color"  default="rgba(255, 255, 255, 0.27)"  value="rgba(255, 255, 255, 0.27)"/>
+  <Variable name="credit.footer.background" description="خلفية حقوق النشر" type="color"  default="#161619"  value="#161619"/>
+  <Variable name="credit.footer.text.color" description="لون خط حقوق النشر" type="color"  default="#aaa"  value="#aaaaaa"/>
+  <Variable name="credit.menu.color" description="لون قائمة حقوق النشر" type="color"  default="#fff"  value="#ffffff"/>
+  </Group>
+  
+  <Group description="شريط الإنزلاق" selector="Body">
+  <Variable name="scrollbar.thumb.b" description="لون شريط الإنزلاق" type="color" default="#08f" value="#0088ff"/>
+  <Variable name="scrollbar.thumb.a" description="لون شريط الإنزلاق عند الضغط" type="color" default="#08f" value="#0088ff"/>
+  <Variable name="scrollbar.b" description="خلفية شريط الإنزلاق" type="color" default="#fff" value="#ffffff"/>
+  <Variable name="scrollbar.a" description="خلفية شريط الإنزلاق عند الضغط" type="color" default="#fff" value="#ffffff"/>
+  </Group>
+  
+  <Group description='نموذج التعليقات' selector="#comments">
+  <Variable name="body.text.font" description="نوع الخط" type="font" default="600 14px Cairo !important" value="600 14px Cairo !important"/>
+  <Variable name="tabs.font" description="نوع الخط (مساعد)" type="font" default="14px Cairo" value="14px Cairo"/>
+  <Variable name="body.text.color" description="لون النص" type="color" default="#777777" value="#777777"/>
+  <Variable name="body.link.color" description="لون الروابط" type="color" default="#08f" value="#0088ff"/>
+  <Variable name="posts.background.color" description="لون الخلفية" type="color" default="#ffffff" value="#ffffff"/>
+  <Variable name="posts.title.color" description="لون العنوان" type="color" default="#08f" value="#0088ff"/>
+  <Variable name="posts.icons.color" description="خلفية الأيقونات" type="color" default="#08f" value="#0088ff"/>
+  <Variable name="posts.text.color" description="Post text color" type="color" default="#757575" value="#757575"/>
+  <Variable name="labels.background.color" description="Label background color" type="color" default="#dddddd" value="#dddddd"/>
+  </Group>
+  ==========================
+  */
+  
+  /*
+  =======================
+   CONTENTS
+  =======================
+  
+  => Global
+  => Layout
+  => Top Bar
+  => Header
+  => Posts
+  => Blog Pager
+  => Sidebar
+  => Advertisement Widget
+  => 404
+  => Message Top
+  => Footer
+  => Social Icons
+  => Short Codes
+  => Back To Top
+  => Responsive Design
+  
+  =======================
+  */
+  
+  /*------
+  Global
+  --------*/
+  
+  *::selection {background: $maincolor;color: #ffffff;}
+  *::-o-selection {background: $maincolor;color: #ffffff;}
+  *::-moz-selection {background: $maincolor;color: #ffffff;}
+  *::-webkit-selection {background: $maincolor;color: #ffffff;}
+  ::-webkit-scrollbar {width: 10px;height: 10px}
+  ::-webkit-scrollbar-thumb {  background: $(scrollbar.thumb.b)}
+  ::-webkit-scrollbar-thumb:active {background: $(scrollbar.thumb.a)}
+  ::-webkit-scrollbar-track {background:$(scrollbar.b)}
+  ::-webkit-scrollbar-track:active {background:$(scrollbar.a)}
+  a:link{text-decoration:none}
+  html,body,.section,.widget,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,figure{margin:0;padding:0}
+  html{overflow-x:hidden}
+  a{text-decoration:none;color:$(head.post.color)}
+  article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+  table{border-collapse:separate;border-spacing:0}
+  caption,th,td{text-align:right;font-weight:400}
+  blockquote, q {background: #2c2f34;padding:30px 50px;margin: 20px 0;display: block;color: #ffffff;}
+  q::before, blockquote::before {margin-bottom: 15px;display: block;content: "\f10e";font-family: 'Font Awesome 5 Free';text-align: right;font-size: 26px;color: $(maincolor);font-weight: 900;}
+  q::after, blockquote::after {margin-top: 15px;display: block;content: "\f10d";font-family: 'Font Awesome 5 Free';text-align: left;font-size: 26px;color: $(maincolor);font-weight: 900;}
+  .quickedit,.home-link{display:none}
+  sup{vertical-align:super;font-size:smaller}
+  a img{border:none}
+  .post-body table {margin:10px 0px;}
+  .post-body table td{border-collapse:collapse;border:1px solid #e6e6e6;margin-bottom:1.5em;text-align:center}
+  .post-body table{border-collapse:collapse;border:1px solid #e6e6e6;margin-bottom:1.5em}
+  .post-body td,th{border-top:1px solid #e6e6e6;vertical-align:top;padding:12px 20px}
+  hr{display: block;height: 1px;border: 0;border-top: 1px solid #eee;margin: 1em 0;padding: 0;}
+  code{font-family: consolas;border:1px solid #ccc;background:#f7f7f7;padding:2px 6px;font-size:12px;color:#272727}
+  .slidebg{background: $(body.background);background-size: cover;background-attachment: fixed;}
+  ol,ul{padding:0;margin:0;text-align:right}
+  ol li{padding:0 0 5px}
+  ul li{padding:0 0 5px}
+  ul ul,ol ol{padding:0}
+  .post-body a:hover{color:$maincolor}
+  .section,.widget,.widget ul{margin:0;padding:0}
+  #navbar-iframe,.navbar,.Attribution,.post-author-widget{height:0;visibility:hidden;display:none}
+  .feed-links,.post-footer-line.post-footer-line-1,.post-footer-line.post-footer-line-2,.post-footer-line.post-footer-line-3{display:none}
+  .item-control{display:none!important}
+  h2.date-header,h4.date-header{display:none;margin:1.5em 0 .5em}
+  h1,h2,h3,h4,h5,h6{color:$(head.post.color)}
+  img{max-width:100%;vertical-align:middle;border:0}
+  .widget iframe,.widget img{max-width:100%}
+  .status-msg-border{border:1px solid #ff545a;background:$maincolor}
+  *, ::after, ::before{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;box-sizing: border-box;outline: 0}
+  * {outline: 0;transition: all .2s ease;-webkit-transition: all .2s ease;-moz-transition: all .2s ease;-o-transition: all .2s ease;}
+  .inner {margin: 0 auto;padding: 0 25px;max-width:1200px;}
+  .widget li {padding:0;}
+  button:focus {outline: 0}
+  .preloader,#loader{display:none}
+  
+  /*-----
+  Layout
+  -------*/
+  button#up:hover, button#down:hover,.bigmag-col-thumb:hover,.bigmag-big-thumb:hover,#LinkList56 a:hover,a.grid-tag:hover,a.slider-tag:hover,.bigmag-videos-thumb:hover,.bigmag-ticker-thumb:hover,.postmarg .post-cat a:hover,.item-thumbnail img:hover,.ticker-tag:hover,.bigmag-recent-thumb:hover{opacity: 0.8 !important;transition: 0.2s !important;}
+  body{color:$(head.text.color);font-size:14px;font-weight:400;line-height:21px;background:$(body.background);background-size: cover;}
+  body *:not(.fa,.far,.fas,.fab){font-family:'Cairo', sans-serif !important;}
+  #body-wrapper{max-width:100%;margin:0 auto;background-color:#FFF;box-shadow:0 0 5px RGBA(0,0,0,0.2);}
+  .body-row{width:1200px;margin: 0 auto;}
+  .bigmag-slider.midalizer.slidebg {overflow: hidden;width: 100%;padding-bottom: 40px;padding-top: 40px;}
+  #content-wrapper{margin:0 auto;padding:20px 0 40px;}
+  #main-wrapper{float:right;width:69%;max-width:840px}
+  #sidebar-wrapper{float:left;width:30%;max-width:340px}
+  article{padding:0;overflow:hidden}
+  .container:before,.container:after{content:" ";display:table}
+  .lazyload{opacity: 0;}
+  .lazyload[src] {object-fit: cover;}
+  .lazyload[style] {background-repeat: no-repeat;background-size: cover !important;background-position: center center !important;}
+  .lazyload[style],.lazyload[src] {-webkit-transition: opacity 0.2s ease-in;-moz-transition: opacity 0.2s ease-in;-o-transition: opacity 0.2s ease-in;opacity: 1;}
+  .clearfix {clear: both;}
+  .bigmag-navigation,.theiaStickySidebar {transition: 0s;}
+  .hidden {display: none !important;}
+  button{border: 0;}
+  .widget-content {overflow: hidden;}
+
+  /*-----
+  Top Bar
+  -------*/
+  
+  .bigmag-top{background:$(top.background);border-bottom: 2px solid $(top.border.color);}
+  .bigmag-top-menu ul li a{color:$(top.menu.text.color);font-size:12px;padding: 0 0 0 25px;line-height: 40px;}
+  .bigmag-top-wrapper{position:relative;min-height:40px;color:#aaa;margin:0 auto;}
+  .bigmag-social{float:left;padding:5px 0}
+  .bigmag-social li{list-style-type: none;padding:0;display: inline-block;}
+  .bigmag-social .widget ul{padding:0}
+  .bigmag-social .LinkList ul{text-align:center;margin-left: 20px;}
+  .bigmag-social a{display:block;width:30px;height:30px;line-height:30px;font-size:14px;color:$(top.social.icon.color);}
+  .bigmag-social #social a {display: block;width: 30px;height: 30px;line-height: 32px;border-radius: 5px;text-align: center;}
+  .bigmag-social #social a:before,.mobile-menu-social a:before,#social-bottom ul li a:before,.post-author-social a:before{display:inline-block;font-family: 'Font Awesome 5 Brands';}
+  .bigmag-bigmag-top-menu h3,#bigmag-menu h3{display: none;}
+  .bigmag-bigmag-top-menu{float:right;}
+  .bigmag-top-menu ul{overflow:hidden;list-style:none;padding:0;margin:0}
+  .bigmag-top-menu ul li{float:right;display:inline-block;list-style:none;padding:0}
+  .bigmag-top-menu ul li a{display:block;border:none!important;text-decoration:none;font-weight:400;text-transform:capitalize}
+  #nav a:hover{color:$maincolor}
+  #datetime {float: right;padding: 10px 0 10px 10px;font-size: 12px;color:$(top.menu.text.color);margin-left: 10px;}
+  #datetime:before {content: '\f017';font-family: 'Font Awesome 5 Free';margin-left: 5px;}
+
+  /*-----
+  Header
+  -------*/
+  
+  #main-header {display: initial;}
+  .bigmag-center-header{background:$(header.background);border-bottom: 1px solid $(m.menu.top.b);}
+  #bigmag-wide-wrapper{color:#fff;padding:20px 0;margin:0 auto}
+  #header-inner {float: right;margin-top: 20px;}
+  #header-inner h1 {margin-top: 35px;font-size: 38px;float: right;color:$(header.color);line-height: 48px;}
+  .bigmag-wide img{height: auto;width: auto;max-height:100%;margin:0}
+  .bigmag-wide .description{color:$(content.post.color);text-align:center;float: right;margin-top: 30px;}
+  .bigmag-wide {margin: 0;padding: 0;width: 100%;text-align: center;}
+  .bigmag-wide .description span{border-top:1px solid $(light.border.color);padding:2px 0 0}
+  .Header img{margin: 0 auto;display: block;}
+
+  /*-------
+  Nav Menu
+  ---------*/
+  
+  .bigmag-navigation{font-weight:400;margin:0 auto;height:61px;background-image: linear-gradient(45deg,$(main.menu.one.bg),$(main.menu.two.bg));border-bottom: 1px solid $(m.menu.bottom.b);position: relative;width: 100%;padding: 0px 45px;}
+  ul#bigmag_menu{list-style:none;margin:0;padding:0;text-align:right;}
+  #bigmag-menu{height:60px;position:relative;text-align:right;z-index:15;margin: 0 auto;padding-left:0px}
+  .menu-wrap {max-width: 1200px;}
+  #bigmag-menu .widget-content {overflow: visible;}
+  .form-control {border: 0;margin-bottom: 0;line-height: inherit;width: 100%;background: transparent;padding: 17px;border-radius: 0;box-sizing: border-box;height: 60px;font-size: inherit;color: $(main.menu.text);}
+  .searchform ::placeholder{color: $(search.text.color);}
+.search-submit{position:absolute;left:12px;top:22px;width:16px;line-height:inherit;color:$(search.icon.color);background:transparent;font-size:15px;padding:0;transition:color .15s;border:0;cursor:pointer}
+.searchform .search-submit:hover{color: $(maincolor)}
+.search-submit:before {content: '\f002';font-family: 'Font Awesome 5 Free';font-weight: 900;margin-left: 5px;float: right;}
+.menu-search{border-right:1px solid $(sub.menu.border);z-index: 1000;position: absolute;left: 0;width: 186px;}
+  @media screen and (min-width: 1024px) {
+  #bigmag-menu .widget{display:none}
+  #bigmag-menu ul > li{position:relative;vertical-align:middle;display:inline-block;padding:0;margin:0}
+  #bigmag-menu ul > li > a{color:$(main.menu.text);font-weight:600;line-height:60px;display:inline-block;text-decoration:none;margin:0;padding:0 12px;font-size: 14px;}
+  #bigmag-menu ul > li > ul{position:absolute;background-image: linear-gradient(45deg,$(main.menu.one.bg),$(main.menu.two.bg));top:100%;right:0;min-width:210px;padding:0;z-index:9999;margin-top:0;visibility:hidden;opacity:0;-webkit-transform:translateY(-10px);-moz-transform:translateY(-10px);transform:translateY(-10px);clip: rect(0px,0px,0px,0px);box-shadow: 1px 5px 10px 0 rgba(0, 0, 0, 0.15);border-top: 2px solid $(maincolor)}
+  #bigmag-menu ul > li > ul > li > ul{position:absolute;top:0;right:210px;width:210px;background-image: linear-gradient(45deg,$(main.menu.one.bg),$(main.menu.two.bg));z-index:99;margin-top:0;margin-right:0;padding:0;visibility:hidden;opacity:0;-webkit-transform:translateY(-10px);-moz-transform:translateY(-10px);transform:translateY(-10px);border-top: 0}
+  #bigmag-menu ul > li > ul > li{display:block;float:none;text-align:right;position:relative;border-bottom: 1px solid $(sub.menu.border);border-top:none;}
+  #bigmag-menu ul > li > ul > li:last-child{border:0}
+  #bigmag-menu ul li.hasSubmenu ul li:after,#bigmag-menu ul li:last-child:after{display:none}
+  #bigmag-menu ul > li > ul > li a:hover {color:#fff;background-color:$(maincolor);}
+  #bigmag-menu ul > li:hover > a {background:$(maincolor);color:#fff}
+  #bigmag-menu ul > li > ul > li a{font-size:13px;line-height:22px;display:block;color:$(main.menu.text);text-decoration:none;margin:0;padding:12px 15px;border-left:0;border:0}
+  #bigmag-menu ul > li:hover > ul,#bigmag-menu ul > li > ul > li:hover > ul{opacity:1;visibility:visible;-webkit-transform:translateY(0);-moz-transform:translateY(0);transform:translateY(0);clip: rect(0px,9000px,9000px,-9000px);}
+  }
+  #bigmag_menu .menu-icon {margin-left: 5px;font-size: 18px;display: inline-block;position: relative;top: 2px;}
+  .menu .home a {background: $(maincolor);color:#fff !important;}
+  .menu .mega-nav i {font-size: 15px !important;margin: 0 !important;}
+  .mobile-menu ul > li:hover > ul, .mobile-menu ul > li > ul > li:hover > ul {opacity: 1;visibility: visible;-webkit-transform: translateY(0);-moz-transform: translateY(0);transform: translateY(0);clip: rect(0px,9000px,9000px,-9000px);position: relative;}
+.mobile-menu ul > li > ul {position: absolute;top: 100%;right: 0;padding: 0;z-index: 9999;margin-top: 0;visibility: hidden;opacity: 0;-webkit-transform: translateY(-30px);-moz-transform: translateY(-30px);transform: translateY(-30px);clip: rect(0px,0px,0px,0px);}
+  .mobile-menu ul#bigmag_menu li {list-style-type: none;padding: 0;border-bottom: 1px solid rgba(255,255,255,0.05);text-align: right;}
+  .mobile-menu li.hasSubmenu > ul {margin-top: 2px;border-radius: 5px;padding: 8px;}
+  #bigmag-menu ul > li.hasSubmenu > a:after {content: '\f0d7';font-family: 'Font Awesome 5 Free';float: left;margin-right: 5px;font-size: 12px;}
+#bigmag-menu ul > li > ul > li.hasSubmenu > a:after {content: '\f0d9';font-family: 'Font Awesome 5 Free';float: left;}
+  .mobile-btn {background: $(maincolor);position: absolute;height: 60px;line-height: 60px;color: #fff;padding: 0 18px;z-index: 100;display: none;}
+  .mobile-btn:before {content: '\f0c9';font-family: 'Font Awesome 5 Free';font-weight: 900;font-size: 15px;margin-left: 5px;}
+  .mobile-menu {position: fixed;top: 0;z-index: 1000;right: 0;visibility: hidden;width: 100%;height: 100%;background: $(secondcolor.mmenu);background: -webkit-linear-gradient(135deg,$(onecolor.mmenu),$(secondcolor.mmenu));background: -moz-linear-gradient(135deg,$(onecolor.mmenu),$(secondcolor.mmenu));background: -o-linear-gradient(135deg,$(onecolor.mmenu),$(secondcolor.mmenu));background: linear-gradient(135deg,$(secondcolor.mmenu),$(onecolor.mmenu));transition: 0.5s cubic-bezier(0.55, 0, 0.1, 1) 0s;overflow-y: auto;-webkit-transform: translate(100%, 0);-ms-transform: translate(100%, 0);transform: translate(100%, 0);padding: 0 16px;}
+  .mobile-menu a {color: #fff;display: block;padding: 14px 10px;border-radius: 5px;}
+  .mobile-menu.active {visibility: visible !important;-webkit-transform: translate(0, 0) !important;-ms-transform: translate(0, 0) !important;transform: translate(0, 0) !important;left: 0;}
+  .mobile-close {display: table;margin: 0 auto;margin-top: 20px;margin-bottom: 30px;}
+  .mobile-close:after, .mobile-close:before {color: #fff;font-family: 'Font Awesome 5 Free';font-size: 26px;font-weight: 900;}
+  .mobile-close:before {content: '\f105';}
+  .mobile-close:after {content: '\f104';position: relative;right: 7px;}
+  .mobile-close:hover:after, .mobile-close:hover:before {color: #bf2718;}
+  .mobile-menu #LinkList996 {margin-bottom: 25px;}
+  .mobile-menu #bigmag_menu, .mobile-menu #nav {display: block;}
+  .mobile-menu h3 {color: #fff;font-size: 15px;margin-bottom: 10px;border-bottom: 2px solid;padding-bottom: 5px;display: inline-block}
+  .mobile-searchform .search-submit {top: 10px;}
+  .mobile-menu .isMega ul{display:none}
+  .mobile-menu #nav a:before{content:'\f15c';font-family:'Font Awesome 5 Free';color:#fff;margin-left:5px}
+  .mobile-menu li{list-style-type:none;padding:6px 0}
+  .mobile-menu #bigmag_menu > li.hasSubmenu > a:not(a.mega-link):after,.mobile-menu #bigmag_menu > li > ul > li.hasSubmenu > a:after {content: "\f078";font-family: 'Font Awesome 5 Free';font-weight: 900;float: left;}
+  .mobile-menu-social {margin-bottom: 22px;margin-top: 25px;display: block;}
+  .mobile-menu-social li {padding: 0;display: inline-block !important;border: 0;}
+  .mobile-menu-social li:hover {margin: 0 !important;}
+  .mobile-menu-social a {padding: 4px 9px;font-size: 18px;}
+  .mobile-menu-social a:hover {opacity: 0.8;color: #fff !important;}
+  .mobile-menu-social ul {text-align: center;margin: 0;}
+
+ /*-----------------
+ Mobile Menu Search
+ -------------------*/
+
+ .mobile-searchform {position: relative;z-index: 3;width: 88%;margin: 10px auto;margin-top: 30px;}
+ .mobile-form-control {background-color: rgba(0,0,0,0.05);border: 1px solid $(sub.menu.border);width: 100%;border-radius: 50px;padding: 5px 30px 5px 20px;color: $(main.menu.text);height: 37px;}
+ .mobile-searchform ::placeholder{color: $(main.menu.text);}
+ #mobile-search-submit {background: rgb(0 0 0 / 0%);width: 35px;height: 37px;position: absolute;top: 1px;left: 5px;z-index: 100;font-size: 15px;}
+ #mobile-search-submit:before {content: '\f002';font-family: 'Font Awesome 5 Free';margin-left: 5px;float: right;transform: rotate(90deg);color: #fff;font-weight: 900;}
+
+  /*----
+  Posts
+  ------*/
+
+a.bigmag-post-image:hover .thumb-overlay {background-color: rgba(40, 35, 40, 0.79);}
+.thumb-overlay {position: absolute;right: 0;top: 0;z-index: 1;width: 100%;height: 100%;-webkit-transition: .3s ease-in-out;-o-transition: .3s ease-in-out;-moz-transition: .3s ease-in-out;transition: .3s ease-in-out;}
+    .post-cat a{padding: 5px 10px;display: inline-block;text-transform: uppercase;font-size: 12px;position: relative;line-height: 14px;margin-bottom: 5px;margin-left: 4px;}
+  .bigmag-first-article .entry-title{font-weight: 600;font-size:18px;padding-right: 4px;padding-left: 6px;margin:15px 0px;}
+  .article-meta a:hover,.bigmag-first-article .entry-title a:hover{color:$maincolor !important}
+  .article-meta a:hover {color: $maincolor}
+  .bmrp-thumb {position: relative;}
+  .custwid .widget h3,.bigmag-full-wid h3,.bigmag-main-wid h3{color:$(c.h.border.color)!important;}
+  .custwid {padding: 0 2%;}
+  .custwid .widget h3:before,.bigmag-full-wid h3:before,.bigmag-main-wid h3:before{border-top: 5px solid $(c.h.border.color)!important}
+  .custwid .widget h3:after,.bigmag-full-wid h3:after,.bigmag-main-wid h3:after{background: $(c.h.border.color)!important}
+a.posts-link{height: 30px;line-height: 30px;padding: 0 10px;margin: 0;font-size: 10px;color: $(c.h.border.color);font-weight: 400;text-transform: uppercase;position: absolute;left: 0;top: 0;border-radius: 3px;}
+a.posts-link:after {content: '\f100';display: inline-block;font-family: 'Font Awesome 5 Free';font-weight: 900;vertical-align: bottom;margin-right: 3px;}
+a.posts-link:hover{color:#fff;background:$(c.h.border.color);}
+  .index-posts {display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+  .index-posts .post-item {position: relative;min-height: 1px;padding: 0 2%;margin-top: 20px;width: 100%;}
+  .bigmag-article .article-inwhite{box-sizing: border-box;padding: 10px 20px;float: right;width: 50%;background: #fff;}
+  .bigmag-article{margin-bottom: 30px;border-radius: 0px;position: relative;height: 280px;}
+  .bigmag-article .bigmag-article-image{position: relative;display: inline-block;float: right;}
+  .bigmag-article .bigmag-article-image .bigmag-featured-wid{width: 375px;height: 260px;display: block;}
+  .bigmag-article .post-cat{position: absolute; top: 5px;right: 5px;font-size: 14px;font-weight: 400;display: block; overflow: hidden;text-overflow: ellipsis; white-space: nowrap;width:100%;}
+  .bigmag-article .article-content {width: 100%; box-sizing:border-box}
+  .bigmag-article .entry-header{margin-top:10px;}
+  .article-meta a.author-prof {margin-left: 3px;}
+  .bigmag-article .entry-title{font-weight: 700!important;font-size:18px!important;line-height: 26px!important;}
+  .bigmag-article h2{padding-bottom: 10px;}
+  .bigmag-article .entry-content{font-size: 14px;line-height: 24px;color: $(content.post.color); padding-top:10px;}
+  .bigmag-article a.btn-read{background: $(maincolor);display: inline-block;left: 20px;line-height: 20px;padding: 10px 14px;margin-top: 20px;margin-bottom: 10px;font-size: 12px;color: #fff;border-radius: 2px;}
+  .bigmag-article a.btn-read:after {content: "\f100";font-family: 'Font Awesome 5 Free';margin-right: 5px;font-weight: 900;vertical-align: middle;}
+  .bigmag-article a.btn-read:hover{opacity:0.8}
+  .bigmag-article .entry-title a:hover{color:$maincolor !important}
+  .postags{position:absolute;top:15px;right:15px;z-index:3}
+  .postags a{display:inline-block;background:$(maincolor);color:#fff;margin:0;height:20px;line-height:20px;padding:0 6px;font-size:11px;text-transform:uppercase;border-radius:2px;display:none}
+  .postags a:first-child{display:inline-block}
+  .bigmag-post-image img {object-fit: cover;}
+
+  /*-------
+  Item Page
+  ---------*/
+  
+  .post-body{margin:0;font-size:15px;line-height:26px;box-sizing:border-box;color:$(main.post.color)}
+  .post-body img{max-width:100%;padding:10px 0;position:relative;margin:0 auto;display: block;cursor: context-menu;}
+  .comment-link{white-space:normal}
+  .postmarg{padding: 50px 17px !important;}
+.entry-header {margin-bottom: 10px;}
+  .article-meta {display: inline-block;}
+  .article-meta a{color: $(content.post.color); font-weight: 400;}
+  .article-meta a{font-size: 12px;display: inline-block;}
+  .article-meta i{font-size: 15px;margin-left: 3px;}
+  .article-meta .vcard {display: inline-block;margin-left: 8px;}
+  .post-cat{display: block;}
+  .postmarg .post-cat a {background: $(maincolor);border-radius: 5px;color: #fff;margin-top: 10px;}
+  .postmarg h1 {font-size: 33px;line-height: 40px;padding: 10px 0px;font-weight: 700;}
+  .static_page .postmarg h1 {border-bottom: 2px solid $(light.border.color);}
+.item-page {border: 1px solid $(light.border.color);padding: 0 10px 0 10px;}
+  span.post-author-img {float: right;width: 25px;padding: 0 !important;height: 25px;margin-left: 5px;}
+  span.post-author-img img {padding: 0 !important;border-radius: 100%;}
+  span.bm-post-comment-link {margin-right: 10px;}
+  a.comment-link:hover {color:$(maincolor)}
+  button#up, button#down {display: inline-block;background: $(maincolor);border: 0;color: #fff;padding: 2px 10px;height: 28px;cursor: pointer;font-size: 13px;border-radius: 3px;}
+  #font-size {display: inline-block;font-weight: 700;color: $(head.post.color);}
+  #font-size-p {display: inline-block;float: left;border: 1px solid $(light.border.color);padding: 5px;border-radius: 3px;color: $(head.post.color);}
+  p.font-size-label {margin-left: 5px;display: inline-block;}
+  p.font-size-label .fa {margin-left: 3px;}
+  
+  /*----------------------
+  Post Top & Bottom Share
+  ------------------------*/
+  
+  .bigmag-left-share {background: #fafafa;border: 1px solid $(light.border.color);padding: 18px 20px;overflow: hidden;line-height: 0;margin-top: 10px;}
+  .social.share-links {display: inline-block;top: 3px;position: relative;}
+  .bigmag-left-share ul li{float: right;}
+  .bigmag-left-share ul li a{display: inline-block;color: #FFF !important;text-align: center;font-size: 12px;}
+  .bigmag-left-share .share-links .social-item {padding: 10px 12px;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); cursor: pointer; margin-right: 1px; text-align: center;border-radius: 5px;}
+  .bigmag-right-tags{position: relative;display: block;width: 100%;padding: 5px 0px;}
+  .bigmag-left-share .share-links .social-item.twitter:before,.bigmag-left-share .share-links .social-item.facebook:before {margin-right: 3px;}
+.bigmag-left-share .share-links .social-item.facebook {background: #3b5998;width: fit-content;}
+  .bigmag-left-share .share-links .social-item.twitter {background: #00aced;width: fit-content;}
+  .bigmag-left-share .share-links .social-item.linkedin {background: #007bb5}
+  .bigmag-left-share .share-links .social-item.tumblr {background: #35465d}
+  .bigmag-left-share .share-links .social-item.pinterest {background: #bd081c}
+  .bigmag-left-share .share-links .social-item.reddit {background: #ff4500}
+  .bigmag-left-share .share-links .social-item.vk {background: #4a76a8}
+  .bigmag-left-share .share-links .social-item.odnoklassniki {background: #ed812b}
+  .bigmag-left-share .share-links .social-item.pocket {background: #ee4056}
+  .bigmag-left-share .share-links .social-item.whatsapp {background: #25d366}
+  .bigmag-left-share .share-links .social-item.email {background: #333}
+  .bigmag-left-share .share-links .social-item.messenger {background: #0078ff;padding: 14px 12px;}
+  .bigmag-left-share .share-links .social-item:hover {opacity: 0.8;color: #fff !important;}
+  .share-title {padding-left: 15px;display: inline-block;float: right;line-height: 40px;font-size: 12px;margin: 2px 0;}
+  .share-title .fa-share-alt {transform: rotate(180deg);margin-left: 5px;}
+  .centred-share {overflow: hidden;text-align: center;}
+  .centred-share .share-links .social-item {display: inline-block;padding: 20px 14px;color: #fff;font-size: 13px;width: 43px;}
+  .centred-share .share-links .social-item:before {font-family: 'Font Awesome 5 Brands';font-size: 15px;}
+  .bigmag-left-share .share-links .social-item.email:before {content: '\f0e0';font-family: 'Font Awesome 5 Free';font-weight: 900;}
+
+  /*---------------------
+  Breadcrumbs Navigation
+  -----------------------*/
+
+  .breadcrumbs a {color: $(content.post.color);font-size: 13px;margin-right: 3px;}
+  .breadcrumbs a:first-child {margin-right: 0;}
+  .breadcrumbs a:hover{color: $(maincolor) !important;}
+  .breadcrumbs i{margin-left: 3px;color: $(content.post.color);}
+  .breadcrumbs .fa-angle-double-left {margin-right: 2px;margin-left: 1px;vertical-align: middle;}
+  
+  /*----------------
+  Post Author Bottom
+  ------------------*/
+  
+  .bigmag-post-author .post-author{display:block;overflow:hidden;padding:30px 0px;width:100%;margin-top:10px;border-top:1px solid $(light.border.color);border-bottom:1px solid $(light.border.color);margin-bottom: 10px;}
+  .author-img {float: right;}
+  .bigmag-post-author .author-img > img{max-width:72px;border-radius: 100%;height: 72px}
+  .bigmag-post-author .author-content{padding-right: 30px;overflow: hidden;}
+  .bigmag-post-author .author-content h5{font-size:16px;padding:10px 0 15px;display:block;margin:0;}
+  .bigmag-post-author .author-content h5 a{color:$(head.post.color);font-weight:700;font-size:14px;text-transform:capitalize;}
+  .bigmag-post-author .author-content h5 a:hover{color:$(maincolor) !important;}
+  .bigmag-post-author .author-content p{color:$(main.post.color);margin:auto;line-height:24px;padding-bottom:15px;font-size:13px;}
+  .bigmag-post-author .content-social-author ul li{list-style-type: none;}
+  .bigmag-post-author .content-social-author ul li{float: right;}
+  #post-author-social a {font-size: 15px;padding-left: 12px;}
+
+  /*-------
+  Post Tags
+  ---------*/
+  
+  .bigmag-right-tags {margin-top: 10px;}
+  .tags-title{font-weight: 400;color: #fff;padding: 0 6px;padding-bottom: 2px;margin: 5px 0 0 5px;background: #2c2f34;border: 1px solid $(light.border.color);border-radius: 2px;}
+  .tags-title,.bigmag-right-tags a{height: 23px;display: inline-block;line-height: 21px;}
+  .bigmag-right-tags a{color: $(content.post.color);padding: 0 6px;padding-bottom: 2px;background: rgba(0,0,0,0.03);margin: 5px 0 0 5px;border: 1px solid $(light.border.color);border-radius: 2px;}
+  .bigmag-right-tags a:hover{color:$maincolor !important}
+  .tags-wrap {font-size: 11px;clear: both;line-height: 25px;}
+
+  /*-------
+  Comments
+  ---------*/
+  
+  .comment-info {overflow: hidden;padding: 15px;border: 1px dashed $(light.border.color);border-radius: 5px;margin-top: 20px;}
+  .comments-info {margin-bottom: 20px;}
+  a.go-respond {background: $(maincolor);color: #fff;padding: 7px 13px;border-radius: 3px;margin-top: 10px;display: inline-block;margin-left: 10px;}
+  .comments-info p{color:$(content.post.color);margin-top: 10px;margin-bottom: 10px;}
+  .comments-count {border-bottom: 2px solid $(light.border.color);display: inline-block;font-weight: 700;padding-bottom: 3px;color: $(head.post.color);margin-left: 9px;}
+  .comments-count:before {content: "\f4ad";float: right;margin-left: 5px;font-family: 'Font Awesome 5 Free';font-weight: 900;}
+  .comments{clear:both;margin:0;color:#1c1c1c;padding:10px 10px}
+  .comments h4 {display: inline-block;vertical-align: middle;font-size: 14px;margin-right: 5px;color: $(main.post.color);}
+  .comments .comments-content{margin:0;padding:0}
+  .comments .comments-content .comment{margin-bottom:0;padding-bottom:8px}
+  .comments .comments-content .comment:first-child{padding-top:0}
+  .facebook-tab,.fb_iframe_widget_fluid span,.fb_iframe_widget iframe{width:100%!important}
+  .comments .item-control{position:static}
+  .comments .avatar-image-container{float:right;overflow:hidden;position:absolute}
+  .comments .avatar-image-container,.comments .avatar-image-container img{height:45px;max-height:45px;width:45px;max-width:45px; border-radius: 50px;object-fit: cover;}
+  .comments .comment-block{overflow:hidden;padding:0 0 10px}
+  .comments .comment-block,.comments .comments-content .comment-replies{margin-right:60px;margin-top:0}
+  .comments .comments-content .inline-thread{padding:0}
+  .comments .comment-actions{float:right;width:100%;position:relative;margin:0}
+  .comments .comments-content .user{font-style:normal;font-weight:700;font-size:14px}
+  .comments .comments-content .comment-content{text-align:right;font-size:13px;line-height:1.4em;color:#656565;overflow: hidden;}
+  .comments .comment .comment-actions a{margin-left:5px;padding:4px 7px;font-weight:400;font-size:10px}
+  .comments .comment .comment-actions a:hover{color:#fff;background-color:$maincolor;text-decoration:none}
+  .comments .comments-content .datetime{color:$(content.post.color);font-size:11px;position:relative;margin:2px 0 0;display:block}
+  .comments .comments-content .datetime:before{content:'\f017';font-family:'Font Awesome 5 Free';font-style:normal;margin-left:3px;float: right;}
+  .comments .comments-content .comment-header .user a:hover{color:$maincolor !important}
+  .comments .comments-content .comment-thread{margin:0}
+  .thread-count,.loadmore {display: none;}
+  .comments .continue a{padding:0 0 0 60px;font-weight:400}
+  .comments .comment-replybox-thread{margin:0}
+  #comments ol li{list-style-type: none !important}
+  #comments .comment .comment-block{border: 1px solid $(light.border.color);padding: 5px 10px;box-sizing: border-box;position: relative;margin-bottom: 15px;}
+  #comments .continue a{font-size: 10px;display: table;padding:2px 5px;display: inline-block;width: 100%;text-align: center;padding: 8px 0px;margin: 7px 0px;font-size:12px;border:1px solid $maincolor;color:$maincolor}
+  #comments .continue a:hover{background-color: $maincolor;color:#fff}
+  .comments .comment-actions{position: absolute;width: auto;left: 0px;top:10px;}
+  .comments .comment-actions a{color:$(content.post.color);border: 1px solid $(light.border.color);transition: 0s all ease-in-out !important;}
+  .comments .comment-actions a:hover{background: $maincolor !important;color: #fff !important;border-color: $maincolor !important;transition: 0s all ease-in-out !important;}
+  .comments .comments-content .comment-header{border-bottom: 0px !important;color:$(content.post.color);}
+  .bigmag-blogger-comment{display:block}
+  #bigmag-comment-placer {margin-top: 15px;}
+  .bigmag-tabs .content-tab{background-color:transparent;padding:0}
+  .bigmag-tabs-header{margin-bottom:10px;position:relative}
+  .bigmag-tabs-header h3{display:inline-block;font-size:18px;margin:0;color:#010101;top:2px;font-weight:500;padding-bottom:2px}
+  .bigmag-tabs-header .bigmag-tab-wrapper a{height:auto;line-height:1.2em;padding:8px 5px;display:block;text-align:center}
+  .bigmag-tabs-header .bigmag-tab-wrapper li{float:right;width:33.33%;padding:0}
+  .facebook-tab,.fb_iframe_widget_fluid span,.fb_iframe_widget iframe{width:100%!important}
+  .bigmag-tabs.simplyTab .content-tab{background-color:transparent;padding:0;}
+  .bigmag-tabs.simplyTab .bigmag-tab-wrapper li a{text-transform: uppercase;color: $(maincolor);font-weight: 600;font-size: 12px;}
+  ul.bigmag-tab-wrapper {border: 1px solid $(maincolor);overflow: hidden;clear: both;border-radius: 3px;}
+  .bigmag-tabs.simplyTab .bigmag-tab-wrapper li a.activeTab{background:$(maincolor);color: #fff;border-radius: 3px;}
+  .bigmag-tabs.simplyTab .bigmag-tab-wrapper li{margin:0;list-style:none}
+  .bigmag-tab-wrapper{list-style:none}
+  .content-tab{transition: 0s}
+  .comments .comments-content .icon.blog-author:before {content: '\f2bd';font-weight: 900;font-family: 'Font Awesome 5 Free';margin-left: 5px;color:$(content.post.color)}
+span.icon.user.blog-author {float: right;}
+
+  /*--------
+  Blog Pager
+  ----------*/
+
+  a.loadmore-btn:after {content: '\f13a';font-family: 'Font Awesome 5 Free';display: inline-block;margin-right: 10px;font-size: 30px;position: relative;top: 6px;}
+  #blog-pager .loadmore-btn {cursor: pointer;padding: 8px 18px;color: #fff;background: $(maincolor);border-radius: 5px;font-weight: 600;outline: 0;border: 2px solid $(maincolor);font-size: 14px;}
+  #blog-pager.loadmore {margin: 20px 0;margin-bottom: 40px;padding: 10px 0;display: block;text-align: center;}
+  #blog-pager .loadmore-btn.loading,#blog-pager .loadmore-btn.no-more{cursor:no-drop} 
+  #blog-pager .loadmore-btn:hover{opacity:0.8}
+  .loadmore .spinner {top: 13px;left: 3px;width: 36px;height: 36px;position: relative;}
+
+/*=====================================
+= PostNav
+=====================================*/
+.bigmag-Pager-Navigation-Widget .post-nav{position:relative;overflow:hidden;display:block;border: 1px solid $(light.border.color);padding:0;margin:0;}
+.bigmag-Pager-Navigation-Widget {margin-bottom: 23px;}
+.bigmag-Pager-Navigation-Widget .post-nav li{width:50%;float:right;margin:0;padding:0;overflow:hidden;height:135px;position:relative;list-style-type: none;}
+.bigmag-Pager-Navigation-Widget .post-nav .nav-content,.bigmag-Pager-Navigation-Widget .post-nav .nav-inner{position:absolute;display:block;text-align:center;bottom: 20px;right:0;padding:5px;margin:0;width:100%;z-index:2;}
+.bigmag-Pager-Navigation-Widget .post-nav .nav-content span, .bigmag-Pager-Navigation-Widget .post-nav .nav-inner span {font-size: 20px;color: #000;}
+.bigmag-Pager-Navigation-Widget .post-nav .nav-content span:hover {color:$(maincolor);}
+.bigmag-Pager-Navigation-Widget .post-nav .next-post .nav-content span::before,.bigmag-Pager-Navigation-Widget .post-nav .prev-post .nav-content span::after{font-family:'Font Awesome 5 Free';position:relative;padding:6px 12px;background:rgb(0 0 0 / 30%);color:#000;}
+.bigmag-Pager-Navigation-Widget .post-nav .prev-post .nav-content span::after {content: "\f100";margin-right: 7px;}
+.bigmag-Pager-Navigation-Widget .post-nav .next-post .nav-content span::before {content: "\f101";margin-left: 7px;}
+.bigmag-Pager-Navigation-Widget .post-nav p{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin:8px 10px;padding:0;color:#000;font-weight:normal;}
+.bigmag-Pager-Navigation-Widget .nav-thumb:before{content:"";right:0;width:100%;height:100%;z-index:1;position:absolute;background-image: linear-gradient(to bottom, transparent, rgb(0 0 0 / 59%));transition: 0.2s;}
+.next:hover .nav-thumb:before,.prev:hover .nav-thumb:before {opacity: 0.8;}
+.bigmag-Pager-Navigation-Widget .post-nav li a{position:relative;overflow:hidden;display:block;height:100%;padding:0;color:#2f2f2f;font-weight:700;}
+
+  /*-----
+  Sidebar
+  -------*/
+  
+  .sidebar .widget{margin-bottom:20px;position:relative;clear: both;}
+  .sidebar ul,.sidebar li{list-style-type:none;margin:0;padding:0}
+  .sidebar .widget-content{padding:10px 0;overflow: hidden;}
+  .bigmag-sidebar-tab li a,.bigmag-sidebar-tabs .section{transition:all 0s ease;-webkit-transition:all 0s ease;-moz-transition:all 0s ease;-o-transition:all 0s ease;-ms-transition:all 0s ease}
+  .bigmag-sidebar-tab li a.active {color: #fff;position: relative;z-index: 1;}
+  .bigmag-sidebar-tabs .widget h3{display:none}
+  .bigmag-sidebar-tab li{width:33.3%;float:right;display:inline-block;padding:0;position:relative}
+  .bigmag-sidebar-tab li a {height: 55px;text-align: center;padding: 0;border-radius: 2px;max-height: 40px;font-weight: 600;transition: opacity 0.3s;display: block;font-size: 12px;line-height: 40px;text-transform: uppercase;}
+  .bigmag-sidebar-tab {display: flex;clear: both;padding: 0;margin: 0;border: 1px solid $(maincolor);border-radius: 3px;}
+  .bigmag-sidebar-tab li a.active:before {content: '';position: absolute;z-index: -1;width: 50%;height: 100%;top: 0;right: 0;background-color: $(maincolor);}
+  .bigmag-sidebar-tab li a.active:after, .bigmag-sidebar-tab li a.active:before {background: $(maincolor);}
+  .bigmag-sidebar-tab li a.active:after {content: '';position: absolute;z-index: -1;width: 70%;height: 100%;top: 0;left: 0;background-color: $(maincolor);-webkit-transform: skew(-35deg);-ms-transform: skew(-35deg);transform: skew(-35deg);}
+  .bigmag-sidebar-tab li:last-child a.active:after {-webkit-transform: skew(0);-ms-transform: skew(0);transform: skew(0);}
+  .bigmag-sidebar-tabs .widget-content{padding:15px 0 0}
+  .sidebar .widget h3:before, .custwid .widget h3:before,h3.related-post:before, .comments h3:before,.bigmag-full-wid h3:before,.bigmag-main-wid h3:before{content: "";width: 0;height: 0;position: absolute;bottom: -5px;right: 0;border-right: 0;border-left: 5px solid transparent;border-top: 5px solid $(main.border.color);}
+  .sidebar .widget h3:after,.custwid .widget h3:after,h3.related-post:after, .comments h3:after,.bigmag-full-wid h3:after,.bigmag-main-wid h3:after{content: "";background: $(main.border.color);width: 40px;height: 2px;position: absolute;bottom: -2px;right: 0;}
+  .sidebar .widget h3,.custwid .widget h3,h3.related-post, .comments h3,.bigmag-full-wid h3,.bigmag-main-wid h3{padding:0px 0px 10px;color:$(head.text.color);display:block;font-size:18px;position:relative;font-weight:700 !important;text-align:right;border-bottom:2px solid $(light.border.color);}
+ 
+  /*----------------
+  Recent Post Widget
+  ------------------*/
+  
+  .bigmag-author{margin-left:10px;display: inline-block;}
+  .bigmag-author::before{content: '\f2bd';font-family: 'Font Awesome 5 Free';margin-left: 5px;font-weight: 900;float: right}
+  .bigmag-author,.bigmag-time{color:#fff;font-size:12px;font-weight:400}
+  .bigmag-recent .bigmag-author,.bigmag-recent .bigmag-time,.map-meta .bigmag-author,.map-meta .bigmag-time,.rnav-conent .bigmag-author,.rnav-conent .bigmag-time {color:$(content.post.color);}
+  .bigmag-time:before{content: "\f017";font-family: 'Font Awesome 5 Free';margin-left:5px;}
+  .bigmag-recent .bigmag-recent-item{overflow:hidden;border-bottom:1px solid $(second.light.color);padding:10px 0}
+  .bigmag-recent .bigmag-recent-item:first-child{padding-top:0}
+  .bigmag-recent .bigmag-recent-thumb{position:relative;float:right;margin:0!important;overflow:hidden;display:block;vertical-align:middle}
+  .bigmag-recent .bigmag-recent-content{padding-right:10px;display:table-cell}
+  .bigmag-recent .bigmag-recent-title{overflow:hidden;line-height:0;margin:0 0 2px;padding:0}
+  .bigmag-recent .bigmag-recent-title a{color:$(head.post.color);font-weight:700!important;font-size:13px!important;line-height:1.5em!important;}
+  .bigmag-recent .bigmag-recent-title a:hover{color:$(maincolor) !important}
+  .bigmag-big-thumb,.bigmag-recent .bigmag-recent-thumb,.bigmag-col-thumb,.PopularPosts .item-thumbnail img{width: 110px;height: 75px;-webkit-backface-visibility: hidden;}
+
+  /*-----------------------------------
+  Popular Post & Featured Post Widget
+  -------------------------------------*/
+  
+  .bigmag-fcols-inner .PopularPosts h2 {margin-bottom: 6px !important;}
+  .PopularPosts .widget-content .post:first-child{padding-top:0;}
+  .widget-date,.widget-author {font-size: 13px;background: $(maincolor); color: #fff !important;border-radius: 3px;height: 27px;line-height: 27px;padding: 0px 5px;display: inline-block;}
+  .widget-author a {font-size: 13px;color: #fff !important;}
+  .widget-author a:hover {color: #fff !important;}
+  .widget-author {display: inline-block;margin-left: 5px;}
+  .widget-author a:before {content: "\f2bd";float: right;font-family: 'Font Awesome 5 Free';font-weight: 900;margin-left: 5px;}
+  .widget-date:before {content: "\f017";font-family: 'Font Awesome 5 Free';margin-left: 5px;float: right;} 
+  .PopularPosts .item-thumbnail {display: block;overflow: hidden;float: right;margin-left: 15px;}
+  .PopularPosts .item-thumbnail img{object-fit:cover;padding:0;display: block;}
+  .sidebar .PopularPosts .widget-content .post:last-child,.sidebar .bigmag-recent .bigmag-recent-item:last-child,.tab-widget .PopularPosts .widget-content .post:last-child,.tab-widget .bigmag-recent .bigmag-recent-item:last-child{padding-bottom:0;border-bottom:none !important}
+  .PopularPosts h2 a{color:$(head.post.color);font-weight:700;font-size:13px;line-height:1.4em;transition:color .3s;line-height: 1.5em!important;}
+  .PopularPosts h2 a:hover,.FeaturedPost h2 a:hover{color:$(maincolor) !important}
+  .FeaturedPost img {width: 100%;margin-bottom: 20px;}
+  .post-title {margin-bottom: 10px;font-size: 20px;line-height: 25px;}
+  .PopularPosts h2 {padding: 0;overflow: hidden;line-height: 0;}
+  .PopularPosts .widget-date {margin-bottom: 7px;}
+  p.snippet-item {color:$(content.post.color);font-size: 12px;line-height: 1.5em;margin-top: 5px;}
+  .PopularPosts .widget-content{counter-reset:post-widget-counter;margin-top: 15px;overflow: visible;padding-right: 12px;}
+  .PopularPosts .widget-content .post{position:relative;padding:10px;border-bottom:1px solid $(second.light.color);overflow: visible;display: flow-root;}
+  .PopularPosts .widget-content .item-thumbnail:before {display: block;width: 30px;height: 30px;content: counter(post-widget-counter, decimal);counter-increment: post-widget-counter;position: absolute;z-index: 2;top: 0;right: -15px;text-align: center;font-size: 14px;font-weight: 600;line-height: 26px;border: 2px solid #ffffff;background: $(maincolor);color: #fff;border-radius: 100%;}
+  .PopularPosts .widget-content .post:nth-child(1) .item-thumbnail:before{top: -10px;-webkit-transform: scale(1.35, 1.35);-ms-transform: scale(1.35, 1.35);transform: scale(1.35, 1.35);}
+  .PopularPosts .widget-content .post:nth-child(2) .item-thumbnail:before{-webkit-transform: scale(1.25, 1.25);-ms-transform: scale(1.25, 1.25);transform: scale(1.25, 1.25);}
+  .PopularPosts .widget-content .post:nth-child(3) .item-thumbnail:before{-webkit-transform: scale(1.15, 1.15);-ms-transform: scale(1.15, 1.15);transform: scale(1.15, 1.15);}
+  .PopularPosts .widget-content .post:nth-child(4) .item-thumbnail:before{-webkit-transform: scale(1.1, 1.1);-ms-transform: scale(1.1, 1.1);transform: scale(1.1, 1.1);}
+  
+  /*-------------
+  Comment Widget
+  ---------------*/
+  
+  .bigmag-comments .bigmag-comment .bigmag-comment-profile{position:relative;overflow:hidden;padding:0;width:55px;height:55px;float:right;margin:0 0 0 10px;border: 2px solid #e7e7e7;border-radius: 50%;}
+  .bigmag-comments .bigmag-comment .bigmag-comment-profile img {object-fit: cover;}
+  .bigmag-comments .bigmag-comment{background:none!important;clear:both;list-style:none;word-break:break-all;display:block;border-bottom:1px solid $(second.light.color);overflow:hidden;margin:0;padding:10px 0}
+  .bigmag-comments .bigmag-comment:first-child{padding-top:0;}
+  .bigmag-comments .bigmag-comment:last-child{padding-bottom:0;border-bottom: 0;}
+  .bigmag-comments .bigmag-comment span{color:$(content.post.color);display:block;line-height:1.2em;font-size:12px;font-weight:700;overflow:hidden;height:38px;margin-top:5px;box-sizing:border-box;padding:5px 8px}
+  .bigmag-comment-thumb{width:55px;height:55px;float:right;margin:0 0 0 10px;}
+  .bigmag-comments a{color:$(main.post.color);position:relative;font-size:13px;text-transform:capitalize;display:block;overflow:hidden;font-weight:700}
+  #tabside3 a:hover{color:$(maincolor) !important}
+  .bigmag-comments{list-style:none;padding:0}
+  a.leavecmnt {color: $(main.post.color);display: block;padding-right: 18px;overflow: hidden;font-size: 11px;position: relative;right: 65px;font-weight:400}
+  .leavecmnt:hover {text-decoration: underline;color: $(maincolor) !important;}
+  a.comment-author:hover {color: $(maincolor) !important;}
+  .leavecmnt:before {color: $(maincolor);content: "\f086";font-family: 'Font Awesome 5 Free';position: absolute;top: 0;right: 0;font-size: 12px;font-weight: 900;}
+  a.vglnk {display: none;}
+  
+  /*-------
+  Labels
+  ---------*/
+  
+  .cloud-label-widget-content a{float:right;margin:3px;font-weight:normal;font-size:13px;padding:5px 10px;border:1px solid $(light.border.color);display:inline-block}
+  .cloud-label-widget-content a:hover{border:1px solid $(maincolor) !important;color:$(maincolor) !important;}
+  .list-label-widget-content{margin-top:-10px}
+  .list-label-widget-content ul li{list-style:none;overflow:hidden;padding:0;position:relative;border-bottom:1px solid $(light.border.color);}
+  .list-label-widget-content ul li a{position:relative;display:block;color:$(head.post.color);padding:10px 0;font-size:13px}
+  .list-label-widget-content ul li span{float:left;display: inline-block;background-color: $(maincolor);text-align: center;font-size: 85%;padding: 0 5px;min-width: 24px;height: 22px;line-height: 22px;color: #fff;border-radius: 2px;transition: box-shadow 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);}
+  .list-label-widget-content ul li:hover a{color:$(maincolor) !important;margin-right: 5px;}
+  .list-label-widget-content ul li:hover {border-bottom: 1px solid $(maincolor) !important;}
+  .list-label-widget-content ul li:last-child:hover {border-bottom: 0;}
+  .list-label-widget-content ul li a:before{content:'\f07b';display:inline-block;font-family:'Font Awesome 5 Free';margin-left:8px}
+  .list-label-widget-content ul li a:hover:before {content: '\f07c';}
+  .list-label-widget-content ul li:last-child{border-bottom:0 !important}
+  .list-label-widget-content li:nth-child(1) span,.list-label-widget-content li:nth-child(11) span{background:#6A4F0A}
+  .list-label-widget-content li:nth-child(1):hover span,.list-label-widget-content li:nth-child(11):hover span{background:#5B4305}
+  .list-label-widget-content li:nth-child(2) span,.list-label-widget-content li:nth-child(12) span{background:$(maincolor)}
+  .list-label-widget-content li:nth-child(2):hover span,.list-label-widget-content li:nth-child(12):hover span{opacity:0.8}
+  .list-label-widget-content li:nth-child(3) span,.list-label-widget-content li:nth-child(13) span{background:$(maincolor)}
+  .list-label-widget-content li:nth-child(3):hover span,.list-label-widget-content li:nth-child(13):hover span{opacity:0.8}
+  .list-label-widget-content li:nth-child(4) span,.list-label-widget-content li:nth-child(14) span{background:#9B62F8}
+  .list-label-widget-content li:nth-child(4):hover span,.list-label-widget-content li:nth-child(14):hover span{background:#7039C9}
+  .list-label-widget-content li:nth-child(5) span,.list-label-widget-content li:nth-child(15) span{background:#168E50}
+  .list-label-widget-content li:nth-child(5):hover span,.list-label-widget-content li:nth-child(15):hover span{background:#0B6336}
+  .list-label-widget-content li:nth-child(6) span,.list-label-widget-content li:nth-child(16) span{background:#00AFBD}
+  .list-label-widget-content li:nth-child(6):hover span,.list-label-widget-content li:nth-child(16):hover span{background:#007A84}
+  .list-label-widget-content li:nth-child(7) span,.list-label-widget-content li:nth-child(17) span{background:#00AFBD}
+  .list-label-widget-content li:nth-child(7):hover span,.list-label-widget-content li:nth-child(17):hover span{background:#007983}
+  .list-label-widget-content li:nth-child(8) span,.list-label-widget-content li:nth-child(18) span{background:#BA63C3}
+  .list-label-widget-content li:nth-child(8):hover span,.list-label-widget-content li:nth-child(18):hover span{background:#91349B}
+  .list-label-widget-content li:nth-child(9) span,.list-label-widget-content li:nth-child(19) span{background:#26AC74}
+  .list-label-widget-content li:nth-child(9):hover span,.list-label-widget-content li:nth-child(19):hover span{background:#168758}
+  .list-label-widget-content li:nth-child(10) span,.list-label-widget-content li:nth-child(20) span{background:#80EDE8}
+  .list-label-widget-content li:nth-child(10):hover span,.list-label-widget-content li:nth-child(20):hover span{background:#34A49F}
+  
+  /*----------
+  Blog Archive
+  ------------*/
+  
+  select#BlogArchive1_ArchiveMenu{width:100%;padding:10px;}
+  .BlogArchive select{border:1px solid #f7f7f7 !important}
+  
+  /*------------------
+  Advertisement Widget
+  --------------------*/
+
+  #full-ads {margin: 0 auto;display: table;margin-top: 30px;}
+  #bigmag-advert-1 .widget{width:728px;max-height:90px;padding:0;max-width:100%;box-sizing:border-box;}
+  #bigmag-advert-1 .widget{display:inline-block;float:left}
+  #bigmag-advert-1 .widget h3{display:none;visibility:hidden}
+  .bigmag-advertising{box-sizing: border-box;padding: 10px 0px;margin:10px 0px;margin:10px 0 0}
+  #HTML202{margin-left:20px;margin-bottom:20px;}
+  #HTML201{margin-bottom:20px;margin-top:20px}
+  #HTML203{margin-top:20px}
+  .post-body #HTML201,.post-body #HTML203{display:block}
+  .post-body #HTML202{display:inline}
+  
+  /*------------
+  Profile Widget
+  --------------*/
+  
+  #bigmag-footer #bigmag-footer-cols .Profile a{color: #fff;background-image:none !important;padding: 0px !important;box-sizing: border-box}
+
+  /*------------
+  Featured Post
+  --------------*/
+  
+  .FeaturedPost.widget{padding: 0px;}
+  
+  /*---
+  404
+  ----*/
+  
+.bigmag-wrapper.padders {margin-bottom: 30px;}
+  .error-page h2{font-weight: 700;font-size: 36px;line-height:40px;text-align: center;color: $(head.text.color)}
+  .error-page.padders form{display:block;max-width:800px;margin: 0 auto}
+  .error-page.padders form .input-group{display: flex}
+  .error-page.padders p{padding:20px 0px;text-align: center;color: $(head.text.color);}
+  .error-page.padders form .input-group input{width:100%;height:50px;font-size:15px;border:1px solid $(light.border.color);padding:6px 12px;box-sizing:border-box;outline: 0;color: $(head.text.color);}
+  .error-page.padders form .input-group .input-group-btn{position:relative;font-size:0;white-space:nowrap;}
+  .error-page.padders button{height:50px;color:#fff;border:none;border-radius:3px;border-top-right-radius:0px;border-bottom-right-radius:0px;font-size:20px;padding:12px 30px 10px;line-height: 28px;background:$(maincolor);cursor: pointer;}
+  .error-page.padders button:hover {opacity: 0.8;}
+  .ierror {text-align: center;color: $(head.text.color);}
+  .ierror h2 {font-size: 150px;margin-bottom: 77px;}
+  .ierror .fas {margin-bottom: 45px;font-size: 150px;}
+  @media only screen and (max-width:880px){.error-page.padders form .input-group input{width: 80%;}}
+  @media only screen and (max-width:768px){h2.error-title {font-size: 60px;}.error-page h2 {font-size: 35px;margin-bottom: 20px;}}
+  .error-page.padders{padding:20px 10px;}
+  
+  /*----------
+  Message Top
+  ------------*/
+  
+  .messager-text h1{font-weight:700;font-size:15px;line-height:48px;background:$(maincolor);color:#fff;padding-right: 13px;border-radius: 5px;}
+  .messager-text h1 a {float: left;font-size: 14px;font-weight: 400;line-height: 16px;margin-left: 12px;border-bottom: 2px solid #ffffff;padding: 8px 7px;color: #fff;margin-top: 5px;}
+  .messager-text h1 a:hover{border-bottom: 4px solid;}
+  
+  /*-----
+  Footer
+  -------*/
+  
+  #bigmag-footer{margin:auto;padding:0 0 10px;width:100%;background: $(footer.background);border-top:8px solid $(footer.border)}
+  .bigmag-fcols-inner .bigmag-recent .bigmag-author,.bigmag-fcols-inner .bigmag-recent .bigmag-time{color:$(footer.meta.color)}
+  #bigmag-footer p.snippet-item{color:$(footer.content.color)}
+  #bigmag-footer-cols .bigmag-comments .bigmag-comment{border-bottom: 1px solid $(footer.content.border.color);}
+  #bigmag-footer .bigmag-recent .bigmag-recent-item:last-child{border-bottom: 0}
+  #bigmag-footer .widget h3{padding:0px 0px 10px;color:$(footer.text.color);display:block;font-size:18px;margin:0;position:relative;font-weight:600 !important;text-align:right;}
+  #bigmag-footer .widget h3:after{content: "";background: $(footer.title.border.color);width: 40px;height: 2px;position: absolute;bottom: -2px;right: 0;}
+  #bigmag-footer .bigmag-recent .bigmag-recent-item{border-bottom: 1px solid $(footer.content.border.color)}
+  #bigmag-footer .widget-content, #bigmag-footer .contact-form-widget{box-sizing: border-box;}
+  #bigmag-footer .contact-form-widget p{display: table;height: 10px;}
+  #bigmag-footer .list-label-widget-content ul li a:hover{color:$(maincolor) !important}
+  #bigmag-footer a,form{color: $(footer.text.color)}
+  #footer-wrapper{margin:auto;padding:41px 0}
+  #bigmag-footer-cols{float:right;margin:0 auto;padding-bottom:20px;width:25%;color:#ddd;line-height:1.6em;word-wrap:break-word;max-width:375px}
+  .bigmag-fcols-inner{margin:0;padding:0}
+  .bigmag-fcols-inner .widget{margin:0;padding:10px 15px 0;box-sizing:border-box}
+  .bigmag-fcols-inner ul{margin:0 auto;padding:0;list-style-type:none}
+  .bigmag-fcols-inner li{display:block;line-height:1.6em;list-style-type:none}
+  .bigmag-fcols-inner .bm-soverlay {height: 270px;}
+  .bigmag-fcols-inner .PopularPosts .widget-content .post{border-bottom:1px solid $(footer.content.border.color);border-top:0}
+  .bigmag-fcols-inner .bigmag-recent .bigmag-recent-item{border-top:0}
+  .bigmag-fcols-inner .PopularPosts .widget-content .post:last-child{border:0}
+  .bigmag-fcols-inner .widget-content{padding:10px 0}
+  .bigmag-fcols-inner .PopularPosts {padding-right: 20px;}
+  .bigmag-fcols-inner .list-label-widget-content ul li {border-bottom: 1px solid $(footer.content.border.color);}
+  .bigmag-fcols-inner .cloud-label-widget-content a {background: transparent;border: 1px solid $(footer.content.border.color);color: #bbbbbb;}
+  .bigmag-fcols-inner .list-label-widget-content ul li:last-child{border-bottom:none}
+  #bigmag-footer-cols .LinkList li {padding: 7px 2px;border-bottom: 1px solid $(footer.content.border.color);}
+  #bigmag-footer-cols .LinkList li a:before {content: '\f0c1';font-family: 'Font Awesome 5 Free';font-weight: 900;margin-left: 5px;}
+  #bigmag-footer-cols .LinkList li:last-child {border: 0;}
+  #bigmag-footer-cols .LinkList li a:hover {color:$(maincolor);}
+  #bigmag-footer-cols .LinkList li:hover {margin-right: 5px;}
+  .simple-contact {margin-top: 15px;}
+  #bigmag-footer-cols .contact-form-name, #bigmag-footer-cols .contact-form-email, #bigmag-footer-cols .contact-form-email-message {background: transparent;border: 1px solid $(footer.content.border.color);padding: 8px;width: 100%;color:$(footer.text.color);margin-bottom: 10px;}
+  #bigmag-footer-cols .contact-form-name::placeholder, #bigmag-footer-cols .contact-form-email::placeholder, #bigmag-footer-cols .contact-form-email-message::placeholder{color:$(footer.text.color);}
+  #bigmag-footer-cols .contact-form-email-message {height: 135px;}
+  #bigmag-footer-cols .contact-form-button-submit {display: block;float: none;width: 100%;padding: 5px;font-size: 14px;}
+  #bigmag-footer-cols .contact-form-error-message-with-border, #bigmag-footer-cols .contact-form-success-message {max-width: 100%;}
+  .Stats svg rect {fill: $(footer.text.color);}
+  .Stats svg path {stroke: $(footer.text.color);}
+  .text-counter-wrapper {color: $(footer.text.color);font-size: 28px;font-weight: 700;}
+  .bigmag-cwrap{margin:0 auto;overflow:hidden}
+  #copyrights a {font-weight: bold;}
+  #bigmag-credit{background: $(credit.footer.background);color:$(credit.footer.text.color);font-weight:400;padding: 20px 0;line-height: 34px;}
+  #bigmag-credit a{color: $(credit.footer.text.color)}
+  #bigmag-credit a:hover{color: $maincolor;}
+  form{color: #000 !important;}
+  .bigmag-brand h3 {display: none !important;}
+  .bigmag-brand .caption{margin-right:60px;display:inline-block;width:48%;color:$(footer.text.color);font-size: 13px;}
+  .bigmag-brand img{float:right;height: auto;width: auto;max-width: 322px;margin-top: 30px;}
+  .bigmag-brand{float:right;width:66%}
+  .bigmag-info{max-width:1170px;margin:0 auto;clear:both;margin-bottom:30px;overflow:hidden}
+
+/*---------------------
+Social Icons
+-----------------------*/
+
+a.facebook:before{content:"\f09a"}
+a.twitter:before{content:"\f099"}
+a.youtube:before{content:"\f167"}
+a.tiktok:before{content:"\e07b"}
+a.skype:before{content:"\f17e"}
+a.stumbleupon:before{content:"\f1a4"}
+a.tumblr:before{content:"\f173"}
+a.vine:before{content:"\f1ca"}
+a.stack-overflow:before{content:"\f16c"}
+a.linkedin:before{content:"\f0e1"}
+a.dribbble:before{content:"\f17d"}
+a.soundcloud:before{content:"\f1be"}
+a.behance:before{content:"\f1b4"}
+a.digg:before{content:"\f1a6"}
+a.instagram:before{content:"\f16d"}
+a.pinterest:before{content:"\f0d2"}
+a.delicious:before{content:"\f1a5"}
+a.codepen:before{content:"\f1cb"}
+a.vimeo:before{content:"\f27d";}
+a.wordpress:before{content:"\f19a";}
+a.dropbox:before{content:"\f16b";}
+a.slideshare:before{content:"\f1e7";}
+a.vk:before{content:"\f189";}
+a.yahoo:before{content:"\f19e";}
+a.reddit:before{content:"\f281";}
+a.hackernews:before{content:"\f1d4";}
+a.weibo:before{content:"\f18a";}
+a.yelp:before{content:"\f1e9";}
+a.whatsapp:before{content:"\f232";}
+a.slack:before{content:"\f198";}
+a.flickr:before{content:"\f16e";}
+a.foursquare:before{content:"\f180";}
+a.steam:before{content:"\f1b6";}
+a.paypal:before{content:"\f1ed";}
+a.telegram:before{content:"\f2c6";}
+a.quora:before{content:"\f2c4";}
+a.odnoklassniki:before{content:"\f263";}
+a.website:before{content:"\f0ac";font-weight: 900;font-family: 'Font Awesome 5 Free';}
+
+/*---------------------
+Social Icons Hover
+-----------------------*/
+
+#social a.facebook:hover{color:#3b5999;}
+#social a.twitter:hover{color:#55acee;}
+#social a.youtube:hover{color:#cd201f;}
+#social a.tiktok:hover{color:#EE1D52;}
+#social a.pinterest:hover{color:#bd081c;}
+#social a.instagram:hover{color:#e4405f;}
+#social a.codepen:hover{color:#222;}
+#social a.linkedin:hover{color:#0077B5;}
+#social a.skype:hover{color:#00AFF0;}
+#social a.dropbox:hover{color:#007ee5;}
+#social a.wordpress:hover{color:#21759b;}
+#social a.vimeo:hover{color:#1ab7ea;}
+#social a.slideshare:hover{color:#0077b5;}
+#social a.vk:hover{color:#4c75a3;}
+#social a.tumblr:hover{color:#34465d;}
+#social a.yahoo:hover{color:#410093;}
+#social a.stumbleupon:hover{color:#eb4924;}
+#social a.reddit:hover{color:#ff5700;}
+#social a.quora:hover{color:#b92b27;}
+#social a.odnoklassniki:hover{color:#ed812b;}
+#social a.yelp:hover{color:#af0606;}
+#social a.weibo:hover{color:#df2029;}
+#social a.phunt:hover{color:#da552f;}
+#social a.hackernews:hover{color:#ff6600;}
+#social a.soundcloud:hover{color:#ff3300;}
+#social a.whatsapp:hover{color:#25D366;}
+#social a.wechat:hover{color:#09b83e;}
+#social a.vine:hover{color:#00b489;}
+#social a.slack:hover{color:#3aaf85;}
+#social a.dribbble:hover{color:#ea4c89;}
+#social a.flickr:hover{color:#ff0084;}
+#social a.foursquare:hover{color:#f94877;}
+#social a.behance:hover{color:#1769ff;}
+#social a.stack-overflow:hover{color:#f57d00;}
+#social a.digg:hover{color:#005be2;}
+#social a.delicious:hover{color:#0084ff;}
+#social a.steam:hover{color:#000;}
+#social a.paypal:hover{color:#253B80;}
+#social a.telegram:hover{color:#0088CC;}
+
+  /*---------------------
+  Social Icons In Footer
+  -----------------------*/
+  
+  .bmo-menu{float:left;margin-right: 20px;}
+  #nav-bottom li{float:right;display:inline-block;height:35px;line-height:33px;margin-left:15px;padding:0}
+  #nav-bottom li a{color: $(credit.menu.color);font-size: 12px;font-weight: 400;letter-spacing: 0.3px;}
+  #nav-bottom li a:hover{color:$(maincolor)}
+  .social-area{float:left;margin-left: 20px;max-width: 30%;}
+  #social-bottom{position:relative;display:block;margin-left:0}
+  .social-area .widget-content {margin-top: 20px;}
+  #social-bottom ul{overflow:hidden}
+  #social-bottom ul li{display:block;float:right;margin-right:10px;}
+  #social-bottom ul li a {display: block;width: 39px;height: 39px;line-height: 39px;margin-top: 5px;text-align: center;border: 1px solid rgba(255,255,255,0.03);background: rgba(255,255,255,0.03);}
+
+  /*-----------
+  Short Codes
+  ------------*/
+a.large-button{padding:6px 15px;background:$(maincolor);color:#fff;border-radius:5px;font-size:15px}
+a.medium-button{padding:5px 11px;background:$(maincolor);color:#fff;border-radius:5px;font-size:13px}
+a.button i,a.medium-button i,a.large-button i{margin-left:5px}
+a.button{padding:4px 8px;background:$(maincolor);color:#fff;border-radius:5px;font-size:13px;margin:5px;display:inline-block}
+.alert-message:before {font-family: 'Font Awesome 5 Free';width: 40px;height: 40px;text-align: center;color: #FFF;font-size: 25px;border-radius: 50%;line-height: 40px;position: absolute;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;top: calc(50% - 20px);right: 10px;}
+.alert-message{font-size:18px;display:block;padding:14px 20px;font-style:normal;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:3px;font-weight:700;line-height:1.5em;position:relative;border-style:solid;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:5px solid;padding-right: 57px;}
+.alert-message.success:before{background:#40f534;content:"\f00c"}
+.alert-message.alert:before{background:#28cdff;content:"\f129"}
+.alert-message.warning:before{background:#d6bc00;content:"\f071";font-size: 22px;}
+.alert-message.error:before{background:#e60e0e;content:"\f00d"}
+.alert-message.success{color:#40f534;}
+.alert-message.alert{color:#28cdff;}
+.alert-message.warning{color:#d6bc00;}
+.alert-message.error{color:#e60e0e;}
+.post-body pre{background:#f0f8ff;margin:0;display:inline-block;vertical-align:top;background-color:#eee;color:#444;font-size:14px;text-align:left;direction:ltr;width:100%;line-height:30px;overflow:auto}
+.post-body pre:before{content:'Code </>';display:block;background:$(maincolor);padding:5px 5px 5px 20px !important;color:#fff;font-weight:700}
+span.line-number {display: inline-block;width: 40px;font-weight: bold;text-align: center;font-size: 14px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;float: left;margin-right: 4px;}
+span.line-number span{display:block;padding:0 8px;text-align:center;background:#252525;color:#fff;user-select:none;font-family:consolas!important}
+#contact-us .contact-form-name, #contact-us .contact-form-email {display: inline-block;width: 49%;margin-bottom: 20px;border: 1px solid $(light.border.color);padding: 10px 9px;border-radius: 3px;}
+#contact-us .contact-form-name {margin-left: 13px;}
+.contact-form-email-message {display: block;width: 100%;margin-bottom: 20px;border: 1px solid $(light.border.color);padding: 10px;border-radius: 3px;}
+#contact-form input, .contact-form-email-message {text-align: right;background: transparent;}
+.contact-form-error-message-with-border, .contact-form-success-message {max-width: 50%;margin: 0 auto;text-align: center;margin-top: 10px;background: $(maincolor);padding: 0;border-radius: 3px;color: #fff;}
+.contact-form-error-message-with-border img {display: inline-block;margin-left: 10px;cursor: pointer;}
+.contact-form-button-submit {float: right;background: $(maincolor);color: #fff;border: 0;padding: 10px 18px;cursor: pointer;border-radius: 3px;}
+.contact-form-button-submit:hover {opacity: 0.8;}
+a.large-button:hover,a.medium-button:hover,a.button:hover{background-color:#333;color: #fff;}
+span.dropcap{color:$(maincolor);font-weight:700;display:inline-block;float:right;font-size:600%;line-height:85%;margin-top:4px;margin-left:10px}
+.bm-post-page {transition: 0s;}
+.bm-post-pagination button {padding: 6px 12px;height: 37px;line-height: 24px;width: 38px;display: inline-block;color: $(maincolor);border: 2px solid $(maincolor);margin: 4px;background: transparent;cursor: pointer;}
+.bm-post-pagination button:hover {background: $(maincolor);color: #fff;}
+.post-body ul {padding-right: 20px;}
+.post-body ol li {counter-increment: li;list-style: none;margin-bottom: 10px;}
+.post-body ol li:last-child {margin-bottom: 0;}
+.post-body ol li:before {list-style: disc;content: counter(li);font-size: 16px;padding: 2px 5px;line-height: 1.5rem;min-width: 30px;display: inline-block;text-align: center;background: #08f;border-radius: 20px;margin-left: 8px;color: #fff;}
+  /*Links*/
+  a.p-link {background: linear-gradient(to bottom, $(maincolor) 0%,$(maincolor) 100%);background-position: 0 100%;background-repeat: repeat-x;background-size: 4px 4px;color: $(maincolor);text-decoration: none;transition: background-size .2s;font-weight: 600;}
+  a.p-link:hover {background-size: 4px 50px;color: #fff !important;}
+  
+  /*---------
+  Back To Top
+  -----------*/
+  
+  a#to-BigMag.to-bm-visible {bottom: 15px;transition: 0.3s;}
+  a#to-BigMag {width: 35px;height: 35px;line-height: 35px;background:$(maincolor);text-align: center;display: block;position: fixed;bottom: -100px;left: 15px;z-index: 10;color: #ffffff;}
+  a#to-BigMag:before {content: "\f106";font-family: 'Font Awesome 5 Free';font-weight: 900;}
+  
+  /*---------------
+  Responsive Design
+  -----------------*/
+  
+  @media only screen and (max-width: 1200px) {
+  .body-row{width:96%;margin:0 auto;float:none}
+  .bigmag-wide{float:none;width:100%;text-align:center;height:auto;margin:0 auto;clear:both;}
+  }
+  @media only screen and (max-width: 1024px) {
+  #header-inner,#header-inner h1,.bigmag-wide .description{float: none;}
+  .Header img{float:none;margin-bottom: 25px !important;}
+  #bigmag-advert-1 .widget {float: none;}
+  .bigmag-navigation {width: 100% !important;padding: 0px 35px;}
+  #bigmag_menu,#nav{display:none}
+  .mobile-btn {display: block;}
+  #social-bottom ul{text-align: center;}
+  .social-area {float: none;margin: 0 auto;display: table;margin-top: 35px;max-width: 100%;}
+  #social-bottom ul li {float:none;display: inline-block;}
+  .bigmag-brand img {float: none;margin: 0 auto;display: block;width: 250px;margin-top: 0;}
+  .bigmag-brand .caption {margin-right: 0;display: block;text-align: center;margin: 0 auto;width: 90%;}
+  .bigmag-brand {float: none;width: 100%;}
+  }
+  @media only screen and (max-width: 980px) {
+  .post-body img{height: auto;}
+  #bigmag-advert-1 .widget {float:none;margin:0 auto}
+  .bigmag-wide img{margin:0 auto}
+  .blog-posts.hfeed.row {margin: 0 auto;}
+  .sidebar .PopularPosts .widget-content {padding: 0 17px;margin-top: 20px;}
+  #main-wrapper,#sidebar-wrapper,#bigmag-footer-cols{float:none;clear:both;width:100%;max-width: 100%;margin:0 auto}
+  #main-wrapper{max-width:100%}
+  #sidebar-wrapper{padding-top:20px}
+  .recent-carousel-meta{bottom:20px !important}
+  .bigmag-left-share .share-links .social-item{margin: 3px 5px;}
+  .bigmag-social .LinkList ul {margin: 0 50px 0 0;}
+  .bigmag-top-menu {text-align: center;}
+  .bigmag-navigation .menu-wrap #LinkList996 {display: none !important;}
+  .bigmag-bigmag-top-menu {float: none}
+  .bigmag-top-wrapper {border-left: none;border-right: none;}
+  }
+  @media screen and (max-width: 880px) {
+  .item #content-wrapper{padding:0 0 30px}
+  #sidebar-wrapper, #bigmag-footer-cols{max-width: 100%;}
+  }
+  @media only screen and (max-width: 768px) {
+    .bigmag-article{height: 100%!important;}
+    .bigmag-article .bigmag-article-image .bigmag-featured-wid {width: 100%;}
+    .bigmag-article .article-content,.bigmag-article .bigmag-article-image,.bigmag-article .article-inwhite{width: 100%; float: none;}
+    .bigmag-article .article-content {padding: 0px 15px;position: relative;box-sizing: border-box;z-index: 10;margin-top: -15%;display: inline-block;}
+  #sidebar-wrapper,#bigmag-footer-cols{max-width: 100%;}
+  .bigmag-social .LinkList ul{margin:0}
+  .bigmag-social{float: none;width: 100%;overflow: hidden;}
+  #datetime {float: none;text-align: center;}
+  #copyrights{text-align:center;display:block;clear:both}
+  ul#nav-bottom {text-align: center;}
+  .bmo-menu {float: none; margin-left: 0;}
+  #nav-bottom li{float:none;}
+  a#to-BigMag.to-bm-visible {left: 5px !important;width: 32px !important;height: 32px !important;line-height: 30px !important;bottom: 5px !important;}
+  .bigmag-navigation {margin-bottom: 15px}
+  .bigmag-navigation {padding: 0px 20px !important;}
+  .contact-form-name, .contact-form-email {width: 100%;}
+  .contact-form-name {margin-left: 0;}
+  }
+  @media only screen and (max-width: 620px) {
+    .custwid {padding-left: 0!important;padding-right: 0!important;}
+  .item-page {border: 0 !important;}
+  .bigmag-Pager-Navigation-Widget .post-nav li{width: 100%!important;float: none!important;}
+  .bigmag-Pager-Navigation-Widget .post-nav .nav-thumb img,.bigmag-Pager-Navigation-Widget .post-nav .nav-thumb{height: 195px;}
+  }
+  @media only screen and (max-width:520px){
+  .postmarg h1{font-size: 24px;line-height:28px;}
+  .postmarg {padding: 20px 0px !important;}
+  .bigmag-right-tags{float: none;width: 100%;margin: 8px 0px;}
+  .bigmag-post-author .post-author .author-img,.bigmag-post-author .author-content{text-align: center;float: none;}
+  .bigmag-post-author .author-content{padding-right: 0;padding-top: 10px;}
+  .bigmag-post-author .content-social-author{display: block;text-align: center;width: 100%;}
+  .bigmag-post-author .content-social-author ul{text-align: center;display: inline-block;}
+  .bigmag-post-author .content-social-author > span{clear: both;}
+  .menu-search{display: none;}
+  .bigmag-navigation #darkmode-btn .label:hover:before,.bigmag-navigation #darkmode-btn .label:hover:after{display: none;}
+  }
+  @media only screen and (max-width: 480px) {
+  .share-title{display:none}
+  #sidebar-wrapper{max-width:100%}
+  .bigmag-cwrap{text-align:center}
+  .post-rection-wrapper {float: none;display: inline-block;}
+  #font-size-p{margin-bottom: 20px;margin-top: 10px;}
+  }
+  @media only screen and (max-width: 360px) {
+  .Header .description p{display:none}
+  }
+  @media only screen and (max-width: 320px) {
+    .Header .description p{display:none}
+    .bigmag-slider-thumb {height: 250px;}
+    }
+  @media only screen and (max-width: 300px) {
+  article{overflow:hidden}
+  .title-404{font-size:120px!important}
+  .bigmag-social #social a{width:24px;height:24px;line-height:24px}
+  .comments .comments-content .comment-header{width:100%;float:none;clear:both;margin:0;padding:0;width:100%;float:none;clear:both;margin:0 -35px 0 0;padding:0}
+}
+  ]]></b:skin>
+  <b:if cond='data:view.isLayoutMode'>
+    <b:template-skin>
+    <![CDATA[
+    html #layout:before{content:" ";width:100%;height:270px;top:0;position:relative;display:block;background-position:50%;background-repeat:no-repeat;background-size:cover;background-image:url(https://1.bp.blogspot.com/-lPU0MzOj9cs/YNNLLMZ_OlI/AAAAAAAAIoA/HewWphh9_uQo8l46aEU58CPcyUWpjGvuQCLcBGAsYHQ/s16000/BM-Admin-Panel.png)}
+    html #layout .dropregion{background-image:url(https://1.bp.blogspot.com/-Jrpl3JJ50Yk/X7aD73Md3ZI/AAAAAAAAHr8/afGgnu1i53AD3ZVTgr95zPhgMPGwV5DLgCLcBGAsYHQ/s0/d.png);background-color:#fff;background-position:50% 50%;background-repeat:no-repeat}
+    html #layout div.section{background-color:#0d0e0f!important;border-radius:3px;border:none;position:unset}
+    html #layout .add_widget{border:1px dashed #FF4081}
+    #layout .option .widget.locked-widget .widget-content{border-color:#08f!important;color:#fff!important}
+    #layout .bigmag-top,body#layout .bigmag-center-header,body#layout .bigmag-navigation,body#layout .bigmag-wrapper,body#layout #ads-blog,body#layout #content-wrapper,body#layout #bigmag-footer{display:block;box-sizing:border-box}
+    #layout{width:985px;max-width:985px;padding:0!important}
+    #layout .bigmag-sidebar-tab{display:none}
+    #layout .bigmag-navigation .widget{visibility:visible!important;display:block;height:auto!important;clear:both}
+    #layout #bigmag-menu{display:table;width:96.5%}
+    #layout .bigmag-bigmag-top-menu{width:48%;margin:0!important;display:inline-block}
+    #layout .bigmag-social{width:48%;float:left}
+    #layout .bigmag-top-menu{margin:0}
+    #layout .bigmag-wide{width:100%;box-sizing:border-box!important}
+    #layout .bigmag-navigation{height:auto!important;padding: 0;}
+    #layout #main-wrapper #ads-blog{padding-right:0}
+    #layout #ads-blog .widget{display:block}
+    #layout .section{margin:0!important;box-sizing:border-box!important}
+    #layout #main-wrapper{width:60%!important;box-sizing:border-box!important}
+    #layout #sidebar-wrapper{width:40%!important;box-sizing:border-box!important}
+    #layout #bigmag-footer-cols{margin:0;padding:3.2px;width:24.3333%;float:right}
+    #layout #bigmag-footer{width:auto!important}
+    #layout .bigmag-sidebar-tab{display:none}
+    #layout #option h4:after{content:'هذه  القيمة  مفروض  أن  تكون  true  أو  false.';color:#8a6d3b;background-color:#faebcc;border-color:#faebcc;display:block;padding:6px 0;font-size:13px;font-weight:700;letter-spacing:.4px;border-radius:3px;text-align:center!important}
+    #layout #option h4{width:89%;text-align:center!important;background:#880036;line-height:37px!important;display:block;padding:11px 31px;border-radius:8px;padding-top:3px}
+    div#option{overflow:hidden!important}
+    #layout #bigmag-advert-1{width:46.5%;float:left}
+    #layout #bigmag-wide,#layout #headerleft{width:46.5%;margin:0!important;float:right}
+    #layout #breaking-news .widget-content {display: block;margin: 0;}
+    #layout .bigmag-top:before{content:'قسم  الهيدر';background:#349633}
+    #layout div#bigmag-ticker-news:before{content:'قسم  العرض  الكامل';background:#d11775}
+    #layout div#bigmag-main-wid:before{content:'قسم  المحتوي';background:#c12a2a}
+    #layout #sidebar-wrapper:before{content:'الشريط  الجانبي';background:#7b05d2}
+    #layout div#FooterSlider:before{background:#840073;content:'قسم  التذييل'}
+    #layout #bigmag-full-wid2:before{background:#8c6f00;content:'قسم  العرض  الكامل  في  الأسفل'}
+    #layout #bigmag-credit:before{background:#0ca9d8;content:'الحقوق'}
+    #layout .userinput:before{background:#5d023c;content:'صندوق  المؤلف'}
+    #layout .bigmag-top:before,#layout div#bigmag-ticker-news:before,#layout div#bigmag-main-wid:before,#layout #sidebar-wrapper:before,#layout div#FooterSlider:before,#layout #bigmag-full-wid2:before,#layout #bigmag-credit:before,#layout .userinput:before{margin-top:15px;padding:15px;color:#fff;font-size:20px;text-transform:capitalize;display:block;margin-bottom:15px;font-family:tahoma;border-radius:8px;clear:both}
+    #layout .social-area{float:left;width:50%}
+    #layout .bmo-menu{width:100%}
+    #layout .option .widget{width:33%;float:right;margin-right:0;margin-left:.333%;margin-bottom:4px}
+    #layout .theme-options{display:block!important;background:#08f}
+    #layout .option .layout-widget-description{display:none}
+    #layout #datetime {display: none;}
+    #layout #post-author-social{float:right;width:46.5%}
+    #layout #post-author-widget{float:left;width:46.5%}
+    #layout .bigmag-brand{float:right;width:49.9%}
+    #layout .userinput .layout-widget-description{display:none}
+    #layout .userinput > div{display:block;height:auto!important;visibility:visible!important}
+    #layout .layout-widget-description{color:rgba(175,175,175,0.52)!important}
+    #layout div.layout-widget-description{color:#afafaf!important}
+    #layout .section{background-color:$(maincolor)!important;border:1px solid rgba(51,51,51,0.5)!important}
+    #layout .section h4{color:#fff!important;font-family:tahoma;border:2px solid;display:inline-block;padding:6px 31px;border-radius:3px}
+    #layout .add_widget{background-color:rgba(51,51,51,0.5)!important;border:1px dashed rgba(74,73,73,0.79)!important}
+    #layout .add_widget a,#layout div.layout-title{color:#000!important;font:13px tahoma!important}
+    #layout .add_widget a{color:#fff!important}
+    #layout div.layout-title{color:#000!important}
+    #layout .widget-content{border-radius: 3px;border: 2px solid #08f;line-height: 16px !important;}
+    #layout .widget-content a{text-decoration:none;color:#B9B9B9!important;font:11px tahoma!important;background-color:#333;padding:2px 10px;border-radius:5px}
+    #layout .featured-inner{display:inline-block;width:100%}
+    #layout .body-row{width:100%;margin-right:0;padding: 0;}
+    #layout #bigmag-ticker-news {width: 96.5%;}
+    body#layout .visibility .editlink.icon{width:23px!important;height:12px!important;background-position:right!important}
+    body#layout a.editlink{color:#000!important;border:3px solid #08f;border-radius:2px;padding:6px 14px;background:#fff!important;border-radius:5px;font-weight:900!important;height: 14px;width: 20px;}
+    #layout #license{display:inline-block;width:96.5%}
+    #layout #LinkList56 a{width:auto}
+    .userinput{clear:both;overflow:hidden;background:#f1f1f1}
+    #layout #Blog1 .editlink {top: 80%;}
+    #layout .draggable-widget .widget-wrap2 {background-color: #3c3838 !important;}
+    #layout div.section > div {border-radius: 3px;overflow: hidden;}
+    ]]></b:template-skin>
+    </b:if>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js' type='text/javascript'/>
+<script defer="true" type='text/javascript'>
+//<![CDATA[
+function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link");var o=t||window.document.getElementsByTagName("script")[0];i.rel="stylesheet";i.href=e;i.media="only x";o.parentNode.insertBefore(i,o);setTimeout(function(){i.media=n||"all"})}
+loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");loadCSS("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap");
+  //]]>
+  </script>
+</head>
+<b:defaultmarkups>
+  <b:defaultmarkup type='ContactForm'>
+    <b:includable id='content'><form class="simple-contact" autocomplete='off' name='contact-form'><input autocomplete='off' class='contact-form-name' expr:id='data:widget.instanceId + "_contact-form-name"' expr:placeholder="data:contactFormNameMsg" name='name' required='required' type='text'/><input class='contact-form-email' expr:id='data:widget.instanceId + "_contact-form-email"' expr:placeholder="data:contactFormEmailMsg" name='email' required='required' type='text'/><textarea autocomplete='off' class='contact-form-email-message notr' expr:id='data:widget.instanceId + "_contact-form-email-message"' expr:placeholder="data:contactFormMessageMsg" name='email-message' required='required'/><input class='contact-form-button contact-form-button-submit' expr:id='data:widget.instanceId + "_contact-form-submit"' expr:value='data:contactFormSendMsg' type='button'/><div class='contact-state'><p class='contact-form-error-message' expr:id='data:widget.instanceId + "_contact-form-error-message"'/><p class='contact-form-success-message' expr:id='data:widget.instanceId + "_contact-form-success-message"'/></div><div class='clear'/></form></b:includable>
+  </b:defaultmarkup>
+    <b:defaultmarkup type='Common'>
+      <b:includable id='DefaultMeta'>
+        <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+        <link expr:href='data:view.url.canonical' rel='canonical'/>
+        <meta expr:content='data:view.description.escaped' name='description'/>
+        <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/>
+        <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+        <meta content='blogger' name='generator'/>
+        <b:eval expr='data:blog.openIdOpTag'/>
+        <b:if cond='data:view.featuredImage'>
+          <link expr:href='data:view.featuredImage' rel='image_src'/>
+          <b:else/>&lt;link href=&#39;<b:include name='altImage'/>&#39; rel=&#39;image_src&#39;/&gt;
+        </b:if>
+        <!--[if IE]><script type='text/javascript'>(function(){var html5=("abbr,article,aside,audio,canvas,datalist,details,"+"figure,footer,header,hgroup,mark,menu,meter,nav,output,"+"progress,section,time,video").split(',');for(var i=0;i<html5.length;i++){document.createElement(html5[i])}try{document.execCommand('BackgroundImageCache',false,true)}catch(e){}})()</script><![endif]-->
+<title><b:if cond='data:view.isSingleItem or data:view.isHomepage'><data:view.title.escaped/><b:elseif cond='data:view.isSearch'/><b:if cond='data:view.search.label'><b:eval expr='data:view.search.label.escaped'/> - <data:blog.title/><b:elseif cond='data:view.search.query'/><b:eval expr='data:view.search.query.escaped'/> - <data:messages.search/> <data:messages.at/> <data:blog.title/><b:else/><data:messages.latestPosts/> - <data:blog.title/></b:if><b:elseif cond='data:view.isArchive'/><data:messages.archive/> <data:blog.pageName/> - <data:blog.title/><b:else/>خطأ 404 - <data:blog.title/></b:if></title>
+  <meta expr:content='data:skin.vars.maincolor' name='theme-color'/>
+  <meta expr:content='data:skin.vars.maincolor' name='msapplication-navbutton-color'/>
+      </b:includable>
+      <b:includable id='OpenGraph'>
+        <b:switch var='data:blog.locale'>
+          <b:case value='ar'/><meta content='ar_AR' property='og:locale'/>
+          <b:case value='en'/><meta content='en_US' property='og:locale'/>
+          <b:case value='fr'/><meta content='fr_FR' property='og:locale'/>
+          <b:case value='de'/><meta content='de_DE' property='og:locale'/>
+          <b:default/><meta expr:content='data:blog.localeUnderscoreDelimited' property='og:locale'/>
+        </b:switch>
+        <meta expr:content='data:view.url.canonical' property='og:url'/>
+        <meta expr:content='data:view.title.escaped' property='og:title'/>
+        <meta expr:content='data:blog.title.escaped' property='og:site_name'/>
+        <meta expr:content='data:view.description.escaped' property='og:description'/>
+        <meta expr:content='data:view.title.escaped' property='og:image:alt'/>
+        <b:if cond='data:view.isMultipleItems'><meta content='website' property='og:type'/>
+          <b:elseif cond='data:view.isSingleItem'/><meta content='article' property='og:type'/>
+        </b:if>
+        <b:if cond='data:view.featuredImage'>
+          <meta expr:content='resizeImage(data:view.featuredImage, 1200, "1200:630")' property='og:image'/>
+          <b:else/>&lt;meta content=&#39;<b:include name='altImage'/>&#39; property=&#39;og:image&#39;/&gt;</b:if>
+      </b:includable>
+      <b:includable id='TwitterCard'>
+        <meta content='summary_large_image' name='twitter:card'/>
+        <meta expr:content='data:blog.homepageUrl' name='twitter:domain'/>
+        <meta expr:content='data:view.description.escaped' name='twitter:description'/>
+        <meta expr:content='data:view.title.escaped' name='twitter:title'/>
+        <b:if cond='data:view.featuredImage'>
+          <meta expr:content='resizeImage(data:view.featuredImage, 1200, "1200:630")' name='twitter:image'/>
+          <b:else/>&lt;meta content=&#39;<b:include name='altImage'/>&#39; name=&#39;twitter:image&#39;/&gt;</b:if>
+      </b:includable>
+      <b:includable id='DNSPrefetech'>
+        <link expr:href='data:view.url' rel='dns-prefetch'/><link href='//www.blogger.com' rel='dns-prefetch'/><link href='//1.bp.blogspot.com' rel='dns-prefetch'/><link href='//2.bp.blogspot.com' rel='dns-prefetch'/><link href='//3.bp.blogspot.com' rel='dns-prefetch'/><link href='//4.bp.blogspot.com' rel='dns-prefetch'/><link href='//cdnjs.cloudflare.com' rel='dns-prefetch'/><link href='//pagead2.googlesyndication.com' rel='dns-prefetch'/><link href='//accounts.google.com' rel='dns-prefetch'/><link href='//resources.blogblog.com' rel='dns-prefetch'/><link href='//www.google.com' rel='dns-prefetch'/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/>
+      </b:includable>
+      <b:includable id='altImage'>https://blogger.googleusercontent.com/img/a/AVvXsEj1zE8rxM-0A4aE79wQZOV9LW1EBnaqmYIRgQKygAIHpzA8hUqr2enfJB1IvZp0ifg__SsVtWrFLKVGxHgeSoxfSnbqNq4qAMv3AFqJLasnwhCKhOKpNMdvyjbPgR1xLsPfgHSlxHq9NyE88DG9lpWo6ymy74TamR9Zo0xJYHf_nYRPJlMdnm2lPRW2=s16000</b:includable>
+      <b:includable id='altAuthor'>https://1.bp.blogspot.com/-u4byJCU2k2I/XnYliN-FmLI/AAAAAAAAF-I/MIpmmnQsUxQ35zlfjZ_FW9rIjbZ4tC9mgCLcBGAsYHQ/s320/user.png</b:includable>
+    </b:defaultmarkup>
+    <b:defaultmarkup type='PopularPosts,FeaturedPost'>
+      <b:includable id='snippetedPostContent'><b:if cond='data:widget.type == "PopularPosts"'><time class='widget-date'><b:eval expr='format(data:post.date, "dd MMMM YYYY")'/></time></b:if><b:if cond='data:postDisplay.showFeaturedImage'><a class='item-thumbnail' expr:href='data:post.url'><b:if cond='data:post.featuredImage'><b:if cond='data:widget.type == "PopularPosts"'><img class='lazyload' expr:alt='data:messages.image' expr:data-src='resizeImage(data:post.featuredImage, 320)'/><b:elseif cond='data:widget.type == "FeaturedPost"'/><img class='lazyload' expr:alt='data:messages.image' expr:data-src='resizeImage(data:post.featuredImage, 300, "3:2")'/></b:if><b:else/>&lt;img src=&#39;<b:include name='altImage'/>&#39; alt=&#39;<data:messages.image/>&#39;/&gt;</b:if></a></b:if><b:if cond='data:postDisplay.showTitle'><h2 class='post-title'><a expr:href='data:post.url'><data:post.title/></a></h2></b:if><b:if cond='data:widget.type == "FeaturedPost"'><div class='article-meta'><b:if cond='data:widgets.Blog.first.allBylineItems.author'><div class='widget-author'><b:if cond='data:post.author.profileUrl'><a expr:href='data:post.author.profileUrl' rel='nofollow'><data:post.author.name/></a><b:else/><data:post.author.name/></b:if></div></b:if><b:if cond='data:widgets.Blog.first.allBylineItems.timestamp'><time class='widget-date'><b:eval expr='format(data:post.date, "dd MMMM YYYY")'/></time></b:if></div></b:if><b:if cond='data:postDisplay.showSnippet'><p class='snippet-item'><b:if cond='data:widget.type == "PopularPosts"'><b:eval expr='data:post.snippets.long snippet { length: 120, links: false, linebreaks: false }'/><b:elseif cond='data:widget.type == "FeaturedPost"'/><b:eval expr='data:post.snippets.long snippet { length: 240, links: false, linebreaks: false }'/></b:if></p></b:if></b:includable>
+    </b:defaultmarkup>
+  </b:defaultmarkups>
+<body>
+  <b:class expr:name='data:blog.pageType'/>
+  <b:class cond='data:view.isHomepage' name='Homepage'/>
+  <b:class expr:name='data:blog.languageDirection'/>
+<div class='theme-options' style='display:none'>
+    <b:section class='option' id='option' maxwidgets='20' name='إعدادات القالب' preferred='no' showaddelement='false'>
+      <b:widget id='HTML997' locked='true' title='شكل الصندوق' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+          &lt;style&gt;
+          @media only screen and (min-width:1143px){#body-wrapper {max-width: 94%;}.body-row {width: 1155px;}}
+          &lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML956' locked='true' title='الشكل محاط' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+          &lt;style&gt;
+          @media only screen and (min-width:1143px){#body-wrapper {width: 93.5%;margin-top: 25px;margin-bottom: 25px;box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);}.body-row {width: 1145px;}}
+          &lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML901' locked='true' title='القائمة شكل الصندوق' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+          &lt;style&gt;@media screen and (min-width: 1200px){.bigmag-navigation {max-width: 1200px;padding: 0px;}}&lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML789' locked='true' title='الهيدر في الوسط' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+          &lt;style&gt;#header-inner{margin: 15px auto;float:none;display: inline-block;} #bigmag-advert-1 .widget {margin: 15px auto 10px!important;float:none}&lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML788' locked='true' title='القائمة في الوسط' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+          &lt;style&gt;ul#bigmag_menu {text-align: center;}.menu-wrap{margin:0 auto;}&lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML996' locked='true' title='عدد المقالات في الصفحة' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>6</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <b:if cond='data:content == &quot;&quot;'>
+            <script defer='true' type='text/javascript'>
+             var perPage =  6;
+            </script>
+            <b:else/>
+            &lt;script defer=&#39;true&#39; type=&#39;text/javascript&#39;&gt;
+            //&lt;![CDATA[
+            var perPage =<data:content/>;
+            //]]&gt;
+            &lt;/script&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML319' locked='true' title='إخفاء آخر المشاركات في الصفحة الرئيسية' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+          &lt;style&gt;.home .Blog {display: none;}&lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML735' locked='true' title='إخفاء الشريط الجانبي بداخل المقالات' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+          &lt;style&gt;.item #sidebar-wrapper {display: none;}.item #main-wrapper {float: none;width: 100%;max-width: 100%;}&lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML354' locked='true' title='إخفاء الشريط الجانبي في الصفحة الرئيسية' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+ <b:if cond='data:content == &quot;true&quot;'>
+  &lt;style&gt;.home #sidebar-wrapper {display: none;}.item #main-wrapper {float: none;width: 100%;max-width: 100%;}&lt;/style&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML364' locked='true' title='إظهار التاريخ' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+    <b:if cond='data:content == &quot;true&quot;'>
+         &lt;script defer=&#39;true&#39; type='text/javascript'&gt;
+              //&lt;![CDATA[
+              $(document).ready(function(){$(&quot;.bigmag-top-wrapper.body-row&quot;).prepend(&quot;<div id='datetime'></div>&quot;);var t=new Date;t.setDate(t.getDate()),$(&quot;#datetime&quot;).html([&quot;الأحد&quot;,&quot;الأثنين&quot;,&quot;الثلاثاء&quot;,&quot;الأربعاء&quot;,&quot;الخميس&quot;,&quot;الجمعة&quot;,&quot;السبت&quot;][t.getDay()]+&quot; &quot;+t.getDate()+&quot; &quot;+month_format[t.getMonth()]+&quot; &quot;+t.getFullYear())});
+              //]]&gt;
+            &lt;/script&gt;
+          </b:if>
+        </b:includable>
+      </b:widget>
+    </b:section>
+<div class='userinput'>
+<b:section class='post-author-widget' id='post-author-widget' maxwidgets='1' name='وصف المدون' showaddelement='yes'>
+  <b:widget id='HTML999' locked='true' title='وصف المدون' type='HTML' version='2' visible='true'>
+    <b:widget-settings>
+<p>
+      <b:widget-setting name='content'></b:widget-setting>
+</p>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h3 class='title'><data:title/></h3>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+  <!--b:include name='quickedit'/-->
+</b:includable>
+  </b:widget>
+</b:section>
+
+<b:section class='post-author-social' id='post-author-social' maxwidgets='1' name='أيقونات الشبكات الاجتماعية للمدون' showaddelement='yes'>
+  <b:widget id='LinkList565' locked='true' title='أيقونات الشبكات الاجتماعية للمدون' type='LinkList' version='2' visible='true'>
+    <b:includable id='main'>
+  <b:include name='content'/>
+</b:includable>
+    <b:includable id='content'>
+            <div class='widget-content'>
+              <nav id='social'>
+              <ul>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name' target='_blank'/></li>
+                </b:loop>
+              </ul>
+              </nav>
+            </div>
+    </b:includable>
+  </b:widget>
+</b:section>
+  </div>
+  </div>
+
+&lt;div id=&quot;body-wrapper&quot; class=&quot;<data:blog.pageType/><b:if cond='data:view.isHomepage'> home</b:if><b:if cond='data:view.isPage'> item</b:if><b:if cond='data:view.isMultipleItems'> index</b:if>&quot;&gt;
+<header id="main-header">
+<div class='bigmag-top'>
+<div class='bigmag-top-wrapper body-row'>
+<b:section class='bigmag-social blue' id='header social widget' maxwidgets='1' name='أيقونات الشبكات الإجتماعية في الأعلي' showaddelement='yes'>
+  <b:widget id='LinkList998' locked='true' title='أيقونات الشبكات الإجتماعية' type='LinkList' version='2' visible='true'>
+            <b:includable id='main'><b:include name='content'/><b:include name='MetaWebsite'/></b:includable>
+            <b:includable id='MetaWebsite'>
+              <b:if cond='data:view.isHomepage'>
+                <b:tag name='script' type='application/ld+json'>
+                  {
+                  "@context": "http://schema.org",
+                  "@type": "Organization",
+                  "url": "<data:blog.homepageUrl/>",
+                  "logo": "<b:loop values='data:links' var='link'><b:if cond='data:link.name in {"logo","Logo"}'><data:link.target/></b:if></b:loop>",
+                  "name": "<data:blog.title/>",
+                  "sameAs":[<b:loop index='i' values='data:links' var='link'><b:if cond='data:link.name not in {"logo","Logo"}'>"<data:link.target/>"<b:if cond='data:links.length != data:i+1'>,</b:if></b:if>
+                  </b:loop>
+                  ]}
+                </b:tag>
+              </b:if>
+            </b:includable>
+            <b:includable id='content'>
+              <nav id='social'>
+                <ul>
+                <b:loop values='data:links' var='link'>
+                 <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name' target='_blank'/></li>
+                </b:loop>
+                </ul>
+              </nav>
+            </b:includable>
+  </b:widget>
+</b:section>
+<div class='bigmag-bigmag-top-menu'>
+<div class='bigmag-top-menu'>
+  <b:section class='bigmag-top-menu' id='bigmag-top-menu' maxwidgets='1' name='القائمة العليا' preferred='no' showaddelement='false'>
+    <b:widget id='LinkList997' locked='true' title='القائمة العليا' type='LinkList' version='2' visible='true'>
+      <b:includable id='main'>
+        <b:if cond='data:title != &quot;&quot;'>
+    <h3 class='title'><data:title/></h3>
+  </b:if>
+          <div class='widget-content'>
+            <nav id='nav'>
+            <ul>
+              <b:loop values='data:links' var='link'>
+                <li itemprop='name'><a expr:href='data:link.target' itemprop='url'><data:link.name/></a></li>
+              </b:loop>
+           </ul>
+            </nav>
+          </div>
+        </b:includable>
+    </b:widget>
+  </b:section>
+</div>
+</div>
+</div>
+</div>
+<div style='clear: both;'/>
+<div class='bigmag-center-header'>
+ <div class='body-row' id='bigmag-wide-wrapper'>
+    <div class='bigmag-wide'>
+      <b:section class='bigmag-wide' id='bigmag-wide' maxwidgets='1' name='هيدر المدونة' showaddelement='false'>
+        <b:widget id='Header1' locked='true' title='Template Ubdates (رأس الصفحة)' type='Header' version='1'>
+          <b:widget-settings>
+            <b:widget-setting name='displayUrl'>https://1.bp.blogspot.com/-jI_ypCwY93Q/X3Tpc0_b86I/AAAAAAAAHWk/Bu-cO_fX56Y-ovGvQRNdv46kDNM8FhoQgCLcBGAsYHQ/s0/Untitled.png</b:widget-setting>
+            <b:widget-setting name='displayHeight'>71</b:widget-setting>
+            <b:widget-setting name='sectionWidth'>184</b:widget-setting>
+            <b:widget-setting name='useImage'>true</b:widget-setting>
+            <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+            <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
+            <b:widget-setting name='displayWidth'>300</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      -->
+      <b:if cond='data:mobile'>
+        <div id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+        <b:else/>
+        <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot; + &quot;background-position: &quot; + data:backgroundPositionStyleStr + &quot;; &quot; + data:widthStyleStr + &quot;min-height: &quot; + data:height + &quot;_height: &quot; + data:height + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      </b:if>
+      <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+        <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
+          <h1 class='hidden'><b:include name='title'/></h1>
+        </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+    <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+        <h1 class='title'>
+          <b:include name='title'/>
+        </h1>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+          <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+          <b:includable id='title'>
+  <b:tag cond='data:blog.url != data:blog.homepageUrl' expr:href='data:blog.homepageUrl' name='a'>
+    <data:title/>
+  </b:tag>
+</b:includable>
+        </b:widget>
+      </b:section>
+<div class='hidehome' id='ads-blog'>
+<b:section class='ad-home-widget' id='bigmag-advert-1' maxwidgets='1' name='إعلان الرئيسية' preferred='no' showaddelement='false'>
+  <b:widget id='HTML994' locked='true' title='إعلان الرئيسية' type='HTML' version='2' visible='true'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h3 class='title'><data:title/></h3>
+  </b:if>
+  <div class='widget-content'>
+    <span>  <data:content/></span>
+  </div>
+  <!--b:include name='quickedit'/-->
+</b:includable>
+  </b:widget>
+</b:section>
+<div style='clear: both;'/>
+      </div>
+</div>
+<div style='clear: both;'/>
+  </div>
+  </div>
+<nav class='bigmag-navigation'>
+  <div class='menu-search'>
+                <b:if cond='data:view.isHomepage'>
+                <b:tag name='script' type='application/ld+json'>
+                  {
+                  "@context": "http://schema.org",
+                  "@type": "WebSite",
+                  "url": "<data:blog.homepageUrl/>",
+                  "potentialAction": [{
+                  "@type": "SearchAction",
+                  "target": "<data:blog.searchUrl/>?q={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                  }]
+                  }
+                </b:tag>
+              </b:if>
+<form action="/search/max-results=6" class="searchform" method="get"><input class="form-control" name="q" placeholder="بحث ..." type="text" expr:value='data:view.isSearch ? data:view.search.query.escaped : ""'/>
+<button class="search-submit" type="submit"></button>
+</form>
+  </div>
+<span class='mobile-btn'>القائمة</span>
+  <div class='mobile-menu'>
+    <span class='mobile-close'></span>
+    <b:section class='mobile-menu-social' id='mobile-menu-social' maxwidgets='1' name='قائمة الهاتف' preferred='no' showaddelement='false'>
+  <b:widget id='LinkList546' locked='true' title='أيقونات الشبكات لقائمة الهاتف' type='LinkList' version='2' visible='true'>
+    <b:widget-settings>
+      <b:widget-setting name='link-5'>http://</b:widget-setting>
+      <b:widget-setting name='link-6'>http://</b:widget-setting>
+      <b:widget-setting name='link-3'>http://</b:widget-setting>
+      <b:widget-setting name='link-4'>http://</b:widget-setting>
+      <b:widget-setting name='text-1'>twitter</b:widget-setting>
+      <b:widget-setting name='text-0'>facebook</b:widget-setting>
+      <b:widget-setting name='text-3'>soundcloud</b:widget-setting>
+      <b:widget-setting name='text-2'>instagram</b:widget-setting>
+      <b:widget-setting name='text-5'>steam</b:widget-setting>
+      <b:widget-setting name='text-4'>telegram</b:widget-setting>
+      <b:widget-setting name='text-6'>paypal</b:widget-setting>
+      <b:widget-setting name='sorting'>NONE</b:widget-setting>
+      <b:widget-setting name='link-1'>http://</b:widget-setting>
+      <b:widget-setting name='link-2'>http://</b:widget-setting>
+      <b:widget-setting name='link-0'>http://</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+            <div class='widget-content'>
+              <nav id='social'>
+              <ul>
+                <b:loop values='data:links' var='link'>
+                  <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name' target='_blank'/></li>
+                </b:loop>
+              </ul>
+              </nav>
+            </div>
+    </b:includable>
+  </b:widget>
+</b:section>
+<form action="/search/max-results=6" class="mobile-searchform" method="get"><input class="mobile-form-control" name="q" placeholder="بحث ..." type="text" expr:value='data:view.isSearch ? data:view.search.query.escaped : ""'/>
+<button id="mobile-search-submit" type="submit"></button>
+</form>
+  </div>
+<div class='menu-wrap'>
+        <b:section class='menu' id='bigmag-menu' maxwidgets='1' name='القائمة الرئيسية' preferred='no' showaddelement='false'>
+          <b:widget id='LinkList996' locked='true' title='القائمة الرئيسية' type='LinkList' version='2' visible='true'>
+            <b:includable id='main'>
+              <b:if cond='data:title != &quot;&quot;'>
+    <h3 class='title'><data:title/></h3>
+  </b:if>
+            <div class='widget-content'>
+              <ul itemscope='' itemtype='http://schema.org/SiteNavigationElement'>
+                <b:loop values='data:links' var='link'>
+                  <li itemprop='name'><a expr:href='data:link.target' itemprop='url'><data:link.name/></a></li>
+                </b:loop>
+              </ul>
+            </div>
+          </b:includable>
+          </b:widget>
+        </b:section>
+  </div>
+ </nav>
+</header>
+<div style='clear: both;'/>
+
+<b:if cond='data:view.isHomepage'>
+<b:section class='full-ads' id='full-ads' maxwidgets='-1' name='إعلان عرض كامل' showaddelement='yes'/>
+ </b:if>
+
+    <div class='body-row' id='content-wrapper'>
+    <div id='main-wrapper'>
+   <b:section class='main' id='main' name='رسائل المدونة الإلكترونية' preferred='no' showaddelement='false'>
+    <b:widget id='Blog1' locked='true' title='رسائل المدونة الإلكترونية' type='Blog' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='commentLabel'>comments</b:widget-setting>
+            <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+            <b:widget-setting name='authorLabel'>بواسطة</b:widget-setting>
+            <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+            <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+            <b:widget-setting name='timestampLabel'/>
+            <b:widget-setting name='reactionsLabel'>Reactions:</b:widget-setting>
+            <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
+            <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+            <b:widget-setting name='showLocation'>false</b:widget-setting>
+            <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+            <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+            <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+            <b:widget-setting name='backlinksLabel'>Links to this post</b:widget-setting>
+            <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+            <b:widget-setting name='style.textcolor'>#00c8d7</b:widget-setting>
+            <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+            <b:widget-setting name='style.urlcolor'>#00c8d7</b:widget-setting>
+            <b:widget-setting name='postLocationLabel'>Location:</b:widget-setting>
+            <b:widget-setting name='showAuthor'>true</b:widget-setting>
+            <b:widget-setting name='style.linkcolor'>#00c8d7</b:widget-setting>
+            <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+            <b:widget-setting name='showLabels'>true</b:widget-setting>
+            <b:widget-setting name='postLabelsLabel'/>
+            <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+            <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+            <b:widget-setting name='showReactions'>true</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main' var='this'>
+      <b:tag name='div'>
+        <b:attr cond='!data:view.isError and !data:view.isHomepage' name='class' value='blog-posts hfeed row'/>
+        <b:if cond='data:view.isHomepage'>
+            <div class='custwid'><div class='widget'><h3><data:messages.recentPosts/> <a class='posts-link' href='/search?&amp;max-results=6'><data:messages.moreEllipsis/></a></h3></div></div>
+          <b:elseif cond='data:view.isArchive'/>
+          <div class='headline'><h6><data:messages.archive/></h6></div>
+        </b:if>
+        <b:include name='status-message'/> 
+        <b:tag name='div'>
+          <b:class cond='data:view.isMultipleItems' name='index-posts'/>
+          <b:class cond='data:view.isPage' name='static-page'/>
+          <b:class cond='data:view.isPost' name='item-page'/>
+          <b:class cond='data:view.isError' name='error-page'/>
+          <b:if cond='data:posts.length &gt; 0'>
+            <b:include cond='data:view.isMultipleItems' data='posts' name='indexMeta'/>
+            <b:loop index='i' values='data:posts' var='post'>
+              <b:include cond='data:view.isSingleItem' data='post' name='postMeta'/>
+              <div class='post-item'>
+                          <b:include data='post' name='post'/>
+                          <b:include cond='data:view.isPage or data:view.isPost' data='post' name='commentPicker'/>
+                        </div>
+            </b:loop>
+          </b:if>
+        </b:tag>
+        <b:if cond='data:view.isMultipleItems'><b:include name='nextPageLink'/></b:if>
+      </b:tag>
+    </b:includable>
+          <b:includable id='aboutPostAuthor'/>
+          <b:includable id='addComments'>
+      <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+        <b:message name='messages.postAComment'/>
+      </a>
+    </b:includable>
+          <b:includable id='bm-author' var='post'>
+      <b:if cond='data:widgets.Blog.first.allBylineItems.author or data:view.isPage'>
+        <!-- Post Author -->
+          <b:class cond='data:view.isSingleItem' name='vcard'/>
+          <b:if cond='data:post.author.profileUrl'>
+            <a class='author-prof url' expr:href='data:post.author.profileUrl' target='_blank' title='author'>
+              <i class="fas fa-user-circle"></i>
+              <span class='fn'><data:post.author.name/></span>
+            </a>
+            <b:else/>
+            <span class='fn'><i class="fas fa-user-circle"></i><data:post.author.name/></span>
+          </b:if>
+      </b:if>
+    </b:includable>
+          <b:includable id='bm-authorAbout' var='post'>
+      <!-- Author Profile -->
+        <div class='bigmag-post-author'>
+<div class='box box-author'>
+  <div class='post-author'>
+    <div class='author-img'>
+        <b:if cond='data:post.author.authorPhoto.image'>
+              <img alt='author-img' class='lazyload' expr:data-src='resizeImage(data:post.author.authorPhoto.image , &quot;72&quot;, &quot;1:1&quot; )' title='Author'/>
+              <b:else/>
+              &lt;img class=&#39;photo&#39; alt=&#39;<data:post.title/>&#39; src=&#39;<b:include name='altAuthor'/>&#39; title=&#39;<data:post.title/>&#39;/&gt;
+            </b:if>
+    </div>
+    <div class='author-content'>
+      <div class='top-author'>
+        <h5>
+          <a expr:href='data:post.author.profileUrl' rel='author' title='Author'><data:post.author.name/>
+          </a>
+        </h5>
+      </div>
+      <p><span name='author-post'/></p>
+      <div class='content-social-author'>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    </b:includable>
+          <b:includable id='bm-breadcrumbs' var='post'>
+        <!-- Post Labels -->
+        <span class='breadcrumbs'>
+          <a expr:href='data:blog.homepageUrl' expr:title='data:messages.home'><i class='fa fa-home'/><data:messages.home/></a>
+                 <i class='fa fa-angle-double-left'/>
+                <b:if cond='data:widgets.Blog.first.allBylineItems.labels and data:post.labels.any'>
+          <b:loop values='data:post.labels' var='label'>
+            <a class="bread-label" expr:href='data:label.url' rel='tag' title='قسم'><i class="far fa-folder-open"></i><data:label.name/></a>
+            <i class='fa fa-angle-double-left'/>
+          </b:loop>
+            <b:else/>
+            غير مصنف
+        </b:if>
+       <a class='breadcrumbs-h' expr:href='data:post.url'><i class='fa fa-file-text-o'/><data:post.title/></a>
+          </span>
+    </b:includable>
+          <b:includable id='bm-labels' var='post'>
+      <b:if cond='data:widgets.Blog.first.allBylineItems.labels and data:post.labels.any'>
+        <!-- Post Labels -->
+                <span class='post-cat'>
+          <b:loop values='data:post.labels' var='label'>
+            <a class="post-label" expr:href='data:label.url' rel='tag' title='قسم'><data:label.name/></a>
+          </b:loop>
+        </span>
+      </b:if>
+    </b:includable>
+          <b:includable id='bm-pagination' var='post'>
+      <meta expr:content='data:post.title' name='postTitle'/>
+        <meta expr:content='data:post.thumbnailUrl' name='postPoster'/>
+        <!-- Pagination -->
+     <div class='bigmag-Pager-Navigation-Widget'>
+                <ul class='post-nav'>
+                 <li class='next'> 
+                   <b:if cond='data:this.newerPageUrl'> 
+<a class='blog-pager-newer-link next-post' expr:href='data:blog.httpsEnabled ? data:this.newerPageUrl.https : data:this.newerPageUrl'></a> 
+                     <b:else/> 
+                     <a rel='next blog-pager-newer-link'><div class='nav-inner'><span/><p/></div></a>
+                   </b:if> 
+                 </li>
+                 <li class='prev'> 
+                   <b:if cond='data:this.olderPageUrl'> 
+<a class='blog-pager-older-link prev-post' expr:href='data:blog.httpsEnabled ? data:this.olderPageUrl.https : data:this.olderPageUrl'></a>
+                     <b:else/> 
+                     <a rel='blog-pager-older-link previous'><div class='nav-inner'><span/><p/></div></a> 
+                   </b:if> 
+                 </li>
+               </ul>
+            </div>
+    </b:includable>
+          <b:includable id='bm-postQuickEdit' var='post'>
+      <!-- Quick Edit -->
+      <span expr:class='&quot;edit-post item-control &quot; + data:post.adminClass'>
+        <a expr:href='&quot;https://www.blogger.com/blogger.g?blogID=&quot; + data:blog.blogId + &quot;#editor/target=post;postID=&quot; + data:post.id' target='_blank' title='تعديل المشاركة'> تعديل المشاركة </a>
+      </span>
+    </b:includable>
+          <b:includable id='bm-sharePost' var='post'>
+      <b:if cond='data:widgets.Blog.first.allBylineItems.share and data:view.isPost'>
+        <!-- Share Post -->
+        <div class='bigmag-left-share centred-share'>
+          <span class='share-title'><i class='fa fa-share-alt'/>مشاركة</span>
+      <div class='social share-links clearfix'>
+        <div class="count-share">
+<a class="social-item facebook" expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot; + data:post.url' rel='nofollow noopener' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title="facebook">
+ facebook
+</a>
+<a class="social-item twitter" expr:href='&quot;https://twitter.com/share?url=&quot; + data:post.url' rel='nofollow noopener' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title="Twitter">
+ Twitter
+</a>
+<a class="social-item linkedin" expr:href='&quot;https://www.linkedin.com/shareArticle?mini=true&amp;url=&quot; + data:post.url' rel='nofollow noopener' onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="linkedin">
+</a>
+<a class="social-item tumblr" expr:href='&quot;https://www.tumblr.com/share/link?url=&quot; + data:post.url' rel='nofollow noopener' onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Tumblr">
+  </a>
+<a class="social-item pinterest" expr:href='&quot;https://pinterest.com/pin/create/button/?url=&quot; + data:post.url' rel='nofollow noopener' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&apos;);return false;' title="Pinterest">
+</a>
+<a class="social-item reddit" expr:href='&quot;https://reddit.com/submit?url=&quot; + data:post.url' rel='nofollow noopener' onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Reddit">
+</a>
+<a class="social-item vk" expr:href='&quot;https://vk.com/share.php?url=&quot; + data:post.url' rel='nofollow noopener' onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="VKontakte">
+</a>
+<a class="social-item odnoklassniki" expr:href='&quot;https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&amp;st.shareUrl=&quot; + data:post.url' rel='nofollow noopener' onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Odnoklassniki">
+</a>
+<a class="social-item whatsapp" expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.url' onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title="Whatsapp">
+</a>
+<a class='social-item messenger' expr:href='&quot;https://www.facebook.com/dialog/send?app_id=334722810617072&amp;display=popup&amp;link=&quot; + data:post.url + &quot;&amp;redirect_uri=&quot; + data:blog.homepageUrl + &quot;&quot;' rel='nofollow noopener' onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" title='Share to Messenger'>
+  <i class="fab fa-facebook-messenger"></i>
+  </a>
+<a class="social-item email" expr:href='&quot;mailto:?subject=&quot; + data:post.url' rel="external noopener" title="Share via Email"></a>
+</div>
+	  </div>
+    </div>
+      </b:if>
+    </b:includable>
+          <b:includable id='bm-timestamp' var='post'>
+        <b:if cond='data:widgets.Blog.first.allBylineItems.timestamp or data:view.isPage'>
+                  <!-- Post Date -->
+                  <a expr:href='data:post.url' rel='bookmark' title='bookmark'>
+                    <time class='published updated'>
+                      <i class="far fa-clock"></i>
+                      <b:if cond='data:view.isPage'><data:post.date/><b:else/><b:eval expr='format(data:post.date, &quot;dd MMMM YYYY&quot;)'/></b:if>
+                    </time>
+                  </a>
+                </b:if>
+    </b:includable>
+          <b:includable id='commentAuthorAvatar'>
+      <div class='avatar-image-container'>
+        <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
+      </div>
+    </b:includable>
+          <b:includable id='commentDeleteIcon' var='comment'>
+      <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+        <b:if cond='data:showCmtPopup'>
+          <div class='goog-toggle-button'>
+            <div class='goog-inline-block comment-action-icon'/>
+          </div>
+          <b:else/>
+          <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
+            <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+          </a>
+        </b:if>
+      </span>
+    </b:includable>
+    <b:includable id='commentForm' var='post'>
+  <div class='comment-form' id='commentTarget'>
+    <a name='comment-form'/>
+    <b:include data='post' name='commentFormIframeSrc'/>
+
+    <div class='workcomments'/>
+<b:tag defer='true' name='script' type='text/javascript'>
+$(window).scroll(function(){
+  if ($(window).scrollTop() > 30 ){
+      //Kill the handler
+      $(window).off("scroll");
+$(window).scroll(function(){
+  if ($(window).scrollTop() > 30 ){
+      //Kill the handler
+      $(window).off("scroll");
+
+$( document ).ready(function() {
+$commActive = 0;
+if ($(window).scrollTop() &gt; 5) {
+  if(!$commActive) commActive();
+}
+$(window).scroll(function() {
+  if ($(window).scrollTop() &gt; 5) {
+	if(!$commActive) commActive();
+  }
+});
+function commActive(){
+$commActive = 1;
+  var bcomments = "<iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' expr:src='data:commentFormIframeSrc' frameborder='0' id='comment-editor' name='comment-editor' width='100%'/>";
+
+  $(&#39;.workcomments&#39;).html(bcomments)
+
+  $.getScript( &quot;https://www.blogger.com/static/v1/jsbin/1769009776-comment_from_post_iframe.js&quot;, function() {
+  BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+  });
+
+}
+});
+}
+});
+}
+});
+</b:tag>
+  </div>
+</b:includable>
+
+          <b:includable id='commentFormIframeSrc' var='post'>
+      <a expr:href='data:post.commentFormIframeSrc + &quot;&amp;skin=contempo&quot;' id='comment-editor-src'/>
+    </b:includable>
+          <b:includable id='commentItem' var='comment'>
+      <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
+        <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
+
+        <div class='comment-block'>
+          <div class='comment-author'>
+            <b:if cond='data:comment.authorUrl'>
+              <b:message name='messages.authorSaidWithLink'>
+                <b:param expr:value='data:comment.author' name='authorName'/>
+                <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
+              </b:message>
+              <b:else/>
+              <b:message name='messages.authorSaid'>
+                <b:param expr:value='data:comment.author' name='authorName'/>
+              </b:message>
+            </b:if>
+          </div>
+          <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
+            <data:comment.body/>
+          </div>
+          <div class='comment-footer'>
+            <span class='comment-timestamp'>
+              <a expr:href='data:comment.url' title='comment permalink'>
+                <data:comment.timestamp/>
+              </a>
+              <b:include data='comment' name='commentDeleteIcon'/>
+            </span>
+          </div>
+        </div>
+      </div>
+    </b:includable>
+          <b:includable id='commentList' var='comments'>
+      <div id='comments-block'>
+        <b:loop values='data:comments' var='comment'>
+          <b:include data='comment' name='commentItem'/>
+        </b:loop>
+      </div>
+    </b:includable>
+          <b:includable id='commentPicker' var='post'>
+      <div class='comments' id='comments'>
+        <script>var HideComments=(&quot;<data:post.allowNewComments/>&quot;===&#39;true&#39;||&quot;<data:post.allowNewComments/>&quot;===&#39;false&#39;)?false:true;</script>
+        <b:if cond='data:post.allowComments'>
+          <b:if cond='data:post.commentSource == 1'>
+            <b:include data='post' name='iframeComments'/>
+            <b:else/>
+            <b:include data='post' name='threadedComments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </b:includable>
+          <b:includable id='comments' var='post'/>
+          <b:includable id='commentsLink'/>
+          <b:includable id='feedLinks'/>
+          <b:includable id='feedLinksBody' var='links'/>
+          <b:includable id='homePageLink'/>
+          <b:includable id='iframeComments' var='post'>
+      <b:if cond='data:post.allowIframeComments'>
+        <script expr:src='data:post.iframeCommentSrc' async='async' type='text/javascript'/>
+        <div class='cmt_iframe_holder' expr:data-href='data:post.url.canonical' expr:data-viewtype='data:post.viewType'/>
+        <b:if cond='!data:post.embedCommentForm'>
+        </b:if>
+      </b:if>
+    </b:includable>
+          <b:includable id='indexMeta' var='posts'>
+      <b:tag name='script' type='application/ld+json'>{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;ItemList&quot;,&quot;itemListElement&quot;:[<b:loop index='i' values='data:posts' var='post'>{&quot;@type&quot;:&quot;ListItem&quot;,&quot;position&quot;:<b:eval expr='data:i + 1'/>,&quot;url&quot;:&quot;<data:post.url/>&quot;}<b:if cond='data:i != data:posts.length - 1'>,</b:if></b:loop>]}</b:tag>
+      <b:if cond='data:view.isLabelSearch'>
+        <b:tag cond='data:view.isLabelSearch' name='script' type='application/ld+json'>{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;BreadcrumbList&quot;,&quot;itemListElement&quot;:[{&quot;@type&quot;:&quot;ListItem&quot;,&quot;position&quot;:1,&quot;item&quot;:{&quot;@id&quot;:&quot;<data:blog.homepageUrl/>&quot;,&quot;name&quot;:&quot;<data:blog.title/>&quot;}},{&quot;@type&quot;:&quot;ListItem&quot;,&quot;position&quot;:2,&quot;item&quot;:{&quot;@id&quot;:&quot;<data:blog.searchUrl/>&quot;,&quot;name&quot;:&quot;search&quot;}},{&quot;@type&quot;:&quot;ListItem&quot;,&quot;position&quot;:3,&quot;item&quot;:{&quot;@id&quot;:&quot;<data:view.url.canonical/>&quot;,&quot;name&quot;:&quot;<data:view.search.label/>&quot;}}]}</b:tag>
+      </b:if>
+    </b:includable>
+          <b:includable id='inlineAd' var='post'/>
+
+       <b:includable id='nextPageLink'>
+        <div class="loadmore" id="blog-pager">
+  <a class='blog-pager-older-link loadmore-btn' expr:href='data:olderPageUrl' expr:title='data:messages.morePosts'>
+    <data:messages.morePosts/>
+  </a>
+</div>
+</b:includable>
+
+          <b:includable id='p-post-index'>
+      <!-- Index -->
+<article class='hentry bigmag-article'>
+             <div class='bigmag-article-image'>
+                 <a class='bigmag-post-image' expr:href='data:post.url' expr:title='data:post.title'>
+                  <b:if cond='data:post.featuredImage'>
+                    <img class='lazyload bigmag-featured-wid' expr:alt='data:post.title' expr:data-src='resizeImage(data:post.featuredImage, 1600)' expr:title='data:post.title'/>
+                    <b:else/>
+                    &lt;img data-src=&#39;<b:include name='altImage'/>&#39; alt=&#39;<data:post.title/>&#39; title=&#39;<data:post.title/>&#39; class=&#39;lazyload bigmag-featured-wid&#39;/&gt;
+                  </b:if>
+                  <span class="thumb-overlay"></span>
+                </a>
+				<div class='postags'>
+       <b:loop values='data:post.labels' var='label'>
+                      <a expr:href='data:label.url' rel='tag' title='قسم'><data:label.name/></a>
+                    </b:loop>
+                </div>
+			 </div>
+             <div class='article-content'>
+               <div class='article-inwhite'>
+               <div class='entry-header clearfix'>
+                 <h2 class='entry-title'><a expr:href='data:post.url' expr:title='data:post.title'><data:post.title/></a></h2>
+			   </div>
+         <div class='article-meta clearfix'>
+              <b:include data='post' name='bm-author'/>
+              <b:include data='post' name='bm-timestamp'/>
+              <b:if cond='data:post.allowComments'>
+                   <span class='bm-post-comment-link'><a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'><i class="fa fa-comments"></i><data:post.numberOfComments/></a></span></b:if>
+          </div>
+                                 <div class='entry-content'>
+                                  <data:post.snippets.short/>
+
+                </div>
+
+				<a class='btn-read' expr:href='data:post.url'><data:blog.jumpLinkMessage/></a>
+               </div>
+			 </div>
+		   </article>
+    </b:includable>
+          <b:includable id='p-post-item'>
+      <!-- Posts -->
+      <header class='post-header'>
+        <div class='postmarg midalizer'>
+        <b:include data='post' name='bm-breadcrumbs'/>
+        <b:include data='post' name='bm-labels'/>
+        <div class='entry-header clearfix'>
+                 <h1 class='entry-title'><data:post.title/></h1>
+			   </div>
+        <!-- Post Details -->
+        <div class='article-meta'>
+        <b:include data='post' name='bm-author'/>
+          <b:include data='post' name='bm-timestamp'/>
+          <b:if cond='data:post.allowComments'>
+                   <span class='bm-post-comment-link'><a class='comment-link' expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'><i class='fa fa-comments'/><data:post.numberOfComments/></a></span></b:if>
+        </div>
+
+        <!-- Font Sizer -->
+<div id='font-size-p'>
+<p class='font-size-label'><i class="fa fa-font"></i>حجم الخط
+</p>
+<button id='up'><i class='fa fa-plus'/>
+</button>
+<p id='font-size'/>
+<button id='down'><i class='fa fa-minus'/>
+</button>
+</div>
+    </div>
+      </header>
+
+      <!-- Post Body -->
+      <div class='bigmag-advertising-top'/>
+      <div class='post-body entry-content entry-summary'>
+      <div id='postAD-top'/>
+              <i class='clearfix'/>
+              <data:post.body/>
+              <i class='clearfix'/>
+              <div id='postAD-bottom'/>
+              <i class='clearfix'/>
+              </div>
+              <div class='bigmag-advertising-bottom'/>
+
+      <footer>
+        <div class='bigmag-right-tags'>
+      <div class='tags-wrap'>
+       <b:if cond='data:post.labels'><span class='tags-title'><span CLASS='fa fa-tags'/> التصنيفات: </span>
+       <b:loop values='data:post.labels' var='label'>
+                      <a expr:href='data:label.url' rel='tag' title='قسم'><data:label.name/></a>
+                    </b:loop></b:if>
+	  </div>
+	</div>
+
+          <b:include data='post' name='bm-postQuickEdit'/>
+        <b:include data='post' name='bm-sharePost'/>
+
+        <b:include data='post' name='bm-authorAbout'/>
+        <b:include data='post' name='bm-pagination'/>
+      </footer>
+    </b:includable>
+          <b:includable id='p-post-static-page' var='post'>
+      <!-- Pages -->
+      <header>
+        <div class='postmarg midalizer'>
+                  <h1 class='entry-title'><data:post.title/></h1>
+              </div>
+      </header>
+      <div class='post-body entry-content'>
+        <data:post.body/>
+      </div>
+    </b:includable>
+          <b:includable id='post' var='post'>
+      <b:switch var='data:blog.pageType'>
+        <b:case value='index'/><b:include data='post' name='p-post-index'/>
+        <b:case value='archive'/><b:include data='post' name='p-post-index'/>
+        <b:case value='item'/><article><b:include data='post' name='p-post-item'/></article>
+        <b:case value='static_page'/><article><b:include data='post' name='p-post-static-page'/></article>
+        <b:case value='archive'/><b:include data='post' name='p-post-index'/>
+      </b:switch>
+    </b:includable>
+          <b:includable id='postBody' var='post'/>
+          <b:includable id='postBodySnippet' var='post'/>
+          <b:includable id='postCommentsAndAd' var='post'/>
+          <b:includable id='postCommentsLink'/>
+          <b:includable id='postFooter' var='post'/>
+          <b:includable id='postFooterAuthorProfile' var='post'/>
+          <b:includable id='postHeader' var='post'/>
+          <b:includable id='postJumpLink' var='post'/>
+          <b:includable id='postMeta'>
+      <b:tag name='script' type='application/ld+json'>
+        {&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;headline&quot;:&quot;<data:post.title.escaped/>&quot;,&quot;name&quot;:&quot;<data:post.title.escaped/>&quot;,&quot;inLanguage&quot;:&quot;ar&quot;,&quot;datePublished&quot;:&quot;<data:post.date.iso8601.jsonEscaped/>&quot;,&quot;dateModified&quot;:&quot;<data:post.lastUpdated.iso8601.jsonEscaped/>&quot;,&quot;articleBody&quot;:&quot;<b:eval expr='data:post.snippets.long.escaped'/>&quot;,&quot;description&quot;:&quot;<b:eval expr='data:blog.metaDescription ? data:blog.metaDescription.escaped : data:post.snippets.long.escaped'/>&quot;,<b:if cond='data:post.labels'>&quot;keywords&quot;:&quot;<b:loop index='l' values='data:post.labels' var='label'><data:label.name/><b:if cond='data:l != data:post.labels.length - 1'>,</b:if></b:loop>&quot;,</b:if> &quot;author&quot; :{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;image&quot;:&quot;<data:post.author.authorPhoto.image/>&quot;,&quot;jobTitle&quot;:&quot;Author&quot;,&quot;name&quot;:&quot;<data:post.author.name.jsonEscaped/>&quot;,&quot;url&quot;:&quot;<b:eval cond='data:post.author.profileUrl' expr='data:post.author.profileUrl'/>&quot;},&quot;image&quot;:{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;ImageObject&quot;,&quot;contentUrl&quot;:&quot;<data:post.url/>&quot;,&quot;url&quot;:&quot;<b:if cond='data:post.featuredImage'><b:eval expr='resizeImage(data:post.featuredImage,&quot;1200&quot;,&quot;1200:630&quot;)'/><b:else/><b:include name='altImage'/></b:if>&quot;,&quot;name&quot;:&quot;<data:post.title.jsonEscaped/>&quot;,&quot;width&quot;:630,&quot;height&quot;:1200},&quot;publisher&quot;:{&quot;@context&quot;:&quot;http://schema.org/&quot;,&quot;@type&quot;:&quot;Organization&quot;,&quot;name&quot;:&quot;Blogger&quot;,&quot;logo&quot;:{&quot;@context&quot;:&quot;http://schema.org/&quot;,&quot;@type&quot;:&quot;ImageObject&quot;,&quot;url&quot;:&quot;https://lh3.googleusercontent.com/ULB6iBuCeTVvSjjjU1A-O8e9ZpVba6uvyhtiWRti_rBAs9yMYOFBujxriJRZ-A=w206-h60&quot;,&quot;width&quot;:206,&quot;height&quot;:60}},&quot;mainEntityOfPage&quot;:{&quot;@context&quot;:&quot;http://schema.org/&quot;,&quot;@type&quot;:&quot;WebPage&quot;,&quot;id&quot;:&quot;<data:post.url.canonical.jsonEscaped/>&quot;}}
+      </b:tag>
+      <b:if cond='data:view.isPost'>
+        <b:tag name='script' type='application/ld+json'>{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;BreadcrumbList&quot;,&quot;itemListElement&quot;:[{&quot;@type&quot;:&quot;ListItem&quot;,&quot;position&quot;:1,&quot;item&quot;:{&quot;@id&quot;:&quot;<data:blog.homepageUrl/>&quot;,&quot;name&quot;:&quot;<data:blog.title/>&quot;}},<b:if cond='data:post.labels'>{&quot;@type&quot;:&quot;ListItem&quot;,&quot;position&quot;:2,&quot;item&quot;:{&quot;@id&quot;:&quot;<data:post.labels.first.url/>&quot;,&quot;name&quot;:&quot;<data:post.labels.first.name/>&quot;}},<b:else/>{&quot;@type&quot;:&quot;ListItem&quot;,&quot;position&quot;:2,&quot;item&quot;:{&quot;@id&quot;:&quot;<data:post.date.year/>&quot;,&quot;name&quot;:&quot;<data:post.date.year/>&quot;}},</b:if>{&quot;@type&quot;:&quot;ListItem&quot;,&quot;position&quot;:3,&quot;item&quot;:{&quot;@id&quot;:&quot;<data:post.url/>&quot;,&quot;name&quot;:&quot;<data:post.title.escaped/>&quot;}}]}</b:tag>
+      </b:if>
+    </b:includable>
+          <b:includable id='postPagination'/>
+          <b:includable id='postTitle' var='post'/>
+          <b:includable id='previousPageLink'/>
+          <b:includable id='status-message'>
+      <b:if cond='data:view.isError'>
+      <style>
+#content-wrapper,#main-wrapper {width: 100%;max-width: 100%}
+#sidebar-wrapper {display: none;}
+</style>
+<div class='bigmag-wrapper error-page padders'>
+  <div class='body-row'>
+   <div CLASS='ierror'>
+    <i class="fas fa-frown-open"></i>
+    <h2 class="error-title">404</h2>
+    </div>
+    <h2 class='emsg'>عذرا&#1611; لا يمكن العثور علي الصفحة!.</h2>
+    <p>يبدو أنه لم يتم العثور علي شيء في هذا المكان. لما لا تجرب البحث</p>
+<form action='/search/max-results=6' class='searchform' method='get'><div class='input-group'><input class='form-control' name='q' placeholder='أكتب ثم إضغط إنتر' type='text' expr:value='data:view.isSearch ? data:view.search.query.escaped : ""'/> <span class='input-group-btn'> <button class='btn btn-primary'><i CLASS='fa fa-search'/>
+</button> </span></div><div/></form>
+</div>
+</div>
+        <b:else/>
+  <b:if cond='data:navMessage'><div class='messager-text bigmag-wrapper'><div class='midalizer'><h1><data:navMessage/></h1></div></div>
+  <div style="clear: both;"></div>
+  </b:if>
+      </b:if>
+    </b:includable>
+    <b:includable id='threadedCommentForm' var='post'>
+  <div class='comment-form' id='commentTarget'>
+    <a name='comment-form'/>
+    <b:include data='post' name='commentFormIframeSrc'/>
+
+    <div class='workcomments'/>
+<b:tag defer='true' name='script' type='text/javascript'>
+$(window).scroll(function(){
+  if ($(window).scrollTop() > 30 ){
+      //Kill the handler
+      $(window).off("scroll");
+$( document ).ready(function() {
+$commActive = 0;
+if ($(window).scrollTop() &gt; 5) {
+  if(!$commActive) commActive();
+}
+$(window).scroll(function() {
+  if ($(window).scrollTop() &gt; 5) {
+	if(!$commActive) commActive();
+  }
+});
+  
+function commActive(){
+$commActive = 1;
+  var bcomments = &quot;<iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' expr:src='data:commentFormIframeSrc' frameborder='0' id='comment-editor' name='comment-editor' width='100%'/>&quot;;
+
+  $(&#39;.workcomments&#39;).html(bcomments)
+
+  $.getScript( &quot;https://www.blogger.com/static/v1/jsbin/1769009776-comment_from_post_iframe.js&quot;, function() {
+  BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+
+
+/*<![CDATA[*/
+//Convert any URI in blogger comments to image or video By osama orabi https://osamaorabi.com
+$(".comment-content").each(function(e){var t=$(".comment-content:eq("+e+")");if(-1!=t.html().search(/(https|http)?s?:?(\/\/[^"']*\.(?:png|jpg|jpeg|gif|png|svg))/gi))t.html(t.html().replace(/(https|http)?s?:?(\/\/[^"']*\.(?:png|jpg|jpeg|gif|png|svg))/gi,'<img  src="$2" />'));else if(-1!=t.html().search(/(?:http:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/gi)||-1!=t.html().search(/(?:http:\/\/)?(?:www\.)?(?:vimeo\.com)\/(.+)/gi))t.html(t.html().replace(/(?:https:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)/g,'<iframe width="100%" height="350" src="https://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe>').replace(/(?:https:\/\/)?(?:www\.)?(?:vimeo\.com)\/(.+)/g,'<iframe src="https://player.vimeo.com/video/$1" width="200" height="100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'));else{var m=t.text().replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gi,"<a rel='nofollow noopener' target='_blank' id='commnetLinkS' href='$1'>$1</a>");t.html(m.replace(/(^|[^\/])(www\.[\S]+(\b|$))/gim,'$1<a id="commnetLinkS" target="_blank" href="http://$2">$2</a>'))}});
+
+  $(window).scroll(function(){
+    if ($(window).scrollTop() > 30 ){
+        //Kill the handler
+        $(window).off("scroll");
+  $(".comment-content").bigmagtube();
+    }
+  });
+
+/*]]>*/
+  });
+}
+});
+
+/*<![CDATA[*/
+$.getScript("https://www.blogger.com/static/v1/widgets/3564956223-widgets.js").done(function(){
+_WidgetManager._Init('');_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'useNgc': true}, 'displayModeFull'));
+$("#comment-editor").insertAfter($(".workcomments"));
+});
+/*]]>*/
+}
+});
+</b:tag>
+</div>
+
+</b:includable>
+<b:includable id='threadedCommentJs' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+  <b:template-script inline='true' name='threaded_comments'/>
+  <script type='text/javascript'>
+    blogger.widgets.blog.initThreadedComments(
+        <data:post.commentJso/>,
+        <data:post.commentMsgs/>,
+        <data:post.commentConfig/>);
+  </script>
+</b:includable>
+    <b:includable id='threadedComments' var='post'>
+
+      <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+        <a name='comments'/>
+        <div class='comments-info'>
+          <div class='comments-count'>
+            <b:message name='messages.numberOfComments'>
+              <b:param expr:value='data:post.numberOfComments' name='numComments'/>
+            </b:message>
+          </div>
+          <b:if cond='data:post.allowNewComments == &quot;true&quot;'>
+            <a class='go-respond' href='#commentTarget'><b><data:messages.postAComment/></b></a>
+          </b:if>
+        </div>
+
+        <div class='comments-content'>
+          <div class='comments-list' id='comment-holder'><data:post.commentHtml/></div>
+        </div>
+
+        <p class='comment-footer'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='threadedCommentForm'/>
+            <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        </p>
+
+        <b:if cond='data:showCmtPopup'>
+          <div id='comment-popup'><iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'/></div>
+        </b:if>
+      </section>
+
+</b:includable>
+        </b:widget>
+   </b:section>
+
+<b:section class='ads-system' id='ads-system' maxwidgets='1' name='نظام الإعلانات' showaddelement='yes'>
+  <b:widget id='HTML201' locked='true' mobile='yes' title='إعلان أول الموضوع' type='HTML' version='2' visible='true'>
+    <b:includable id='main'>
+      <b:if cond='data:blog.pageType == &quot;item&quot;'><data:content/></b:if>
+    </b:includable>
+  </b:widget>
+  <b:widget id='HTML202' locked='true' mobile='yes' title='إعلان وسط الموضوع' type='HTML' version='2' visible='false'>
+    <b:includable id='main'>
+      <b:if cond='data:blog.pageType == &quot;item&quot;'><data:content/></b:if>
+    </b:includable>
+  </b:widget>
+  <b:widget id='HTML203' locked='true' mobile='yes' title='إعلان آخر الموضوع' type='HTML' version='2' visible='true'>
+    <b:includable id='main'>
+      <b:if cond='data:blog.pageType == &quot;item&quot;'><data:content/></b:if>
+    </b:includable>
+  </b:widget>
+</b:section>
+</div>
+
+  <aside id='sidebar-wrapper'>
+    <b:section class='sidebar bigmag-widetize' id='sidebar' name='الشريط الجانبي' preferred='yes'>
+      <b:widget id='LinkList56' locked='true' title='تابعنا علي' type='LinkList' version='2' visible='true'>
+        <b:includable id='main'>
+ <b:include name='widget-title'/>
+ <b:include name='content'/>
+</b:includable>
+        <b:includable id='content'>
+           <div class='widget-content'>
+             <nav id='social'>
+             <ul>
+               <b:loop values='data:links' var='link'>
+                 <li class='social-item'><a expr:class='data:link.name' expr:href='data:link.target' target="_blank"><span expr:class='&quot;social-icon &quot; + data:link.name'/><div class='remove-count'><data:link.name/></div><span class='item-text'>متابع</span></a></li>
+               </b:loop>
+             </ul>
+             </nav>
+           </div>
+         </b:includable>
+      </b:widget>
+</b:section>
+    </aside>
+ <div style='clear: both;'/>
+    </div>
+
+<a href='#' id='to-BigMag'></a>	
+
+<footer>	
+  <div style="clear: both;"></div>
+<!-- end content-wrapper -->
+<div id='bigmag-footer'>
+<div class='body-row' id='footer-wrapper'>
+
+<div id='bigmag-footer-cols'>
+<b:section class='bigmag-fcols-inner bigmag-widetize' id='Footer widget(1)' name='العمود [1]' preferred='yes'/>
+</div>
+
+<div id='bigmag-footer-cols'>
+<b:section class='bigmag-fcols-inner bigmag-widetize' id='Footer widget(2)' name='العمود [2]' preferred='yes'/>
+</div>
+
+<div id='bigmag-footer-cols'>
+<b:section class='bigmag-fcols-inner bigmag-widetize' id='Footer widget(3)' name='العمود [3]' preferred='yes'/>
+</div>
+
+<div id='bigmag-footer-cols'>
+<b:section class='bigmag-fcols-inner bigmag-widetize' id='Footer widget(4)' name='العمود [4]' preferred='yes'/>
+</div>
+<div style='clear: both;'/>
+</div>
+<div class='bigmag-info'>
+    <div class='bigmag-brand'>
+  <b:section class='website-brand' id='website-brand' maxwidgets='1' name='وصف وصورة الموقع' preferred='yes'>
+    <b:widget id='Image1' locked='true' title='وصف وصورة الموقع' type='Image' visible='true'>
+      <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <b:include name='content'/>
+</b:includable>
+      <b:includable id='content'>
+  <div class='widget-content'>
+    <b:tag cond='data:link' expr:href='data:link' name='a'>
+      <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'>
+      </img>
+    </b:tag>
+    <br/>
+    <b:if cond='data:caption'>
+      <span class='caption'><data:caption/></span>
+    </b:if>
+  </div>
+</b:includable>
+    </b:widget>
+  </b:section>
+    </div>
+    <div class='social-area'>
+      <b:section class='social-bottom' id='social-bottom' maxwidgets='1' name='أيقونات التواصل الإجتماعي' showaddelement='yes'>
+        <b:widget id='LinkList50' locked='true' title='أيقونات التواصل الإجتماعي' type='LinkList' version='2' visible='true'>
+          <b:includable id='main'>
+            <b:if cond='data:title != &quot;&quot;'>
+              <h3 class='title'><data:title/></h3>
+            </b:if>
+                  <div class='widget-content'>
+                    <nav id='social'>
+                    <ul>
+                      <b:loop values='data:links' var='link'>
+                        <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name' target='_blank'/></li>
+                      </b:loop>
+                    </ul>
+                    </nav>
+                  </div>
+          </b:includable>
+        </b:widget>
+      </b:section>
+      </div>
+  </div>
+<div style="clear: both;"></div>
+    </div>
+<div id='bigmag-credit'>
+<div class='bigmag-cwrap body-row'>
+ <div class='bmo-menu'>
+<b:section class='menu-bottom' id='menu-bottom' maxwidgets='1' name='القائمة السفلي' showaddelement='yes'>
+  <b:widget id='LinkList210' locked='true' title='القائمة السفلي' type='LinkList' version='2' visible='true'>
+    <b:includable id='main'>
+          <div class='widget-content'>
+            <ul id='nav-bottom'>
+              <b:loop values='data:links' var='link'>
+                <li><a expr:href='data:link.target'><data:link.name/></a></li>
+              </b:loop>
+           </ul>
+          </div>
+        </b:includable>
+  </b:widget>
+</b:section>
+</div>
+
+</div>
+    </div>
+
+    <div class='hidden-contact' style='display:none'>
+      <b:section class='contact' id='contact' maxwidgets='1' showaddelement='no'>
+        <b:widget id='ContactForm10' locked='true' title='Contact us' type='ContactForm' version='1'>
+          <b:includable id='main'>
+      
+        <div class='contact-form-widget'>
+          <div class='form'>
+            <form name='contact-form'>
+      
+              <input class='contact-form-name' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' expr:placeholder='data:contactFormNameMsg' name='name' size='30' type='text' value=''/>
+      
+              <input class='contact-form-email' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' expr:placeholder='data:contactFormEmailMsg' name='email' size='30' type='text' value=''/>
+    
+              <textarea class='contact-form-email-message' cols='25' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' expr:placeholder='data:contactFormMessageMsg' name='email-message' rows='5'/>
+              <div>
+                <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
+                <p class='contact-form-success-message' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
+              </div>
+              <input class='contact-form-button contact-form-button-submit' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg' type='button'/>
+            </form>
+          </div>
+        </div>
+      </b:includable>
+        </b:widget>
+      </b:section>
+        </div>
+
+</footer>
+&lt;/div&gt;
+<script defer='true' type='text/javascript'>
+//<![CDATA[
+var month_format = [, "يناير", "فبراير", "مارس", "إبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"];
+//]]>
+</script>
+<script defer='true' type='text/javascript'>
+//<![CDATA[
+/*! Lazy Load 2.0.0-rc.2 - MIT license - Copyright 2007-2019 Mika Tuupola */
+!function(t,e){"object"==typeof exports?module.exports=e(t):"function"==typeof define&&define.amd?define([],e):t.LazyLoad=e(t)}("undefined"!=typeof global?global:this.window||this.global,function(t){"use strict";function e(t,e){this.settings=s(r,e||{}),this.images=t||document.querySelectorAll(this.settings.selector),this.observer=null,this.init()}"function"==typeof define&&define.amd&&(t=window);const r={src:"data-src",srcset:"data-srcset",selector:".lazyload",root:null,rootMargin:"0px",threshold:0},s=function(){let t={},e=!1,r=0,o=arguments.length;"[object Boolean]"===Object.prototype.toString.call(arguments[0])&&(e=arguments[0],r++);for(;r<o;r++)!function(r){for(let o in r)Object.prototype.hasOwnProperty.call(r,o)&&(e&&"[object Object]"===Object.prototype.toString.call(r[o])?t[o]=s(!0,t[o],r[o]):t[o]=r[o])}(arguments[r]);return t};if(e.prototype={init:function(){if(!t.IntersectionObserver)return void this.loadImages();let e=this,r={root:this.settings.root,rootMargin:this.settings.rootMargin,threshold:[this.settings.threshold]};this.observer=new IntersectionObserver(function(t){Array.prototype.forEach.call(t,function(t){if(t.isIntersecting){e.observer.unobserve(t.target);let r=t.target.getAttribute(e.settings.src),s=t.target.getAttribute(e.settings.srcset);"img"===t.target.tagName.toLowerCase()?(r&&(t.target.src=r),s&&(t.target.srcset=s)):t.target.style.backgroundImage="url("+r+")"}})},r),Array.prototype.forEach.call(this.images,function(t){e.observer.observe(t)})},loadAndDestroy:function(){this.settings&&(this.loadImages(),this.destroy())},loadImages:function(){if(!this.settings)return;let t=this;Array.prototype.forEach.call(this.images,function(e){let r=e.getAttribute(t.settings.src),s=e.getAttribute(t.settings.srcset);"img"===e.tagName.toLowerCase()?(r&&(e.src=r),s&&(e.srcset=s)):e.style.backgroundImage="url('"+r+"')"})},destroy:function(){this.settings&&(this.observer.disconnect(),this.settings=null)}},t.lazyload=function(t,r){return new e(t,r)},t.jQuery){const r=t.jQuery;r.fn.lazyload=function(t){return t=t||{},t.attribute=t.attribute||"data-src",new e(r.makeArray(this),t),this}}return e});
+
+//Main Scripts
+var _0x500d7c=_0x1d65;(function(_0x557463,_0x11d48a){var _0x18ba3e=_0x1d65,_0x232a2d=_0x557463();while(!![]){try{var _0x164db6=parseInt(_0x18ba3e(0x1b2))/0x1*(parseInt(_0x18ba3e(0x1e5))/0x2)+-parseInt(_0x18ba3e(0x1c4))/0x3+-parseInt(_0x18ba3e(0x1e6))/0x4+-parseInt(_0x18ba3e(0x198))/0x5*(-parseInt(_0x18ba3e(0x1a4))/0x6)+parseInt(_0x18ba3e(0x1a7))/0x7+parseInt(_0x18ba3e(0x1af))/0x8+parseInt(_0x18ba3e(0x1c7))/0x9*(-parseInt(_0x18ba3e(0x1ba))/0xa);if(_0x164db6===_0x11d48a)break;else _0x232a2d['push'](_0x232a2d['shift']());}catch(_0x8d8075){_0x232a2d['push'](_0x232a2d['shift']());}}}(_0x29f7,0x71352),$(window)[_0x500d7c(0x1a9)](function(){var _0x1417d6=_0x500d7c;$(window)[_0x1417d6(0x1b8)]()>0x1e&&($(window)['off']('scroll'),$(_0x1417d6(0x1e0))[_0x1417d6(0x1b0)]());}),$(window)[_0x500d7c(0x1a9)](function(){var _0x2b9b82=_0x500d7c;$(window)[_0x2b9b82(0x1b8)]()>0x1e&&($(window)[_0x2b9b82(0x1bf)](_0x2b9b82(0x1a9)),(jQuery(_0x2b9b82(0x1a5))[_0x2b9b82(0x1ab)](function(){var _0xdc0676=_0x2b9b82;jQuery(this)[_0xdc0676(0x1b6)](jQuery(this)[_0xdc0676(0x1b6)]()[_0xdc0676(0x1ae)](')')[_0xdc0676(0x1b4)](''));}),jQuery(_0x2b9b82(0x1ad))[_0x2b9b82(0x1ab)](function(){var _0x448ea8=_0x2b9b82;jQuery(this)[_0x448ea8(0x1b6)](jQuery(this)[_0x448ea8(0x1b6)]()['split']('(')[_0x448ea8(0x1b4)](''));})));}),$(document)[_0x500d7c(0x195)](function(_0x119ad3){var _0x304cdb=_0x500d7c,_0x43e2d8=-0x1,_0x5c4f95='';_0x119ad3(_0x304cdb(0x1db))['find']('ul')[_0x304cdb(0x1c2)]('li')[_0x304cdb(0x1ab)](function(){var _0x40ee7e=_0x304cdb;for(var _0x553944=_0x119ad3(this)[_0x40ee7e(0x1a1)](),_0x10ae57=_0x119ad3(this)['find']('a')[_0x40ee7e(0x19b)](_0x40ee7e(0x1c1)),_0x56dfa5=0x0,_0x1947b5=0x0;_0x1947b5<_0x553944['length']&&-0x1!=(_0x56dfa5=_0x553944['indexOf']('_',_0x56dfa5));_0x1947b5++)_0x56dfa5++;if(level=_0x1947b5,level>_0x43e2d8&&(_0x5c4f95+=_0x40ee7e(0x1e2)),level<_0x43e2d8){for(offset=_0x43e2d8-level,_0x1947b5=0x0;_0x1947b5<offset;_0x1947b5++)_0x5c4f95+=_0x40ee7e(0x1b1);}for(_0x553944=_0x553944[_0x40ee7e(0x19c)](/_/gi,''),_0x5c4f95+='<li><a\x20href=\x27'+_0x10ae57+'\x27>',_0x1947b5=0x0;_0x1947b5<level;_0x1947b5++)_0x5c4f95+='';_0x5c4f95+=_0x553944+_0x40ee7e(0x1c3),_0x43e2d8=level;});for(var _0x23a321=0x0;_0x23a321<=_0x43e2d8;_0x23a321++)_0x5c4f95+=_0x304cdb(0x1a6),0x0!=_0x23a321&&(_0x5c4f95+='</li>');_0x119ad3('#bigmag-menu\x20.widget-content')[_0x304cdb(0x1b6)](_0x5c4f95),_0x119ad3(_0x304cdb(0x1b7))[_0x304cdb(0x19b)]('id','bigmag_menu'),_0x119ad3(_0x304cdb(0x1cf))[_0x304cdb(0x1de)]('li')[_0x304cdb(0x196)]('home'),_0x119ad3(_0x304cdb(0x1b5))['removeClass'](_0x304cdb(0x1e7)),_0x119ad3(_0x304cdb(0x1c9))[_0x304cdb(0x199)](function(){var _0x358eaf=_0x304cdb;_0x119ad3(this)[_0x358eaf(0x19b)]('class','sub-menu\x20dropdown-menu');}),_0x119ad3(_0x304cdb(0x19e))[_0x304cdb(0x199)](function(){var _0x14de41=_0x304cdb,_0xca34b2=_0x119ad3(this)[_0x14de41(0x19b)](_0x14de41(0x1c1));-0x1!=(_0xca34b2=_0xca34b2[_0x14de41(0x1cc)]())['indexOf'](_0x14de41(0x19a))&&(_0x119ad3(this)[_0x14de41(0x196)]('mega-link'),_0x119ad3(this)[_0x14de41(0x19b)](_0x14de41(0x1c1),_0x14de41(0x1d6)+_0x119ad3(this)[_0x14de41(0x1a1)]()+_0x14de41(0x1c5)+perPage)),_0x119ad3(_0x14de41(0x19d))[_0x14de41(0x1de)]('li')[_0x14de41(0x196)](_0x14de41(0x1d8));}),_0x119ad3('#bigmag-menu\x20ul\x20>\x20li\x20>\x20ul')[_0x304cdb(0x1de)]('li')['addClass']('hasSubmenu'),_0x119ad3(_0x304cdb(0x1e1))[_0x304cdb(0x19b)](_0x304cdb(0x1ac),_0x304cdb(0x1bb));}),$(_0x500d7c(0x1d4))['click'](function(){var _0x19c4a9=_0x500d7c;$(_0x19c4a9(0x1e4))[_0x19c4a9(0x1be)](_0x19c4a9(0x1d1));}),$(_0x500d7c(0x1a8))['click'](function(){var _0x262e22=_0x500d7c;$(_0x262e22(0x1e4))[_0x262e22(0x1d5)]('active');}),$(_0x500d7c(0x1d4))['one'](_0x500d7c(0x1c6),function(){var _0x50211f=_0x500d7c;$(_0x50211f(0x1df))['clone']()[_0x50211f(0x1a3)](_0x50211f(0x1e4))['insertBefore']('#mobile-menu-social');;$('#LinkList997')[_0x50211f(0x1d7)]()[_0x50211f(0x1a3)]('#LinkList997')[_0x50211f(0x1d3)](_0x50211f(0x1df));}),$(window)[_0x500d7c(0x1a9)](function(){var _0x14d69a=_0x500d7c;$(window)[_0x14d69a(0x1b8)]()>0x1e&&($(window)['off'](_0x14d69a(0x1a9)),$('.postags\x20a,.label-name,.post-label,.bread-label')[_0x14d69a(0x1ab)](function(){var _0x314292=_0x14d69a,_0x5650e1=$(this),_0x12e0de=_0x5650e1[_0x314292(0x19b)](_0x314292(0x1c1));_0x5650e1[_0x314292(0x19b)]('href',_0x12e0de+'?&max-results='+perPage);}));}),$(function(){var _0x557f44=_0x500d7c;$(document)['on'](_0x557f44(0x1a9),function(){var _0x4d6ac9=_0x557f44;$(window)[_0x4d6ac9(0x1b8)]()>0x12c?$(_0x4d6ac9(0x1c0))[_0x4d6ac9(0x196)]('to-bm-visible'):$(_0x4d6ac9(0x1c0))['removeClass'](_0x4d6ac9(0x1ca));}),$('a#to-BigMag')['on'](_0x557f44(0x1c6),scrollToTop);}));function _0x1d65(_0xdd724f,_0x5d1643){var _0x29f74e=_0x29f7();return _0x1d65=function(_0x1d65b0,_0x1fc2ed){_0x1d65b0=_0x1d65b0-0x195;var _0x46ec75=_0x29f74e[_0x1d65b0];return _0x46ec75;},_0x1d65(_0xdd724f,_0x5d1643);}function scrollToTop(){var _0x17a561=_0x500d7c;verticalOffset=typeof verticalOffset!='undefined'?verticalOffset:0x0,element=$(_0x17a561(0x1b9)),offset=element[_0x17a561(0x1da)](),offsetTop=offset[_0x17a561(0x1a0)],$(_0x17a561(0x1cd))[_0x17a561(0x1cb)]({'scrollTop':offsetTop},0x12c,_0x17a561(0x1d9));}$(_0x500d7c(0x197))[_0x500d7c(0x1ab)](function(){var _0x2b819d=_0x500d7c,_0xcb9d03=$(this),_0x55235d=$(this)[_0x2b819d(0x1c2)](_0x2b819d(0x1bd));_0x55235d[_0x2b819d(0x1b3)]===0x0&&_0xcb9d03[_0x2b819d(0x1c8)]();var _0x30335b='[',_0x1e5f71=']';$('#LinkList56\x20*')[_0x2b819d(0x1d2)](_0x30335b,'<span\x20class=\x22item-count\x22>'),$(_0x2b819d(0x1e3))[_0x2b819d(0x1d2)](_0x1e5f71,_0x2b819d(0x1ce)),$(_0x2b819d(0x1bd))['each'](function(){var _0x451319=_0x2b819d,_0x35b1dc=$(this)[_0x451319(0x1c2)](_0x451319(0x1aa)),_0x5b2da3=$(this)[_0x451319(0x1c2)]('.item-count');$(_0x35b1dc)[_0x451319(0x1bc)]($(_0x5b2da3)),$(_0x35b1dc)[_0x451319(0x1c8)]();}),$(this)[_0x2b819d(0x1c2)](_0x2b819d(0x1dc))[_0x2b819d(0x1d5)]('LinkList'),$(_0x2b819d(0x1a2))[_0x2b819d(0x1c2)](_0x2b819d(0x1d0))[_0x2b819d(0x1a1)](_0x2b819d(0x19f)),$('#LinkList56\x20.social-item\x20.youtube')[_0x2b819d(0x1c2)](_0x2b819d(0x1d0))[_0x2b819d(0x1a1)](_0x2b819d(0x1dd));});function _0x29f7(){var _0x3b4b8a=['click','144YrXiSy','remove','#bigmag-menu\x20ul\x20>\x20li\x20>\x20ul','to-bm-visible','animate','toLowerCase','html,\x20body','</span>','#bigmag-menu\x20ul\x20>\x20li:first-child\x20>\x20a','.item-text','active','replaceText','insertAfter','.mobile-btn','removeClass','/search/label/','clone','isMega\x20hasSubmenu','linear','offset','#bigmag-menu','.widget','Subscribes','parent','#LinkList996','.lazyload','#bigmag-menu\x20.widget','<ul>','#LinkList56\x20*','.mobile-menu','10592mXClCW','3048204pVxWho','home','ready','addClass','#LinkList56','627570DJXnzs','map','[mega\x20menu]','attr','replace','a.mega-link','#bigmag_menu\x20a','Likes','top','text','#LinkList56\x20.social-item\x20.facebook','appendTo','24wbWrzK','.list-label-widget-content\x20ul\x20li\x20span:contains(\x22)\x22)','</ul>','5682243CNYIXT','.mobile-close','scroll','.remove-count','each','style','.list-label-widget-content\x20ul\x20li\x20span:contains(\x22(\x22)','split','6353728keIfTn','lazyload','</ul></li>','141KKKhDc','length','join','#bigmag-menu\x20ul\x20>\x20li\x20>\x20ul\x20>\x20li','html','#bigmag-menu\x20>\x20.widget\x20>\x20.widget-content\x20>\x20ul','scrollTop','body','465860AgMUJW','display:block;','before','.social-item\x20a','toggleClass','off','a#to-BigMag','href','find','</a>','2650896WQchst','?&max-results='];_0x29f7=function(){return _0x3b4b8a;};return _0x29f7();}
+//]]>
+</script>
+<b:if cond='data:view.isPage or data:view.isPost'>
+<script defer='true' type='text/javascript'>
+//<![CDATA[
+// Auto Responsive Videos By osama orabi https://osamaorabi.com
+!function(t){t.fn.bigmagtube=function(){return this.each(function(){var i=t(this),r=i.find('iframe[src*="youtube.com"],iframe[src*="youtube-nocookie.com"],iframe[src*="player.vimeo.com"],iframe[src*="www.dailymotion.com/embed"]');r.attr("height","").attr("width","");var h=t(this).width(),n=480*h/853;r.attr("height",n).attr("width","100%"),t(window).bind("resize load",function(){var t=i.width(),h=480*t/853;r.attr("height",h).attr("width","100%")})})}}(window.jQuery||window.Zepto);
+
+// Posts Scripts
+var _0x5a6176=_0x24df;function _0x1cd7(){var _0x53c3e8=['css','<span>','innerHTML','removeClass','.post-author-widget\x20.widget-content','.prev\x20.nav-inner\x20span','scroll','#contact-us','44kdWIrM','animate','.bm-post-pagination\x20button','#postAD-top','.post-body\x20a:not(.table-of-contents\x20li\x20a,.button,.large-button,.medium-button,.separator\x20a,a#btn_reload)','</p></div>','الأحدث','hasClass','active','110nSSZCt','<div\x20class=\x22bm-post-pagination\x22>','.next\x20.nav-inner\x20p','</span><p\x20class=\x27truncate\x27>','length','#font-size','getElementsByTagName','<button\x20data-target=\x27','font-size','span[name=\x22author-post\x22]','first','click','#HTML203','bigmagtube','838VPPpXK','</button>','hide','scrollTop','#up','1872632RSLqfc','#down','off','.post-nav','split','#HTML201','191550ulzasV','1668uGJkBP','#contact','<div\x20class=\x27nav-content\x27><span>','before','.content-social-author','each','1808632KAcXtS','.bm-post-page.active','ready','after','.bm-post-page','الأقدم','a.next-post','116776mPAKxS','</span>','.post-body\x20.bm-post-page','<span\x20class=\x22line-number\x22></span>','أنت\x20تشاهد\x20آخر\x20موضوع','top','ajax','append','href','</div>','1472fTMorA','addClass','html','.post-body\x20img','<span\x20class=\x22cl\x22></span>','391011NyFOLr','fadeIn','pre','get','text','828UNbcOZ','html,body','80060TrpqMB','data-target','floor','.post-body'];_0x1cd7=function(){return _0x53c3e8;};return _0x1cd7();}function _0x24df(_0x280c57,_0x38ad68){var _0x1cd7a7=_0x1cd7();return _0x24df=function(_0x24dfcd,_0x5762b7){_0x24dfcd=_0x24dfcd-0x1e2;var _0x26930f=_0x1cd7a7[_0x24dfcd];return _0x26930f;},_0x24df(_0x280c57,_0x38ad68);}(function(_0x1705d7,_0x2a4f5a){var _0x1247f=_0x24df,_0x1672af=_0x1705d7();while(!![]){try{var _0x56231c=-parseInt(_0x1247f(0x231))/0x1*(-parseInt(_0x1247f(0x202))/0x2)+parseInt(_0x1247f(0x207))/0x3*(-parseInt(_0x1247f(0x21a))/0x4)+-parseInt(_0x1247f(0x223))/0x5*(parseInt(_0x1247f(0x1ea))/0x6)+parseInt(_0x1247f(0x1f1))/0x7+-parseInt(_0x1247f(0x1e4))/0x8+parseInt(_0x1247f(0x20c))/0x9*(parseInt(_0x1247f(0x20e))/0xa)+parseInt(_0x1247f(0x1f8))/0xb*(parseInt(_0x1247f(0x1eb))/0xc);if(_0x56231c===_0x2a4f5a)break;else _0x1672af['push'](_0x1672af['shift']());}catch(_0x37fbc8){_0x1672af['push'](_0x1672af['shift']());}}}(_0x1cd7,0xaf180),$(window)['scroll'](function(){var _0x55837c=_0x24df;if($(window)[_0x55837c(0x1e2)]()>0x1e){$(window)[_0x55837c(0x1e6)](_0x55837c(0x218));var _0x12e513='السابق',_0x29fe77='التالي',_0x3ec06c=_0x55837c(0x1f6),_0x25de69=_0x55837c(0x220),_0x5cb502=_0x55837c(0x1fc),_0x38ab2b='أنت\x20تشاهد\x20أحدث\x20موضوع';$(_0x55837c(0x1e7))['each'](function(){var _0x32a747=_0x55837c;$(_0x32a747(0x217))[_0x32a747(0x20b)](_0x3ec06c),$('.next\x20.nav-inner\x20span')[_0x32a747(0x20b)](_0x25de69),$('.prev\x20.nav-inner\x20p')[_0x32a747(0x20b)](_0x5cb502),$(_0x32a747(0x225))[_0x32a747(0x20b)](_0x38ab2b);var _0x5a815d=$('a.prev-post')['attr'](_0x32a747(0x200)),_0x377ca8=$('a.next-post')['attr']('href');$[_0x32a747(0x1fe)]({'url':_0x5a815d,'async':!0x0,'type':'get','success':function(_0x4ee8d8){var _0x7c6493=_0x32a747,_0x20c524=$(_0x4ee8d8)['find']('.entry-title')[_0x7c6493(0x20b)](),_0x203416=_0x12e513,_0x157660='';_0x157660+=_0x7c6493(0x1ed)+_0x203416+_0x7c6493(0x226)+_0x20c524+_0x7c6493(0x21f),_0x4ee8d8=$('a.prev-post')[_0x7c6493(0x204)](_0x157660);}}),$[_0x32a747(0x1fe)]({'url':_0x377ca8,'async':!0x0,'type':_0x32a747(0x20a),'success':function(_0x5825a9){var _0x579019=_0x32a747,_0xbdc160=$(_0x5825a9)['find']('.entry-title')[_0x579019(0x20b)](),_0x1462d0=_0x29fe77,_0x4cd20d='';_0x4cd20d+='<div\x20class=\x27nav-content\x27><span>'+_0x1462d0+_0x579019(0x226)+_0xbdc160+_0x579019(0x21f),$(_0x579019(0x1f7))[_0x579019(0x204)](_0x4cd20d);}});});}}),$(window)[_0x5a6176(0x218)](function(){var _0x2f7979=_0x5a6176;$(window)[_0x2f7979(0x1e2)]()>0x1e&&($(window)[_0x2f7979(0x1e6)](_0x2f7979(0x218)),$(function(){'use strict';var _0x3a433d=_0x2f7979;$(_0x3a433d(0x21d))[_0x3a433d(0x1ff)]($(_0x3a433d(0x1e9))),$('#postAD-bottom')['append']($(_0x3a433d(0x22f)));var _0x9ded93=Math[_0x3a433d(0x210)]($('.post-body\x20*')['length']/0x2);$('.post-body\x20*:eq('+_0x9ded93+')')[_0x3a433d(0x1f4)]($('#HTML202'));}));}),$(window)[_0x5a6176(0x218)](function(){var _0x29c988=_0x5a6176;$(window)[_0x29c988(0x1e2)]()>0x1e&&($(window)['off'](_0x29c988(0x218)),$(document)[_0x29c988(0x1f3)](function(){var _0x1ed148=_0x29c988;$(_0x1ed148(0x21e))['addClass']('p-link');}));}),$(window)[_0x5a6176(0x218)](function(){var _0x4200e0=_0x5a6176;$(window)['scrollTop']()>0x1e&&($(window)[_0x4200e0(0x1e6)](_0x4200e0(0x218)),$(function(){var _0x4829b5=_0x4200e0;if($(_0x4829b5(0x1fa))['length']>0x0){var _0x238096=$(_0x4829b5(0x211)),_0x379667='';_0x238096['find']('.bm-post-page')[_0x4829b5(0x1f0)](function(_0xd6b269){var _0x1a91cb=_0x4829b5;_0x379667+=_0x1a91cb(0x22a)+_0xd6b269+'\x27>'+eval(_0xd6b269+0x1)+_0x1a91cb(0x232);}),_0x238096[_0x4829b5(0x1ff)](_0x4829b5(0x224)+_0x379667+_0x4829b5(0x201)),$(_0x4829b5(0x1f5))[_0x4829b5(0x233)](0x0),$(_0x4829b5(0x1f5))[_0x4829b5(0x22d)]()[_0x4829b5(0x208)](),$('.bm-post-pagination\x20button')['first']()[_0x4829b5(0x203)](_0x4829b5(0x222));}$(_0x4829b5(0x21c))[_0x4829b5(0x22e)](function(){var _0x1ddcdf=_0x4829b5;if(!$(this)[_0x1ddcdf(0x221)]('active')){var _0x43ee55=eval($(this)['attr'](_0x1ddcdf(0x20f)));$(_0x1ddcdf(0x1f5))[_0x1ddcdf(0x233)]()[_0x1ddcdf(0x215)](_0x1ddcdf(0x222)),$(_0x1ddcdf(0x1f5))['eq'](_0x43ee55)[_0x1ddcdf(0x208)]()[_0x1ddcdf(0x203)](_0x1ddcdf(0x222)),$(_0x1ddcdf(0x21c))[_0x1ddcdf(0x215)](_0x1ddcdf(0x222)),$(this)['addClass'](_0x1ddcdf(0x222)),$(_0x1ddcdf(0x20d))[_0x1ddcdf(0x21b)]({'scrollTop':$(_0x1ddcdf(0x1f2))['offset']()[_0x1ddcdf(0x1fd)]},'normal');}});}));}),$(document)[_0x5a6176(0x1f3)](function(){var _0xd16491=_0x5a6176;$(_0xd16491(0x1ec))['appendTo'](_0xd16491(0x219)),$(_0xd16491(0x22c))[_0xd16491(0x1ee)]($(_0xd16491(0x216))['html']()),$(_0xd16491(0x216))[_0xd16491(0x204)](''),$('.post-author-social')['appendTo'](_0xd16491(0x1ef));}),$(_0x5a6176(0x205))['click'](function(){return![];}),$(window)[_0x5a6176(0x218)](function(){var _0x36c551=_0x5a6176;if($(window)[_0x36c551(0x1e2)]()>0x1e){$(window)[_0x36c551(0x1e6)]('scroll');function _0x1a5c80(){var _0x1b3f10=_0x36c551;size=$(_0x1b3f10(0x211))[_0x1b3f10(0x212)](_0x1b3f10(0x22b)),size=parseInt(size,0xa),$('#font-size')[_0x1b3f10(0x20b)](size);}_0x1a5c80(),$(_0x36c551(0x1e3))['on']('click',function(){var _0x14af04=_0x36c551;size+0x2<=0x19&&($('.post-body')[_0x14af04(0x212)](_0x14af04(0x22b),'+=1'),$('#font-size')[_0x14af04(0x20b)](size+=0x1));}),$(_0x36c551(0x1e5))['on'](_0x36c551(0x22e),function(){var _0x33dede=_0x36c551;size-0x2>=0xc&&($('.post-body')[_0x33dede(0x212)]('font-size','-=1'),$(_0x33dede(0x228))[_0x33dede(0x20b)](size-=0x1));});}}),$(window)[_0x5a6176(0x218)](function(){var _0x4f8734=_0x5a6176;$(window)['scrollTop']()>0x1e&&($(window)[_0x4f8734(0x1e6)]('scroll'),$(_0x4f8734(0x211))[_0x4f8734(0x230)]());}),$(window)[_0x5a6176(0x218)](function(){var _0x2d1dc4=_0x5a6176;$(window)[_0x2d1dc4(0x1e2)]()>0x1e&&($(window)[_0x2d1dc4(0x1e6)]('scroll'),function(){var _0x478d58=_0x2d1dc4,_0x214dcd=document[_0x478d58(0x229)](_0x478d58(0x209)),_0x52b59a=_0x214dcd[_0x478d58(0x227)];for(var _0x43cc3e=0x0;_0x43cc3e<_0x52b59a;_0x43cc3e++){_0x214dcd[_0x43cc3e][_0x478d58(0x214)]=_0x478d58(0x1fb)+_0x214dcd[_0x43cc3e]['innerHTML']+_0x478d58(0x206);var _0x474d9d=_0x214dcd[_0x43cc3e][_0x478d58(0x214)][_0x478d58(0x1e8)](/\n/)[_0x478d58(0x227)];for(var _0x430b0a=0x0;_0x430b0a<_0x474d9d;_0x430b0a++){var _0x5dfc03=_0x214dcd[_0x43cc3e][_0x478d58(0x229)]('span')[0x0];_0x5dfc03['innerHTML']+=_0x478d58(0x213)+(_0x430b0a+0x1)+_0x478d58(0x1f9);}}}());}));
+  //]]>
+</script>
+</b:if>
+</body>
+</html>
